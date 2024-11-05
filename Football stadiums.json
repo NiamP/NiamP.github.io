@@ -1,0 +1,2672 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Abbey%20Stadium",
+        "name": "Abbey Stadium",
+        "team": "Cambridge United",
+        "capacity": 10847
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.15429799258708954,
+          52.212799072265625
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Adams%20Park",
+        "name": "Adams Park",
+        "team": "Wycombe Wanderers",
+        "capacity": 10284
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.8002989888191223,
+          51.63059997558594
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Alexandra%20Stadium",
+        "name": "Alexandra Stadium",
+        "team": "Crewe Alexandra",
+        "capacity": 10153,
+        "alsoKnownAs": "Gresty Road,Mornflake Stadium"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.435689926147461,
+          53.087501525878906
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Almondvale%20Stadium",
+        "name": "Almondvale Stadium",
+        "team": "Livingston",
+        "capacity": 10122
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.5220699310302734,
+          55.88639831542969
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Amex%20Stadium",
+        "name": "Amex Stadium",
+        "team": "Brighton and Hove Albion",
+        "capacity": 22374,
+        "alsoKnownAs": "Falmer Stadium"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.08014000207185745,
+          50.86090087890625
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Anfield",
+        "name": "Anfield",
+        "team": "Liverpool",
+        "capacity": 45522
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.9609599113464355,
+          53.43080139160156
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Ashton%20Gate",
+        "name": "Ashton Gate",
+        "team": "Bristol City",
+        "capacity": 21497
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.6202099323272705,
+          51.439998626708984
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=B2net%20Stadium",
+        "name": "B2net Stadium",
+        "team": "Chesterfield",
+        "capacity": 10400
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.4271999597549438,
+          53.253501892089844
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Ballymena%20Showgrounds",
+        "name": "Ballymena Showgrounds",
+        "team": "Ballymena United",
+        "capacity": 3824
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.265110015869141,
+          54.87009811401367
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Balmoor",
+        "name": "Balmoor",
+        "team": "Peterhead",
+        "capacity": 4000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.795989990234375,
+          57.511199951171875
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Bangor%20Fuels%20Arena",
+        "name": "Bangor Fuels Arena",
+        "team": "Ards",
+        "capacity": 2000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.6844401359558105,
+          54.6515998840332
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Bayview%20Stadium",
+        "name": "Bayview Stadium",
+        "team": "East Fife",
+        "capacity": 2000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.9991400241851807,
+          56.188899993896484
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Belfast%20Loughshore%20Hotel%20Arena",
+        "name": "Belfast Loughshore Hotel Arena",
+        "team": "Carrick Rangers",
+        "capacity": 2100
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.800310134887695,
+          54.71979904174805
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Bescot%20Stadium",
+        "name": "Bescot Stadium",
+        "team": "Walsall",
+        "capacity": 11300
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.990530014038086,
+          52.56549835205078
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Bloomfield%20Road",
+        "name": "Bloomfield Road",
+        "team": "Blackpool",
+        "capacity": 16220
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.048340082168579,
+          53.80459976196289
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Bootham%20Crescent",
+        "name": "Bootham Crescent",
+        "team": "York City",
+        "capacity": 7872
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.0883300304412842,
+          53.96950149536133
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Borough%20Briggs",
+        "name": "Borough Briggs",
+        "team": "Elgin City",
+        "capacity": 4927
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.3208999633789062,
+          57.651798248291016
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Boundary%20Park",
+        "name": "Boundary Park",
+        "team": "Oldham Athletic",
+        "capacity": 10638
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.128469944000244,
+          53.55509948730469
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Bramall%20Lane",
+        "name": "Bramall Lane",
+        "team": "Sheffield United",
+        "capacity": 32702
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.470829963684082,
+          53.37030029296875
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Brandywell%20Stadium",
+        "name": "Brandywell Stadium",
+        "team": "Institute",
+        "capacity": 3700
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.337709903717041,
+          54.989498138427734
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Breda%20Park",
+        "name": "Breda Park",
+        "team": "Knockbreda",
+        "capacity": 1000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.854440212249756,
+          54.56769943237305
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Brisbane%20Road",
+        "name": "Brisbane Road",
+        "team": "Leyton Orient",
+        "capacity": 9271
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.012551000341773033,
+          51.56010055541992
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Britannia%20Stadium",
+        "name": "Britannia Stadium",
+        "team": "Stoke City",
+        "capacity": 27902,
+        "alsoKnownAs": "bet365 Stadium"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.175420045852661,
+          52.988399505615234
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Broadfield%20Stadium",
+        "name": "Broadfield Stadium",
+        "team": "Crawley Town",
+        "capacity": 5996
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.19457900524139404,
+          51.09960174560547
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Broadwood%20Stadium",
+        "name": "Broadwood Stadium",
+        "team": "Clyde",
+        "capacity": 8029
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.037899971008301,
+          55.944698333740234
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Brunton%20Park",
+        "name": "Brunton Park",
+        "team": "Carlisle United",
+        "capacity": 18202
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.9136500358581543,
+          54.89550018310547
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Cappielow%20Park",
+        "name": "Cappielow Park",
+        "team": "Greenock Morton",
+        "capacity": 19612
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.727190017700195,
+          55.94139862060547
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Cardiff%20City%20Stadium",
+        "name": "Cardiff City Stadium",
+        "team": "Cardiff City",
+        "capacity": 26828
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.204129934310913,
+          51.472900390625
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Carrow%20Road",
+        "name": "Carrow Road",
+        "team": "Norwich City",
+        "capacity": 27033
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.3091200590133667,
+          52.622100830078125
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Celtic%20Park",
+        "name": "Celtic Park",
+        "team": "Celtic",
+        "capacity": 60832
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.2056097984313965,
+          55.849700927734375
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Central%20Park",
+        "name": "Central Park",
+        "team": "Cowdenbeath",
+        "capacity": 4370
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.347170114517212,
+          56.10879898071289
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Cliftonhill",
+        "name": "Cliftonhill",
+        "team": "Albion Rovers",
+        "capacity": 2496
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.011449813842773,
+          55.860198974609375
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Coleraine%20Showgrounds",
+        "name": "Coleraine Showgrounds",
+        "team": "Coleraine",
+        "capacity": 4843
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.660019874572754,
+          55.1328010559082
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Craven%20Cottage",
+        "name": "Craven Cottage",
+        "team": "Fulham",
+        "capacity": 25700
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.22161899507045746,
+          51.47489929199219
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Crown%20Ground",
+        "name": "Crown Ground",
+        "team": "Accrington Stanley",
+        "capacity": 5057,
+        "alsoKnownAs": "Store First Stadium,Wham Stadium"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.3710598945617676,
+          53.76539993286133
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Darragh%20Park",
+        "name": "Darragh Park",
+        "team": "Dergview",
+        "capacity": 2000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.5967698097229,
+          54.70090103149414
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Deepdale",
+        "name": "Deepdale",
+        "team": "Preston North End",
+        "capacity": 24500
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.6883199214935303,
+          53.77199935913086
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Dens%20Park",
+        "name": "Dens Park",
+        "team": "Dundee",
+        "capacity": 11856
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.973520040512085,
+          56.474700927734375
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Dixon%20Park",
+        "name": "Dixon Park",
+        "team": "Ballyclare Comrades",
+        "capacity": 2398
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.002110004425049,
+          54.75090026855469
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Dumbarton%20Football%20Stadium",
+        "name": "Dumbarton Football Stadium",
+        "team": "Dumbarton",
+        "capacity": 2025
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.561620235443115,
+          55.93840026855469
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=DW%20Stadium",
+        "name": "DW Stadium",
+        "team": "Wigan Athletic",
+        "capacity": 25138
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.6541500091552734,
+          53.547698974609375
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=East%20End%20Park",
+        "name": "East End Park",
+        "team": "Dunfermline",
+        "capacity": 11380
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.441960096359253,
+          56.075599670410156
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Easter%20Road",
+        "name": "Easter Road",
+        "team": "Hibernian",
+        "capacity": 20421
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.165210008621216,
+          55.96160125732422
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Edgar%20Street",
+        "name": "Edgar Street",
+        "team": "Hereford United",
+        "capacity": 5300
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.717740058898926,
+          52.060699462890625
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Elland%20Road",
+        "name": "Elland Road",
+        "team": "Leeds United",
+        "capacity": 37697
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.572119951248169,
+          53.77750015258789
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Emirates%20Stadium",
+        "name": "Emirates Stadium",
+        "team": "Arsenal",
+        "capacity": 60361
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.10843600332736969,
+          51.554901123046875
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Etihad%20Stadium",
+        "name": "Etihad Stadium",
+        "team": "Manchester City",
+        "capacity": 47805
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.200239896774292,
+          53.483001708984375
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Ewood%20Park",
+        "name": "Ewood Park",
+        "team": "Blackburn Rovers",
+        "capacity": 31154
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.489370107650757,
+          53.728599548339844
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Falkirk%20Stadium",
+        "name": "Falkirk Stadium",
+        "team": "Falkirk",
+        "capacity": 9200
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.752619981765747,
+          56.00529861450195
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Ferney%20Park",
+        "name": "Ferney Park",
+        "team": "Ballinamallard United",
+        "capacity": 2000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.599679946899414,
+          54.414398193359375
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Field%20Mill",
+        "name": "Field Mill",
+        "team": "Mansfield Town",
+        "capacity": 9186,
+        "alsoKnownAs": "One Call Stadium"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.201300024986267,
+          53.13779830932617
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Fir%20Park",
+        "name": "Fir Park",
+        "team": "Motherwell",
+        "capacity": 13742
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.980299949645996,
+          55.780399322509766
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Firhill",
+        "name": "Firhill",
+        "team": "Partick Thistle",
+        "capacity": 13079
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.26938009262085,
+          55.881500244140625
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Forthbank%20Stadium",
+        "name": "Forthbank Stadium",
+        "team": "Stirling Albion",
+        "capacity": 3808
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.911940097808838,
+          56.11909866333008
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Fratton%20Park",
+        "name": "Fratton Park",
+        "team": "Portsmouth",
+        "capacity": 21100
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.063889980316162,
+          50.7963981628418
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Galabank",
+        "name": "Galabank",
+        "team": "Annan Athletic",
+        "capacity": 2007
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.261199951171875,
+          54.99480056762695
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Gayfield%20Park",
+        "name": "Gayfield Park",
+        "team": "Arbroath",
+        "capacity": 5940
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.591399908065796,
+          56.55229949951172
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Gigg%20Lane",
+        "name": "Gigg Lane",
+        "team": "Bury",
+        "capacity": 11840
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.294869899749756,
+          53.580501556396484
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Glanford%20Park",
+        "name": "Glanford Park",
+        "team": "Scunthorpe United",
+        "capacity": 9088
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.6952440142631531,
+          53.586700439453125
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Glebe%20Park",
+        "name": "Glebe Park",
+        "team": "Brechin City",
+        "capacity": 3960
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.6565001010894775,
+          56.73529815673828
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Globe%20Arena",
+        "name": "Globe Arena",
+        "team": "Morecambe",
+        "capacity": 6476
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.8470699787139893,
+          54.067501068115234
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Goodison%20Park",
+        "name": "Goodison Park",
+        "team": "Everton",
+        "capacity": 40157
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.9661900997161865,
+          53.43870162963867
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Griffin%20Park",
+        "name": "Griffin Park",
+        "team": "Brentford",
+        "capacity": 12763
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.3026210069656372,
+          51.48820114135742
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Hampden%20Park",
+        "name": "Hampden Park",
+        "team": "Scotland, Queen's Park",
+        "capacity": 52500
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.251979827880859,
+          55.825801849365234
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Highbury%20Stadium",
+        "name": "Highbury Stadium",
+        "team": "Fleetwood Town",
+        "capacity": 5094
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0248401165008545,
+          53.916500091552734
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Hillsborough",
+        "name": "Hillsborough",
+        "team": "Sheffield Wednesday",
+        "capacity": 39812
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.500749945640564,
+          53.4114990234375
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Home%20Park",
+        "name": "Home Park",
+        "team": "Plymouth Argyle",
+        "capacity": 16388
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.150760173797607,
+          50.38819885253906
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Huish%20Park",
+        "name": "Huish Park",
+        "team": "Yeovil Town",
+        "capacity": 9665
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.673830032348633,
+          50.95029830932617
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Ibrox",
+        "name": "Ibrox",
+        "team": "Rangers",
+        "capacity": 51082
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.309619903564453,
+          55.852901458740234
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Inver%20Park",
+        "name": "Inver Park",
+        "team": "Larne",
+        "capacity": 2732
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.826889991760254,
+          54.84989929199219
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Kassam%20Stadium%20",
+        "name": "Kassam Stadium ",
+        "team": "Oxford United",
+        "capacity": 12500
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.2077499628067017,
+          51.716400146484375
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=KC%20Stadium",
+        "name": "KC Stadium",
+        "team": "Hull City",
+        "capacity": 25586
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.3680090010166168,
+          53.746498107910156
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Keepmoat%20Stadium",
+        "name": "Keepmoat Stadium",
+        "team": "Doncaster Rovers",
+        "capacity": 15231
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.11381995677948,
+          53.5098991394043
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Kenilworth%20Road",
+        "name": "Kenilworth Road",
+        "team": "Luton Town",
+        "capacity": 10226
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.431549996137619,
+          51.88420104980469
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=King%20Power%20Stadium",
+        "name": "King Power Stadium",
+        "team": "Leicester City",
+        "capacity": 32262
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.1421699523925781,
+          52.62030029296875
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Kingsmeadow",
+        "name": "Kingsmeadow",
+        "team": "Chelsea Women",
+        "capacity": 4720
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.28198400139808655,
+          51.40510177612305
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Lakeview%20Park",
+        "name": "Lakeview Park",
+        "team": "Loughgall",
+        "capacity": 3000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.611400127410889,
+          54.40700149536133
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Liberty%20Stadium",
+        "name": "Liberty Stadium",
+        "team": "Swansea City",
+        "capacity": 20532
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.934730052947998,
+          51.642799377441406
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Links%20Park",
+        "name": "Links Park",
+        "team": "Montrose",
+        "capacity": 3292
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.459019899368286,
+          56.7140007019043
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Loftus%20Road",
+        "name": "Loftus Road",
+        "team": "Queens Park Rangers",
+        "capacity": 18360
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.23220400512218475,
+          51.509300231933594
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=London%20Road",
+        "name": "London Road",
+        "team": "Peterborough United",
+        "capacity": 15315
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.24043400585651398,
+          52.56480026245117
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=London%20Stadium",
+        "name": "London Stadium",
+        "team": "West Ham",
+        "capacity": 60000,
+        "alsoKnownAs": "Olympic Stadium"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.016587000340223312,
+          51.538299560546875
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Madjeski%20Stadium",
+        "name": "Madjeski Stadium",
+        "team": "Reading",
+        "capacity": 24161
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.9827769994735718,
+          51.42219924926758
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=McDiarmid%20Park",
+        "name": "McDiarmid Park",
+        "team": "St Johnstone",
+        "capacity": 10673
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.476840019226074,
+          56.4099006652832
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Meadow%20Lane",
+        "name": "Meadow Lane",
+        "team": "Notts County",
+        "capacity": 20229
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.137030005455017,
+          52.942501068115234
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Memorial%20Stadium",
+        "name": "Memorial Stadium",
+        "team": "Bristol Rovers",
+        "capacity": 12011
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.5831499099731445,
+          51.48619842529297
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Millennium%20Stadium",
+        "name": "Millennium Stadium",
+        "team": "Wales",
+        "capacity": 74500
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.182810068130493,
+          51.47819900512695
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Milltown",
+        "name": "Milltown",
+        "team": "Warrenpoint Town",
+        "capacity": 2000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.26347017288208,
+          54.11790084838867
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Molineux",
+        "name": "Molineux",
+        "team": "Wolverhampton Wanderers",
+        "capacity": 27828
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.1306099891662598,
+          52.59040069580078
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Moss%20Rose",
+        "name": "Moss Rose",
+        "team": "Macclesfield Town",
+        "capacity": 6355
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.127000093460083,
+          53.242698669433594
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Mourneview%20Park",
+        "name": "Mourneview Park",
+        "team": "Glenavon",
+        "capacity": 3302
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.336810111999512,
+          54.4541015625
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=New%20Broomfield",
+        "name": "New Broomfield",
+        "team": "Airdrie United",
+        "capacity": 10172
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.959969997406006,
+          55.86009979248047
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=New%20Douglas%20Park",
+        "name": "New Douglas Park",
+        "team": "Hamilton Academical",
+        "capacity": 6078
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.058000087738037,
+          55.782100677490234
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=New%20Meadow",
+        "name": "New Meadow",
+        "team": "Shrewsbury Town",
+        "capacity": 9875
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.74931001663208,
+          52.6885986328125
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=New%20York%20Stadium",
+        "name": "New York Stadium",
+        "team": "Rotherham United",
+        "capacity": 12021
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.3617199659347534,
+          53.4281005859375
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Newry%20Showgrounds",
+        "name": "Newry Showgrounds",
+        "team": "Newry City",
+        "capacity": 2809
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.3319501876831055,
+          54.1609001159668
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Oakwell",
+        "name": "Oakwell",
+        "team": "Barnsley",
+        "capacity": 23009
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.467560052871704,
+          53.552398681640625
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Ochilview%20Park",
+        "name": "Ochilview Park",
+        "team": "Stenhousemuir, East Stirlingshire",
+        "capacity": 3776
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.8144900798797607,
+          56.0281982421875
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Old%20Trafford",
+        "name": "Old Trafford",
+        "team": "Manchester United",
+        "capacity": 75811
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.2913899421691895,
+          53.46310043334961
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Palmerston%20Park",
+        "name": "Palmerston Park",
+        "team": "Queen of the South",
+        "capacity": 6412
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.6245999336242676,
+          55.0703010559082
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Pirelli%20Stadium",
+        "name": "Pirelli Stadium",
+        "team": "Burton Albion",
+        "capacity": 6912
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.627079963684082,
+          52.8218994140625
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Pittodrie",
+        "name": "Pittodrie",
+        "team": "Aberdeen",
+        "capacity": 22199
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.0887200832366943,
+          57.1593017578125
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Plainmoor",
+        "name": "Plainmoor",
+        "team": "Torquay United",
+        "capacity": 6104
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.523819923400879,
+          50.47639846801758
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Plough%20Lane",
+        "name": "Plough Lane",
+        "team": "AFC Wimbledon",
+        "capacity": 9215,
+        "alsoKnownAs": "The Cherry Red Records Stadium"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.18673600256443024,
+          51.431400299072266
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Portman%20Road",
+        "name": "Portman Road",
+        "team": "Ipswich Town",
+        "capacity": 30311
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.1455399990081787,
+          52.05440139770508
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Prenton%20Park",
+        "name": "Prenton Park",
+        "team": "Tranmere Rovers",
+        "capacity": 16567
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0326900482177734,
+          53.37379837036133
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Pride%20Park",
+        "name": "Pride Park",
+        "team": "Derby County",
+        "capacity": 33597
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.4472700357437134,
+          52.91490173339844
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Priestfield%20Stadium",
+        "name": "Priestfield Stadium",
+        "team": "Gillingham",
+        "capacity": 11582
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.5603669881820679,
+          51.3843994140625
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Recreation%20Ground",
+        "name": "Recreation Ground",
+        "team": "Aldershot Town",
+        "capacity": 7100
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.7548689842224121,
+          51.2484016418457
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Recreation%20Park",
+        "name": "Recreation Park",
+        "team": "Alloa Athletic",
+        "capacity": 3412
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.7786500453948975,
+          56.116600036621094
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Ricoh%20Arena",
+        "name": "Ricoh Arena",
+        "team": "Coventry City",
+        "capacity": 32609
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.4956300258636475,
+          52.44810104370117
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Riverside",
+        "name": "Riverside",
+        "team": "Middlesbrough ",
+        "capacity": 34988
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.2177599668502808,
+          54.57809829711914
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Rodney%20Parade",
+        "name": "Rodney Parade",
+        "team": "Newport County",
+        "capacity": 7850
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.9890201091766357,
+          51.58890151977539
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Roots%20Hall",
+        "name": "Roots Hall",
+        "team": "Southend United",
+        "capacity": 12392
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.7015720009803772,
+          51.54909896850586
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Rugby%20Park",
+        "name": "Rugby Park",
+        "team": "Kilmarnock",
+        "capacity": 18128
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.50846004486084,
+          55.60459899902344
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Seaview",
+        "name": "Seaview",
+        "team": "Crusaders",
+        "capacity": 3208
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.921899795532227,
+          54.624298095703125
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Selhurst%20Park",
+        "name": "Selhurst Park",
+        "team": "Crystal Palace",
+        "capacity": 26309
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.08545500040054321,
+          51.39830017089844
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Seward%20Stadium",
+        "name": "Seward Stadium",
+        "team": "Bournemouth",
+        "capacity": 10700
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.8383899927139282,
+          50.735198974609375
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Shamrock%20Park",
+        "name": "Shamrock Park",
+        "team": "Portadown",
+        "capacity": 2770
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.457749843597412,
+          54.41299819946289
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Shielfield%20Park",
+        "name": "Shielfield Park",
+        "team": "Berwick Rangers",
+        "capacity": 4131
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.0159900188446045,
+          55.7599983215332
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Sixfields%20Stadium",
+        "name": "Sixfields Stadium",
+        "team": "Northampton Town",
+        "capacity": 7653
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.9334849715232849,
+          52.235198974609375
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Solitude",
+        "name": "Solitude",
+        "team": "Cliftonville",
+        "capacity": 3054
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.947169780731201,
+          54.61949920654297
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Somerset%20Park",
+        "name": "Somerset Park",
+        "team": "Ayr United",
+        "capacity": 10243
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.619959831237793,
+          55.46969985961914
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Spotland%20Stadium",
+        "name": "Spotland Stadium",
+        "team": "Rochdale",
+        "capacity": 10249,
+        "alsoKnownAs": "Crown Oil Arena"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.1799299716949463,
+          53.62089920043945
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=St%20Andrews",
+        "name": "St Andrews",
+        "team": "Birmingham City",
+        "capacity": 30009
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.8682399988174438,
+          52.47560119628906
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=St%20James%20Park",
+        "name": "St James Park",
+        "team": "Newcastle United",
+        "capacity": 52387,
+        "alsoKnownAs": "Sports Direct Arena"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.6217900514602661,
+          54.97560119628906
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=St%20James%20Park%2C%20Exeter",
+        "name": "St James Park, Exeter",
+        "team": "Exeter City",
+        "capacity": 8541
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.521090030670166,
+          50.7307014465332
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=St%20Mary%27s%20Stadium",
+        "name": "St Mary's Stadium",
+        "team": "Southampton",
+        "capacity": 32689
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.3911399841308594,
+          50.905799865722656
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=St%20Mirren%20Park",
+        "name": "St Mirren Park",
+        "team": "St Mirren",
+        "capacity": 7937,
+        "alsoKnownAs": "Simple Digital Arena"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.444250106811523,
+          55.85060119628906
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Stadium%20of%20Light",
+        "name": "Stadium of Light",
+        "team": "Sunderland",
+        "capacity": 49000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.3883700370788574,
+          54.91460037231445
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Stadiummk",
+        "name": "Stadiummk",
+        "team": "MK Dons",
+        "capacity": 22000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.733506977558136,
+          52.00960159301758
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Stair%20Park",
+        "name": "Stair Park",
+        "team": "Stranraer",
+        "capacity": 5600
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.0124897956848145,
+          54.902198791503906
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Stamford%20Bridge",
+        "name": "Stamford Bridge",
+        "team": "Chelsea",
+        "capacity": 41837
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1910340040922165,
+          51.48160171508789
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Stangmore%20Park",
+        "name": "Stangmore Park",
+        "team": "Dungannon Swifts",
+        "capacity": 2000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.745920181274414,
+          54.489498138427734
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Stark%27s%20Park",
+        "name": "Stark's Park",
+        "team": "Raith Rovers",
+        "capacity": 10104
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1685099601745605,
+          56.09989929199219
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Station%20Park",
+        "name": "Station Park",
+        "team": "Forfar Athletic",
+        "capacity": 5177
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.8849198818206787,
+          56.65230178833008
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Tandragee%20Road",
+        "name": "Tandragee Road",
+        "team": "Annagh United",
+        "capacity": 1250
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.438300132751465,
+          54.40950012207031
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Tannadice%20Park",
+        "name": "Tannadice Park",
+        "team": "Dundee United",
+        "capacity": 14209
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.969019889831543,
+          56.47480010986328
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=The%20Caledonian%20Stadium",
+        "name": "The Caledonian Stadium",
+        "team": "Inverness Caledonian Thistle",
+        "capacity": 7918
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.217510223388672,
+          57.49509811401367
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=The%20City%20Ground",
+        "name": "The City Ground",
+        "team": "Nottingham Forest",
+        "capacity": 30603
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.132580041885376,
+          52.93989944458008
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=The%20County%20Ground",
+        "name": "The County Ground",
+        "team": "Swindon Town",
+        "capacity": 15728
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.7710700035095215,
+          51.56449890136719
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=The%20Den",
+        "name": "The Den",
+        "team": "Millwall",
+        "capacity": 20146
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.05074299871921539,
+          51.48590087890625
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=The%20Dub",
+        "name": "The Dub",
+        "team": "Queens University",
+        "capacity": 1500
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.960020065307617,
+          54.557098388671875
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=The%20Galpharm%20Stadium",
+        "name": "The Galpharm Stadium",
+        "team": "Huddersfield Town",
+        "capacity": 24500
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.7683700323104858,
+          53.654300689697266
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=The%20Hawthorns",
+        "name": "The Hawthorns",
+        "team": "West Bromwich Albion",
+        "capacity": 26272
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.9641799926757812,
+          52.50899887084961
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=The%20Hive%20Stadium",
+        "name": "The Hive Stadium",
+        "team": "Barnet",
+        "capacity": 5176
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2917880117893219,
+          51.60279846191406
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=The%20Lamex%20Stadium",
+        "name": "The Lamex Stadium",
+        "team": "Stevenage Borough",
+        "capacity": 6722
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.19366399943828583,
+          51.889801025390625
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=The%20Oval",
+        "name": "The Oval",
+        "team": "Gelntoran",
+        "capacity": 6054
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.891190052032471,
+          54.602901458740234
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=The%20Valley",
+        "name": "The Valley",
+        "team": "Charlton Athletic",
+        "capacity": 27111
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.03675699979066849,
+          51.48649978637695
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Tillysburn%20Park",
+        "name": "Tillysburn Park",
+        "team": "H & W Welders",
+        "capacity": 2000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.865540027618408,
+          54.61240005493164
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Tottenham%20Hotspur%20Stadium",
+        "name": "Tottenham Hotspur Stadium",
+        "team": "Tottenham Hotspur",
+        "capacity": 62303
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.06638900190591812,
+          51.604400634765625
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Turf%20Moor",
+        "name": "Turf Moor",
+        "team": "Burnley",
+        "capacity": 22546
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.230180025100708,
+          53.78879928588867
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Tynecastle",
+        "name": "Tynecastle",
+        "team": "Heart of Midlothian",
+        "capacity": 17420
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.2325000762939453,
+          55.93880081176758
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=University%20of%20Bolton%20Stadium",
+        "name": "University of Bolton Stadium",
+        "team": "Bolton Wanderers",
+        "capacity": 28723,
+        "alsoKnownAs": "Macron Stadium,Reebok Stadium"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.535710096359253,
+          53.580501556396484
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Vale%20Park",
+        "name": "Vale Park",
+        "team": "Port Vale",
+        "capacity": 19052
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.1926000118255615,
+          53.04999923706055
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Valley%20Parade",
+        "name": "Valley Parade",
+        "team": "Bradford City",
+        "capacity": 25136
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.7590199708938599,
+          53.80419921875
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Vicarage%20Road",
+        "name": "Vicarage Road",
+        "team": "Watford",
+        "capacity": 17477
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.4015690088272095,
+          51.64979934692383
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Victoria%20Park",
+        "name": "Victoria Park",
+        "team": "Hartlepool United",
+        "capacity": 7856
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.2127399444580078,
+          54.6890983581543
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Victoria%20Park%2C%20Dingwall",
+        "name": "Victoria Park, Dingwall",
+        "team": "Ross County",
+        "capacity": 6310
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.418980121612549,
+          57.59590148925781
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Victoria%20Road",
+        "name": "Victoria Road",
+        "team": "Dagenham and Redbridge",
+        "capacity": 6078
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.15973900258541107,
+          51.54779815673828
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Villa%20Park",
+        "name": "Villa Park",
+        "team": "Aston Villa",
+        "capacity": 42788
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.8850799798965454,
+          52.50920104980469
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Wembley",
+        "name": "Wembley",
+        "team": "England",
+        "capacity": 90000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2795430123806,
+          51.55590057373047
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Weston%20Homes%20Community%20Stadium",
+        "name": "Weston Homes Community Stadium",
+        "team": "Colchester United",
+        "capacity": 10084
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.8978610038757324,
+          51.92340087890625
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Whaddon%20Road",
+        "name": "Whaddon Road",
+        "team": "Cheltenham Town",
+        "capacity": 7066
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.0602099895477295,
+          51.90620040893555
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Wilgar%20Park",
+        "name": "Wilgar Park",
+        "team": "Dundela",
+        "capacity": 2000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.87824010848999,
+          54.5994987487793
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "link": "https://www.doogal.co.uk/FootballMap?stadium=Windsor%20Park",
+        "name": "Windsor Park",
+        "team": "Linfield",
+        "capacity": 18434
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.955269813537598,
+          54.58259963989258
+        ]
+      }
+    }
+  ]
+}
