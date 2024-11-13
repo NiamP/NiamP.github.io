@@ -1,8 +1,8 @@
-,Country,GDP in PPP
-0,Canada,"60,177"
-1,France,"58,828"
-2,Germany,"66,132"
-3,Italy,"44,160"
-4,Japan,"51,809"
-5,United Kingdom,"56,471"
-6,United States,"80,034"
+,Country,GDP in PPP,GDP per capita with PPP
+0,Canada,,60177
+1,France,,58828
+2,Germany,,66132
+3,Italy,,44160
+4,Japan,,51809
+5,United Kingdom,,56471
+6,United States,,80034
