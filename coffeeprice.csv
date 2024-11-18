@@ -1,4 +1,4 @@
-,year,month,decile0.1,decile0.2,decile0.3,decile0.4,decile0.5,decile0.6,decile0.7,decile0.8,decile0.9
+index,year,month,decile0.1,decile0.2,decile0.3,decile0.4,decile0.5,decile0.6,decile0.7,decile0.8,decile0.9
 0,2003,2,0.85000002,1.0,1.1,1.2400000000000007,1.3,1.4,1.5,1.7,1.75
 1,2003,3,0.85000002,1.0,1.15,1.25,1.3,1.4,1.5,1.7,1.75
 2,2003,4,0.89999998,1.0,1.15,1.2200000000000002,1.3,1.4,1.5,1.7,1.75
