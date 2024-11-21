@@ -1,50 +1,2076 @@
-,Sector,min_value,max_value,median_value,Q1,Q3
-0,Aerospace and Defense,0.28,0.8,0.5,0.39,0.65
-1,Air Freight Transportation and Logistics,0.14,1.0,0.41000000000000003,0.3,0.7775000000000001
-2,Air Transportation - Airlines,0.289,0.5,0.35,0.308,0.45
-3,Air Transportation - Airport Services,0.38,0.7,0.475,0.4325,0.55
-4,Automobiles and Components,0.252,1.0,0.5,0.42,0.735
-5,"Banks, Diverse Financials, Insurance",0.23,1.0,1.0,0.73,1.0
-6,Building Products,0.25,1.0,0.46,0.37625,0.5
-7,Chemicals,0.23,1.0,0.46,0.38,0.5
-8,Construction Materials,0.08,0.73,0.46,0.35,0.581
-9,Construction and Engineering,0.25,1.0,0.42,0.385,0.5
-10,"Consumer Durables, Household and Personal Products",0.23,1.0,0.46,0.42,0.6
-11,Containers and Packaging,0.23,1.0,0.46499999999999997,0.42,0.5125
-12,Education Services,0.5,0.528,0.5,0.5,0.514
-13,"Electric Utilities and Independent Power Producers and Energy Traders (including fossil, alternative and nuclear energy)",0.25,1.0,0.63,0.5,0.8109999999999999
-14,Electrical Equipment and Machinery,0.18,1.0,0.471,0.42,0.5
-15,Food Production - Agricultural Production,0.23,0.9,0.46,0.32999999999999996,0.5
-16,Food Production - Animal Source Food Production,0.28,1.0,0.385,0.35,0.45
-17,Food and Beverage Processing,0.1,1.0,0.5,0.415,0.56
-18,Food and Staples Retailing,0.18,1.0,0.5,0.46,0.7
-19,"Forest and Paper Products - Forestry, Timber, Pulp and Paper, Rubber",0.21,1.0,0.43,0.35524999999999995,0.51375
-20,Ground Transportation - Highways and Railtracks,0.25,0.678,0.48,0.39,0.5151249999999999
-21,Ground Transportation - Railroads Transportation,0.252,1.0,0.43,0.37,0.5
-22,Ground Transportation - Trucking Transportation,0.28,0.82,0.42,0.405,0.5
-23,Healthcare Equipment and Supplies,0.46,1.0,0.6,0.5,0.82
-24,"Healthcare Providers and Services, and Healthcare Technology",0.42,1.0,0.46,0.46,0.516
-25,Homebuilding,0.21,0.55,0.42,0.32999999999999996,0.5
-26,"Hotels, Restaurants and Leisure, and Tourism Services",0.175,1.0,0.5,0.46,0.816
-27,Media,0.24,1.0,0.5,0.46,0.515
-28,"Mining - Iron, Aluminum, Other Metals",0.2,0.75,0.42,0.3575,0.5
-29,"Mining - Other (Rare Minerals, Precious Metals and Gems)",0.27,0.5,0.41000000000000003,0.3075,0.5
-30,"Mining - Other (Rare minerals, precious metals and gems)",0.42,0.42,0.42,0.42,0.42
-31,"Pharmaceuticals, Biotechnology and Life",0.23,1.0,0.515,0.42,0.7875000000000001
-32,Professional Services,0.21,1.0,0.5,0.42,0.5
-33,Real Estate,0.21,1.0,0.5,0.42,0.55
-34,Retailing,0.3,1.0,0.55,0.46,0.8
-35,Semiconductors and Semiconductors Equipment,0.25,25.0,0.481,0.35075,0.69175
-36,Software and Services,0.2,1.0,0.46,0.42,0.6
-37,Solid Waste Management Utilities,0.3,1.0,0.42,0.42,0.42
-38,Specialized Consumer Services,0.25,0.8,0.5,0.42,0.5
-39,"Specialized Financial Services, Consumer Finance, Insurance Brokerage Firms",0.46,1.0,0.5855,0.46,1.0
-40,Technology Hardware and Equipment,0.2,1.0,0.5,0.42,0.6074999999999999
-41,Telecommunication Services,0.18,1.0,0.525,0.45775,0.8625
-42,"Textiles, Apparel, Footwear and Luxury Goods",0.21,1.0,0.5,0.46,0.765
-43,Tires,0.42,0.7,0.52,0.5,0.56
-44,Tobacco,0.3,0.55,0.45999999999999996,0.38749999999999996,0.5
-45,"Trading Companies and Distributors, and Commercial Services and Supplies",0.23,1.0,0.45,0.4,0.5
-46,Water Transportation - Ports and Services,0.3,1.0,0.5,0.4,0.75
-47,Water Transportation - Water Transportation,0.25,0.9,0.3,0.3,0.5
-48,Water Utilities,0.25,1.0,0.5,0.41500000000000004,0.6599999999999999
+,Company name,Target value,Sector
+0,(ACIP) Alexandria Company for Industrial Packages,25.0,Containers and Packaging
+1,4most,23.0,Professional Services
+2,A.G. Barr plc,60.0,Food and Beverage Processing
+3,A.S. Watson Holdings Limited,57.99999999999999,Retailing
+4,A/S Vestfrost,38.0,"Consumer Durables, Household and Personal Products"
+5,A1 Telekom Austria Group,50.0,Telecommunication Services
+6,A2A S.p.A.,100.0,"Electric Utilities and Independent Power Producers and Energy Traders (including fossil, alternative and nuclear energy)"
+7,A2G S.A.C B.I.C,46.0,Professional Services
+8,AB InBev,100.0,Food and Beverage Processing
+9,AB Volvo,50.0,Electrical Equipment and Machinery
+10,ABB,80.0,Electrical Equipment and Machinery
+11,ABOUT YOU,100.0,Retailing
+12,ABP Food Group,27.0,Food and Beverage Processing
+13,ACC Limited,48.4,Construction Materials
+14,ACCIONA S.A.,60.0,Construction and Engineering
+15,AD-II ENGINEERING INC.,38.0,"Consumer Durables, Household and Personal Products"
+16,ADIENT plc,75.0,Automobiles and Components
+17,AECOM,60.0,Construction and Engineering
+18,AFRY (ÅF Pöyry),87.0,Professional Services
+19,AIRINC,30.0,Professional Services
+20,"AISACHI Co.,Ltd.",42.0,Technology Hardware and Equipment
+21,AKISTEEL CO.LTD,30.0,"Mining - Iron, Aluminum, Other Metals"
+22,ALDI Einkauf SE & Co. oHG,75.0,Retailing
+23,ALDI SOUTH Group,75.0,Retailing
+24,ALDO Group Inc.,40.0,"Textiles, Apparel, Footwear and Luxury Goods"
+25,ALIMAC s.r.l.,50.0,Containers and Packaging
+26,"ALMETAX MANUFACTURING CO.,LTD.",30.0,"Mining - Iron, Aluminum, Other Metals"
+27,AM Værktøj Odense A/S,50.0,Technology Hardware and Equipment
+28,AMF FASTIGHETER AB,100.0,Real Estate
+29,AMICULUM Limited,38.0,Professional Services
+30,ANA Holdings Inc.,31.0,Air Transportation - Airlines
+31,ARC Alternative and Renewable Construction LLC,50.0,Construction and Engineering
+32,"ARC CO., LTD.",50.0,"Trading Companies and Distributors, and Commercial Services and Supplies"
+33,ARESTI CHILE WINE S.A.,50.0,Food and Beverage Processing
+34,ARGOS WITYU PARTNERS S.A.,100.0,"Banks, Diverse Financials, Insurance"
+35,"AROC･SANWA Co.,Ltd.",46.0,"Trading Companies and Distributors, and Commercial Services and Supplies"
+36,"ARROW-M CO., LTD.",46.0,Building Products
+37,ARÇELİK A.Ş.,30.0,"Consumer Durables, Household and Personal Products"
+38,"ASAHI FIBER INDUSTRY CO., LTD.",50.0,Chemicals
+39,"ASE Technology Holding, Co., Ltd.",35.0,Semiconductors and Semiconductors Equipment
+40,ASICS Corporation,63.0,"Textiles, Apparel, Footwear and Luxury Goods"
+41,ASKON DEMIR CELIK SANAYI TICARET AS,42.0,Construction Materials
+42,ASKUL Corporation,100.0,Retailing
+43,ASL Global Limited,46.0,Media
+44,ASML Holdings,35.3,Semiconductors and Semiconductors Equipment
+45,ASOS plc,100.0,Retailing
+46,ASTM S.p.A.,25.0,Ground Transportation - Highways and Railtracks
+47,AT&T Inc.,63.0,Telecommunication Services
+48,AUO Corporation,25.0,Technology Hardware and Equipment
+49,AVEVA Group,100.0,Software and Services
+50,Aakel Technologies Inc.,38.0,Software and Services
+51,Aardvark Certification Ltd,30.0,Professional Services
+52,Aasted ApS,46.0,Electrical Equipment and Machinery
+53,Abbott,82.0,Healthcare Equipment and Supplies
+54,Abdi Ibrahim Pharmaceuticals,60.0,"Pharmaceuticals, Biotechnology and Life"
+55,Abel & Cole Ltd.,53.5,Retailing
+56,Abt Associates,38.6,Professional Services
+57,Accenture PLC,65.0,Professional Services
+58,Accor S.A.,46.0,"Hotels, Restaurants and Leisure, and Tourism Services"
+59,Aceros AZA S.A.,50.0,"Mining - Iron, Aluminum, Other Metals"
+60,Acque Bresciane,25.0,Water Utilities
+61,Actiam NV,100.0,"Banks, Diverse Financials, Insurance"
+62,Action Sustainability (Trading) Ltd,46.0,Professional Services
+63,Aderen Consulting SL,38.0,Software and Services
+64,Adidas AG,90.0,"Textiles, Apparel, Footwear and Luxury Goods"
+65,"Adobe, Inc.",55.00000000000001,Software and Services
+66,Adva Optical Networking SE,67.2,Technology Hardware and Equipment
+67,"Advanced Chemistry Development, Inc. (ACD/Labs)",50.0,Software and Services
+68,"Advanced Micro Devices, Inc",2500.0,Semiconductors and Semiconductors Equipment
+69,"Advantech Co., Ltd.",60.0,Technology Hardware and Equipment
+70,Advantest Corporation,60.0,Electrical Equipment and Machinery
+71,"Aeon Co., Ltd.",80.0,Food and Staples Retailing
+72,Agder Energi,82.0,"Electric Utilities and Independent Power Producers and Energy Traders (including fossil, alternative and nuclear energy)"
+73,Agendi Inc,50.0,Professional Services
+74,Agrial,48.0,Food Production - Agricultural Production
+75,Agromaks Sp. z o.o.,42.0,Food Production - Animal Source Food Production
+76,Aguas Andinas S.A.,54.0,Water Utilities
+77,Air Liquide Group S.A.,60.0,Chemicals
+78,Air New Zealand,28.9,Air Transportation - Airlines
+79,"Airbnb, Inc",100.0,"Hotels, Restaurants and Leisure, and Tourism Services"
+80,Airties Group S.A.S.,42.0,Telecommunication Services
+81,"Ajinomoto Co., Inc.",50.0,Food and Beverage Processing
+82,AkzoNobel,42.0,Chemicals
+83,Alaya Consulting Ltd.,70.0,Professional Services
+84,"Albertsons Companies, Inc",63.0,Food and Staples Retailing
+85,Alison Hayes,50.0,"Textiles, Apparel, Footwear and Luxury Goods"
+86,Allbirds,42.0,"Textiles, Apparel, Footwear and Luxury Goods"
+87,Allegro,73.0,Retailing
+88,Allen & Overy LLP,50.0,Professional Services
+89,Allens,50.0,Professional Services
+90,Allglass Windscreens Repair Ltd,38.0,Retailing
+91,Alliance Construction Materials Limited,25.0,Construction Materials
+92,Allied Sustainability and Environmental Consultants Group Limited,30.0,Professional Services
+93,Alma Media,52.0,Media
+94,Almhaga AB,50.0,Food Production - Agricultural Production
+95,Alpek Polyester,31.5,Chemicals
+96,Alpek S.A.B. de C.V.,27.500000000000004,Chemicals
+97,Alpkit,46.0,"Textiles, Apparel, Footwear and Luxury Goods"
+98,Alstom,35.0,Ground Transportation - Railroads Transportation
+99,"Altech Co.,Ltd.",46.0,"Trading Companies and Distributors, and Commercial Services and Supplies"
+100,Altri SGPS S.A.,51.0,"Forest and Paper Products - Forestry, Timber, Pulp and Paper, Rubber"
+101,"Altria Group, Inc.",55.00000000000001,Tobacco
+102,Alvinesa Natural Ingredients,50.0,Food and Beverage Processing
+103,Amalgamated Bank,100.0,"Banks, Diverse Financials, Insurance"
+104,Ambuja Cement Ltd,43.0,Construction Materials
+105,Amdocs Ltd.,21.0,Software and Services
+106,"America Movil, S.A.B. de C.V.",52.0,Telecommunication Services
+107,American Airlines,45.0,Air Transportation - Airlines
+108,"American Axle & Manufacturing, Inc.",66.7,Automobiles and Components
+109,"American Eagle Outfitters, Inc.",80.0,"Textiles, Apparel, Footwear and Luxury Goods"
+110,American Tower Corporation,40.0,Real Estate
+111,Amgen Inc.,100.0,"Pharmaceuticals, Biotechnology and Life"
+112,Ana Luisa,42.0,Retailing
+113,"Analog Devices, Inc.",66.7,Semiconductors and Semiconductors Equipment
+114,Anderson and DuBose Inc,39.0,Ground Transportation - Trucking Transportation
+115,"Anhui Yugong wear resistant material technology Co., Ltd.",50.0,Professional Services
+116,Anritsu Corporation,30.0,Technology Hardware and Equipment
+117,Antea Nederland B.V.,100.0,Professional Services
+118,AnyJunk Limited,50.0,"Trading Companies and Distributors, and Commercial Services and Supplies"
+119,Apotea,35.3,Food and Staples Retailing
+120,"Apple, Inc.",100.0,Technology Hardware and Equipment
+121,"Applus Services, S.A",46.2,Professional Services
+122,AptarGroup Inc.,100.0,Containers and Packaging
+123,Arab Printing Press,50.0,Specialized Consumer Services
+124,Arc'teryx Equipment Inc.,65.0,"Textiles, Apparel, Footwear and Luxury Goods"
+125,Arcadis NV,100.0,Professional Services
+126,Ardagh Glass Packaging Holdings Sarl,42.0,Containers and Packaging
+127,Ardagh Metal Packaging S.A.,42.0,Containers and Packaging
+128,Arjeplog Hotel Silverhatten AB,50.0,"Hotels, Restaurants and Leisure, and Tourism Services"
+129,Arla Foods,63.0,Food and Beverage Processing
+130,"Armada Supply Chain Solutions, LLC",40.0,Ground Transportation - Trucking Transportation
+131,"Armstrong World Industries, Inc.",100.0,Building Products
+132,Arthur Cox LLP,50.0,Professional Services
+133,Arup Group Ltd.,30.0,Professional Services
+134,Arvid Nordquist HAB,50.0,Food and Staples Retailing
+135,As Çelik Döküm Işleme San. ve Tic. A.S.,50.0,"Mining - Iron, Aluminum, Other Metals"
+136,Asahi Group Holdings,50.0,Food and Beverage Processing
+137,"Asahi Woodtec Co., Ltd.",80.0,"Forest and Paper Products - Forestry, Timber, Pulp and Paper, Rubber"
+138,Ascentech K.K.,42.0,Software and Services
+139,Ascot Services UK Ltd,28.000000000000004,"Trading Companies and Distributors, and Commercial Services and Supplies"
+140,Asia Cement Corporation,8.0,Construction Materials
+141,Asia Specific Enterprises Ltd.,38.0,Professional Services
+142,Assa Abloy AB,50.0,Technology Hardware and Equipment
+143,Astellas Pharma Inc.,30.0,"Pharmaceuticals, Biotechnology and Life"
+144,Astorg,100.0,"Banks, Diverse Financials, Insurance"
+145,AstraZeneca,98.0,"Pharmaceuticals, Biotechnology and Life"
+146,Asuene Inc.,42.0,Software and Services
+147,Atea,43.0,Software and Services
+148,Ateme,42.0,Software and Services
+149,Atlantica Sustainable Infrastructure PLC,70.0,"Electric Utilities and Independent Power Producers and Energy Traders (including fossil, alternative and nuclear energy)"
+150,Atlas Copco AB,46.0,Electrical Equipment and Machinery
+151,Atlassian Corporation Plc,100.0,Software and Services
+152,Atos SE,50.0,Software and Services
+153,Attacq Limited,46.0,Real Estate
+154,Auckland Airport,45.0,Air Transportation - Airport Services
+155,Auger Site Investigations Limited,42.0,Construction and Engineering
+156,Aurubis AG,50.0,"Mining - Iron, Aluminum, Other Metals"
+157,Australian Postal Corporation,15.0,Air Freight Transportation and Logistics
+158,Austria Glas Recycling GmbH,50.0,Solid Waste Management Utilities
+159,Auto Trader Group plc,50.0,Software and Services
+160,"Autodesk, Inc.",100.0,Software and Services
+161,Autoliv Inc,75.0,Automobiles and Components
+162,Automatismes du Centre Est,42.0,Electrical Equipment and Machinery
+163,Autostrade per l’Italia,67.80000000000001,Ground Transportation - Highways and Railtracks
+164,"AvalonBay Communities, Inc.",53.0,Real Estate
+165,Avara Foods Ltd,46.2,Food and Beverage Processing
+166,Avery Dennison Corporation,70.0,Containers and Packaging
+167,Avieco,50.0,Professional Services
+168,Avícola Coliumo,50.0,Food Production - Animal Source Food Production
+169,Axcel Management,100.0,"Banks, Diverse Financials, Insurance"
+170,Axionable,46.0,Software and Services
+171,Azbil Corporation,55.00000000000001,Electrical Equipment and Machinery
+172,B&M European Value Retail S.A,67.0,Retailing
+173,BA GLASS B.V.,75.4,Containers and Packaging
+174,BARLOG Plastics GmbH,50.0,Chemicals
+175,BARRATT DEVELOPMENTS PLC,28.999999999999996,Homebuilding
+176,"BCD Travel USA, LLC",100.0,Professional Services
+177,BCE inc.,64.0,Telecommunication Services
+178,BDB Pitmans LLP,46.0,Specialized Consumer Services
+179,BEFIMMO SA,50.0,Real Estate
+180,BEHARI LAL ISPAT PVT LTD,42.0,Electrical Equipment and Machinery
+181,BEL S.A.,75.6,Food and Staples Retailing
+182,BELFOR (UK) Limited,90.0,Construction and Engineering
+183,BESTSELLER A/S,50.0,"Textiles, Apparel, Footwear and Luxury Goods"
+184,BHC Ltd,42.0,Building Products
+185,BI NEWVISION,25.0,Software and Services
+186,BIC Services Pty Limited,100.0,"Trading Companies and Distributors, and Commercial Services and Supplies"
+187,BITĖ Group,51.6,Telecommunication Services
+188,BKUK Group Ltd,100.0,"Hotels, Restaurants and Leisure, and Tourism Services"
+189,BLG LOGISTICS GROUP AG & Co. KG,30.0,Air Freight Transportation and Logistics
+190,BMW Group,80.0,Automobiles and Components
+191,BOUYGUES TELECOM,29.4,Telecommunication Services
+192,BPR Group,30.0,Solid Waste Management Utilities
+193,BRISA BRIDGESTONE SABANCI TYRE MANUFACTURING AND TRADING INC.,56.00000000000001,Tires
+194,BRITVIC PLC,50.0,Food and Beverage Processing
+195,BSL CASTINGS PVT LTD.,42.0,Electrical Equipment and Machinery
+196,BT plc,87.0,Telecommunication Services
+197,Bacardi Limited,50.0,Food and Beverage Processing
+198,Back Market,46.0,Professional Services
+199,Bain & Company,35.0,Professional Services
+200,Ball Corporation,55.00000000000001,Containers and Packaging
+201,"Balsam laboratory (Shanghai) Co., Ltd",42.0,Professional Services
+202,Baluarte Cultura,50.0,Professional Services
+203,Balwin Properties,38.0,Homebuilding
+204,Bama Fresh Cuts AB,30.0,Food and Beverage Processing
+205,Bank of Ireland Group,100.0,"Banks, Diverse Financials, Insurance"
+206,Barco NV,45.0,Technology Hardware and Equipment
+207,Barilla G.R. Fratelli SpA,26.0,Food and Beverage Processing
+208,Barry Callebaut,35.0,Food and Beverage Processing
+209,Bayer AG,42.0,"Pharmaceuticals, Biotechnology and Life"
+210,Beauty Manufacturing Solutions Corp,46.0,"Consumer Durables, Household and Personal Products"
+211,Beck & Jørgensen A/S,46.0,Chemicals
+212,Beiersdorf AG,30.0,"Consumer Durables, Household and Personal Products"
+213,BelOrta,42.0,Food and Staples Retailing
+214,Bellway Homes Limited,55.00000000000001,Homebuilding
+215,Ben & Jerry's,100.0,Food and Staples Retailing
+216,"Benesse Corporation Co., Ltd.",52.800000000000004,Education Services
+217,Bennetts Associates,26.0,Construction and Engineering
+218,BergHOFF Belgium,42.0,Retailing
+219,Bergfreunde GmbH,75.0,Retailing
+220,Bergzeit GmbH,46.0,Retailing
+221,"Berry Global Group, Inc.",25.2,Containers and Packaging
+222,Bertegruppen AB,50.0,Food and Beverage Processing
+223,Bertelsmann SE & Co. KGaA,50.0,Media
+224,Beryl,38.0,Ground Transportation - Trucking Transportation
+225,Berylls Group GmbH,42.0,Professional Services
+226,"Best Buy Co., Inc.",50.0,Retailing
+227,Betsson AB,54.0,Software and Services
+228,Betz Holding GmbH,42.0,Food and Staples Retailing
+229,Bharti Airtel Limited,50.2,Telecommunication Services
+230,Billerud AB,59.0,Containers and Packaging
+231,BioGaia AB,46.0,"Pharmaceuticals, Biotechnology and Life"
+232,Biogen Inc.,80.0,"Pharmaceuticals, Biotechnology and Life"
+233,Bioregional Development Group,50.0,Professional Services
+234,Bloomberg LP,100.0,Software and Services
+235,Bloomsbury Publishing Plc.,46.0,Media
+236,Blue Sky Botanics,46.0,Food and Beverage Processing
+237,Bluebird.inc,25.0,Electrical Equipment and Machinery
+238,BoConcept A/S,23.0,"Consumer Durables, Household and Personal Products"
+239,Bodenmann Metzgerei AG,42.0,Food and Beverage Processing
+240,Boma Global,50.0,Professional Services
+241,Bonava AB,50.0,Homebuilding
+242,Bonduelle Group,38.0,Food and Beverage Processing
+243,Bonnier Books,25.0,Media
+244,Boohoo Group PLC,100.0,Retailing
+245,Boral Limited,46.0,Construction Materials
+246,Borregaard AS,53.0,Chemicals
+247,Boston Consulting Group,92.0,Professional Services
+248,Boston Properties,39.0,Real Estate
+249,Boston Scientific Corporation,55.00000000000001,Healthcare Equipment and Supplies
+250,"Boujyokenkyusyo Co.,Ltd.",42.0,"Trading Companies and Distributors, and Commercial Services and Supplies"
+251,Brambles,100.0,Air Freight Transportation and Logistics
+252,Bramming Plast-Industri A/S,42.0,Construction Materials
+253,Bregal Investments,100.0,"Banks, Diverse Financials, Insurance"
+254,BrightWolves,42.0,Professional Services
+255,Bristlecone Inc,38.0,Professional Services
+256,British American Tobacco (BAT),50.0,Tobacco
+257,British Broadcasting Corporation,46.0,Media
+258,Brixmor Property Group,50.0,Real Estate
+259,Brooks Running,50.0,"Textiles, Apparel, Footwear and Luxury Goods"
+260,"Brother Industries, Ltd.",65.0,Technology Hardware and Equipment
+261,Brown Knight & Truscott Limited,46.0,"Trading Companies and Distributors, and Commercial Services and Supplies"
+262,Brown Thomas Arnotts,100.0,Retailing
+263,Brundtland Consulting,46.0,Professional Services
+264,Brunswick Group,100.0,Professional Services
+265,Bruynzeel Storage Group BV,42.0,Building Products
+266,Buckley Gray Yeoman,46.0,Professional Services
+267,Bugaboo International,100.0,"Consumer Durables, Household and Personal Products"
+268,Bulten AB,30.0,Automobiles and Components
+269,Bunge Limited,25.0,Food Production - Agricultural Production
+270,Bunzl plc,79.0,"Trading Companies and Distributors, and Commercial Services and Supplies"
+271,Bupa,63.0,"Banks, Diverse Financials, Insurance"
+272,Burberry Limited,95.0,"Textiles, Apparel, Footwear and Luxury Goods"
+273,Burges Salmon LLP,50.0,Professional Services
+274,Buro Happold,100.0,Professional Services
+275,Buyer’s Edge Platform,42.0,Software and Services
+276,BİRİKİM MÜHENDİSLİK VE ENDÜSTRİYEL YÜKLENİM LTD ŞTİ,42.0,Construction and Engineering
+277,C&A,30.0,Retailing
+278,C.T. POINT S.P.A.,50.0,"Textiles, Apparel, Footwear and Luxury Goods"
+279,C.V.O. International,50.0,Food and Beverage Processing
+280,"CAGLA, Inc.",38.0,Software and Services
+281,"CANGZHOU YONGXING FOUNDRY CO.,LTD",38.0,"Mining - Iron, Aluminum, Other Metals"
+282,CANPACK Group,100.0,Containers and Packaging
+283,CAPSUM,38.0,Chemicals
+284,CARMILA,50.0,Real Estate
+285,CARTIER,100.0,"Textiles, Apparel, Footwear and Luxury Goods"
+286,"CASIO COMPUTER CO., LTD.",38.0,"Consumer Durables, Household and Personal Products"
+287,CBCL Limited,30.0,Professional Services
+288,CBRE,79.0,Real Estate
+289,CELLNEX TELECOM S.A.,100.0,Telecommunication Services
+290,CEMAsys.com AS,50.0,Software and Services
+291,"CEMEX, S.A.B de C.V.",58.099999999999994,Construction Materials
+292,CES Consulting Engineers Salzgitter GmbH,50.0,Professional Services
+293,CEWE Stiftung & Co. KGaA,50.0,"Trading Companies and Distributors, and Commercial Services and Supplies"
+294,CEZ Group,50.0,"Electric Utilities and Independent Power Producers and Energy Traders (including fossil, alternative and nuclear energy)"
+295,CGI IT UK LTD,50.0,Software and Services
+296,CHANEL,50.0,"Textiles, Apparel, Footwear and Luxury Goods"
+297,CHS Agency,42.0,Media
+298,"CHUBU TEPRO CO.,LTD",38.0,Automobiles and Components
+299,CJCHT Groups,42.0,"Textiles, Apparel, Footwear and Luxury Goods"
+300,CK Hutchison Group Telecom Holdings Limited,50.0,Telecommunication Services
+301,CLIMACT,50.0,Professional Services
+302,CLP Holdings Limited,52.0,"Electric Utilities and Independent Power Producers and Energy Traders (including fossil, alternative and nuclear energy)"
+303,CLS Holdings PLC,42.0,Real Estate
+304,CMPC,50.4,"Forest and Paper Products - Forestry, Timber, Pulp and Paper, Rubber"
+305,CMS Cameron McKenna Nabarro Olswang LLP,30.0,Professional Services
+306,CO2nnsulting Limited,28.000000000000004,Professional Services
+307,COBANA GmbH & Co. KG,46.0,Food and Staples Retailing
+308,COFRA Holding AG,100.0,"Banks, Diverse Financials, Insurance"
+309,COLAS Ltd,46.2,Construction and Engineering
+310,COLAS SA,30.0,Construction and Engineering
+311,CORDM,38.0,Construction Materials
+312,CPC Project Services LLP,46.0,Professional Services
+313,CPI Property Group S.A.,100.0,Real Estate
+314,CRH plc,25.0,Construction Materials
+315,CSX Corporation,37.0,Ground Transportation - Railroads Transportation
+316,CTT - Correios de Portugal SA,30.0,Air Freight Transportation and Logistics
+317,CV De Bandt Advocaten – Avocats Attorneys Rechtsanwalte,30.0,Professional Services
+318,CVS Health,90.0,Food and Staples Retailing
+319,Caesars Entertainment,60.0,"Hotels, Restaurants and Leisure, and Tourism Services"
+320,Cafedirect plc,46.0,Food and Beverage Processing
+321,Califia Farms,42.0,Food and Beverage Processing
+322,Campbell Soup Company,42.0,Food and Beverage Processing
+323,Camper S.L.,50.0,"Textiles, Apparel, Footwear and Luxury Goods"
+324,Canada Post | Postes Canada,100.0,Air Freight Transportation and Logistics
+325,Canadian National Railway Company,43.0,Ground Transportation - Railroads Transportation
+326,Canadian Pacific Railway Company,38.3,Ground Transportation - Railroads Transportation
+327,Canary Marketing,25.0,Professional Services
+328,Canary Wharf Group Plc,65.0,Real Estate
+329,Capgemini SE,100.0,Software and Services
+330,Capita Plc,50.0,Professional Services
+331,CapitaLand,46.0,Real Estate
+332,Capital & Counties Properties PLC,50.0,Real Estate
+333,Cappelen Damm Holding AS,50.0,Media
+334,Capri Holdings Limited,50.0,"Textiles, Apparel, Footwear and Luxury Goods"
+335,Carbon Free Consulting Corporation,30.0,Professional Services
+336,"Carbon Free Network, Inc.",30.0,Professional Services
+337,Carbon Intelligence,100.0,Professional Services
+338,Cardo Systems Ltd.,38.0,Technology Hardware and Equipment
+339,"Cargill, Inc.",30.0,Food and Beverage Processing
+340,Cargotec,50.0,Electrical Equipment and Machinery
+341,Carlsberg Group,100.0,Food and Beverage Processing
+342,Carmo A/S,50.0,Healthcare Equipment and Supplies
+343,Carnegie Fonder AB,100.0,"Banks, Diverse Financials, Insurance"
+344,Carrefour,30.0,Food and Staples Retailing
+345,Cartaseta AG,23.0,"Forest and Paper Products - Forestry, Timber, Pulp and Paper, Rubber"
+346,"Carter's, Inc.",77.0,Retailing
+347,Casday (Thailand) Corporation Limited,42.0,"Consumer Durables, Household and Personal Products"
+348,Casino Guichard Perrachon SA,18.0,Food and Staples Retailing
+349,Castellum AB,100.0,Real Estate
+350,Castlemead Insurance Brokers,46.0,"Specialized Financial Services, Consumer Finance, Insurance Brokerage Firms"
+351,Castrén & Snellman Attorneys Ltd,50.0,Professional Services
+352,Catena AB,50.0,Real Estate
+353,"Cathay Financial Holding Co., Ltd",73.0,"Banks, Diverse Financials, Insurance"
+354,Celestica,30.0,Technology Hardware and Equipment
+355,Cementir Holding N.V.,25.0,Construction Materials
+356,Cemminerals,28.000000000000004,Construction Materials
+357,Cermaq Group,35.0,Food Production - Animal Source Food Production
+358,"Changzhou Wuitu Smart Technology Co.,Ltd.",50.0,Software and Services
+359,"Charles River Laboratories, Inc.",100.0,"Pharmaceuticals, Biotechnology and Life"
+360,Chemisches Laboratorium Dr. Kurt Richter GmbH,23.0,Chemicals
+361,Chicony Electronics Co. Ltd.,56.8,Technology Hardware and Equipment
+362,"Chicony Power Technology Co., Ltd.",56.8,Technology Hardware and Equipment
+363,Chiesi Farmaceutici S.p.A.,90.0,"Pharmaceuticals, Biotechnology and Life"
+364,Chinachem Group,51.800000000000004,Real Estate
+365,"Chipotle Mexican Grill, Inc.",50.0,"Hotels, Restaurants and Leisure, and Tourism Services"
+366,Chiquita Brands International Sàrl,90.0,Food Production - Agricultural Production
+367,Choice Properties REIT,50.0,Real Estate
+368,Chr. Hansen A/S,42.0,Food and Beverage Processing
+369,Christie's International plc,80.0,Specialized Consumer Services
+370,ChuSanRen (Central Japan Industries Association),50.0,Professional Services
+371,"Chugai Pharmaceutical Co., Ltd.",100.0,"Pharmaceuticals, Biotechnology and Life"
+372,"Chuko Electric Co., Ltd.",42.0,Electrical Equipment and Machinery
+373,Church & Dwight Co. Inc.,100.0,"Consumer Durables, Household and Personal Products"
+374,"Cisco Systems, Inc.",90.0,Technology Hardware and Equipment
+375,City Developments Limited,63.0,Real Estate
+376,Citycon Oyj,42.0,Real Estate
+377,Clariant AG,40.0,Chemicals
+378,Clear Insurance Management Ltd.,30.0,Professional Services
+379,Clif Bar & Company,50.0,Food and Beverage Processing
+380,Clifford Chance LLP,80.0,Professional Services
+381,Cloetta AB,46.0,Food and Beverage Processing
+382,CloudBuy Limited,50.0,Software and Services
+383,Cloudfm Group Limited,46.0,Real Estate
+384,Coats Group plc,100.0,"Textiles, Apparel, Footwear and Luxury Goods"
+385,Coca Cola European Partners,47.0,Food and Beverage Processing
+386,Coca-Cola FEMSA,100.0,Food and Beverage Processing
+387,Coca-Cola HBC AG,55.00000000000001,Food and Beverage Processing
+388,Cofinimmo,50.0,Real Estate
+389,Cogeco Inc.,65.0,Telecommunication Services
+390,Cognizant Technology Solutions Corporation,77.0,Software and Services
+391,Colgate Palmolive Company,100.0,"Consumer Durables, Household and Personal Products"
+392,Colisée Group,51.6,"Healthcare Providers and Services, and Healthcare Technology"
+393,Coloplast A/S,100.0,Healthcare Equipment and Supplies
+394,Colt Group Holdings Limited,93.0,Telecommunication Services
+395,Comany Inc.,80.0,Building Products
+396,ComfortDelGro Corporation Limited,61.199999999999996,Ground Transportation - Trucking Transportation
+397,Commercial Corporate Services Limited,50.0,Professional Services
+398,Common keiso Ltd.,42.0,Construction and Engineering
+399,CommonWealth Partners,50.0,Real Estate
+400,Compagnie Financière Richemont SA,100.0,"Textiles, Apparel, Footwear and Luxury Goods"
+401,Companhia Brasileira de Aluminio,40.0,"Mining - Iron, Aluminum, Other Metals"
+402,Compass Group PLC,46.2,"Hotels, Restaurants and Leisure, and Tourism Services"
+403,Compass Group UK&I,100.0,"Hotels, Restaurants and Leisure, and Tourism Services"
+404,"Conagra Brands, Inc.",25.0,Food and Beverage Processing
+405,"Connectria, Inc.",42.0,Technology Hardware and Equipment
+406,Constantia Flexibles International GmbH,24.0,Containers and Packaging
+407,Construction Marine Ltd,42.0,Construction and Engineering
+408,Contact Energy,45.0,"Electric Utilities and Independent Power Producers and Energy Traders (including fossil, alternative and nuclear energy)"
+409,Continental,75.0,Automobiles and Components
+410,Contour Design Nordic A/S,42.0,Technology Hardware and Equipment
+411,Contraf-Nicotex-Tobacco GmbH (CNT),42.0,Tobacco
+412,Conversio,42.0,Professional Services
+413,Coop Sverige AB,100.0,Food and Staples Retailing
+414,Coop amba,91.0,Food and Staples Retailing
+415,Coor Service Management,75.0,"Trading Companies and Distributors, and Commercial Services and Supplies"
+416,"Copps Industries, Inc.",42.0,Chemicals
+417,Corbion,38.0,Chemicals
+418,Corvaglia Closures Eschlikon AG,50.0,Containers and Packaging
+419,Cosmosol S.r.l.,42.0,"Consumer Durables, Household and Personal Products"
+420,Costa Coffee,50.0,Food and Beverage Processing
+421,Coty Inc.,100.0,"Consumer Durables, Household and Personal Products"
+422,Countryside Properties,52.0,Homebuilding
+423,Covivio,63.0,Real Estate
+424,Cranswick plc,50.0,Food and Beverage Processing
+425,Crest Lifts Ltd,38.0,Construction and Engineering
+426,"Critical Start, Inc.",42.0,Software and Services
+427,Croda International Plc,46.2,Chemicals
+428,"Crown Holdings, Inc",50.0,Containers and Packaging
+429,Crystal Claire Cosmetics Inc.,46.0,"Consumer Durables, Household and Personal Products"
+430,Cummins,50.0,Electrical Equipment and Machinery
+431,Cundall Johnston and Partners LLP,63.0,Professional Services
+432,Currys plc,50.0,Retailing
+433,Cushman & Wakefield,70.0,Real Estate
+434,CyrusOne Inc.,38.0,Real Estate
+435,"DAIDO TRADING CO.,LTD",30.0,"Trading Companies and Distributors, and Commercial Services and Supplies"
+436,"DAYDO CO., LTD.",46.0,Building Products
+437,DGB FINANCIAL GROUP,74.0,"Banks, Diverse Financials, Insurance"
+438,DIGITAL GRID Corporation,50.0,"Electric Utilities and Independent Power Producers and Energy Traders (including fossil, alternative and nuclear energy)"
+439,DLA Piper International,50.0,Professional Services
+440,DMG MORI AKTIENGESELLSCHAFT,46.2,Electrical Equipment and Machinery
+441,"DMG Mori Co., Ltd.",46.2,Electrical Equipment and Machinery
+442,DONGGUAN KENNEX CERAMIC LTD.,42.0,"Trading Companies and Distributors, and Commercial Services and Supplies"
+443,DS Smith,76.0,"Forest and Paper Products - Forestry, Timber, Pulp and Paper, Rubber"
+444,DSV A / S,40.0,Air Freight Transportation and Logistics
+445,DWF Group PLC,50.0,Professional Services
+446,DaVita,100.0,"Healthcare Providers and Services, and Healthcare Technology"
+447,Dai Global LLC,50.0,Professional Services
+448,"Dai Nippon Printing Co., Ltd.",90.0,"Trading Companies and Distributors, and Commercial Services and Supplies"
+449,"Daiichi Sankyo Co., Ltd.",90.0,"Pharmaceuticals, Biotechnology and Life"
+450,DaikoSeisakusyo Inc.,42.0,Building Products
+451,"Dairy Farmers of America, Inc.",30.0,Food and Beverage Processing
+452,"Daiseki Co., Ltd.",100.0,Solid Waste Management Utilities
+453,"Daito Trust Construction Co., Ltd.",55.00000000000001,Construction and Engineering
+454,Daitomiunyu Co.Ltd.,28.000000000000004,Ground Transportation - Trucking Transportation
+455,"Daiwa House Industry Co., Ltd.",90.0,Real Estate
+456,Daiwa House REIT Investment Corporation,42.0,Real Estate
+457,"Daiwatech Co., Ltd.",38.0,Electrical Equipment and Machinery
+458,Dalberg,55.00000000000001,Professional Services
+459,Dalmia Bharat Limited,61.9,Construction Materials
+460,"Daming Heavy Industry Co., Ltd",42.0,Construction and Engineering
+461,Dana Lim A/S,46.0,Chemicals
+462,Danfoss,46.2,Building Products
+463,Danieli Group,62.0,Electrical Equipment and Machinery
+464,Danish Crown A/S,42.0,Food and Beverage Processing
+465,Danoffice IT,42.0,Technology Hardware and Equipment
+466,Danone,50.0,Food and Beverage Processing
+467,Dassault Systemes,55.00000000000001,Software and Services
+468,Davidson Consulting,100.0,Professional Services
+469,Dawn Farm Foods Ltd.,46.2,Food and Beverage Processing
+470,Dawn Meats Group UC,59.0,Food and Beverage Processing
+471,Daxner & Merl GmbH,100.0,Professional Services
+472,De La Rue plc,46.2,"Trading Companies and Distributors, and Commercial Services and Supplies"
+473,De-Metal a.s.,50.0,"Trading Companies and Distributors, and Commercial Services and Supplies"
+474,DeVolksbank N.V.,59.0,"Banks, Diverse Financials, Insurance"
+475,Decathlon,90.0,Retailing
+476,Deckers Brands,57.99999999999999,"Textiles, Apparel, Footwear and Luxury Goods"
+477,"Decor (Suzhou) Co.,Ltd",38.0,"Textiles, Apparel, Footwear and Luxury Goods"
+478,Deere & Company,50.0,Electrical Equipment and Machinery
+479,Dekkers International,42.0,Professional Services
+480,Dell Technologies,60.0,Technology Hardware and Equipment
+481,Deloitte (Deloitte Global and Deloitte member firms),70.0,Professional Services
+482,Delta Air Lines,45.0,Air Transportation - Airlines
+483,Delta Carbon,50.0,Professional Services
+484,Delta Electronics,100.0,Technology Hardware and Equipment
+485,Delta-Simons Environmental Consultants Limited,50.0,Professional Services
+486,Demcointer,42.0,"Textiles, Apparel, Footwear and Luxury Goods"
+487,Denner AG,73.0,Retailing
+488,DentalXChange,42.0,Software and Services
+489,Dentsu Inc.,24.0,Media
+490,Dentsu International,46.2,Media
+491,Derwent London Plc,55.00000000000001,Real Estate
+492,Desigual,65.0,"Textiles, Apparel, Footwear and Luxury Goods"
+493,Deuman,42.0,Professional Services
+494,Deutsche Bahn,50.0,Ground Transportation - Railroads Transportation
+495,Deutsche Gesellschaft fur Internationale Zusammenarbeit GmbH (GIZ),30.0,Professional Services
+496,Deutsche Post DHL Group,42.0,Air Freight Transportation and Logistics
+497,Deutsche Telekom AG,100.0,Telecommunication Services
+498,Dexus,70.0,Real Estate
+499,Di Luca & Di Luca AB,50.0,Food and Beverage Processing
+500,Diab International AB,35.0,Building Products
+501,Diageo Plc,100.0,Food and Beverage Processing
+502,Diam,46.0,Retailing
+503,Diamond Energy Pty Ltd.,30.0,"Electric Utilities and Independent Power Producers and Energy Traders (including fossil, alternative and nuclear energy)"
+504,Digital Realty,68.0,Real Estate
+505,Digital Space Group Limited,42.0,Software and Services
+506,Direct Line Insurance Group plc,57.99999999999999,"Banks, Diverse Financials, Insurance"
+507,Ditrolic Energy Holdings Sdn. Bhd,50.0,"Electric Utilities and Independent Power Producers and Energy Traders (including fossil, alternative and nuclear energy)"
+508,Diös Fastigheter,50.0,Real Estate
+509,Domino's Pizza Group plc,42.0,"Hotels, Restaurants and Leisure, and Tourism Services"
+510,Don't Cry Wolf Limited,50.0,Professional Services
+511,Dongguan city O.T. Composite,46.0,"Consumer Durables, Household and Personal Products"
+512,Dott,50.0,Ground Transportation - Trucking Transportation
+513,Dover Corporation,30.0,Electrical Equipment and Machinery
+514,Dr. Otto Suwelack Nachf. GmbH&Co.KG,23.0,Food and Beverage Processing
+515,Dr. Reddy’s Laboratories Ltd.,50.2,"Pharmaceuticals, Biotechnology and Life"
+516,Drop Inc.,42.0,Professional Services
+517,Duke Realty,46.0,Real Estate
+518,Dôen,38.0,"Textiles, Apparel, Footwear and Luxury Goods"
+519,Dürr AG,70.0,Construction and Engineering
+520,"E-Konzal Co., Ltd",50.0,Professional Services
+521,E.ON SE,75.0,"Electric Utilities and Independent Power Producers and Energy Traders (including fossil, alternative and nuclear energy)"
+522,"E.SUN Financial Holding Co., Ltd.",100.0,"Banks, Diverse Financials, Insurance"
+523,EARP Distribution,41.0,Ground Transportation - Trucking Transportation
+524,"ECO WORKS co.,ltd.",50.0,Homebuilding
+525,ECOS,50.0,"Consumer Durables, Household and Personal Products"
+526,EDF Group,50.0,"Electric Utilities and Independent Power Producers and Energy Traders (including fossil, alternative and nuclear energy)"
+527,EDGE,46.0,Real Estate
+528,EDP - Energias de Portugal S.A.,98.0,"Electric Utilities and Independent Power Producers and Energy Traders (including fossil, alternative and nuclear energy)"
+529,EDP Energias do Brasil S.A.,85.0,"Electric Utilities and Independent Power Producers and Energy Traders (including fossil, alternative and nuclear energy)"
+530,EGISS,38.0,Technology Hardware and Equipment
+531,EILEEN FISHER,100.0,"Textiles, Apparel, Footwear and Luxury Goods"
+532,"EISHIRO KAWARA CO., LTD.",46.0,Building Products
+533,EIZO Corporation,70.0,Technology Hardware and Equipment
+534,ELECTRO DEPOT,100.0,Retailing
+535,ENAV Group,70.0,Air Transportation - Airport Services
+536,"ENECLOUD, Inc.",42.0,Specialized Consumer Services
+537,ENEIDA.IO,25.0,"Electric Utilities and Independent Power Producers and Energy Traders (including fossil, alternative and nuclear energy)"
+538,ENGIE,52.0,"Electric Utilities and Independent Power Producers and Energy Traders (including fossil, alternative and nuclear energy)"
+539,EQT AB,100.0,"Banks, Diverse Financials, Insurance"
+540,EQUIPOS MÓVILES DE CAMPAÑA ARPA,50.0,Technology Hardware and Equipment
+541,ERAMET,67.0,"Mining - Iron, Aluminum, Other Metals"
+542,ERG spa,96.0,"Electric Utilities and Independent Power Producers and Energy Traders (including fossil, alternative and nuclear energy)"
+543,ERM,80.0,Professional Services
+544,"ES Co., Ltd",42.0,Professional Services
+545,ESG Book GmbH,50.0,Professional Services
+546,ESKA BV,50.0,"Forest and Paper Products - Forestry, Timber, Pulp and Paper, Rubber"
+547,ETAP Lighting International,50.0,Electrical Equipment and Machinery
+548,EV Logistik GmbH,42.0,Ground Transportation - Trucking Transportation
+549,EV Private Equity,100.0,"Banks, Diverse Financials, Insurance"
+550,EVN AG,66.0,"Electric Utilities and Independent Power Producers and Energy Traders (including fossil, alternative and nuclear energy)"
+551,EWE AG,76.8,"Electric Utilities and Independent Power Producers and Energy Traders (including fossil, alternative and nuclear energy)"
+552,EY,100.0,Professional Services
+553,Earth Matters APS / Living Flowers,42.0,Retailing
+554,Eaton,50.0,Electrical Equipment and Machinery
+555,Echosens SA,46.0,"Healthcare Providers and Services, and Healthcare Technology"
+556,Eckes-Granini Group GmbH,95.0,Food and Beverage Processing
+557,"Eco Plan Co., Ltd.",50.0,Construction and Engineering
+558,"Eco Style Co., Ltd.",42.0,Construction and Engineering
+559,Ecolab,70.0,Chemicals
+560,Ecolean,50.0,Containers and Packaging
+561,Eddie Stobart,50.4,Ground Transportation - Trucking Transportation
+562,Edelman,80.0,Professional Services
+563,Eden McCallum LLP,46.0,Professional Services
+564,Edgard & Cooper,50.0,"Consumer Durables, Household and Personal Products"
+565,Edge Chile,47.0,Professional Services
+566,Edge Environment Pty Ltd,100.0,Professional Services
+567,Einar Mattsson AB,42.0,Real Estate
+568,EirGrid Group,50.0,"Electric Utilities and Independent Power Producers and Energy Traders (including fossil, alternative and nuclear energy)"
+569,"Eisai Co., Ltd.",30.0,"Pharmaceuticals, Biotechnology and Life"
+570,Eland Cables Limited,38.0,Electrical Equipment and Machinery
+571,Electrolux,80.0,"Consumer Durables, Household and Personal Products"
+572,Elektro-Isola A/S,50.0,Construction Materials
+573,Elements,46.0,Retailing
+574,"Elevate Textiles, Inc.",46.2,"Textiles, Apparel, Footwear and Luxury Goods"
+575,Elia Group,28.000000000000004,"Electric Utilities and Independent Power Producers and Energy Traders (including fossil, alternative and nuclear energy)"
+576,Elisa Corporation,50.0,Telecommunication Services
+577,Ella's Kitchen (Brands) Limited,100.0,Food and Staples Retailing
+578,Elopak AS,90.0,Containers and Packaging
+579,Emblem Solutions LLC,38.0,Professional Services
+580,Emerson Electric Co.,90.0,Electrical Equipment and Machinery
+581,Emira Property Fund Ltd,46.0,Real Estate
+582,Emmi Group,45.0,Food and Beverage Processing
+583,Emperor Design Consultants Limited,46.0,Professional Services
+584,Encon NV,50.0,Professional Services
+585,Enel SpA,80.0,"Electric Utilities and Independent Power Producers and Energy Traders (including fossil, alternative and nuclear energy)"
+586,EnerKey Oy,50.0,Software and Services
+587,Energetics Pty Ltd,50.0,Professional Services
+588,Energise Ltd,46.0,Professional Services
+589,"Energy Solution Japan Co., Ltd.",42.0,Professional Services
+590,Epiroc AB,50.0,Electrical Equipment and Machinery
+591,"Equinix, Inc.",100.0,Real Estate
+592,Erevista Inc,28.000000000000004,Software and Services
+593,Ergonomic Solutions Manufacturing A/S,50.0,Electrical Equipment and Machinery
+594,Ericsson Group,35.0,Technology Hardware and Equipment
+595,Essinge Rail AB,50.0,Ground Transportation - Railroads Transportation
+596,Essity AB,35.0,"Consumer Durables, Household and Personal Products"
+597,Etivoet,50.0,"Trading Companies and Distributors, and Commercial Services and Supplies"
+598,Eton Group AB,46.0,"Textiles, Apparel, Footwear and Luxury Goods"
+599,"Etsy, Inc.",52.0,Retailing
+600,Eunomia Research & Consulting Ltd,50.0,Professional Services
+601,Eurazeo,100.0,"Banks, Diverse Financials, Insurance"
+602,Euro Centra Company Limited,30.0,Professional Services
+603,Europcar Mobility Group,46.2,Ground Transportation - Trucking Transportation
+604,Everlane,46.0,"Textiles, Apparel, Footwear and Luxury Goods"
+605,Eversheds Sutherland (International) LLP,50.0,Professional Services
+606,Experian,50.1,"Specialized Financial Services, Consumer Finance, Insurance Brokerage Firms"
+607,"F.C. Osaka Co.,Ltd",38.0,Professional Services
+608,FARFETCH Limited,70.0,Retailing
+609,"FAST RETAILING CO., LTD.",100.0,Retailing
+610,FBA International USA Inc.,38.0,"Consumer Durables, Household and Personal Products"
+611,FDM Group (Holdings) plc,62.0,Professional Services
+612,FIRMENICH SA,100.0,"Consumer Durables, Household and Personal Products"
+613,FLOTILLA GROUP LIMITED,42.0,Software and Services
+614,FLSmidth,100.0,Construction and Engineering
+615,FOCCHI SPA UNIPERSONALE,46.0,Building Products
+616,"FORMULARIOS EUROPEOS, S.A.",50.0,"Forest and Paper Products - Forestry, Timber, Pulp and Paper, Rubber"
+617,FRASERS PROPERTY AUSTRALIA,50.0,Real Estate
+618,"FRASERS PROPERTY DEVELOPMENT SERVICES (VIETNAM) CO., LTD.",46.2,Real Estate
+619,FSN Capital Partners,100.0,"Banks, Diverse Financials, Insurance"
+620,"FUJI ELECTRIC CO., LTD.",46.2,Electrical Equipment and Machinery
+621,FUJI OIL HOLDINGS INC.,40.0,Food and Beverage Processing
+622,FUJIFILM Holdings Corporation,45.0,Technology Hardware and Equipment
+623,"FUJIKYU LOGISTICS CO., LTD.",50.0,Ground Transportation - Trucking Transportation
+624,"FUJINO KOUGYOU Co., Ltd.",42.0,Solid Waste Management Utilities
+625,Fabasoft AG,42.0,Software and Services
+626,Fabege AB,50.0,Real Estate
+627,Fairphone B.V,46.0,Technology Hardware and Equipment
+628,"FamilyMart Co.,Ltd.",30.0,Food and Staples Retailing
+629,Fanuc Corporation,42.0,Electrical Equipment and Machinery
+630,"Far EasTone Telecommunications Co., Ltd.",20.0,Telecommunication Services
+631,Farmaceutici Procemsa spa,23.0,"Pharmaceuticals, Biotechnology and Life"
+632,Farmer Bros. Co,30.0,Food and Beverage Processing
+633,Fastweb S.p.A.,100.0,Telecommunication Services
+634,Faurecia S.A.,80.0,Automobiles and Components
+635,Fazer Group,53.0,Food and Beverage Processing
+636,Federal Realty Investment Trust,46.0,Real Estate
+637,Ferrero International S.A.,50.0,Food and Beverage Processing
+638,Ferrocarrils de la Generalitat de Catalunya,100.0,Ground Transportation - Railroads Transportation
+639,Ferrovial,42.9,Construction and Engineering
+640,Fever-Tree,50.0,Food and Beverage Processing
+641,Fidocar,50.0,Automobiles and Components
+642,Findel,46.0,Retailing
+643,Fine Grain Property (Ireland) Limited,51.0,Real Estate
+644,Finisterre UK Limited,42.0,Retailing
+645,First Capital REIT,46.0,Real Estate
+646,Fisher & Paykel Healthcare Corporation Limited,87.0,Healthcare Equipment and Supplies
+647,Fiskars Corporation,60.0,"Consumer Durables, Household and Personal Products"
+648,Fleischtrocknerei Churwalden AG,46.0,Food and Beverage Processing
+649,Fletcher Building Limited,67.0,Construction Materials
+650,Flex Ltd.,70.0,Technology Hardware and Equipment
+651,Flooglebinder,50.0,"Hotels, Restaurants and Leisure, and Tourism Services"
+652,Florin AG,23.0,Food and Beverage Processing
+653,FlowCon International ApS,30.0,Building Products
+654,Fnac Darty,80.0,Retailing
+655,Fokus Zukunft GmbH & Co. KG,50.0,Professional Services
+656,Fonterra Co-operative Group Limited,70.0,Food and Beverage Processing
+657,Foodmark AB,100.0,Food and Beverage Processing
+658,Ford Motor Company,76.0,Automobiles and Components
+659,Formula E Championship,50.0,Specialized Consumer Services
+660,Fors Marsh Group,50.0,Professional Services
+661,Fortune Parts Industry Public Company Limited,25.2,Automobiles and Components
+662,Forvia,80.0,Automobiles and Components
+663,Foyle Food Group,28.000000000000004,Food Production - Animal Source Food Production
+664,Fr. Schiettinger KG - Werk Brand,30.0,"Forest and Paper Products - Forestry, Timber, Pulp and Paper, Rubber"
+665,Framery Trade Oy,50.0,Building Products
+666,Franz Kaldewei GmbH & Co. KG,28.000000000000004,Building Products
+667,Freddie's Flowers,50.0,Retailing
+668,Fresh Del Monte Produce Inc.,27.500000000000004,Food Production - Agricultural Production
+669,Fripa Papierfabrik Albert Friedrich KG,28.000000000000004,"Forest and Paper Products - Forestry, Timber, Pulp and Paper, Rubber"
+670,Fritz Hansen A/S,38.0,"Consumer Durables, Household and Personal Products"
+671,"Fruit of the Loom, Inc.",100.0,"Textiles, Apparel, Footwear and Luxury Goods"
+672,Fubon Financial Holdings,59.0,"Banks, Diverse Financials, Insurance"
+673,"Fujitoppan Printing CO., LTD.",50.0,"Trading Companies and Distributors, and Commercial Services and Supplies"
+674,Fujitsu Limited,71.0,Software and Services
+675,Fundição Moreno Ltda,38.0,"Mining - Iron, Aluminum, Other Metals"
+676,Funfer Fundição de Ferro LTDA,50.0,"Mining - Iron, Aluminum, Other Metals"
+677,"Furukawa Electric Co., Ltd.",46.0,Electrical Equipment and Machinery
+678,Fyffes,25.0,Food Production - Agricultural Production
+679,G. Güldenpfennig GmbH,46.0,"Textiles, Apparel, Footwear and Luxury Goods"
+680,GEA Group,60.0,Construction and Engineering
+681,GEKA,30.0,Containers and Packaging
+682,"GET-IT CO., LTD.",50.0,Technology Hardware and Equipment
+683,GETLINK,30.0,Ground Transportation - Railroads Transportation
+684,GFT Technologies,60.0,Professional Services
+685,"GODA Co.,Ltd.",50.0,Construction Materials
+686,GROUPE RENAULT,60.0,Automobiles and Components
+687,GRUPO ELECNOR,38.0,Construction and Engineering
+688,GUBI A/S,42.0,"Consumer Durables, Household and Personal Products"
+689,"GUUN Co., Ltd.",42.0,Solid Waste Management Utilities
+690,Gap Inc.,100.0,Retailing
+691,Gebr. Dürrbeck Kunststoffe GmbH,50.0,Chemicals
+692,Gecina,42.0,Real Estate
+693,Geelen Counterflow,50.0,Electrical Equipment and Machinery
+694,GeelongPort,50.0,Water Transportation - Water Transportation
+695,General Mills Inc.,42.0,Food and Beverage Processing
+696,General Motors,72.0,Automobiles and Components
+697,"GenerationHope, Inc.",28.000000000000004,Food and Beverage Processing
+698,Genesis Energy Ltd,36.0,"Electric Utilities and Independent Power Producers and Energy Traders (including fossil, alternative and nuclear energy)"
+699,Georg Fischer AG,34.599999999999994,Electrical Equipment and Machinery
+700,Geotab,50.0,Software and Services
+701,Gestamp,30.0,Automobiles and Components
+702,Ghelamco Poland,46.0,Real Estate
+703,"Gifu Sanken Kogyo Co,.Ltd",46.0,Chemicals
+704,"Gilead Sciences, Inc.",46.0,"Pharmaceuticals, Biotechnology and Life"
+705,Givaudan SA,70.0,"Consumer Durables, Household and Personal Products"
+706,Glanbia PLC,31.0,Food and Beverage Processing
+707,GlaxoSmithKline,34.0,"Pharmaceuticals, Biotechnology and Life"
+708,Global Fashion Group S.A.,90.0,Retailing
+709,Global Via Infraestructuras S.A.,42.0,Ground Transportation - Highways and Railtracks
+710,Globe-ing Inc.,38.0,Professional Services
+711,Glovo,100.0,Software and Services
+712,Go-Ahead Holdings Limited,75.0,Ground Transportation - Trucking Transportation
+713,GoCardless,100.0,"Specialized Financial Services, Consumer Finance, Insurance Brokerage Firms"
+714,Godsinlösen Nordic AB,42.0,"Trading Companies and Distributors, and Commercial Services and Supplies"
+715,Good Energy,50.0,"Electric Utilities and Independent Power Producers and Energy Traders (including fossil, alternative and nuclear energy)"
+716,"GoodDr Marketing&Consulting Co.,Ltd",42.0,Professional Services
+717,Goodman CE,70.0,Real Estate
+718,Goodman Group,50.0,Real Estate
+719,Grant Thornton UK LLP,21.0,Professional Services
+720,Great Portland Estates plc,50.0,Real Estate
+721,Green Element Group,21.0,Professional Services
+722,GreenA Consultants Pte Ltd,50.0,Professional Services
+723,Greenalia S.A.,25.0,"Electric Utilities and Independent Power Producers and Energy Traders (including fossil, alternative and nuclear energy)"
+724,Greencore Group plc,46.2,Food and Beverage Processing
+725,Greenfish SA,50.0,Professional Services
+726,Greenstone+,50.0,Technology Hardware and Equipment
+727,Greenyard NV,70.0,Food and Beverage Processing
+728,Greif Holding GmbH & Co. KG,38.0,"Trading Companies and Distributors, and Commercial Services and Supplies"
+729,Grieg Seafood ASA,35.0,Food Production - Animal Source Food Production
+730,Grimshaw,50.0,Professional Services
+731,Gromax Agri Equipment Limited,78.0,Automobiles and Components
+732,Grosvenor Europe Limited,50.0,Real Estate
+733,Groupe Bruxelles Lambert,100.0,"Banks, Diverse Financials, Insurance"
+734,Groupe Public Ferroviaire (GPF) – SNCF,70.0,Ground Transportation - Railroads Transportation
+735,Groupe SEB,60.0,"Consumer Durables, Household and Personal Products"
+736,Grundfos Holding A/S,50.0,Electrical Equipment and Machinery
+737,"Grupo Audiovisual Mediaset España Comunicación, S.A.U. (GA Mediaset España)",100.0,Media
+738,Grupo Bimbo SAB de CV,100.0,Food and Beverage Processing
+739,Grupo Ferrer Internacional SA,100.0,"Pharmaceuticals, Biotechnology and Life"
+740,Grupo Forma 5,50.0,"Consumer Durables, Household and Personal Products"
+741,Grupo Iren Fruits,42.0,Food Production - Agricultural Production
+742,Grupo Malwee,57.8,"Textiles, Apparel, Footwear and Luxury Goods"
+743,Gruppo Armani,50.0,"Textiles, Apparel, Footwear and Luxury Goods"
+744,Grönsaksmästarna Nordic AB,50.0,Food and Staples Retailing
+745,"Guangzhou Battsys Co., Ltd.",44.800000000000004,Electrical Equipment and Machinery
+746,"Guangzhou Non-ferrous Metals Research Institute Xinfeng Wear Resistant Alloy Material Co., LTD.",50.0,"Mining - Iron, Aluminum, Other Metals"
+747,Guerlain,56.99999999999999,"Consumer Durables, Household and Personal Products"
+748,"Guess?, Inc.",50.0,"Textiles, Apparel, Footwear and Luxury Goods"
+749,Gugler GmbH,50.0,"Trading Companies and Distributors, and Commercial Services and Supplies"
+750,Gulermak Steel Construction Ind. & Trade Co. Inc.,42.0,Construction and Engineering
+751,Gustav Spiess AG,50.0,Food and Beverage Processing
+752,Gymshark,54.0,"Textiles, Apparel, Footwear and Luxury Goods"
+753,H&M Group,100.0,"Textiles, Apparel, Footwear and Luxury Goods"
+754,H+H International A/S,46.2,Building Products
+755,"HARA TRADING CO., LTD.",42.0,"Trading Companies and Distributors, and Commercial Services and Supplies"
+756,"HASHIMOTO METAL CO.,LTD",42.0,Retailing
+757,HAZAMA ANDO CORPORATION,33.0,Construction and Engineering
+758,HCL Technologies,50.0,Software and Services
+759,HEINEKEN N.V.,90.0,Food and Beverage Processing
+760,"HEISEI INDUSTRY CO., LTD",42.0,Automobiles and Components
+761,"HIGUCHI MANUFACTURING CO., LTD.",42.0,Automobiles and Components
+762,HK Electric Investments (HKEI),68.4,"Electric Utilities and Independent Power Producers and Energy Traders (including fossil, alternative and nuclear energy)"
+763,HLD Global Limited,38.0,"Consumer Durables, Household and Personal Products"
+764,HNI Corporation,40.0,"Consumer Durables, Household and Personal Products"
+765,HOKUBEI SANGYO INC,42.0,Homebuilding
+766,"HOU-TECH CO., LTD",50.0,Construction Materials
+767,HP Inc,65.0,Technology Hardware and Equipment
+768,HS1 Ltd,46.0,Ground Transportation - Highways and Railtracks
+769,HUBER+SUHNER Group,50.0,Electrical Equipment and Machinery
+770,HYPER Inc.,42.0,"Trading Companies and Distributors, and Commercial Services and Supplies"
+771,Haglunds Bygg & Entreprenad AB,42.0,Construction and Engineering
+772,"Haiyan Dingsheng Machinery Co., Ltd",42.0,Building Products
+773,Halfords Group PLC,100.0,Retailing
+774,"Hallmark, Incorporated",100.0,Retailing
+775,Hamada Co,50.0,Professional Services
+776,Hamamatsu Photonics K.K.,76.0,Electrical Equipment and Machinery
+777,"Han Yin (Shanghai) Eco-Materials Technology Co., Ltd.",46.0,Containers and Packaging
+778,Hana Financial Group,51.0,"Banks, Diverse Financials, Insurance"
+779,"Hangzhou Hengli Metal Processing Co., Ltd",38.0,Construction and Engineering
+780,Hannon Armstrong,100.0,"Banks, Diverse Financials, Insurance"
+781,Hansa Byggpartner AB,42.0,Construction and Engineering
+782,Harch Inc.,50.0,Software and Services
+783,Hardscape Group Limited,46.0,Construction Materials
+784,"Harita Metal Co.,Ltd.",42.0,Solid Waste Management Utilities
+785,Harris Tea Company,25.0,Food and Beverage Processing
+786,Hart Miller Design Ltd / MARK Product,42.0,"Consumer Durables, Household and Personal Products"
+787,Harvest House,42.0,Food Production - Agricultural Production
+788,Haseko Corporation,42.0,Construction and Engineering
+789,Hauser & Wirth,46.0,Retailing
+790,Hays plc,50.0,Professional Services
+791,HeadFirst Group,23.0,Professional Services
+792,Healeys Printers Limited,42.0,"Trading Companies and Distributors, and Commercial Services and Supplies"
+793,"Healthpeak Properties, Inc.",38.0,Real Estate
+794,Heidelberg Materials,65.0,Construction Materials
+795,Heimstaden Bostad AB,42.0,Real Estate
+796,Heinz Glas Dzialdowo Sp Z.o.o.c,100.0,Containers and Packaging
+797,"Heiwa Real Estate Co., Ltd.",50.0,Real Estate
+798,Helen Ltd,77.0,"Electric Utilities and Independent Power Producers and Energy Traders (including fossil, alternative and nuclear energy)"
+799,Helen of Troy Limited,46.2,"Consumer Durables, Household and Personal Products"
+800,Hellenic Cables,100.0,Electrical Equipment and Machinery
+801,Hempel A/S,90.0,Chemicals
+802,Henkel AG & Co. KGaA,100.0,"Consumer Durables, Household and Personal Products"
+803,Hera,100.0,Solid Waste Management Utilities
+804,Herbert Smith Freehills,55.00000000000001,Professional Services
+805,Hermès International,100.0,"Textiles, Apparel, Footwear and Luxury Goods"
+806,Hersha Hospitality Trust,46.0,Real Estate
+807,Hewlett Packard Enterprise Company,96.0,Technology Hardware and Equipment
+808,Hg Capital,100.0,"Banks, Diverse Financials, Insurance"
+809,Hiflux Filtration A/S,50.0,Construction and Engineering
+810,Hilton,46.2,"Hotels, Restaurants and Leisure, and Tourism Services"
+811,Hilton Food Group,25.0,Food and Beverage Processing
+812,Hindustan Zinc Limited,20.0,"Mining - Iron, Aluminum, Other Metals"
+813,Hinomaru Jidousya Co.Ltd,42.0,Ground Transportation - Trucking Transportation
+814,Hitachi Construction Machinery Co. LTD,45.0,Electrical Equipment and Machinery
+815,"Hitachi, Ltd.",100.0,Technology Hardware and Equipment
+816,HoWe Wurstwaren KG,46.0,Food and Beverage Processing
+817,Hochland Deutschland GmbH,100.0,Food and Beverage Processing
+818,Holcim Ltd.,65.0,Construction Materials
+819,Holmen AB,35.0,"Forest and Paper Products - Forestry, Timber, Pulp and Paper, Rubber"
+820,Holocene UG (haftungsbeschränkt),50.0,Software and Services
+821,"Holt, Renfrew & Co., Limited",67.0,Retailing
+822,"Home search Co.,Ltd.",42.0,Real Estate
+823,Hongkong Land Holdings Limited,46.2,Real Estate
+824,Hopkins Architects Limited,46.0,Professional Services
+825,"Hoso Industry co.,ltd",42.0,"Forest and Paper Products - Forestry, Timber, Pulp and Paper, Rubber"
+826,"Host Hotels & Resorts, Inc.",55.00000000000001,Real Estate
+827,House of Baukjen,50.0,"Textiles, Apparel, Footwear and Luxury Goods"
+828,Hoyer Handel GmbH,46.0,"Trading Companies and Distributors, and Commercial Services and Supplies"
+829,"Hudson Pacific Properties, Inc.",50.0,Real Estate
+830,Hufvudstaden AB,46.0,Real Estate
+831,Hugh Lowe Farms Ltd,42.0,Food Production - Agricultural Production
+832,Hugo Boss AG,51.0,"Textiles, Apparel, Footwear and Luxury Goods"
+833,Huhtamäki Oyj,70.0,"Forest and Paper Products - Forestry, Timber, Pulp and Paper, Rubber"
+834,Hulamin,30.0,"Mining - Iron, Aluminum, Other Metals"
+835,"Hulic Co., Ltd.",100.0,Real Estate
+836,Humanscale,75.0,"Consumer Durables, Household and Personal Products"
+837,Humlegården Fastigheter AB,46.0,Real Estate
+838,Husqvarna AB,35.0,"Consumer Durables, Household and Personal Products"
+839,"Hwa Meei Optical Co., Ltd",42.0,"Consumer Durables, Household and Personal Products"
+840,Hyatt,53.0,"Hotels, Restaurants and Leisure, and Tourism Services"
+841,Höegh Autoliners,30.0,Water Transportation - Water Transportation
+842,ICA Gruppen,70.0,Food and Staples Retailing
+843,ICF,100.0,Professional Services
+844,"ICHIKAWA IRONWORKS CO., LTD",46.0,Automobiles and Components
+845,IG International Private Limited,23.0,Food and Staples Retailing
+846,IK Investment Partners Limited,100.0,"Banks, Diverse Financials, Insurance"
+847,IKEA,80.0,Retailing
+848,INDURA,42.0,"Trading Companies and Distributors, and Commercial Services and Supplies"
+849,INWIT (Infrastrutture Wireless Italiane SpA),42.0,Telecommunication Services
+850,IPUT Plc,46.0,Real Estate
+851,"IREC Co.,Ltd.",42.0,Chemicals
+852,ITALBRONZE LTDA,46.0,"Mining - Iron, Aluminum, Other Metals"
+853,ITR Concession Company LLC,50.0,Ground Transportation - Highways and Railtracks
+854,ITV,100.0,Media
+855,"IWATA&CO.,LTD",50.0,"Trading Companies and Distributors, and Commercial Services and Supplies"
+856,Ib Andresen Industri A/S,50.0,Construction Materials
+857,Iberdrola SA,85.0,"Electric Utilities and Independent Power Producers and Energy Traders (including fossil, alternative and nuclear energy)"
+858,Iberostar Hotels and Resorts,85.0,"Hotels, Restaurants and Leisure, and Tourism Services"
+859,Icade,55.00000000000001,Real Estate
+860,Identity Holdings Ltd.,50.0,Professional Services
+861,Ignition DG Ltd,46.0,Professional Services
+862,Ignitis Group,94.0,"Electric Utilities and Independent Power Producers and Energy Traders (including fossil, alternative and nuclear energy)"
+863,"Illumina, Inc.",100.0,"Pharmaceuticals, Biotechnology and Life"
+864,Imerys SA,71.0,Construction Materials
+865,Imperial Brands,50.0,Tobacco
+866,Inditex,90.0,Retailing
+867,Indo Count,33.0,"Textiles, Apparel, Footwear and Luxury Goods"
+868,Indra,50.0,Software and Services
+869,Informa plc,55.00000000000001,Professional Services
+870,Informed Solutions Ltd,42.0,Professional Services
+871,Infosys Limited,37.5,Software and Services
+872,Infraconcepts Netherlands B.V.,46.0,"Trading Companies and Distributors, and Commercial Services and Supplies"
+873,Ingka Group,80.0,Retailing
+874,Ingredion Incorporated,28.000000000000004,Food Production - Agricultural Production
+875,Inmarsat Global Limited,64.0,Telecommunication Services
+876,"Inmobiliaria Colonial, SOCIMI, S.A.",50.0,Real Estate
+877,Instone Real Estate Group SE,42.0,Real Estate
+878,InterContinental Hotels Group PLC,46.2,"Hotels, Restaurants and Leisure, and Tourism Services"
+879,Interface,50.0,Building Products
+880,Intermediate Capital Group,100.0,"Banks, Diverse Financials, Insurance"
+881,International Conflict and Security Consulting Ltd.,42.0,Professional Services
+882,International Flavors & Fragrances Inc.,70.0,Chemicals
+883,International Paper Company,35.699999999999996,"Forest and Paper Products - Forestry, Timber, Pulp and Paper, Rubber"
+884,International Post Corporation (IPC),20.0,Air Freight Transportation and Logistics
+885,Internet Fusion Ltd,50.0,Retailing
+886,Intrepid Travel,71.0,"Hotels, Restaurants and Leisure, and Tourism Services"
+887,Intuit,100.0,Software and Services
+888,Investa Office Management Pty Limited,60.0,Real Estate
+889,Investindustrial,100.0,"Banks, Diverse Financials, Insurance"
+890,Ipsen SA,50.0,"Pharmaceuticals, Biotechnology and Life"
+891,Iren Group,100.0,"Electric Utilities and Independent Power Producers and Energy Traders (including fossil, alternative and nuclear energy)"
+892,Irie System Incorporation,42.0,Software and Services
+893,Iron Mountain,20.0,Software and Services
+894,J McCann & Co Limited,42.0,Construction and Engineering
+895,J Sainsbury plc,50.0,Food and Staples Retailing
+896,"J. FRONT RETAILING Co., Ltd.",60.0,Retailing
+897,JAB Holding Company,95.0,"Banks, Diverse Financials, Insurance"
+898,JAI Overfladebehandling,46.0,Construction Materials
+899,JAPAN.DELIVERY.SYSTEM,30.0,Building Products
+900,"JB Financial Group Co., Ltd.",76.0,"Banks, Diverse Financials, Insurance"
+901,JD Logistics,100.0,Air Freight Transportation and Logistics
+902,JD Sports Fashion PLC,100.0,"Textiles, Apparel, Footwear and Luxury Goods"
+903,JDE Peet’s N.V.,25.0,Food and Beverage Processing
+904,"JENEX CO., LTD.",90.0,Construction and Engineering
+905,JLL,51.0,Real Estate
+906,JT Group Limited,25.0,Telecommunication Services
+907,Jacobs,65.0,Professional Services
+908,Jaguar Land Rover Automotive plc,60.0,Automobiles and Components
+909,Jamestown,30.0,Real Estate
+910,"Japan Carbon Management Co., Ltd.",50.0,Professional Services
+911,Japan Real Estate Investment Corporation,46.0,Real Estate
+912,Japan Tobacco Inc.,32.0,Tobacco
+913,JetBlue Airways Corporation,50.0,Air Transportation - Airlines
+914,"Jiangsu Bono Casting Co., Ltd.",50.0,"Mining - Iron, Aluminum, Other Metals"
+915,"Jiangyin Boway Machinery Complete Equipment Co., Ltd",38.0,Electrical Equipment and Machinery
+916,Jigsaw Systems Ltd,42.0,Technology Hardware and Equipment
+917,"Jinan Faithcast Machinery Co.,Ltd.",42.0,"Mining - Iron, Aluminum, Other Metals"
+918,Johannes Pedersen a/s,46.0,Automobiles and Components
+919,John Mattson Fastighetsföretagen AB,38.0,Real Estate
+920,Johnson & Johnson,60.0,"Pharmaceuticals, Biotechnology and Life"
+921,Johnson Controls International plc,55.00000000000001,Technology Hardware and Equipment
+922,Johnson Matthey Plc,33.0,Chemicals
+923,"José Combalia, S.A.",30.0,"Consumer Durables, Household and Personal Products"
+924,Julie Sandlau Vietnam. ltd,42.0,"Textiles, Apparel, Footwear and Luxury Goods"
+925,Juustoportti Group,38.0,Food and Beverage Processing
+926,Jysk Display A/S,50.0,Building Products
+927,K2A Knaust & Andersson,50.0,Real Estate
+928,"KAIHO INDUSTRY CO., LTD.,",42.0,Solid Waste Management Utilities
+929,"KANUC CO.,LTD",25.0,Specialized Consumer Services
+930,KAO Corporation,55.00000000000001,"Consumer Durables, Household and Personal Products"
+931,"KATAGIRI MEIMOKU KOGYO CO.,LTD",30.0,Homebuilding
+932,KAYSERİ ULAŞIM A.Ş.,100.0,Ground Transportation - Railroads Transportation
+933,KB Financial Group,58.4,"Banks, Diverse Financials, Insurance"
+934,KDC CORPORATION,42.0,Software and Services
+935,KDDI Corporation,50.0,Telecommunication Services
+936,KINGS INTERNATIONAL LTD,50.0,"Textiles, Apparel, Footwear and Luxury Goods"
+937,KIRKBI A/S,55.00000000000001,"Banks, Diverse Financials, Insurance"
+938,KISO A/S,50.0,Chemicals
+939,KO2 Consulting LLC,46.0,Professional Services
+940,"KOBAYASHI PHARMACEUTICAL CO., LTD.",51.0,"Consumer Durables, Household and Personal Products"
+941,"KOKUBO-HD CO., LTD.",42.0,Automobiles and Components
+942,KONE Corporation,100.0,Electrical Equipment and Machinery
+943,KOSÉ Corporation,35.0,"Consumer Durables, Household and Personal Products"
+944,KOYOSHA INC.,42.0,Media
+945,KPMG International Limited,100.0,Professional Services
+946,KPMG Ireland,80.0,Professional Services
+947,KPMG UK LLP,100.0,Professional Services
+948,KYOAI Corporation,50.0,Containers and Packaging
+949,KYOCERA Corporation,46.2,Semiconductors and Semiconductors Equipment
+950,"KYOHATSU INDUSTRY Co., Ltd.",50.0,Automobiles and Components
+951,"KYOTECH Co., Ltd.",42.0,Building Products
+952,Kabbara LLC.,38.0,Professional Services
+953,"Kagome Co., Ltd.",42.0,Food and Beverage Processing
+954,Kainos Group plc,70.0,Software and Services
+955,"Kajikei Iron Works Co.,Ltd.",46.0,Ground Transportation - Railroads Transportation
+956,"Kankyo Shuzo Co., LTD.",50.0,Food and Beverage Processing
+957,Kansas City Southern,42.0,Ground Transportation - Railroads Transportation
+958,Kartikeya International,50.0,"Textiles, Apparel, Footwear and Luxury Goods"
+959,Kasugai material transportation ltd.,42.0,Ground Transportation - Trucking Transportation
+960,Kaufman & Broad,28.000000000000004,Real Estate
+961,"Kawada Feather Co.,Ltd.",50.0,"Textiles, Apparel, Footwear and Luxury Goods"
+962,"Kawamura Sangyo Co.,Ltd.",42.0,Technology Hardware and Equipment
+963,"Kawasaki Kisen Kaisha, Ltd.",25.0,Water Transportation - Water Transportation
+964,"Kawase Plastic Industry Co.,Ltd.",46.0,Chemicals
+965,Kayahan Makine Hidrolik A.Ş.,50.0,Electrical Equipment and Machinery
+966,"Kayama Kogyo Co.,Ltd.",50.0,Professional Services
+967,Kearney,100.0,Professional Services
+968,Kellogg Company,47.0,Food and Beverage Processing
+969,Kennedys Law LLP,70.0,Professional Services
+970,Keppel Land,100.0,Real Estate
+971,Kering,100.0,"Textiles, Apparel, Footwear and Luxury Goods"
+972,Kerry Group PLC,55.00000000000001,Food and Beverage Processing
+973,Kerschgens Werkstoffe & Mehr GmbH,25.0,"Trading Companies and Distributors, and Commercial Services and Supplies"
+974,Kesko Corporation,90.0,Food and Staples Retailing
+975,Keurig Dr Pepper,50.0,Food and Beverage Processing
+976,Kilroy Realty Corporation,31.0,Real Estate
+977,Kimberly-Clark Corporation,50.0,"Consumer Durables, Household and Personal Products"
+978,Kimco Realty Corporation,30.0,Real Estate
+979,Kindred Group plc,90.0,"Hotels, Restaurants and Leisure, and Tourism Services"
+980,Kingfisher,40.0,Retailing
+981,Kingspan Group Plc,90.0,Building Products
+982,Kirin Holdings Co Ltd,50.0,Food and Beverage Processing
+983,"Kisyou Co., Ltd.",42.0,Electrical Equipment and Machinery
+984,Klabin S.A.,49.0,"Forest and Paper Products - Forestry, Timber, Pulp and Paper, Rubber"
+985,Klockner Pentaplast,50.0,Containers and Packaging
+986,Klépierre,80.0,Real Estate
+987,Klöckner & Co,50.0,"Mining - Iron, Aluminum, Other Metals"
+988,Knights Brown,42.0,Construction and Engineering
+989,Knowit AB (publ),50.0,Software and Services
+990,"Koei Shoji Co., Ltd.",42.0,Solid Waste Management Utilities
+991,"Kokufu Printing Co., Ltd.",50.0,"Consumer Durables, Household and Personal Products"
+992,"Kokusai Kogyo Co., Ltd",65.0,Professional Services
+993,Kollergang nv,38.0,Food and Beverage Processing
+994,Komatsu Ltd.,30.0,Electrical Equipment and Machinery
+995,Konecranes Oyj,50.0,Electrical Equipment and Machinery
+996,"Konica Minolta, Inc.",60.0,Technology Hardware and Equipment
+997,Koninklijke Ahold Delhaize N.V.,50.0,Food and Staples Retailing
+998,Koninklijke KPN NV (Royal KPN),100.0,Telecommunication Services
+999,Koskela Pty Limited,42.0,"Consumer Durables, Household and Personal Products"
+1000,"Kowa Seisakusyo Co.,Ltd.",42.0,Building Products
+1001,Krones AG,80.0,Electrical Equipment and Machinery
+1002,Krummen Kerzers AG,46.0,Ground Transportation - Trucking Transportation
+1003,Kuehne + Nagel International AG,33.0,Air Freight Transportation and Logistics
+1004,"Kumagai Gumi Co., Ltd.",25.0,Construction and Engineering
+1005,Kungsleden AB,50.0,Real Estate
+1006,"Kunshan JC Industrial Technology Co., Ltd.",42.0,"Trading Companies and Distributors, and Commercial Services and Supplies"
+1007,Kyodo Denshi Kogyo Inc.,30.0,Electrical Equipment and Machinery
+1008,L'OCCITANE INTERNATIONAL SA,100.0,"Consumer Durables, Household and Personal Products"
+1009,L'Oréal,100.0,"Consumer Durables, Household and Personal Products"
+1010,L. Priebs GmbH & Co. KG,50.0,"Textiles, Apparel, Footwear and Luxury Goods"
+1011,L.E. Vegetables Company Aktiebolag,50.0,Food and Beverage Processing
+1012,LANXESS AG,41.6,Chemicals
+1013,LCL NV,42.0,Software and Services
+1014,LEO Pharma A/S,75.0,"Pharmaceuticals, Biotechnology and Life"
+1015,LG Electronics Inc.,54.6,"Consumer Durables, Household and Personal Products"
+1016,LITE-ON technology corp.,39.0,Technology Hardware and Equipment
+1017,LIXIL Corporation,30.0,Building Products
+1018,LOM Architecture,50.0,Professional Services
+1019,"LOTTE CO., LTD.",80.0,Food and Beverage Processing
+1020,LSTH Svenska Handelsfastigheter AB,42.0,Real Estate
+1021,LVMH,100.0,"Textiles, Apparel, Footwear and Luxury Goods"
+1022,"LYMI, Inc. DBA Reformation",100.0,"Textiles, Apparel, Footwear and Luxury Goods"
+1023,La Banque Postale,100.0,"Banks, Diverse Financials, Insurance"
+1024,La Coop Conseil,42.0,Software and Services
+1025,La Française des jeux (FDJ),100.0,"Hotels, Restaurants and Leisure, and Tourism Services"
+1026,La Poste SA,51.0,Air Freight Transportation and Logistics
+1027,Labeyrie Fine Foods,100.0,Food and Beverage Processing
+1028,Lactoprot Deutschland GmbH,23.0,Food and Beverage Processing
+1029,Lam Research Corporation,100.0,Semiconductors and Semiconductors Equipment
+1030,Lamington Group,46.0,"Hotels, Restaurants and Leisure, and Tourism Services"
+1031,Landsec,70.0,Real Estate
+1032,Lansinoh Laboratories Inc,69.0,Healthcare Equipment and Supplies
+1033,Lars Partners,50.0,"Textiles, Apparel, Footwear and Luxury Goods"
+1034,Las Vegas Sands Corp,17.5,"Hotels, Restaurants and Leisure, and Tourism Services"
+1035,Lassila & Tikanoja plc,70.0,Professional Services
+1036,Le Bélier,60.0,Automobiles and Components
+1037,Leap Media LTD,46.0,Professional Services
+1038,Legacy Vacation Resorts,50.0,"Hotels, Restaurants and Leisure, and Tourism Services"
+1039,Legrand,50.0,Electrical Equipment and Machinery
+1040,Lennox International Inc.,37.5,Building Products
+1041,Lenovo Group Limited,50.0,Technology Hardware and Equipment
+1042,Lenzing AG,50.0,"Textiles, Apparel, Footwear and Luxury Goods"
+1043,Lerøy Seafood Group ASA,46.0,Food Production - Animal Source Food Production
+1044,Leverage Limited,42.0,Professional Services
+1045,Levi Strauss & Co.,90.0,"Textiles, Apparel, Footwear and Luxury Goods"
+1046,Liberty Global,50.0,Telecommunication Services
+1047,Lidl Belgium GmbH. & Co. KG,36.0,Retailing
+1048,Lifestraw,50.0,"Consumer Durables, Household and Personal Products"
+1049,Lime (Neutron Holdings dba Lime),82.0,Ground Transportation - Trucking Transportation
+1050,Linde plc,35.0,Chemicals
+1051,Linklaters LLP,70.0,Professional Services
+1052,Lintex AB,46.0,"Consumer Durables, Household and Personal Products"
+1053,Lion Corporation,30.0,"Consumer Durables, Household and Personal Products"
+1054,Living Tomorrow NV,50.0,Education Services
+1055,Lloyd’s Register,63.0,Professional Services
+1056,Logicor Europe PLC,42.0,Real Estate
+1057,Logista,30.0,Air Freight Transportation and Logistics
+1058,Lojas Renner S.A.,75.0,"Textiles, Apparel, Footwear and Luxury Goods"
+1059,London Stock Exchange Group PLC,67.0,"Specialized Financial Services, Consumer Finance, Insurance Brokerage Firms"
+1060,Lonsdale,38.0,Professional Services
+1061,Los Angeles Department of Water and Power,78.10000000000001,"Electric Utilities and Independent Power Producers and Energy Traders (including fossil, alternative and nuclear energy)"
+1062,Louis Vuitton Malletier,55.00000000000001,"Textiles, Apparel, Footwear and Luxury Goods"
+1063,Lufthansa Group,30.599999999999998,Air Transportation - Airlines
+1064,"Lumen Technologies, Inc.",18.0,Telecommunication Services
+1065,Lundbeck A/S,63.0,"Pharmaceuticals, Biotechnology and Life"
+1066,Lyons & Annoot Limited,50.0,Construction and Engineering
+1067,M&C Saatchi PLC.,50.0,Media
+1068,M1 Limited,46.2,Telecommunication Services
+1069,"MAAL Associates, LLC",50.0,Professional Services
+1070,MAKROCHEM S.A.,42.0,Chemicals
+1071,MAN Truck & Bus SE,70.0,Electrical Equipment and Machinery
+1072,MANE,69.0,"Consumer Durables, Household and Personal Products"
+1073,"MARTO Co.,Ltd.",46.0,"Trading Companies and Distributors, and Commercial Services and Supplies"
+1074,"MARUI GROUP CO.,LTD.",80.0,Retailing
+1075,MARUICHI SELLING INC.,42.0,"Consumer Durables, Household and Personal Products"
+1076,"MARUKI SANGYO Co.,LTD.",28.000000000000004,Chemicals
+1077,"MARUTOU CO., LTD.",42.0,"Trading Companies and Distributors, and Commercial Services and Supplies"
+1078,MAS Capital Ptv Ltd.,85.0,"Textiles, Apparel, Footwear and Luxury Goods"
+1079,MATSEN CHEMIE AG,50.0,Chemicals
+1080,MDT technologies GmbH,42.0,Electrical Equipment and Machinery
+1081,MEANINGS CAPITAL PARTNERS,100.0,"Banks, Diverse Financials, Insurance"
+1082,MEIDENSHA CORPORATION,30.0,Electrical Equipment and Machinery
+1083,MERCIALYS,47.0,Real Estate
+1084,"MERLIN Properties SOCIMI, SA",50.0,Real Estate
+1085,MFP INDUSTRY SAS DI LUDMILA LUNGU & C.,46.0,"Textiles, Apparel, Footwear and Luxury Goods"
+1086,"MIC Co., Ltd",50.0,Media
+1087,"MICROGREAT CASTING CO., LTD.",42.0,Electrical Equipment and Machinery
+1088,"MIKUNI KIKO CO., LTD",50.0,"Trading Companies and Distributors, and Commercial Services and Supplies"
+1089,MIROW & CO. DO BRASIL CONSULTORIA LTDA,46.0,Professional Services
+1090,MITAKA KANKYO SERVICE CO.,25.0,"Trading Companies and Distributors, and Commercial Services and Supplies"
+1091,MITCON Consultancy & Engineering Services Limited,46.0,Professional Services
+1092,"MITSUBISHI ESTATE CO., LTD.",70.0,Real Estate
+1093,"MITSUBOSHI KEITO Co.,Ltd.",42.0,"Textiles, Apparel, Footwear and Luxury Goods"
+1094,"MITSUI FUDOSAN CO., LTD.",46.2,Real Estate
+1095,"MIWATECH CO., LTD.",50.0,Automobiles and Components
+1096,"MIYAGI EISEI KANKYO KOSHA, INC.",30.0,Solid Waste Management Utilities
+1097,"MIZSEI MFG CO., LTD.",42.0,"Consumer Durables, Household and Personal Products"
+1098,"MIZUTANI VALVE M.F.G.Co.,Ltd",42.0,"Consumer Durables, Household and Personal Products"
+1099,MKS PAMP SA,100.0,"Trading Companies and Distributors, and Commercial Services and Supplies"
+1100,MSCI Inc.,80.0,Professional Services
+1101,MSQ Partners Group Limited,100.0,Software and Services
+1102,MTR Nordic Group,25.2,Ground Transportation - Railroads Transportation
+1103,MULTIVISTA GLOBAL PVT LTD - PRINT HOUSE,28.000000000000004,"Trading Companies and Distributors, and Commercial Services and Supplies"
+1104,MURONAKA INDUSTRIES CO.LTD,50.0,Electrical Equipment and Machinery
+1105,MVV Energie AG,83.0,"Electric Utilities and Independent Power Producers and Energy Traders (including fossil, alternative and nuclear energy)"
+1106,MaCher (USA) Inc.,50.0,"Consumer Durables, Household and Personal Products"
+1107,MacArthur Green,50.0,Professional Services
+1108,"Machi Mirai Seisakusyo Co., Ltd.",50.0,Professional Services
+1109,Maeda Corporation,30.0,Construction and Engineering
+1110,Magazine de Bijenkorf B.V.,100.0,Retailing
+1111,Magnolia Bostad AB,38.0,Real Estate
+1112,Magyar Telekom Plc.,84.0,Telecommunication Services
+1113,Mahindra & Mahindra Limited,47.0,Automobiles and Components
+1114,Mahindra Accelo,75.0,"Mining - Iron, Aluminum, Other Metals"
+1115,Mahindra Automotive Australia Pty Ltd,96.0,Automobiles and Components
+1116,Mahindra Automotive North America,88.4,Automobiles and Components
+1117,Mahindra EPC Irrigation Limited,82.0,Food Production - Agricultural Production
+1118,Mahindra Electric Mobility Limited,35.0,Automobiles and Components
+1119,Mahindra First Choice Services Ltd.,47.0,Automobiles and Components
+1120,Mahindra Heavy Engines Ltd,73.0,Automobiles and Components
+1121,Mahindra Holidays and Resorts India Limited,88.0,"Hotels, Restaurants and Leisure, and Tourism Services"
+1122,Mahindra Lifespaces Developers Limited,63.0,Real Estate
+1123,Mahindra Logistics Ltd.,88.0,Air Freight Transportation and Logistics
+1124,Mahindra Sanyo Special Steel,35.0,"Mining - Iron, Aluminum, Other Metals"
+1125,"Mahindra USA, Inc.",89.0,Automobiles and Components
+1126,Mahindra World City (Jaipur) Ltd.,63.0,Real Estate
+1127,Mahindra World City Developers Ltd,63.0,Real Estate
+1128,Maisons du Monde,50.0,Retailing
+1129,Majid Al Futtaim Properties,87.8,Real Estate
+1130,Malmö Lastbilcentral AB,50.0,Ground Transportation - Trucking Transportation
+1131,Mammut Sports Group,80.0,"Textiles, Apparel, Footwear and Luxury Goods"
+1132,"Mango Punto Fa, SL",80.0,Retailing
+1133,Manitou Group,46.2,Electrical Equipment and Machinery
+1134,Manni Group SpA,92.0,Building Products
+1135,ManpowerGroup Inc.,60.0,Professional Services
+1136,Mantis World Ltd,50.0,"Textiles, Apparel, Footwear and Luxury Goods"
+1137,Maple Leaf Foods Inc.,30.0,Food and Beverage Processing
+1138,Marel,42.0,Software and Services
+1139,Marfrig Global Foods S.A.,100.0,Food and Beverage Processing
+1140,Marks & Spencer,55.00000000000001,Retailing
+1141,Mars,42.0,Food and Beverage Processing
+1142,Marshalls plc,73.0,Construction Materials
+1143,"Maruyou Kensetu Co., Ltd.",42.0,Construction and Engineering
+1144,Mastercard,38.0,Software and Services
+1145,Masterpiece Valuation Advisory Limited,38.0,Professional Services
+1146,"Masudaki Co.,Ltd.",42.0,Solid Waste Management Utilities
+1147,"Matsuoka Special Steel Co., Ltd.",46.0,"Trading Companies and Distributors, and Commercial Services and Supplies"
+1148,Max Fordham LLP,46.0,Construction and Engineering
+1149,May You Corporation,46.0,Solid Waste Management Utilities
+1150,Mayr-Melnhof Karton AG,58.099999999999994,"Forest and Paper Products - Forestry, Timber, Pulp and Paper, Rubber"
+1151,McAleer & Rushe Contracts UK Ltd,50.0,Construction and Engineering
+1152,McCain Foods Limited,100.0,Food and Beverage Processing
+1153,"McCormick & Company, Incorporated",42.0,Food and Beverage Processing
+1154,McDonald's Corporation,36.0,"Hotels, Restaurants and Leisure, and Tourism Services"
+1155,"McKinsey & Company, Inc.",30.0,Professional Services
+1156,"Meiji Holdings Co., Ltd.",42.0,Food and Beverage Processing
+1157,"Meikou Co.,Ltd.",42.0,Solid Waste Management Utilities
+1158,Meira Oy,90.0,Food and Beverage Processing
+1159,Melia Hotels International SA,71.39999999999999,"Hotels, Restaurants and Leisure, and Tourism Services"
+1160,Melita Limited,42.0,Telecommunication Services
+1161,Mercedes-Benz AG,50.0,Automobiles and Components
+1162,Mercer International,35.0,"Forest and Paper Products - Forestry, Timber, Pulp and Paper, Rubber"
+1163,"Merck & Co., Inc., Rahway, NJ USA, which is known as MSD outside the U.S. and Canada",46.0,"Pharmaceuticals, Biotechnology and Life"
+1164,Merck KGaA,52.0,"Pharmaceuticals, Biotechnology and Life"
+1165,Meridian Energy,50.0,"Electric Utilities and Independent Power Producers and Energy Traders (including fossil, alternative and nuclear energy)"
+1166,Metro AG,60.0,Food and Staples Retailing
+1167,Metso Outotec,50.0,Electrical Equipment and Machinery
+1168,Metsä Board Corporation,100.0,"Forest and Paper Products - Forestry, Timber, Pulp and Paper, Rubber"
+1169,Mettler-Toledo International Inc.,70.0,Technology Hardware and Equipment
+1170,Metz A/S,42.0,"Trading Companies and Distributors, and Commercial Services and Supplies"
+1171,Michelin,70.0,Tires
+1172,Microsoft Corporation,100.0,Software and Services
+1173,Midsona AB,38.0,Food and Beverage Processing
+1174,"Mie EneWood, LTD.",42.0,"Electric Utilities and Independent Power Producers and Energy Traders (including fossil, alternative and nuclear energy)"
+1175,Miele & Cie. KG,50.0,"Consumer Durables, Household and Personal Products"
+1176,Migros Group,70.0,Retailing
+1177,Mile Hi Bakery Inc.,47.0,Food and Staples Retailing
+1178,Mile Hi Foods Co.,37.0,Ground Transportation - Trucking Transportation
+1179,MiljöMatematik Malmö AB,50.0,Professional Services
+1180,Millennium & Copthorne Hotels plc.,27.0,"Hotels, Restaurants and Leisure, and Tourism Services"
+1181,Millicom International Cellular S.A.,50.0,Telecommunication Services
+1182,Milliken & Company,50.4,"Textiles, Apparel, Footwear and Luxury Goods"
+1183,Mills AS,100.0,Food and Beverage Processing
+1184,Mips AB,42.0,"Consumer Durables, Household and Personal Products"
+1185,Mishcon de Reya LLP,42.0,Professional Services
+1186,Mistral Home,42.0,"Textiles, Apparel, Footwear and Luxury Goods"
+1187,Mitsubishi Electric Corporation,18.0,Electrical Equipment and Machinery
+1188,"Miyakoda Construction Co., Ltd",50.0,Homebuilding
+1189,Model HOLDING AG,33.2,"Forest and Paper Products - Forestry, Timber, Pulp and Paper, Rubber"
+1190,Molson Coors Brewing Company,50.0,Food and Beverage Processing
+1191,Moncler Group,100.0,"Textiles, Apparel, Footwear and Luxury Goods"
+1192,Mondelez International Inc,10.0,Food and Beverage Processing
+1193,Mondi plc,86.0,"Forest and Paper Products - Forestry, Timber, Pulp and Paper, Rubber"
+1194,Monstercat Inc.,42.0,Media
+1195,Montagu,100.0,"Banks, Diverse Financials, Insurance"
+1196,Montea NV,50.0,Real Estate
+1197,Moody's Corporation,60.0,Professional Services
+1198,Moonpig Group plc,50.0,Retailing
+1199,Morgan Sindall Group plc,70.0,Construction and Engineering
+1200,Morrisons,46.0,Food and Staples Retailing
+1201,Mott MacDonald Group Limited,25.0,Professional Services
+1202,Mowi,35.0,Food Production - Animal Source Food Production
+1203,Moy Park Limited,28.000000000000004,Food Production - Animal Source Food Production
+1204,Moët Hennessy,100.0,Food and Beverage Processing
+1205,Multeral AB,38.0,"Trading Companies and Distributors, and Commercial Services and Supplies"
+1206,Multimek Oy,38.0,Construction and Engineering
+1207,Multiplex Construction Canada,63.0,Construction and Engineering
+1208,Multiplex Construction Europe,95.0,Construction and Engineering
+1209,"Multiplex Constructions, Middle East",63.0,Construction and Engineering
+1210,Muntons,45.0,Food and Beverage Processing
+1211,"Murakami Lumber Co., Ltd.",42.0,"Trading Companies and Distributors, and Commercial Services and Supplies"
+1212,"Murata Manufacturing Co., Ltd.",46.0,Technology Hardware and Equipment
+1213,Murray Birrell Limited,46.0,Construction and Engineering
+1214,N. V. Eneco,100.0,"Electric Utilities and Independent Power Producers and Energy Traders (including fossil, alternative and nuclear energy)"
+1215,NA-KD,42.0,"Textiles, Apparel, Footwear and Luxury Goods"
+1216,"NAKANIHON CASTING Co.,LTD.",50.0,Automobiles and Components
+1217,"NAKAYAMASEIKO　CO.,LTD",42.0,Electrical Equipment and Machinery
+1218,NATS Holdings Limited,50.0,Air Transportation - Airport Services
+1219,NEC Corporation,55.00000000000001,Technology Hardware and Equipment
+1220,"NEMO Equipment, Inc.",42.0,"Consumer Durables, Household and Personal Products"
+1221,NEXANS,46.2,Electrical Equipment and Machinery
+1222,NG Bailey Group Ltd,75.0,Construction and Engineering
+1223,"NGK SPARK PLUG CO., LTD.",30.0,Automobiles and Components
+1224,NGW Energia SpA SB,50.0,"Electric Utilities and Independent Power Producers and Energy Traders (including fossil, alternative and nuclear energy)"
+1225,NH Hotel Group,20.51,"Hotels, Restaurants and Leisure, and Tourism Services"
+1226,"NIHON CHUOU JUHAN Co., Ltd.",38.0,Construction and Engineering
+1227,"NIKE, Inc.",65.0,"Textiles, Apparel, Footwear and Luxury Goods"
+1228,NIPPON ALUTEC CORPORATION,25.0,Building Products
+1229,"NIPPON ENGINE Co., Ltd.",50.0,Automobiles and Components
+1230,NITTON93 NORGE AS,42.0,"Trading Companies and Distributors, and Commercial Services and Supplies"
+1231,"NOS, SPGS, S.A.",90.0,Telecommunication Services
+1232,NOZAWA CORPORATION,50.0,Building Products
+1233,NRG Energy Inc,50.0,"Electric Utilities and Independent Power Producers and Energy Traders (including fossil, alternative and nuclear energy)"
+1234,NSW Land Registry Services,42.0,Professional Services
+1235,NTT DATA Corporation,60.0,Software and Services
+1236,NTT Docomo Inc.,50.0,Telecommunication Services
+1237,NTT Group,80.0,Telecommunication Services
+1238,"NUMBER THREE, INC.",42.0,"Consumer Durables, Household and Personal Products"
+1239,NV Bekaert SA,46.2,"Mining - Iron, Aluminum, Other Metals"
+1240,"NW Commonwealth, LLC (dba Wyld & Wyld CBD)",42.0,Professional Services
+1241,Nabtesco Corporation,70.0,Electrical Equipment and Machinery
+1242,Nairn's Oatcakes Ltd.,50.0,Food and Beverage Processing
+1243,"Nakashimada Engineering Works, Ltd.",42.0,Electrical Equipment and Machinery
+1244,Nando's Chicken Land Limited,100.0,"Hotels, Restaurants and Leisure, and Tourism Services"
+1245,Nanya Technology Corporation,27.200000000000003,Semiconductors and Semiconductors Equipment
+1246,"Nasdaq, Inc.",100.0,"Specialized Financial Services, Consumer Finance, Insurance Brokerage Firms"
+1247,NatWest Group plc,100.0,"Banks, Diverse Financials, Insurance"
+1248,Nathaniel Lichfield & Partners Ltd,46.0,Professional Services
+1249,National Grid Electricity System Operator (ESO),50.0,"Electric Utilities and Independent Power Producers and Energy Traders (including fossil, alternative and nuclear energy)"
+1250,National Grid Electricity Transmission plc (NGET),50.0,"Electric Utilities and Independent Power Producers and Energy Traders (including fossil, alternative and nuclear energy)"
+1251,National Grid PLC,50.0,"Electric Utilities and Independent Power Producers and Energy Traders (including fossil, alternative and nuclear energy)"
+1252,Nativa Srl SB,46.0,Professional Services
+1253,Nature's Management,50.0,Food Production - Agricultural Production
+1254,"Nature's Way Co., Ltd",46.0,"Consumer Durables, Household and Personal Products"
+1255,Navitas Semiconductor Ltd.,50.0,Semiconductors and Semiconductors Equipment
+1256,Ndevr Environmental,42.0,Professional Services
+1257,Nectar Sleep Ltd,46.0,Retailing
+1258,"Nemak, S.A.B. de C.V.",28.000000000000004,Automobiles and Components
+1259,Nestlé,100.0,Food and Beverage Processing
+1260,Netflix,70.0,Media
+1261,Network Rail plc,75.0,Ground Transportation - Railroads Transportation
+1262,Neumarkter Lammsbräu Gebr. Ehrnsperger KG,42.0,Food and Beverage Processing
+1263,New River REIT plc,42.0,Real Estate
+1264,New World Development Company Limited,46.2,Real Estate
+1265,New York State Metropolitan Transportation Authority,50.349999999999994,Ground Transportation - Highways and Railtracks
+1266,New Zealand Post,32.0,Air Freight Transportation and Logistics
+1267,Newmont Corporation,32.0,"Mining - Other (Rare Minerals, Precious Metals and Gems)"
+1268,News Corp,60.0,Media
+1269,Nexi SpA,78.0,Software and Services
+1270,Nexity SA,28.000000000000004,Real Estate
+1271,Next plc,55.00000000000001,Retailing
+1272,"Nihon Dengyo Kosaku Co., Ltd.",30.0,Technology Hardware and Equipment
+1273,"Nikkoh Confectionery Co., Ltd.",25.0,Food and Beverage Processing
+1274,Nikon Corporation,71.0,Technology Hardware and Equipment
+1275,Nilfisk A/S,48.0,Electrical Equipment and Machinery
+1276,"Nippon Sheet Glass, Co., Ltd. (NSG Group).",30.0,Building Products
+1277,Nippon Shokubai Europe NV,42.0,Chemicals
+1278,"Nippon Weston Co.,Ltd",50.0,"Trading Companies and Distributors, and Commercial Services and Supplies"
+1279,Nippon Yusen Kabushiki Kaisha,30.0,Water Transportation - Water Transportation
+1280,Nishikawa Communications Co. Ltd.,30.0,"Trading Companies and Distributors, and Commercial Services and Supplies"
+1281,"Nishimatsu Construction Co., Ltd",25.0,Construction and Engineering
+1282,"Nissan Motor Co., Ltd.",32.5,Automobiles and Components
+1283,"Nissin Electric Co., Ltd.",35.0,Electrical Equipment and Machinery
+1284,"Nissin Foods Holdings Co., Ltd.",30.0,Food and Beverage Processing
+1285,Nito A/S,50.0,Building Products
+1286,Nobia AB,72.0,"Consumer Durables, Household and Personal Products"
+1287,"Noda Crane Co.,Ltd.",42.0,Construction and Engineering
+1288,Nokia Group,50.0,Technology Hardware and Equipment
+1289,Nokian Tyres plc,52.0,Tires
+1290,Nomad Foods Ltd.,75.0,Food and Beverage Processing
+1291,"Nomura Real Estate Holdings, Inc.",35.0,Real Estate
+1292,"Nomura Research Institute, Ltd.",72.0,Software and Services
+1293,Nordiq Group A/S,42.0,Professional Services
+1294,Norfolk Southern Corporation,42.0,Ground Transportation - Railroads Transportation
+1295,Norron Asset Management,100.0,"Banks, Diverse Financials, Insurance"
+1296,Norstedts Förlagsgrupp AB,50.0,Media
+1297,Northern Powergrid,63.0,"Electric Utilities and Independent Power Producers and Energy Traders (including fossil, alternative and nuclear energy)"
+1298,NovaTech Automation,38.0,Electrical Equipment and Machinery
+1299,Novartis,35.0,"Pharmaceuticals, Biotechnology and Life"
+1300,Novo Nordisk A/S,100.0,"Pharmaceuticals, Biotechnology and Life"
+1301,Novozymes A/S,100.0,Chemicals
+1302,Nutreco,57.99999999999999,Food Production - Agricultural Production
+1303,Nyskördade Morötter i Fjälkinge AB,30.0,Food Production - Agricultural Production
+1304,NØIE,42.0,"Consumer Durables, Household and Personal Products"
+1305,O'right,42.0,"Consumer Durables, Household and Personal Products"
+1306,O-I Glass,25.0,Containers and Packaging
+1307,ODINSA S.A.,68.0,Construction and Engineering
+1308,"OHKUMA.Co.,Ltd.",30.0,Construction Materials
+1309,OKA Direct Ltd,46.0,Retailing
+1310,"OKAMOTOKOKI Co.,LTD",42.0,Automobiles and Components
+1311,OMRON Corporation,65.0,Technology Hardware and Equipment
+1312,"ONO PHARMACEUTICAL CO., LTD.",55.00000000000001,"Pharmaceuticals, Biotechnology and Life"
+1313,"OONO CONSTRUCTION CO.,LTD",42.0,Homebuilding
+1314,ORANGE,29.599999999999998,Telecommunication Services
+1315,"ORYZA OIL & FAT CHEMICAL CO., LTD.",38.0,Food and Beverage Processing
+1316,"OSAKA KOTETSU Co.,Ltd",42.0,"Mining - Iron, Aluminum, Other Metals"
+1317,OSS Nordic AB,42.0,"Trading Companies and Distributors, and Commercial Services and Supplies"
+1318,OSW Corporation,30.0,Construction and Engineering
+1319,OVS S.p.A,100.0,Retailing
+1320,OY Prevex Ab,50.0,Building Products
+1321,Obayashi Corporation,46.2,Construction and Engineering
+1322,Odata Brasil S.A.,23.0,Real Estate
+1323,Oddbox Delivery Ltd,42.0,Food and Staples Retailing
+1324,Oesse srl,50.0,Electrical Equipment and Machinery
+1325,Oh My Greens AB,42.0,Food Production - Agricultural Production
+1326,"Ohkawa Printing Co., Ltd.",50.0,"Trading Companies and Distributors, and Commercial Services and Supplies"
+1327,Oilon Group Oy,46.0,Electrical Equipment and Machinery
+1328,Okamura Corporation,50.0,"Consumer Durables, Household and Personal Products"
+1329,Okartek Oy,38.0,Chemicals
+1330,"Okta, Inc",67.0,Software and Services
+1331,"Okuji kensan Co.,Ltd",25.0,Building Products
+1332,Olam,50.0,Food Production - Agricultural Production
+1333,Oleter Group AB,100.0,"Trading Companies and Distributors, and Commercial Services and Supplies"
+1334,"Olive Apparel (Cambodia) Co., Ltd.",21.0,"Textiles, Apparel, Footwear and Luxury Goods"
+1335,Ololo Farming Company,50.0,Food Production - Agricultural Production
+1336,On Running,55.00000000000001,"Textiles, Apparel, Footwear and Luxury Goods"
+1337,Ontex,100.0,"Consumer Durables, Household and Personal Products"
+1338,Open Air Group,42.0,Retailing
+1339,Open Farm Inc.,42.0,Food and Beverage Processing
+1340,Optimised Energy,50.0,Professional Services
+1341,Optimised Group,42.0,Professional Services
+1342,Opus Trust Marketing Ltd,46.0,"Trading Companies and Distributors, and Commercial Services and Supplies"
+1343,Oriflame Cosmetics,50.0,"Consumer Durables, Household and Personal Products"
+1344,Origin Energy,50.0,"Electric Utilities and Independent Power Producers and Energy Traders (including fossil, alternative and nuclear energy)"
+1345,Orkla ASA,70.0,Food and Beverage Processing
+1346,Orms Designers and Architects Ltd,46.0,Construction and Engineering
+1347,Orthex,42.0,"Consumer Durables, Household and Personal Products"
+1348,"Osawa Wax Co.,Ltd.",42.0,Containers and Packaging
+1349,Osborne Clarke LLP,100.0,Professional Services
+1350,"Otsuka Pharmaceutical Co., Ltd.",30.0,"Pharmaceuticals, Biotechnology and Life"
+1351,Outokumpu Oyj,42.0,"Mining - Iron, Aluminum, Other Metals"
+1352,Owens Corning,50.0,Building Products
+1353,Oxwash Ltd,100.0,"Consumer Durables, Household and Personal Products"
+1354,"Ozaki Co.,Ltd.",38.0,Solid Waste Management Utilities
+1355,PACCAR Inc,35.0,Electrical Equipment and Machinery
+1356,PAMA MECANICA E FUNDIÇÃO LTDA,42.0,"Mining - Other (Rare minerals, precious metals and gems)"
+1357,PET STAR HOLDING,23.0,Containers and Packaging
+1358,"PH-CH SAS : PIPER-HEIDSIECK, CHARLES HEIDSIECK, RARE CHAMPAGNE",61.0,Food and Beverage Processing
+1359,PNZ-Produkte GmbH,50.0,"Forest and Paper Products - Forestry, Timber, Pulp and Paper, Rubber"
+1360,POLA ORBIS HOLDINGS INC,42.0,"Consumer Durables, Household and Personal Products"
+1361,PRINCIPIUM SRL,23.0,Software and Services
+1362,PSA Automobiles SA,37.0,Automobiles and Components
+1363,PUMA SE,60.0,"Textiles, Apparel, Footwear and Luxury Goods"
+1364,PVH Corp.,100.0,"Textiles, Apparel, Footwear and Luxury Goods"
+1365,Pal International,50.0,Healthcare Equipment and Supplies
+1366,Palcut A/S,42.0,"Forest and Paper Products - Forestry, Timber, Pulp and Paper, Rubber"
+1367,Palladium Group Holdings Pty Ltd,67.0,Professional Services
+1368,Panasonic Holdings Corporation,30.0,"Consumer Durables, Household and Personal Products"
+1369,Pandora A/S,50.0,"Textiles, Apparel, Footwear and Luxury Goods"
+1370,Pangaea Laboratories Limited,42.0,"Consumer Durables, Household and Personal Products"
+1371,Pangolin Associates Pty Ltd,46.0,Professional Services
+1372,Pantas Software Sdn. Bhd.,38.0,Software and Services
+1373,Parade,42.0,"Textiles, Apparel, Footwear and Luxury Goods"
+1374,Parfums Christian Dior’s,46.2,"Consumer Durables, Household and Personal Products"
+1375,Parkeray Limited,38.0,Construction and Engineering
+1376,Parmacotto spa,50.0,Food and Beverage Processing
+1377,Pas Normal Studios,42.0,"Consumer Durables, Household and Personal Products"
+1378,Pascall+Watson,46.0,Construction and Engineering
+1379,Pattern S.P.A.,50.0,"Textiles, Apparel, Footwear and Luxury Goods"
+1380,Paulig Group,80.0,Food and Beverage Processing
+1381,PayPal,75.0,Software and Services
+1382,Peak Design,50.0,"Textiles, Apparel, Footwear and Luxury Goods"
+1383,Pearson PLC,50.0,Education Services
+1384,Peking Handicraft Inc.,50.0,"Textiles, Apparel, Footwear and Luxury Goods"
+1385,Pelorus Consulting,46.0,Professional Services
+1386,"PepsiCo, Inc.",75.0,Food and Beverage Processing
+1387,Pernod Ricard,100.0,Food and Beverage Processing
+1388,Persimmon PLC,46.2,Homebuilding
+1389,Perstorp Holding AB,46.2,Chemicals
+1390,Petainer,50.0,Containers and Packaging
+1391,Pets at Home Group,42.0,Retailing
+1392,Pfizer Inc.,100.0,"Pharmaceuticals, Biotechnology and Life"
+1393,PharmLog Pharma Logistik GmbH,46.0,"Healthcare Providers and Services, and Healthcare Technology"
+1394,Philip Morris International,50.0,Tobacco
+1395,Phoenix Zementwerke Krogbeumker GmbH & Co. KG,42.0,Building Products
+1396,Physicians Realty Trust,30.0,Real Estate
+1397,Pi Group Ltd,46.0,"Trading Companies and Distributors, and Commercial Services and Supplies"
+1398,Pictet Group,100.0,"Banks, Diverse Financials, Insurance"
+1399,Pihl Holding A/S,42.0,Construction and Engineering
+1400,Pilgrim’s Pride Ltd.,50.0,Food and Beverage Processing
+1401,Pine Tree Company For Textile Manufacturing PSC,21.0,"Textiles, Apparel, Footwear and Luxury Goods"
+1402,Pinsent Masons LLP,50.4,Professional Services
+1403,Pip & Nut,42.0,Food and Beverage Processing
+1404,Pirelli & C. S.p.A,42.0,Tires
+1405,PlanA.Earth GmbH,42.0,Software and Services
+1406,Planson International Corporation,50.0,Technology Hardware and Equipment
+1407,Plasser UK LLP,46.0,Ground Transportation - Railroads Transportation
+1408,Plastic Omnium SE,80.0,Automobiles and Components
+1409,Plastigaur,50.0,Chemicals
+1410,Platzer Fastigheter Holding AB (publ),50.0,Real Estate
+1411,Plus Pack,50.0,Containers and Packaging
+1412,Pocoloco Company Limited,38.0,"Consumer Durables, Household and Personal Products"
+1413,Polygenta Technologies Limited,50.0,Chemicals
+1414,Port International GmbH,50.0,Food and Staples Retailing
+1415,Port of Aarhus,50.0,Water Transportation - Ports and Services
+1416,Port of Newcastle,30.0,Water Transportation - Ports and Services
+1417,Port of Rotterdam Authority,90.0,Water Transportation - Water Transportation
+1418,Ports of Auckland Limited,100.0,Water Transportation - Ports and Services
+1419,PostNL,100.0,Air Freight Transportation and Logistics
+1420,PostNord AB,80.0,Air Freight Transportation and Logistics
+1421,Posten Norge AS,42.0,Air Freight Transportation and Logistics
+1422,Posti Group Ltd.,50.0,Air Freight Transportation and Logistics
+1423,Prada Group,42.0,"Textiles, Apparel, Footwear and Luxury Goods"
+1424,PredictX Ltd,42.0,Software and Services
+1425,Premier Energy Services Ltd,50.0,Professional Services
+1426,Premier Is A/S,38.0,Food and Beverage Processing
+1427,Premier Lotteries Ireland DAC,50.0,Specialized Consumer Services
+1428,Preqin,100.0,Professional Services
+1429,PricewaterhouseCoopers International Limited (PwC IL),50.0,Professional Services
+1430,Prime Forest Products LLC,42.0,"Trading Companies and Distributors, and Commercial Services and Supplies"
+1431,Procter & Gamble Company,50.0,"Consumer Durables, Household and Personal Products"
+1432,"Producción, Industrialización, Comercialización y Asesoría de Hule Natural, S. A.",42.0,"Forest and Paper Products - Forestry, Timber, Pulp and Paper, Rubber"
+1433,"Product Cia de Importaciones Asiaticas, S.L..",30.0,Retailing
+1434,Progress-Werk Oberkirch AG,46.2,Automobiles and Components
+1435,Prologis,21.0,Real Estate
+1436,Proxima,50.0,Professional Services
+1437,Proximus,100.0,Telecommunication Services
+1438,Proyecta Spa,42.0,Professional Services
+1439,Prysmian Group,46.0,Electrical Equipment and Machinery
+1440,Publicis Groupe,50.0,Media
+1441,Puffin Produce Ltd,46.0,Food Production - Agricultural Production
+1442,Puig S.L.,50.0,"Consumer Durables, Household and Personal Products"
+1443,Pukka Herbs,100.0,Retailing
+1444,Pulsant Limited,46.0,Software and Services
+1445,Q-lite,38.0,Electrical Equipment and Machinery
+1446,QBS Technology Group,42.0,Software and Services
+1447,Qinetiq,50.0,Aerospace and Defense
+1448,"Qingdao Reliance Machinery Co., Ltd",42.0,Construction and Engineering
+1449,Quadrangle Architects Limited,46.2,Professional Services
+1450,Quzhou Oriental Special Steel Co. Ltd.,50.0,"Mining - Other (Rare Minerals, Precious Metals and Gems)"
+1451,RATP,70.0,Ground Transportation - Railroads Transportation
+1452,RECRUITERS.IE,50.0,Professional Services
+1453,REMA 1000 NORGE AS,50.0,Retailing
+1454,REMATEC Holdings Corporation,30.0,Professional Services
+1455,"RIKO Industrial Co., Ltd.",30.0,Construction Materials
+1456,RJ McLeod (Contractors) Ltd,42.0,Construction and Engineering
+1457,"ROHM Co., Ltd.",50.5,Semiconductors and Semiconductors Equipment
+1458,RPS Group plc,63.0,Professional Services
+1459,RT Knits Ltd,77.0,"Textiles, Apparel, Footwear and Luxury Goods"
+1460,RTS Transport Service GmbH,30.0,Ground Transportation - Railroads Transportation
+1461,RWE AG,50.0,"Electric Utilities and Independent Power Producers and Energy Traders (including fossil, alternative and nuclear energy)"
+1462,Raben Group N.V.,77.0,Air Freight Transportation and Logistics
+1463,Radio Flyer Inc.,33.0,"Consumer Durables, Household and Personal Products"
+1464,Radisson Hotel Group,46.2,"Hotels, Restaurants and Leisure, and Tourism Services"
+1465,Raiffeisen Bank International AG,56.00000000000001,"Banks, Diverse Financials, Insurance"
+1466,Railpool,42.0,Ground Transportation - Railroads Transportation
+1467,Ralf Bohle GmbH | SCHWALBE,50.0,Tires
+1468,Ralph Lauren Corporation,100.0,"Textiles, Apparel, Footwear and Luxury Goods"
+1469,Ramatex,25.0,"Textiles, Apparel, Footwear and Luxury Goods"
+1470,Ramboll Group A/S,80.0,Professional Services
+1471,Rathbones Group Plc,100.0,"Banks, Diverse Financials, Insurance"
+1472,Rawstone Consulting,38.0,Professional Services
+1473,"Re:CS Co.,Ltd.",30.0,Professional Services
+1474,"RealTyme, S.A.",38.0,Telecommunication Services
+1475,Reckitt Benckiser Group plc,100.0,"Consumer Durables, Household and Personal Products"
+1476,Red Electrica de España (Grupo Red Eléctrica) (redeia),67.0,"Electric Utilities and Independent Power Producers and Energy Traders (including fossil, alternative and nuclear energy)"
+1477,Red Glead Discovery AB,38.0,"Pharmaceuticals, Biotechnology and Life"
+1478,Redstor,42.0,Software and Services
+1479,Refinitiv,65.0,Software and Services
+1480,Reform,42.0,Retailing
+1481,"Reformo Co., Ltd.",30.0,"Trading Companies and Distributors, and Commercial Services and Supplies"
+1482,Refurb A/S,50.0,Technology Hardware and Equipment
+1483,Regency Centers Corporation,28.000000000000004,Real Estate
+1484,Reitan Convenience Sweden AB,46.2,Retailing
+1485,Reliance Jio Infocomm Limited,100.0,Telecommunication Services
+1486,RelineEurope GmbH,42.0,Construction and Engineering
+1487,Renesas Electronics Corporation,70.0,Semiconductors and Semiconductors Equipment
+1488,Republic Services,35.0,Solid Waste Management Utilities
+1489,Resolute Forest Products,41.5,"Forest and Paper Products - Forestry, Timber, Pulp and Paper, Rubber"
+1490,Restaurant Brands International Inc.,50.0,"Hotels, Restaurants and Leisure, and Tourism Services"
+1491,Revenga Smart Solution,30.0,Telecommunication Services
+1492,Rexel,60.0,Electrical Equipment and Machinery
+1493,Reynaldi SRL SB,50.0,Chemicals
+1494,Reynders Etiketten N.V.,30.0,"Trading Companies and Distributors, and Commercial Services and Supplies"
+1495,Ricardo PLC,90.0,Professional Services
+1496,"Ricoh Co., Ltd.",63.0,Technology Hardware and Equipment
+1497,Rikshem AB,42.0,Real Estate
+1498,Rise Co.Ltd.,46.0,Electrical Equipment and Machinery
+1499,Riskory Consultancy Limited,38.0,Professional Services
+1500,Riverside Natural Foods Ltd.,42.0,Food and Beverage Processing
+1501,Rizhao Cangyu,42.0,Electrical Equipment and Machinery
+1502,Robert Bosch GmbH,100.0,Automobiles and Components
+1503,Rockwool Group,38.0,Building Products
+1504,Roland Berger,100.0,Professional Services
+1505,Ronald Lu & Partners,38.0,Professional Services
+1506,Rotork plc,42.0,Electrical Equipment and Machinery
+1507,Royal BAM Group,100.0,Construction and Engineering
+1508,Royal DSM,59.0,Chemicals
+1509,Royal FrieslandCampina N.V.,63.0,Food and Beverage Processing
+1510,Royal HaskoningDHV,100.0,Construction and Engineering
+1511,Royal Philips,75.0,Electrical Equipment and Machinery
+1512,Rubel & Ménasché,42.0,"Mining - Other (Rare minerals, precious metals and gems)"
+1513,"Rubicon Technologies, LLC",46.0,Software and Services
+1514,RugVista AB,46.0,Retailing
+1515,Ryde Technology AS,42.0,Ground Transportation - Trucking Transportation
+1516,Rémy Cointreau,100.0,Food and Beverage Processing
+1517,S&P Global,81.0,Professional Services
+1518,"S-BIC COMPANY, LTD.",50.0,Building Products
+1519,S2S Electronics Ltd,50.0,Professional Services
+1520,SAINT-GOBAIN,33.0,Building Products
+1521,"SAKAKIBARA SEIKI CO., LTD",50.0,Automobiles and Components
+1522,SALUS Haus Dr. med. Otto Greither Nachf. GmbH & Co. KG,42.0,"Pharmaceuticals, Biotechnology and Life"
+1523,"SANKO RECYCLE Co.,Ltd.",42.0,Solid Waste Management Utilities
+1524,SANOFI,55.00000000000001,"Pharmaceuticals, Biotechnology and Life"
+1525,SANSHIN Inc.,30.0,Building Products
+1526,"SANSHUZEN INDUSTRIAL MFG., INC.",42.0,Electrical Equipment and Machinery
+1527,SANWA INDUSTRY,46.0,Construction and Engineering
+1528,"SANXIN HEAVY INDUSTRY MACHINERY Co., Ltd.",42.0,"Mining - Iron, Aluminum, Other Metals"
+1529,SAP SE,40.0,Software and Services
+1530,SAS Institute Inc.,50.0,Software and Services
+1531,SBS Insurance Services Limited,23.0,"Banks, Diverse Financials, Insurance"
+1532,SCANIA CV,50.0,Electrical Equipment and Machinery
+1533,SCI Environmental Group Ltd,25.0,Construction and Engineering
+1534,SCR-Sibelco NV,68.89999999999999,Construction Materials
+1535,"SCREEN Holdings Co., Ltd.",30.0,Semiconductors and Semiconductors Equipment
+1536,SCSK Corporation,47.0,Software and Services
+1537,SDS CO LTD,42.0,Chemicals
+1538,SEASONS (HK) LTD.,23.0,"Trading Companies and Distributors, and Commercial Services and Supplies"
+1539,SECAN INVESCAST INDIA PRIVATE LIMITED,50.0,Electrical Equipment and Machinery
+1540,"SECOM Co., Ltd.",45.0,"Trading Companies and Distributors, and Commercial Services and Supplies"
+1541,SEE Holding GmbH,23.0,"Trading Companies and Distributors, and Commercial Services and Supplies"
+1542,SEEDWORKS INTERNATIONAL PRIVATE LIMITED,23.0,Food Production - Agricultural Production
+1543,"SEGRO plc,",42.0,Real Estate
+1544,"SEIKI INDUSTRY Co.,Ltd",42.0,Construction and Engineering
+1545,SEIKI SHOKAI CO.LTD.,25.0,"Trading Companies and Distributors, and Commercial Services and Supplies"
+1546,"SEKISUI CHEMICAL CO., LTD",27.0,Chemicals
+1547,SERVIER,52.0,"Pharmaceuticals, Biotechnology and Life"
+1548,SGS SA,46.2,Professional Services
+1549,SGV International LLC,28.000000000000004,Software and Services
+1550,SHIMADZU CORPORATION,85.0,Healthcare Equipment and Supplies
+1551,SHINNIHON-KINZOKU,42.0,Electrical Equipment and Machinery
+1552,"SHINWA CONSTRUCTION CO., LTD",42.0,Construction and Engineering
+1553,SIDEL Group,30.0,Containers and Packaging
+1554,SIG,60.0,Containers and Packaging
+1555,SILAB,30.0,"Pharmaceuticals, Biotechnology and Life"
+1556,SILVERA,42.0,Retailing
+1557,SIRO DAC,42.0,Telecommunication Services
+1558,"SK Securities, Co., Ltd",73.0,"Banks, Diverse Financials, Insurance"
+1559,SK Telecom,45.7,Telecommunication Services
+1560,SKYCITY Entertainment Group Limited,67.0,"Hotels, Restaurants and Leisure, and Tourism Services"
+1561,SOCAPS,50.0,Professional Services
+1562,"SOGIRI Co., Ltd.",46.0,Building Products
+1563,SOK Corporation,90.0,Retailing
+1564,"SOL-PLUS CO.,LTD",50.0,Automobiles and Components
+1565,SOLARPACK CORPORACIÓN TECNOLÓGICA S.A.U.,38.0,"Electric Utilities and Independent Power Producers and Energy Traders (including fossil, alternative and nuclear energy)"
+1566,SOMFY,50.0,Electrical Equipment and Machinery
+1567,SP Energy Networks,67.2,"Electric Utilities and Independent Power Producers and Energy Traders (including fossil, alternative and nuclear energy)"
+1568,SPADEL SA,80.0,Food and Beverage Processing
+1569,SPIE,67.0,"Trading Companies and Distributors, and Commercial Services and Supplies"
+1570,SSAB,35.0,"Mining - Iron, Aluminum, Other Metals"
+1571,SSE,80.2,"Electric Utilities and Independent Power Producers and Energy Traders (including fossil, alternative and nuclear energy)"
+1572,SSEN Distribution,55.00000000000001,"Electric Utilities and Independent Power Producers and Energy Traders (including fossil, alternative and nuclear energy)"
+1573,"STAG Industrial, Inc.",50.0,Real Estate
+1574,STARK Group,100.0,Retailing
+1575,STHREE PLC,100.0,Professional Services
+1576,STMicroelectronics NV,100.0,Semiconductors and Semiconductors Equipment
+1577,STP Holding GmbH,42.0,Software and Services
+1578,"STUDIO ONION CO., Ltd.",42.0,Food and Staples Retailing
+1579,SUEZ,46.0,Water Utilities
+1580,"SUMITOMO CHEMICAL Co., Ltd.",36.0,Chemicals
+1581,SUND Holding GmbH + Co. KG,30.0,Professional Services
+1582,Sabará Participações,42.0,Chemicals
+1583,Sabey Data Centers,50.0,Real Estate
+1584,Sacyr S.A.,42.0,Construction and Engineering
+1585,Safaricom Limited,43.0,Telecommunication Services
+1586,Sahashi Tokushuko Kabushikigaisha,23.0,"Trading Companies and Distributors, and Commercial Services and Supplies"
+1587,"Sakakibara Industry Co., Ltd.",50.0,Automobiles and Components
+1588,SalMar ASA,42.0,Food Production - Animal Source Food Production
+1589,Salcomp,25.0,Electrical Equipment and Machinery
+1590,"Salesforce.com, Inc.",60.0,Software and Services
+1591,Salomon,50.0,"Textiles, Apparel, Footwear and Luxury Goods"
+1592,Salvatore Ferragamo Group,42.0,"Textiles, Apparel, Footwear and Luxury Goods"
+1593,Samhällsbyggnadsbolaget i Norden AB,42.0,Real Estate
+1594,Samson Corporation Ltd,50.0,Real Estate
+1595,SanMar Corporation,50.0,"Textiles, Apparel, Footwear and Luxury Goods"
+1596,Sanderson Solutions Group PLC,42.0,Professional Services
+1597,"Sanki Kosakusho Co., Ltd",50.0,Automobiles and Components
+1598,"Santen Pharmaceutical Co., Ltd",50.0,"Pharmaceuticals, Biotechnology and Life"
+1599,"Sanyo Paper Co., Ltd.",42.0,"Forest and Paper Products - Forestry, Timber, Pulp and Paper, Rubber"
+1600,Sappi Limited,44.0,"Forest and Paper Products - Forestry, Timber, Pulp and Paper, Rubber"
+1601,Save The Duck S.p.A.,50.0,"Textiles, Apparel, Footwear and Luxury Goods"
+1602,ScandBook Holding AB,42.0,"Forest and Paper Products - Forestry, Timber, Pulp and Paper, Rubber"
+1603,Scapa Inter AB,100.0,"Consumer Durables, Household and Personal Products"
+1604,Schindler Group,50.0,Electrical Equipment and Machinery
+1605,Schneider Electric,100.0,Electrical Equipment and Machinery
+1606,Schreiber Foods,30.0,Food and Beverage Processing
+1607,Schroders,100.0,"Banks, Diverse Financials, Insurance"
+1608,Schwarz Gruppe,78.0,Retailing
+1609,Schüco International KG,89.0,Building Products
+1610,Scientific Group Ltd ,50.0,Professional Services
+1611,Scott Logic Limited,38.0,Software and Services
+1612,Scottish Hydro Electric Transmission Plc,67.0,"Electric Utilities and Independent Power Producers and Energy Traders (including fossil, alternative and nuclear energy)"
+1613,ScottishPower,100.0,"Electric Utilities and Independent Power Producers and Energy Traders (including fossil, alternative and nuclear energy)"
+1614,"Seaflower (Shanghai) Marine Co.,Ltd",38.0,Construction and Engineering
+1615,Seagate Technology,20.0,Technology Hardware and Equipment
+1616,Sealed Air Corp.,46.0,Containers and Packaging
+1617,Seasalt Limited,100.0,"Textiles, Apparel, Footwear and Luxury Goods"
+1618,See Group,42.0,Construction Materials
+1619,Seiko Epson Corporation,44.0,Technology Hardware and Equipment
+1620,Seismic Change Sustainability Limited,42.0,Professional Services
+1621,"Sekisui House, LTD",50.0,Homebuilding
+1622,Selfridges Retail Ltd.,64.0,Retailing
+1623,Senior Plc,80.0,Aerospace and Defense
+1624,ServiceNow Inc.,70.0,Software and Services
+1625,"Seventh Generation, Inc.",100.0,"Consumer Durables, Household and Personal Products"
+1626,Severn Trent,70.0,Water Utilities
+1627,Shaftesbury PLC,50.0,Real Estate
+1628,"Shanghai Shenzhong Electric Integration Co., Ltd.",38.0,Electrical Equipment and Machinery
+1629,"Shanying International Holdings Co., Ltd.",39.0,"Forest and Paper Products - Forestry, Timber, Pulp and Paper, Rubber"
+1630,Sharp Corporation,33.0,Technology Hardware and Equipment
+1631,Shields Environmental Group,42.0,Technology Hardware and Equipment
+1632,Shilpa Alloys Private Limited,50.0,"Mining - Iron, Aluminum, Other Metals"
+1633,Shimizu Corporation,33.0,Construction and Engineering
+1634,Shinhan Financial Group,76.0,"Banks, Diverse Financials, Insurance"
+1635,"Shinku Ceramics Co.,Ltd.",42.0,Containers and Packaging
+1636,"Shinnihon Printing, Inc.",25.0,"Trading Companies and Distributors, and Commercial Services and Supplies"
+1637,"Shinoda Co., Ltd.",42.0,"Trading Companies and Distributors, and Commercial Services and Supplies"
+1638,"Shinseinihonkinzoku Co., Ltd.",42.0,Electrical Equipment and Machinery
+1639,"Shionogi & Co.,Ltd",46.2,"Pharmaceuticals, Biotechnology and Life"
+1640,Shiseido Company Limited,42.5,"Consumer Durables, Household and Personal Products"
+1641,Shoe Premier II (Cambodia) CO. Limited,47.0,"Textiles, Apparel, Footwear and Luxury Goods"
+1642,Shoosmiths LLP,100.0,Professional Services
+1643,Shoprite Holdings (Pty) Ltd,42.0,Retailing
+1644,Shree Cement Ltd.,27.1,Construction Materials
+1645,Sibanye-Stillwater,27.0,"Mining - Other (Rare Minerals, Precious Metals and Gems)"
+1646,Siemens AG,50.0,Electrical Equipment and Machinery
+1647,Siemens Energy,100.0,Electrical Equipment and Machinery
+1648,"Siemens Gamesa Renewable Energy, S.A.",100.0,"Electric Utilities and Independent Power Producers and Energy Traders (including fossil, alternative and nuclear energy)"
+1649,Siemens Healthineers AG,50.0,Healthcare Equipment and Supplies
+1650,Signal Agency Ltd,42.0,Professional Services
+1651,Signify,70.0,Electrical Equipment and Machinery
+1652,Silentnight Group,53.6,"Consumer Durables, Household and Personal Products"
+1653,Simon Property Group,68.0,Real Estate
+1654,"Simões, Lda",50.0,Food and Beverage Processing
+1655,Singapore Exchange Limited,100.0,"Specialized Financial Services, Consumer Finance, Insurance Brokerage Firms"
+1656,Singapore Telecommunications Limited (Singtel),42.0,Telecommunication Services
+1657,Sinituote Oy,50.0,"Consumer Durables, Household and Personal Products"
+1658,Sinyi Realty Inc.,100.0,Real Estate
+1659,Sipsmith,46.0,Food and Beverage Processing
+1660,Skanska AB,70.0,Construction and Engineering
+1661,Skunkfunk,37.0,"Textiles, Apparel, Footwear and Luxury Goods"
+1662,Sky Group,50.0,Media
+1663,SkyCell AG,42.0,"Pharmaceuticals, Biotechnology and Life"
+1664,Slaughter and May,50.0,Professional Services
+1665,Smurfit Kappa Group,37.7,"Forest and Paper Products - Forestry, Timber, Pulp and Paper, Rubber"
+1666,Snap Inc.,35.0,Software and Services
+1667,Société Foncière Lyonnaise,50.0,Real Estate
+1668,Sodexo Limited,100.0,"Hotels, Restaurants and Leisure, and Tourism Services"
+1669,Sodexo Pass Belgium,100.0,Professional Services
+1670,Sodexo S.A.,100.0,"Hotels, Restaurants and Leisure, and Tourism Services"
+1671,Sofidel S.p.A.,40.0,"Consumer Durables, Household and Personal Products"
+1672,SoftBank Corp.,82.8,Telecommunication Services
+1673,Softcat plc,45.0,Software and Services
+1674,Soitec,35.3,Semiconductors and Semiconductors Equipment
+1675,Solactive AG,46.0,"Specialized Financial Services, Consumer Finance, Insurance Brokerage Firms"
+1676,Solo LLC,42.0,Software and Services
+1677,Solverminds Solutions & Technologies Pvt Ltd,28.000000000000004,Software and Services
+1678,"Songan Printing (Shenzhen) Co., Ltd",42.0,"Consumer Durables, Household and Personal Products"
+1679,Sonoco Products Company,25.0,"Forest and Paper Products - Forestry, Timber, Pulp and Paper, Rubber"
+1680,Sony Group Corporation,72.0,"Consumer Durables, Household and Personal Products"
+1681,Sopra Steria Group,90.0,Software and Services
+1682,South Pole,50.0,Professional Services
+1683,Space Group,50.0,Professional Services
+1684,Spark New Zealand,70.0,Telecommunication Services
+1685,Specialfastigheter Sverige AB,50.0,Real Estate
+1686,Specialist Lines Ltd,46.0,Professional Services
+1687,Spectris plc,100.0,Technology Hardware and Equipment
+1688,Speed Global Transportation Limited.,42.0,Air Freight Transportation and Logistics
+1689,Sponda Ltd,46.0,Real Estate
+1690,Stanley Black & Decker,100.0,Electrical Equipment and Machinery
+1691,Stantec Inc.,47.0,Professional Services
+1692,Stanton Williams,50.0,Professional Services
+1693,"Starboard, Airush & SOMWR",42.0,Retailing
+1694,Starbucks Coffee Company,50.0,Food and Beverage Processing
+1695,Statik,50.0,Media
+1696,Steelcase Inc.,80.0,"Consumer Durables, Household and Personal Products"
+1697,Steffco Limited t/a Resource,46.0,"Trading Companies and Distributors, and Commercial Services and Supplies"
+1698,Stephen Webster Ltd,46.0,"Textiles, Apparel, Footwear and Luxury Goods"
+1699,Stokke AS,42.0,"Consumer Durables, Household and Personal Products"
+1700,Stonyfield,30.0,Food and Beverage Processing
+1701,Stora Enso,50.0,"Forest and Paper Products - Forestry, Timber, Pulp and Paper, Rubber"
+1702,Story Contracting Ltd,100.0,Construction and Engineering
+1703,Stryhns AS,100.0,Food and Beverage Processing
+1704,Studio XAG,28.000000000000004,Professional Services
+1705,"Suichang Dexin Casting Steel Co.,Ltd.",30.0,Professional Services
+1706,"Sumitomo Electric Industries, Ltd.",30.0,Automobiles and Components
+1707,"Sumitomo Forestry Co., Ltd",21.0,Homebuilding
+1708,"Sunny Wheel Industrial Co., Ltd.",25.0,"Consumer Durables, Household and Personal Products"
+1709,Sunrock Investments B.V.,50.0,"Electric Utilities and Independent Power Producers and Energy Traders (including fossil, alternative and nuclear energy)"
+1710,Suntory Beverage & Food Limited,50.0,Food and Beverage Processing
+1711,Suntory Holdings Limited,50.0,Food and Beverage Processing
+1712,Sustainable Harvest Coffee Importers,50.0,"Trading Companies and Distributors, and Commercial Services and Supplies"
+1713,"Suzaki Kogyosho Co., Ltd.",42.0,Automobiles and Components
+1714,"Suzuki Special Steel Co., Ltd",50.0,Retailing
+1715,Swaraj Engines Limited,70.0,Automobiles and Components
+1716,Swarovski,47.0,"Textiles, Apparel, Footwear and Luxury Goods"
+1717,Sweaty Betty Limited,52.0,Retailing
+1718,Swedish Match,41.0,Tobacco
+1719,Swire Coca-Cola Limited,70.0,Food and Beverage Processing
+1720,Swire Properties Limited,46.0,Real Estate
+1721,SwissChem AG,50.0,Construction Materials
+1722,Sycomore Asset Management,100.0,"Banks, Diverse Financials, Insurance"
+1723,"Sycomp A Technology Company, Inc.",38.0,Technology Hardware and Equipment
+1724,SydGrönt Ekonomisk Förening,46.0,Food Production - Agricultural Production
+1725,Symrise AG,100.0,"Consumer Durables, Household and Personal Products"
+1726,Syngenta,68.0,Chemicals
+1727,Synlait Milk Limited,45.0,Food and Beverage Processing
+1728,Sysco Corporation,67.0,Food and Staples Retailing
+1729,System Standex A/S,50.0,"Trading Companies and Distributors, and Commercial Services and Supplies"
+1730,Szerelmey Ltd,42.0,Construction and Engineering
+1731,Sörby Handelsträdgård Aktiebolag,50.0,Food Production - Agricultural Production
+1732,"T-Mobile USA, Inc.",95.0,Telecommunication Services
+1733,"TAIHO PHARMACEUTICAL CO., LTD",30.0,"Pharmaceuticals, Biotechnology and Life"
+1734,"TAKAHASHI METAL CO.,LTD.",42.0,"Trading Companies and Distributors, and Commercial Services and Supplies"
+1735,TALAWAKELLE TEA ESTATES PLC,50.4,Food Production - Agricultural Production
+1736,TATA CHEMICALS LIMITED,28.000000000000004,Chemicals
+1737,"TBM Co., Ltd.",42.0,"Consumer Durables, Household and Personal Products"
+1738,"TCI Co., Ltd.",51.0,"Pharmaceuticals, Biotechnology and Life"
+1739,TCT-Speditions GmbH,30.0,Ground Transportation - Trucking Transportation
+1740,TDC NET A/S,60.0,Telecommunication Services
+1741,TEAMWORK Agentur für angewandtes Marketing,42.0,Software and Services
+1742,TELEFÓNICA,80.0,Telecommunication Services
+1743,TELUS Corporation,75.0,Telecommunication Services
+1744,"TERAO HOLDINGS Co.,Ltd.",50.0,Construction and Engineering
+1745,TERENGGANU SILICA CONSORTIUM SDN BHD,25.0,"Mining - Iron, Aluminum, Other Metals"
+1746,TETRA PAK,46.0,Containers and Packaging
+1747,TIER Mobility SE,70.0,Ground Transportation - Trucking Transportation
+1748,TIM Group,100.0,Telecommunication Services
+1749,TIS Inc.,27.500000000000004,Software and Services
+1750,TITAN Cement Group,58.099999999999994,Construction Materials
+1751,TK Elevator GmbH,100.0,Electrical Equipment and Machinery
+1752,TLT LLP,80.0,Specialized Consumer Services
+1753,TMB Logistik GmbH,30.0,Ground Transportation - Highways and Railtracks
+1754,TMS Consultancy t/a Antaris Consulting,50.0,Professional Services
+1755,TOA Corporation,25.0,Construction and Engineering
+1756,TODA Corporation,42.0,Construction and Engineering
+1757,"TOKAI SHOHAN CO.,LTD",42.0,"Trading Companies and Distributors, and Commercial Services and Supplies"
+1758,"TOPPAN PRINTING CO., LTD.",32.5,"Trading Companies and Distributors, and Commercial Services and Supplies"
+1759,"TOTAL CREATE CO.,LTD.",42.0,Construction and Engineering
+1760,TOTO LTD.,30.0,Building Products
+1761,"TOYOKOKA Co., Ltd.",46.0,Electrical Equipment and Machinery
+1762,TP Aerospace,28.000000000000004,Aerospace and Defense
+1763,TPV Technology Limited,42.0,Technology Hardware and Equipment
+1764,TRAC International Ltd,46.0,"Trading Companies and Distributors, and Commercial Services and Supplies"
+1765,TRUMPF GmbH & Co. KG,100.0,Technology Hardware and Equipment
+1766,"TSK CO.,LTD",42.0,Automobiles and Components
+1767,"TSUYAKIN, Inc.",50.0,"Textiles, Apparel, Footwear and Luxury Goods"
+1768,Tai Wah Garment Industry Sdn. Bhd.,21.0,"Textiles, Apparel, Footwear and Luxury Goods"
+1769,Taisei Corporation,26.0,Construction and Engineering
+1770,Taishin Financial Holdings,59.0,"Banks, Diverse Financials, Insurance"
+1771,Taiwan Cement Corporation,32.0,Construction Materials
+1772,"Taiwan Mobile Co., Ltd",30.0,Telecommunication Services
+1773,"Taiyo Co., Ltd.",42.0,Solid Waste Management Utilities
+1774,Takachiho Shirasu Corp.,42.0,Building Products
+1775,Takasago International Corporation,27.500000000000004,"Consumer Durables, Household and Personal Products"
+1776,Takasago Thermal Engineering,28.000000000000004,Construction and Engineering
+1777,Takeda Pharmaceutical Company,67.0,"Pharmaceuticals, Biotechnology and Life"
+1778,Tammer Brands,38.0,Retailing
+1779,"Tanihata Co., Ltd.,",46.0,"Forest and Paper Products - Forestry, Timber, Pulp and Paper, Rubber"
+1780,Target Corporation,80.0,Retailing
+1781,Tate & Lyle PLC,30.0,Food and Beverage Processing
+1782,Taylor Wimpey,36.0,Homebuilding
+1783,Taylors Wines,50.0,Food and Beverage Processing
+1784,Taziker Industrial Ltd,46.0,Construction and Engineering
+1785,Tchibo GmbH,51.0,Retailing
+1786,Tech Mahindra,22.0,Software and Services
+1787,Tecnova Preparação de Materiais,42.0,Solid Waste Management Utilities
+1788,Ted Baker,90.0,"Textiles, Apparel, Footwear and Luxury Goods"
+1789,Tediber,30.0,Retailing
+1790,Teijin limited,30.0,Chemicals
+1791,Tele2 AB,100.0,Telecommunication Services
+1792,Telenor Group,68.0,Telecommunication Services
+1793,Teleperformance,49.0,Professional Services
+1794,Telia Company,72.0,Telecommunication Services
+1795,Telstra,50.0,Telecommunication Services
+1796,Tendam Retail S.A.,100.0,Retailing
+1797,Tennant Company,50.0,Electrical Equipment and Machinery
+1798,TenneT Holding B.V.,95.0,"Electric Utilities and Independent Power Producers and Energy Traders (including fossil, alternative and nuclear energy)"
+1799,Terna S.p.A.,28.000000000000004,"Electric Utilities and Independent Power Producers and Energy Traders (including fossil, alternative and nuclear energy)"
+1800,Terra Alpha Investments LLC,95.0,"Banks, Diverse Financials, Insurance"
+1801,Terumo Corporatio,60.0,Healthcare Equipment and Supplies
+1802,Tesco,60.0,Food and Staples Retailing
+1803,Thalys,50.0,Ground Transportation - Railroads Transportation
+1804,"The ANSCO Co., Ltd.",38.0,Electrical Equipment and Machinery
+1805,The Berkeley Group Holdings plc,50.0,Real Estate
+1806,The British Land Company PLC,55.00000000000001,Real Estate
+1807,The Carbon Trust,50.0,Professional Services
+1808,The Carey Group Ltd,84.0,Construction and Engineering
+1809,"The Children's Place, Inc.",30.0,"Textiles, Apparel, Footwear and Luxury Goods"
+1810,The Clorox Company,50.0,"Consumer Durables, Household and Personal Products"
+1811,The Co-operative Group Ltd.,50.0,Food and Staples Retailing
+1812,The Coca-Cola Company,25.0,Food and Beverage Processing
+1813,The Economist Group,100.0,Media
+1814,The Encore Group (Envelopes & Packaging) Limited,46.0,"Trading Companies and Distributors, and Commercial Services and Supplies"
+1815,The Energy Saving Trust Limited,42.0,Professional Services
+1816,The Estée Lauder Companies,60.0,"Consumer Durables, Household and Personal Products"
+1817,The Financial Times Limited,46.2,Media
+1818,"The HAVI Group, LP",40.0,Air Freight Transportation and Logistics
+1819,The Hershey Company,50.0,Food and Beverage Processing
+1820,The Howard de Walden Estate,30.0,Real Estate
+1821,The J.M. Smucker Company,28.000000000000004,Food and Beverage Processing
+1822,The Lego Group,37.0,"Consumer Durables, Household and Personal Products"
+1823,The Lift Consultancy,42.0,Construction and Engineering
+1824,The Macerich Company,46.2,Real Estate
+1825,"The Martin-Brower Company, L.C.C.",40.0,Air Freight Transportation and Logistics
+1826,"The Navigator Company, S.A.",63.0,"Forest and Paper Products - Forestry, Timber, Pulp and Paper, Rubber"
+1827,The Port Authority of New York and New Jersey,38.0,Air Transportation - Airport Services
+1828,The Southern Co-operative,50.0,Food and Staples Retailing
+1829,The Travel Chapter Limited,42.0,"Hotels, Restaurants and Leisure, and Tourism Services"
+1830,The Travel Corporation,46.2,"Hotels, Restaurants and Leisure, and Tourism Services"
+1831,The VELUX Group,100.0,Building Products
+1832,The Wilderness Group,46.0,"Hotels, Restaurants and Leisure, and Tourism Services"
+1833,Thermoplan AG,46.0,Technology Hardware and Equipment
+1834,Third Rock Finland Oy,42.0,Professional Services
+1835,Thomson Reuters,65.0,Software and Services
+1836,Thule Group,100.0,"Consumer Durables, Household and Personal Products"
+1837,"Tianjin Heavy Steel Mechanical Equipment Co.,Ltd.",42.0,Construction and Engineering
+1838,TietoEVRY,100.0,Software and Services
+1839,Timberlink Australia | New Zealand,21.0,"Forest and Paper Products - Forestry, Timber, Pulp and Paper, Rubber"
+1840,"Tintex Textiles, S.A",50.0,"Textiles, Apparel, Footwear and Luxury Goods"
+1841,Tobishima Corporation,25.0,Construction and Engineering
+1842,"Tochishu Co., Ltd.",25.0,Building Products
+1843,Toitū Envirocare,74.0,Professional Services
+1844,"Tokai Maintenace Control Co.,ltd",42.0,Construction and Engineering
+1845,Tokmanni Oy,80.0,Retailing
+1846,"Tokyo Tatemono Co., Ltd.",40.0,Real Estate
+1847,"Tokyu Construction Co., Ltd.",30.0,Construction and Engineering
+1848,Tokyu Fudosan Holdings Corporation,46.0,Real Estate
+1849,TopWin srl,50.0,Professional Services
+1850,Toshiba Corporation,50.0,Electrical Equipment and Machinery
+1851,Tourlane,46.0,"Hotels, Restaurants and Leisure, and Tourism Services"
+1852,"Toyo Sangyo Co.,Ltd.",42.0,"Textiles, Apparel, Footwear and Luxury Goods"
+1853,Toyota Motor Corporation,68.0,Automobiles and Components
+1854,Traditional Medicinals,42.0,Food and Beverage Processing
+1855,Trane Technologies Plc.,55.00000000000001,Electrical Equipment and Machinery
+1856,TransWest NV,42.0,Ground Transportation - Trucking Transportation
+1857,Transflo,42.0,Software and Services
+1858,Transtema Group AB,100.0,Telecommunication Services
+1859,Transurban Group,55.00000000000001,Ground Transportation - Highways and Railtracks
+1860,Travis Perkins,80.0,"Trading Companies and Distributors, and Commercial Services and Supplies"
+1861,Tricon Energy,50.0,"Trading Companies and Distributors, and Commercial Services and Supplies"
+1862,Tricorona Climate Partner AB,50.0,Professional Services
+1863,Trimble Inc,100.0,Construction and Engineering
+1864,Trossa AB,50.0,Professional Services
+1865,Troup Bywaters + Anders,50.0,Professional Services
+1866,Trust International,42.0,Technology Hardware and Equipment
+1867,Trustonic Limited,38.0,Software and Services
+1868,"Tsujiseiki.Co., Ltd.",46.0,Automobiles and Components
+1869,"Tubacex, S.A.",59.0,Electrical Equipment and Machinery
+1870,Turner & Townsend Ltd,50.0,Professional Services
+1871,"Tyson Foods, Inc.",30.0,Food and Beverage Processing
+1872,TÖPFER Kulmbach GmbH,50.0,Containers and Packaging
+1873,U&We AB,46.0,Professional Services
+1874,UCB,60.0,"Pharmaceuticals, Biotechnology and Life"
+1875,UK Power Networks Holdings Limited,100.0,"Electric Utilities and Independent Power Producers and Energy Traders (including fossil, alternative and nuclear energy)"
+1876,UNION PROJETOS INDUSTRIAIS LTDA,42.0,Construction and Engineering
+1877,UPM-Kymmene Corporation,65.0,"Forest and Paper Products - Forestry, Timber, Pulp and Paper, Rubber"
+1878,USHIO INC.,21.0,Electrical Equipment and Machinery
+1879,"UTSUMI CO.,LTD.",46.0,Professional Services
+1880,Ubisoft Entertainment,67.0,Software and Services
+1881,"Ueda Shokai Co., Ltd.",25.0,Construction and Engineering
+1882,Uhuru Corporation,50.0,Software and Services
+1883,UltraTech Cement Limited,69.0,Construction Materials
+1884,Umicore,50.0,Chemicals
+1885,Uncommon,46.0,Real Estate
+1886,"Under Armour, Inc.",100.0,"Textiles, Apparel, Footwear and Luxury Goods"
+1887,Uni-technology A/S,50.0,Electrical Equipment and Machinery
+1888,Unibail-Rodamco-Westfield SE,80.0,Real Estate
+1889,Unicharm Corporation,34.0,"Consumer Durables, Household and Personal Products"
+1890,Unilever plc,100.0,"Consumer Durables, Household and Personal Products"
+1891,Union Pacific Railroad,26.0,Ground Transportation - Railroads Transportation
+1892,Unite Students,100.0,Real Estate
+1893,United Dairymen of Arizona,50.0,Food and Beverage Processing
+1894,United Microelectronics Corporation,25.0,Semiconductors and Semiconductors Equipment
+1895,"United Natural Foods, Inc.",50.0,Food and Staples Retailing
+1896,United Utilities Group PLC,100.0,Water Utilities
+1897,"Universal Computer System Co.,Ltd.",42.0,Software and Services
+1898,Universal Corporation,30.0,Tobacco
+1899,Uponor Corporation,100.0,Building Products
+1900,Upswing Solutions Inc.,38.0,Professional Services
+1901,Useful Simple Limited,46.0,Professional Services
+1902,VAIO Corporation,50.0,Technology Hardware and Equipment
+1903,VALL COMPANYS GROUP,100.0,Food Production - Animal Source Food Production
+1904,VALLOUREC,45.0,"Mining - Iron, Aluminum, Other Metals"
+1905,VAUDE Sport,100.0,"Textiles, Apparel, Footwear and Luxury Goods"
+1906,VCCP Group LLP,46.2,Media
+1907,VF Corporation,55.00000000000001,"Textiles, Apparel, Footwear and Luxury Goods"
+1908,VINCI SA,40.0,Construction and Engineering
+1909,VIRUTEX ILKO S.A,25.0,"Consumer Durables, Household and Personal Products"
+1910,VIÑA CONCHA Y TORO,55.00000000000001,Food and Beverage Processing
+1911,VLS ENDUSTRIYEL SATIS LTD STI,30.0,Electrical Equipment and Machinery
+1912,"VMware, Inc",100.0,Software and Services
+1913,VP Capital,100.0,"Banks, Diverse Financials, Insurance"
+1914,Vacse AB (publ),46.0,Real Estate
+1915,Valeo,75.0,Automobiles and Components
+1916,Valio Ltd.,50.0,Food and Beverage Processing
+1917,Valmet,80.0,Electrical Equipment and Machinery
+1918,Value Frontier,50.0,Professional Services
+1919,Vasakronan AB,100.0,Real Estate
+1920,Vattenfall AB,77.10000000000001,"Electric Utilities and Independent Power Producers and Energy Traders (including fossil, alternative and nuclear energy)"
+1921,Vector Technologies (Australia) Pty Ltd,42.0,Containers and Packaging
+1922,Veidekke ASA,50.0,Construction and Engineering
+1923,"Ventas, Inc.",30.0,Real Estate
+1924,Veolia Environnement S.A.,40.0,Water Utilities
+1925,Verallia,46.0,Containers and Packaging
+1926,Veramaris VOF,38.0,Food and Beverage Processing
+1927,Verdani Partners,50.0,Professional Services
+1928,Verescence,80.0,Containers and Packaging
+1929,Veris Residential,42.0,Real Estate
+1930,"Veritas Technologies, LLC",50.0,Software and Services
+1931,Verizon,53.0,Telecommunication Services
+1932,Verstegen Spices & Sauces,30.0,Food and Beverage Processing
+1933,Vestas Wind Systems,100.0,Electrical Equipment and Machinery
+1934,Vestre AS,46.0,"Consumer Durables, Household and Personal Products"
+1935,Vextrix,38.0,Construction and Engineering
+1936,Viatris Inc.,42.0,"Pharmaceuticals, Biotechnology and Life"
+1937,Vidrala,47.0,Containers and Packaging
+1938,Viegand Maagøe A/S,46.0,Professional Services
+1939,Viessmann Group,55.00000000000001,Building Products
+1940,Vikrant Forge Pvt Ltd,42.0,Construction and Engineering
+1941,Visa Inc.,50.0,Software and Services
+1942,Vita Group Unlimited,100.0,Chemicals
+1943,Vitamin Well AB,46.0,Food and Staples Retailing
+1944,Vizion Network Limited,46.0,Software and Services
+1945,Viña Montes,46.0,Food and Beverage Processing
+1946,Viña Requingua,46.0,Food and Beverage Processing
+1947,Viñedos Emiliana S.A.,46.0,Food and Beverage Processing
+1948,Vodafone Group Plc,100.0,Telecommunication Services
+1949,VodafoneZiggo,100.0,Telecommunication Services
+1950,Voi Technology AB,50.0,Ground Transportation - Trucking Transportation
+1951,Volkswagen AG,50.4,Automobiles and Components
+1952,Volvo Car Group,60.0,Automobiles and Components
+1953,Vornado Realty Trust,64.0,Real Estate
+1954,Votorantim Cimentos,52.400000000000006,Construction Materials
+1955,WATERBOM BALI,46.0,"Hotels, Restaurants and Leisure, and Tourism Services"
+1956,"WENZHOU KAICHENG MACHINERY CO.,LTD",42.0,"Mining - Iron, Aluminum, Other Metals"
+1957,WEPA Group,52.5,"Forest and Paper Products - Forestry, Timber, Pulp and Paper, Rubber"
+1958,WH Smith PLC,80.0,Retailing
+1959,"WORD Co.,Ltd.",42.0,Automobiles and Components
+1960,WPP Plc,84.0,Media
+1961,WSP Global Inc.,60.0,Professional Services
+1962,Wacker Chemie AG,50.0,Chemicals
+1963,Wallenstam AB,50.0,Real Estate
+1964,Walmart Inc.,65.0,Food and Staples Retailing
+1965,Warehouses De Pauw,42.0,Real Estate
+1966,Warmworks Scotland LLP,46.0,Professional Services
+1967,"WasteBox, Inc.",50.0,Professional Services
+1968,Wates Group Limited,89.0,Construction and Engineering
+1969,Watkins Payne,50.0,Professional Services
+1970,Webuild S.p.A.,47.0,Construction and Engineering
+1971,Weckerle Machines,46.0,Construction and Engineering
+1972,"Weihai Luda Art & Craft Co., Ltd.",28.000000000000004,"Trading Companies and Distributors, and Commercial Services and Supplies"
+1973,Welltower Inc.,28.000000000000004,Real Estate
+1974,Wereldhave,30.0,Real Estate
+1975,WestRock Company,27.500000000000004,"Forest and Paper Products - Forestry, Timber, Pulp and Paper, Rubber"
+1976,Western Digital,50.0,Technology Hardware and Equipment
+1977,Western Power Distribution plc,63.0,"Electric Utilities and Independent Power Producers and Energy Traders (including fossil, alternative and nuclear energy)"
+1978,Weyerhaeuser Company,42.0,Real Estate
+1979,Wheaton Precious Metals Corp.,50.0,"Mining - Other (Rare Minerals, Precious Metals and Gems)"
+1980,Whirlpool Corporation,50.0,"Consumer Durables, Household and Personal Products"
+1981,White House,50.0,"Textiles, Apparel, Footwear and Luxury Goods"
+1982,Wickes Group PLC,45.0,Retailing
+1983,Wieland Group,46.2,"Mining - Iron, Aluminum, Other Metals"
+1984,Wihlborgs Fastigheter,50.0,Real Estate
+1985,Willhem AB,50.0,Real Estate
+1986,William Fry LLP,50.0,Professional Services
+1987,"Williams-Sonoma, Inc.",50.0,Retailing
+1988,Willmott Dixon Holdings Limited,100.0,Construction and Engineering
+1989,WindowMaster International A/S,46.0,Building Products
+1990,Winkler Partners,42.0,Specialized Consumer Services
+1991,Wipf AG,42.0,Containers and Packaging
+1992,Wipro,59.0,Software and Services
+1993,Withincompliance LLC dba Virtuosity Consulting,50.0,Professional Services
+1994,Wood Life Company,50.0,Professional Services
+1995,WoolWorks New Zealand Ltd,46.0,"Textiles, Apparel, Footwear and Luxury Goods"
+1996,Woolworths Group Limited,63.0,Food and Staples Retailing
+1997,Woolworths Holdings Ltd,50.0,Retailing
+1998,Workday,100.0,Software and Services
+1999,Workspace Group PLC,100.0,Real Estate
+2000,Worldline,25.0,Software and Services
+2001,"Wuxi Jinhui Precision Machining co., ltd.",42.0,Construction and Engineering
+2002,XELS Japan Co Ltd,38.0,Professional Services
+2003,Xerox Corporation,60.0,Technology Hardware and Equipment
+2004,"Xiongxian Liya Packaging Material Co., Ltd.",42.0,Containers and Packaging
+2005,Xtrac Limited,42.0,Automobiles and Components
+2006,"YAMADAMEKKI KOUGYOUSYO Co.,Ltd.",42.0,Automobiles and Components
+2007,"YAMAMOTO MACHINERY CO.,Ltd.",42.0,Electrical Equipment and Machinery
+2008,YKK AP Inc.,50.0,Building Products
+2009,YKK Corporation,50.0,"Textiles, Apparel, Footwear and Luxury Goods"
+2010,"YUTACOLOGY Co.,Ltd.",50.0,Professional Services
+2011,Yamaha Corporation,55.00000000000001,Electrical Equipment and Machinery
+2012,"Yamaichi Metal Co.,Ltd.",28.000000000000004,"Mining - Iron, Aluminum, Other Metals"
+2013,"Yamazen Co.,Ltd.",42.0,Solid Waste Management Utilities
+2014,"Yancheng Yide Plastic Packaging Co., Ltd.",42.0,Containers and Packaging
+2015,"Yashima Construction Co,ltd",50.0,Construction and Engineering
+2016,"Yever Co., Ltd",42.0,Professional Services
+2017,Yingyang (China) Aroma Chemical Group,28.999999999999996,Chemicals
+2018,Ylva,50.0,Real Estate
+2019,Yuanta Financial Holding Co Ltd,59.0,"Banks, Diverse Financials, Insurance"
+2020,"Yum China Holdings, Inc.",66.3,"Hotels, Restaurants and Leisure, and Tourism Services"
+2021,"Yum! Brands, Inc.",46.0,"Hotels, Restaurants and Leisure, and Tourism Services"
+2022,"Yutaka Finepack Co.,Ltd.",38.0,Containers and Packaging
+2023,ZEN Energy,38.0,"Electric Utilities and Independent Power Producers and Energy Traders (including fossil, alternative and nuclear energy)"
+2024,ZF Friedrichshafen AG,100.0,Automobiles and Components
+2025,"ZHEJIANG JWK FILTRATION TECHNOLOGY CO., LTD.",42.0,Electrical Equipment and Machinery
+2026,"ZHEJIANG MAYANG INDUSTRIES CO.,LTD",50.0,Building Products
+2027,ZORDAN SRL SB,46.0,Construction Materials
+2028,Zalando SE,100.0,"Textiles, Apparel, Footwear and Luxury Goods"
+2029,Zebra A/S (Flying Tiger Copenhagen),84.0,Retailing
+2030,Zebra MTD Limited,46.0,Retailing
+2031,Zebra Technologies Corporation,50.0,Technology Hardware and Equipment
+2032,Zen Internet Ltd,50.0,Telecommunication Services
+2033,Zenobe Energy,50.0,"Electric Utilities and Independent Power Producers and Energy Traders (including fossil, alternative and nuclear energy)"
+2034,Zhejiang Arcana Power Sports Tech. Co.. Ltd.,55.00000000000001,Electrical Equipment and Machinery
+2035,"Zhejiang Guangtao Healthy Kitchen Utensils Co., LTD",42.0,Building Products
+2036,"Zhejiang Tongli Heavy Machinery Manufacturing Co.,Ltd",42.0,Construction and Engineering
+2037,"Zhuhai Pilot Technology Co., Ltd.",38.0,Technology Hardware and Equipment
+2038,Zimmer Biomet,55.00000000000001,Healthcare Equipment and Supplies
+2039,Zimmermann,50.0,"Textiles, Apparel, Footwear and Luxury Goods"
+2040,Zuellig Pharma,42.0,"Healthcare Providers and Services, and Healthcare Technology"
+2041,alstria office REIT-AG,100.0,Real Estate
+2042,"aoito soken Co., Ltd.",38.0,Professional Services
+2043,apetito (UK) Limited,63.0,Food and Beverage Processing
+2044,bioMerieux,67.0,Healthcare Equipment and Supplies
+2045,bpostgroup,20.0,Air Freight Transportation and Logistics
+2046,d-fine,55.00000000000001,Professional Services
+2047,dbramante1928,30.0,"Textiles, Apparel, Footwear and Luxury Goods"
+2048,denkstatt GmbH,50.0,Professional Services
+2049,diemietwaesche.de GmbH & Co. KG,38.0,"Trading Companies and Distributors, and Commercial Services and Supplies"
+2050,dormakaba,42.0,Technology Hardware and Equipment
+2051,e-hoch-3 eco impact experts GmbH & Co. KG,46.0,Professional Services
+2052,eBay Inc.,90.0,Retailing
+2053,easyJet plc,35.0,Air Transportation - Airlines
+2054,emagine,42.0,Professional Services
+2055,euNetworks Group Ltd,46.0,Telecommunication Services
+2056,fritz-kulturgüter gmbh,46.0,Food and Beverage Processing
+2057,h&z Unternehmensberatung,46.0,Professional Services
+2058,iGO4 Limited,46.0,"Specialized Financial Services, Consumer Finance, Insurance Brokerage Firms"
+2059,"iMicron CO., LTD.",46.0,Healthcare Equipment and Supplies
+2060,iPoint-systems GmbH,28.000000000000004,Software and Services
+2061,innocent drinks,100.0,Food and Beverage Processing
+2062,io oil & gas UK LLP,50.0,Professional Services
+2063,lululemon,60.0,"Textiles, Apparel, Footwear and Luxury Goods"
+2064,onewoom GmbH,42.0,"Consumer Durables, Household and Personal Products"
+2065,shandong yinying cooking machinery Co. Ltd,38.0,Construction and Engineering
+2066,sustainable AG,100.0,Professional Services
+2067,"takeuchimokuzaikougyou Co.,Ltd",30.0,Homebuilding
+2068,thinkstep-anz,51.0,Professional Services
+2069,thyssenkrupp AG,30.0,Construction and Engineering
+2070,"wing Co., LTD",42.0,Building Products
+2071,Ölgerðin Egill Skallagrímsson,42.0,Food and Beverage Processing
+2072,Österreichische Post AG,14.000000000000002,Air Freight Transportation and Logistics
+2073,Ørsted,98.0,"Electric Utilities and Independent Power Producers and Energy Traders (including fossil, alternative and nuclear energy)"
+2074,Żabka Polska Sp. z o. o. (Zabka Polska Sp. z o. o.),75.0,Food and Staples Retailing
