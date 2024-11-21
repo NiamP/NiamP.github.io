@@ -1,744 +1,224 @@
-,Country Name,2022 [YR2022],Series Name
-0,Afghanistan,41128771,"Population, total"
-1,Albania,2777689,"Population, total"
-2,Algeria,44903225,"Population, total"
-3,American Samoa,44273,"Population, total"
-4,Andorra,79824,"Population, total"
-5,Angola,35588987,"Population, total"
-6,Antigua and Barbuda,93763,"Population, total"
-7,Argentina,46234830,"Population, total"
-8,Armenia,2780469,"Population, total"
-9,Aruba,106445,"Population, total"
-10,Australia,26014399,"Population, total"
-11,Austria,9041851,"Population, total"
-12,Azerbaijan,10141756,"Population, total"
-13,"Bahamas, The",409984,"Population, total"
-14,Bahrain,1472233,"Population, total"
-15,Bangladesh,171186372,"Population, total"
-16,Barbados,281635,"Population, total"
-17,Belarus,9228071,"Population, total"
-18,Belgium,11685814,"Population, total"
-19,Belize,405272,"Population, total"
-20,Benin,13352864,"Population, total"
-21,Bermuda,63595,"Population, total"
-22,Bhutan,782455,"Population, total"
-23,Bolivia,12224110,"Population, total"
-24,Bosnia and Herzegovina,3233526,"Population, total"
-25,Botswana,2630296,"Population, total"
-26,Brazil,215313498,"Population, total"
-27,British Virgin Islands,31305,"Population, total"
-28,Brunei Darussalam,449002,"Population, total"
-29,Bulgaria,6465097,"Population, total"
-30,Burkina Faso,22673762,"Population, total"
-31,Burundi,12889576,"Population, total"
-32,Cabo Verde,593149,"Population, total"
-33,Cambodia,16767842,"Population, total"
-34,Cameroon,27914536,"Population, total"
-35,Canada,38939056,"Population, total"
-36,Cayman Islands,68706,"Population, total"
-37,Central African Republic,5579144,"Population, total"
-38,Chad,17723315,"Population, total"
-39,Channel Islands,174079,"Population, total"
-40,Chile,19603733,"Population, total"
-41,China,1412175000,"Population, total"
-42,Colombia,51874024,"Population, total"
-43,Comoros,836774,"Population, total"
-44,"Congo, Dem. Rep.",99010212,"Population, total"
-45,"Congo, Rep.",5970424,"Population, total"
-46,Costa Rica,5180829,"Population, total"
-47,Cote d'Ivoire,28160542,"Population, total"
-48,Croatia,3855641,"Population, total"
-49,Cuba,11212191,"Population, total"
-50,Curacao,149996,"Population, total"
-51,Cyprus,1251488,"Population, total"
-52,Czechia,10672118,"Population, total"
-53,Denmark,5903037,"Population, total"
-54,Djibouti,1120849,"Population, total"
-55,Dominica,72737,"Population, total"
-56,Dominican Republic,11228821,"Population, total"
-57,Ecuador,18001000,"Population, total"
-58,"Egypt, Arab Rep.",110990103,"Population, total"
-59,El Salvador,6336392,"Population, total"
-60,Equatorial Guinea,1674908,"Population, total"
-61,Eritrea,3684032,"Population, total"
-62,Estonia,1348840,"Population, total"
-63,Eswatini,1201670,"Population, total"
-64,Ethiopia,123379924,"Population, total"
-65,Faroe Islands,53090,"Population, total"
-66,Fiji,929766,"Population, total"
-67,Finland,5556106,"Population, total"
-68,France,67971311,"Population, total"
-69,French Polynesia,306279,"Population, total"
-70,Gabon,2388992,"Population, total"
-71,"Gambia, The",2705992,"Population, total"
-72,Georgia,3712502,"Population, total"
-73,Germany,83797985,"Population, total"
-74,Ghana,33475870,"Population, total"
-75,Gibraltar,32649,"Population, total"
-76,Greece,10426919,"Population, total"
-77,Greenland,56661,"Population, total"
-78,Grenada,125438,"Population, total"
-79,Guam,171774,"Population, total"
-80,Guatemala,17357886,"Population, total"
-81,Guinea,13859341,"Population, total"
-82,Guinea-Bissau,2105566,"Population, total"
-83,Guyana,808726,"Population, total"
-84,Haiti,11584996,"Population, total"
-85,Honduras,10432860,"Population, total"
-86,"Hong Kong SAR, China",7346100,"Population, total"
-87,Hungary,9643048,"Population, total"
-88,Iceland,382003,"Population, total"
-89,India,1417173173,"Population, total"
-90,Indonesia,275501339,"Population, total"
-91,"Iran, Islamic Rep.",88550570,"Population, total"
-92,Iraq,44496122,"Population, total"
-93,Ireland,5127170,"Population, total"
-94,Isle of Man,84519,"Population, total"
-95,Israel,9557500,"Population, total"
-96,Italy,58940425,"Population, total"
-97,Jamaica,2827377,"Population, total"
-98,Japan,125124989,"Population, total"
-99,Jordan,11285869,"Population, total"
-100,Kazakhstan,19634983,"Population, total"
-101,Kenya,54027487,"Population, total"
-102,Kiribati,131232,"Population, total"
-103,"Korea, Dem. People's Rep.",26069416,"Population, total"
-104,"Korea, Rep.",51672569,"Population, total"
-105,Kosovo,1768086,"Population, total"
-106,Kuwait,4268873,"Population, total"
-107,Kyrgyz Republic,6974900,"Population, total"
-108,Lao PDR,7529475,"Population, total"
-109,Latvia,1879383,"Population, total"
-110,Lebanon,5489739,"Population, total"
-111,Lesotho,2305825,"Population, total"
-112,Liberia,5302681,"Population, total"
-113,Libya,6812341,"Population, total"
-114,Liechtenstein,39327,"Population, total"
-115,Lithuania,2831639,"Population, total"
-116,Luxembourg,653103,"Population, total"
-117,"Macao SAR, China",695168,"Population, total"
-118,Madagascar,29611714,"Population, total"
-119,Malawi,20405317,"Population, total"
-120,Malaysia,33938221,"Population, total"
-121,Maldives,523787,"Population, total"
-122,Mali,22593590,"Population, total"
-123,Malta,531113,"Population, total"
-124,Marshall Islands,41569,"Population, total"
-125,Mauritania,4736139,"Population, total"
-126,Mauritius,1262523,"Population, total"
-127,Mexico,127504125,"Population, total"
-128,"Micronesia, Fed. Sts.",114164,"Population, total"
-129,Moldova,2538894,"Population, total"
-130,Monaco,36469,"Population, total"
-131,Mongolia,3398366,"Population, total"
-132,Montenegro,617213,"Population, total"
-133,Morocco,37457971,"Population, total"
-134,Mozambique,32969518,"Population, total"
-135,Myanmar,54179306,"Population, total"
-136,Namibia,2567012,"Population, total"
-137,Nauru,12668,"Population, total"
-138,Nepal,30547580,"Population, total"
-139,Netherlands,17700982,"Population, total"
-140,New Caledonia,269215,"Population, total"
-141,New Zealand,5117200,"Population, total"
-142,Nicaragua,6948392,"Population, total"
-143,Niger,26207977,"Population, total"
-144,Nigeria,218541212,"Population, total"
-145,North Macedonia,1831712,"Population, total"
-146,Northern Mariana Islands,49551,"Population, total"
-147,Norway,5457127,"Population, total"
-148,Oman,4576298,"Population, total"
-149,Pakistan,235824862,"Population, total"
-150,Palau,18055,"Population, total"
-151,Panama,4408581,"Population, total"
-152,Papua New Guinea,10142619,"Population, total"
-153,Paraguay,6780744,"Population, total"
-154,Peru,34049588,"Population, total"
-155,Philippines,115559009,"Population, total"
-156,Poland,36821749,"Population, total"
-157,Portugal,10409704,"Population, total"
-158,Puerto Rico,3220113,"Population, total"
-159,Qatar,2695122,"Population, total"
-160,Romania,19047009,"Population, total"
-161,Russian Federation,144236933,"Population, total"
-162,Rwanda,13776698,"Population, total"
-163,Samoa,222382,"Population, total"
-164,San Marino,33660,"Population, total"
-165,Sao Tome and Principe,227380,"Population, total"
-166,Saudi Arabia,36408820,"Population, total"
-167,Senegal,17316449,"Population, total"
-168,Serbia,6664449,"Population, total"
-169,Seychelles,119878,"Population, total"
-170,Sierra Leone,8605718,"Population, total"
-171,Singapore,5637022,"Population, total"
-172,Sint Maarten (Dutch part),40888,"Population, total"
-173,Slovak Republic,5431752,"Population, total"
-174,Slovenia,2111986,"Population, total"
-175,Solomon Islands,724273,"Population, total"
-176,Somalia,17597511,"Population, total"
-177,South Africa,59893885,"Population, total"
-178,South Sudan,10913164,"Population, total"
-179,Spain,47778340,"Population, total"
-180,Sri Lanka,22181000,"Population, total"
-181,St. Kitts and Nevis,47657,"Population, total"
-182,St. Lucia,179857,"Population, total"
-183,St. Martin (French part),31791,"Population, total"
-184,St. Vincent and the Grenadines,103948,"Population, total"
-185,Sudan,46874204,"Population, total"
-186,Suriname,618040,"Population, total"
-187,Sweden,10486941,"Population, total"
-188,Switzerland,8775760,"Population, total"
-189,Syrian Arab Republic,22125249,"Population, total"
-190,Tajikistan,9952787,"Population, total"
-191,Tanzania,65497748,"Population, total"
-192,Thailand,71697030,"Population, total"
-193,Timor-Leste,1341296,"Population, total"
-194,Togo,8848699,"Population, total"
-195,Tonga,106858,"Population, total"
-196,Trinidad and Tobago,1531044,"Population, total"
-197,Tunisia,12356117,"Population, total"
-198,Turkiye,84979913,"Population, total"
-199,Turkmenistan,6430770,"Population, total"
-200,Turks and Caicos Islands,45703,"Population, total"
-201,Tuvalu,11312,"Population, total"
-202,Uganda,47249585,"Population, total"
-203,Ukraine,38000000,"Population, total"
-204,United Arab Emirates,9441129,"Population, total"
-205,United Kingdom,67791000,"Population, total"
-206,United States,333271411,"Population, total"
-207,Uruguay,3422794,"Population, total"
-208,Uzbekistan,35648100,"Population, total"
-209,Vanuatu,326740,"Population, total"
-210,"Venezuela, RB",28301696,"Population, total"
-211,Viet Nam,98186856,"Population, total"
-212,Virgin Islands (U.S.),105413,"Population, total"
-213,West Bank and Gaza,5043612,"Population, total"
-214,"Yemen, Rep.",33696614,"Population, total"
-215,Zambia,20017675,"Population, total"
-216,Zimbabwe,16320537,"Population, total"
-217,Africa Eastern and Southern,720859132,"Population, total"
-218,Africa Western and Central,490330870,"Population, total"
-219,Arab World,464684914,"Population, total"
-220,Caribbean small states,3147057,"Population, total"
-221,Central Europe and the Baltics,100108262,"Population, total"
-222,Early-demographic dividend,3447398652,"Population, total"
-223,East Asia & Pacific,2375208613,"Population, total"
-224,East Asia & Pacific (excluding high income),2129094071,"Population, total"
-225,East Asia & Pacific (IDA & IBRD countries),2103055378,"Population, total"
-226,Euro area,348331552,"Population, total"
-227,Europe & Central Asia,920988359,"Population, total"
-228,Europe & Central Asia (excluding high income),246915820,"Population, total"
-229,Europe & Central Asia (IDA & IBRD countries),457342249,"Population, total"
-230,European Union,447370551,"Population, total"
-231,Fragile and conflict affected situations,1019145355,"Population, total"
-232,Heavily indebted poor countries (HIPC),884288332,"Population, total"
-233,High income,1395940386,"Population, total"
-234,IBRD only,4912348798,"Population, total"
-235,IDA & IBRD total,6754104791,"Population, total"
-236,IDA blend,609342910,"Population, total"
-237,IDA only,1232413083,"Population, total"
-238,IDA total,1841755993,"Population, total"
-239,Late-demographic dividend,2325328254,"Population, total"
-240,Latin America & Caribbean,659306928,"Population, total"
-241,Latin America & Caribbean (excluding high income),596596955,"Population, total"
-242,Latin America & the Caribbean (IDA & IBRD countries),643884393,"Population, total"
-243,Least developed countries: UN classification,1124396999,"Population, total"
-244,Low & middle income,6527353351,"Population, total"
-245,Low income,703727949,"Population, total"
-246,Lower middle income,3020375650,"Population, total"
-247,Middle East & North Africa,493279469,"Population, total"
-248,Middle East & North Africa (excluding high income),424328381,"Population, total"
-249,Middle East & North Africa (IDA & IBRD countries),419284769,"Population, total"
-250,Middle income,5823625402,"Population, total"
-251,North America,372274062,"Population, total"
-253,OECD members,1377465841,"Population, total"
-254,Other small states,14095313,"Population, total"
-255,Pacific island small states,2639019,"Population, total"
-256,Post-demographic dividend,1114354147,"Population, total"
-257,Pre-demographic dividend,1038012552,"Population, total"
-258,Small states,19881389,"Population, total"
-259,South Asia,1919348000,"Population, total"
-260,South Asia (IDA & IBRD),1919348000,"Population, total"
-261,Sub-Saharan Africa,1211190002,"Population, total"
-262,Sub-Saharan Africa (excluding high income),1211070124,"Population, total"
-263,Sub-Saharan Africa (IDA & IBRD countries),1211190002,"Population, total"
-264,Upper middle income,2803249752,"Population, total"
-265,World,7951595433,"Population, total"
-266,Afghanistan,352.603733092107,GDP per capita (current US$)
-267,Albania,6810.11404104233,GDP per capita (current US$)
-268,Algeria,5023.25293164928,GDP per capita (current US$)
-269,American Samoa,19673.3901023197,GDP per capita (current US$)
-270,Andorra,42350.6970690874,GDP per capita (current US$)
-271,Angola,2933.48464381415,GDP per capita (current US$)
-272,Antigua and Barbuda,19919.7266867883,GDP per capita (current US$)
-273,Argentina,13650.6046294524,GDP per capita (current US$)
-274,Armenia,7018.05150434798,GDP per capita (current US$)
-275,Aruba,33300.8388187011,GDP per capita (current US$)
-276,Australia,65077.676668821,GDP per capita (current US$)
-277,Austria,52084.6811953372,GDP per capita (current US$)
-278,Azerbaijan,7770.594223351,GDP per capita (current US$)
-279,"Bahamas, The",32041.2503902591,GDP per capita (current US$)
-280,Bahrain,30146.925026365,GDP per capita (current US$)
-281,Bangladesh,2687.89906307087,GDP per capita (current US$)
-282,Barbados,20738.4511868198,GDP per capita (current US$)
-283,Belarus,7994.64806074889,GDP per capita (current US$)
-284,Belgium,49942.0906424887,GDP per capita (current US$)
-285,Belize,6984.21695968163,GDP per capita (current US$)
-286,Benin,1304.99479694323,GDP per capita (current US$)
-287,Bermuda,123091.123516,GDP per capita (current US$)
-288,Bhutan,3704.01839495326,GDP per capita (current US$)
-289,Bolivia,3600.12163502163,GDP per capita (current US$)
-290,Bosnia and Herzegovina,7587.58817346075,GDP per capita (current US$)
-291,Botswana,7726.11099664689,GDP per capita (current US$)
-292,Brazil,9065.49733395404,GDP per capita (current US$)
-294,Brunei Darussalam,37152.4769749763,GDP per capita (current US$)
-295,Bulgaria,13974.4492487792,GDP per capita (current US$)
-296,Burkina Faso,830.043965850311,GDP per capita (current US$)
-297,Burundi,259.025031363088,GDP per capita (current US$)
-298,Cabo Verde,3883.91115917161,GDP per capita (current US$)
-299,Cambodia,1759.60802346044,GDP per capita (current US$)
-300,Cameroon,1563.48894034459,GDP per capita (current US$)
-301,Canada,55509.393176404,GDP per capita (current US$)
-302,Cayman Islands,96073.7635946963,GDP per capita (current US$)
-303,Central African Republic,427.058096191269,GDP per capita (current US$)
-304,Chad,699.463254485574,GDP per capita (current US$)
-305,Channel Islands,64501.2742419548,GDP per capita (current US$)
-306,Chile,15411.1739539112,GDP per capita (current US$)
-307,China,12662.5831692254,GDP per capita (current US$)
-308,Colombia,6657.08669677355,GDP per capita (current US$)
-309,Comoros,1484.89246532042,GDP per capita (current US$)
-310,"Congo, Dem. Rep.",664.593543336696,GDP per capita (current US$)
-311,"Congo, Rep.",2649.23063369467,GDP per capita (current US$)
-312,Costa Rica,13365.3563992546,GDP per capita (current US$)
-313,Cote d'Ivoire,2491.89593372995,GDP per capita (current US$)
-314,Croatia,18673.1779905036,GDP per capita (current US$)
-316,Curacao,20492.815311294,GDP per capita (current US$)
-317,Cyprus,32048.248046875,GDP per capita (current US$)
-318,Czechia,27226.6156386023,GDP per capita (current US$)
-319,Denmark,67790.0539923276,GDP per capita (current US$)
-320,Djibouti,3278.138695825,GDP per capita (current US$)
-321,Dominica,8347.32336031537,GDP per capita (current US$)
-322,Dominican Republic,10111.2457110261,GDP per capita (current US$)
-323,Ecuador,6476.64457530137,GDP per capita (current US$)
-324,"Egypt, Arab Rep.",4295.40749561014,GDP per capita (current US$)
-325,El Salvador,5048.443972532,GDP per capita (current US$)
-326,Equatorial Guinea,8052.25652929933,GDP per capita (current US$)
-328,Estonia,28114.1431760201,GDP per capita (current US$)
-329,Eswatini,3986.88723918267,GDP per capita (current US$)
-330,Ethiopia,1027.49863136325,GDP per capita (current US$)
-331,Faroe Islands,66979.2773224808,GDP per capita (current US$)
-332,Fiji,5356.16438036291,GDP per capita (current US$)
-333,Finland,50734.7107480889,GDP per capita (current US$)
-334,France,40886.2532680273,GDP per capita (current US$)
-335,French Polynesia,18984.8510962405,GDP per capita (current US$)
-336,Gabon,8820.34733809998,GDP per capita (current US$)
-337,"Gambia, The",803.808655006479,GDP per capita (current US$)
-338,Georgia,6729.84659930283,GDP per capita (current US$)
-339,Germany,48717.9911402128,GDP per capita (current US$)
-340,Ghana,2218.41475790993,GDP per capita (current US$)
-342,Greece,20867.2690861087,GDP per capita (current US$)
-344,Grenada,9762.4147210397,GDP per capita (current US$)
-345,Guam,40227.2753734558,GDP per capita (current US$)
-346,Guatemala,5473.20856444589,GDP per capita (current US$)
-347,Guinea,1515.16794777612,GDP per capita (current US$)
-348,Guinea-Bissau,814.111990051955,GDP per capita (current US$)
-349,Guyana,18199.4748396968,GDP per capita (current US$)
-350,Haiti,1748.25713539751,GDP per capita (current US$)
-351,Honduras,3012.21734086324,GDP per capita (current US$)
-352,"Hong Kong SAR, China",48828.1212454445,GDP per capita (current US$)
-353,Hungary,18355.8278072065,GDP per capita (current US$)
-354,Iceland,75135.0916136358,GDP per capita (current US$)
-355,India,2366.30960899931,GDP per capita (current US$)
-356,Indonesia,4787.91236404903,GDP per capita (current US$)
-357,"Iran, Islamic Rep.",4668.45744305826,GDP per capita (current US$)
-358,Iraq,6441.91736451813,GDP per capita (current US$)
-359,Ireland,103983.29133582,GDP per capita (current US$)
-361,Israel,54930.9388075096,GDP per capita (current US$)
-362,Italy,35068.8359738449,GDP per capita (current US$)
-363,Jamaica,6047.2164436428,GDP per capita (current US$)
-364,Japan,34017.2718075024,GDP per capita (current US$)
-365,Jordan,4311.0000506816,GDP per capita (current US$)
-366,Kazakhstan,11484.4168149009,GDP per capita (current US$)
-367,Kenya,2099.29856841025,GDP per capita (current US$)
-368,Kiribati,2061.39304132408,GDP per capita (current US$)
-370,"Korea, Rep.",32394.6833725203,GDP per capita (current US$)
-371,Kosovo,5290.97739696474,GDP per capita (current US$)
-372,Kuwait,42823.8278348699,GDP per capita (current US$)
-373,Kyrgyz Republic,1739.79999970559,GDP per capita (current US$)
-374,Lao PDR,2054.43078086496,GDP per capita (current US$)
-375,Latvia,21508.4003332167,GDP per capita (current US$)
-376,Lebanon,3823.93806860546,GDP per capita (current US$)
-377,Lesotho,992.857328462257,GDP per capita (current US$)
-378,Liberia,754.53284857226,GDP per capita (current US$)
-379,Libya,8211.38094790285,GDP per capita (current US$)
-380,Liechtenstein,187267.132380803,GDP per capita (current US$)
-381,Lithuania,25078.7453655669,GDP per capita (current US$)
-382,Luxembourg,125006.021815486,GDP per capita (current US$)
-383,"Macao SAR, China",35192.5278350868,GDP per capita (current US$)
-384,Madagascar,516.772196977613,GDP per capita (current US$)
-385,Malawi,643.433195658657,GDP per capita (current US$)
-386,Malaysia,11993.1876132994,GDP per capita (current US$)
-387,Maldives,11780.8169089988,GDP per capita (current US$)
-388,Mali,831.223466645115,GDP per capita (current US$)
-389,Malta,34563.3966270232,GDP per capita (current US$)
-390,Marshall Islands,6225.17922244115,GDP per capita (current US$)
-391,Mauritania,2057.38039245817,GDP per capita (current US$)
-392,Mauritius,10239.7970461095,GDP per capita (current US$)
-393,Mexico,11476.6788057764,GDP per capita (current US$)
-394,"Micronesia, Fed. Sts.",3766.51133457132,GDP per capita (current US$)
-395,Moldova,5715.28022054154,GDP per capita (current US$)
-396,Monaco,240862.18244774,GDP per capita (current US$)
-397,Mongolia,5045.50472602069,GDP per capita (current US$)
-398,Montenegro,10093.4387007266,GDP per capita (current US$)
-399,Morocco,3441.99145507813,GDP per capita (current US$)
-400,Mozambique,558.298592504349,GDP per capita (current US$)
-401,Myanmar,1149.01896107058,GDP per capita (current US$)
-402,Namibia,4895.68066089139,GDP per capita (current US$)
-403,Nauru,12142.769929785,GDP per capita (current US$)
-404,Nepal,1348.15718956035,GDP per capita (current US$)
-405,Netherlands,57025.01245598,GDP per capita (current US$)
-406,New Caledonia,35745.8489248912,GDP per capita (current US$)
-407,New Zealand,48216.5095836302,GDP per capita (current US$)
-408,Nicaragua,2252.31020571776,GDP per capita (current US$)
-409,Niger,588.899048266729,GDP per capita (current US$)
-410,Nigeria,2162.6337321033,GDP per capita (current US$)
-411,North Macedonia,7485.6034579418,GDP per capita (current US$)
-413,Norway,108798.451165901,GDP per capita (current US$)
-414,Oman,25056.7948608378,GDP per capita (current US$)
-415,Pakistan,1589.26398049714,GDP per capita (current US$)
-416,Palau,13421.9722911546,GDP per capita (current US$)
-417,Panama,17357.6286293985,GDP per capita (current US$)
-418,Papua New Guinea,3115.92292253449,GDP per capita (current US$)
-419,Paraguay,6187.0660296399,GDP per capita (current US$)
-420,Peru,7239.11131130898,GDP per capita (current US$)
-421,Philippines,3499.10727950801,GDP per capita (current US$)
-422,Poland,18732.4977273198,GDP per capita (current US$)
-423,Portugal,24515.2657495716,GDP per capita (current US$)
-424,Puerto Rico,35268.0791015719,GDP per capita (current US$)
-425,Qatar,87480.4197119462,GDP per capita (current US$)
-426,Romania,15692.3071700143,GDP per capita (current US$)
-427,Russian Federation,15445.2421875,GDP per capita (current US$)
-428,Rwanda,966.571293318523,GDP per capita (current US$)
-429,Samoa,3745.56036746313,GDP per capita (current US$)
-431,Sao Tome and Principe,2386.6961758184,GDP per capita (current US$)
-432,Saudi Arabia,30447.8823171601,GDP per capita (current US$)
-433,Senegal,1594.98515311153,GDP per capita (current US$)
-434,Serbia,9537.68431879504,GDP per capita (current US$)
-435,Seychelles,17167.1909760833,GDP per capita (current US$)
-436,Sierra Leone,475.795727844622,GDP per capita (current US$)
-437,Singapore,88428.7024226232,GDP per capita (current US$)
-438,Sint Maarten (Dutch part),37592.6608071757,GDP per capita (current US$)
-439,Slovak Republic,21279.4589247729,GDP per capita (current US$)
-440,Slovenia,28439.3340989687,GDP per capita (current US$)
-441,Solomon Islands,2162.6661301834,GDP per capita (current US$)
-442,Somalia,592.103121972141,GDP per capita (current US$)
-443,South Africa,6766.48125428394,GDP per capita (current US$)
-445,Spain,29674.5442864413,GDP per capita (current US$)
-446,Sri Lanka,3342.72012524497,GDP per capita (current US$)
-447,St. Kitts and Nevis,20593.609115757,GDP per capita (current US$)
-448,St. Lucia,13030.9289500727,GDP per capita (current US$)
-450,St. Vincent and the Grenadines,9297.84692916259,GDP per capita (current US$)
-451,Sudan,1102.24536132813,GDP per capita (current US$)
-452,Suriname,5858.82466074423,GDP per capita (current US$)
-453,Sweden,56299.5057328064,GDP per capita (current US$)
-454,Switzerland,93259.9057183024,GDP per capita (current US$)
-456,Tajikistan,1076.43469114729,GDP per capita (current US$)
-457,Tanzania,1193.35961914063,GDP per capita (current US$)
-458,Thailand,6913.05080521119,GDP per capita (current US$)
-459,Timor-Leste,2389.2958750343,GDP per capita (current US$)
-460,Togo,923.240371150258,GDP per capita (current US$)
-461,Tonga,4681.67940711244,GDP per capita (current US$)
-462,Trinidad and Tobago,19629.4653400829,GDP per capita (current US$)
-463,Tunisia,3607.91023773078,GDP per capita (current US$)
-464,Turkiye,10674.5041731531,GDP per capita (current US$)
-465,Turkmenistan,8792.5485039672,GDP per capita (current US$)
-466,Turks and Caicos Islands,26886.514735383,GDP per capita (current US$)
-467,Tuvalu,5221.53306995807,GDP per capita (current US$)
-468,Uganda,964.354146526666,GDP per capita (current US$)
-469,Ukraine,4575.97509765625,GDP per capita (current US$)
-470,United Arab Emirates,53707.9800813801,GDP per capita (current US$)
-471,United Kingdom,45564.1569448013,GDP per capita (current US$)
-472,United States,77246.6738828672,GDP per capita (current US$)
-473,Uruguay,20499.2422244452,GDP per capita (current US$)
-474,Uzbekistan,2276.16123306477,GDP per capita (current US$)
-475,Vanuatu,3128.54042205837,GDP per capita (current US$)
-477,Viet Nam,4179.01179036963,GDP per capita (current US$)
-479,West Bank and Gaza,3799.95527015163,GDP per capita (current US$)
-481,Zambia,1456.90157026157,GDP per capita (current US$)
-482,Zimbabwe,1676.82148896788,GDP per capita (current US$)
-483,Africa Eastern and Southern,1642.43203899493,GDP per capita (current US$)
-484,Africa Western and Central,1788.8753472127,GDP per capita (current US$)
-485,Arab World,7776.62937958481,GDP per capita (current US$)
-486,Caribbean small states,15296.212982156,GDP per capita (current US$)
-487,Central Europe and the Baltics,19414.7416594388,GDP per capita (current US$)
-488,Early-demographic dividend,4099.07591276369,GDP per capita (current US$)
-489,East Asia & Pacific,12909.9187395962,GDP per capita (current US$)
-490,East Asia & Pacific (excluding high income),9916.80434352001,GDP per capita (current US$)
-491,East Asia & Pacific (IDA & IBRD countries),10027.1765277205,GDP per capita (current US$)
-492,Euro area,40835.654761862,GDP per capita (current US$)
-493,Europe & Central Asia,27567.4143997687,GDP per capita (current US$)
-494,Europe & Central Asia (excluding high income),7302.23861126112,GDP per capita (current US$)
-495,Europe & Central Asia (IDA & IBRD countries),11413.9150111898,GDP per capita (current US$)
-496,European Union,37466.6963511535,GDP per capita (current US$)
-497,Fragile and conflict affected situations,1913.3742283108,GDP per capita (current US$)
-498,Heavily indebted poor countries (HIPC),1110.1304329994,GDP per capita (current US$)
-499,High income,46165.6150408536,GDP per capita (current US$)
-500,IBRD only,7681.29525722277,GDP per capita (current US$)
-501,IDA & IBRD total,6006.27309700773,GDP per capita (current US$)
-502,IDA blend,1942.51277029827,GDP per capita (current US$)
-503,IDA only,1339.94195382428,GDP per capita (current US$)
-504,IDA total,1539.29371688164,GDP per capita (current US$)
-505,Late-demographic dividend,12068.2132845942,GDP per capita (current US$)
-506,Latin America & Caribbean,9618.70743198645,GDP per capita (current US$)
-507,Latin America & Caribbean (excluding high income),9033.75537958903,GDP per capita (current US$)
-508,Latin America & the Caribbean (IDA & IBRD countries),9388.72096989775,GDP per capita (current US$)
-509,Least developed countries: UN classification,1267.00441526421,GDP per capita (current US$)
-510,Low & middle income,5582.45257367253,GDP per capita (current US$)
-511,Low income,753.954266799717,GDP per capita (current US$)
-512,Lower middle income,2430.52646293958,GDP per capita (current US$)
-513,Middle East & North Africa,9116.77278273094,GDP per capita (current US$)
-514,Middle East & North Africa (excluding high income),4147.97463172171,GDP per capita (current US$)
-515,Middle East & North Africa (IDA & IBRD countries),4152.18363676059,GDP per capita (current US$)
-516,Middle income,6165.89619410795,GDP per capita (current US$)
-517,North America,74980.8332051402,GDP per capita (current US$)
-519,OECD members,43681.7314639081,GDP per capita (current US$)
-520,Other small states,15844.3700627197,GDP per capita (current US$)
-521,Pacific island small states,3909.14166460187,GDP per capita (current US$)
-522,Post-demographic dividend,50759.6274098503,GDP per capita (current US$)
-523,Pre-demographic dividend,1579.54435449704,GDP per capita (current US$)
-524,Small states,14176.6140571601,GDP per capita (current US$)
-525,South Asia,2254.56195751261,GDP per capita (current US$)
-526,South Asia (IDA & IBRD),2254.56195751261,GDP per capita (current US$)
-527,Sub-Saharan Africa,1701.71726642046,GDP per capita (current US$)
-528,Sub-Saharan Africa (excluding high income),1700.18641364767,GDP per capita (current US$)
-529,Sub-Saharan Africa (IDA & IBRD countries),1701.71726642046,GDP per capita (current US$)
-530,Upper middle income,10190.883998462,GDP per capita (current US$)
-531,World,12730.1571671098,GDP per capita (current US$)
-533,Albania,82.6137,Individuals using the Internet (% of population)
-534,Algeria,71.2432,Individuals using the Internet (% of population)
-536,Andorra,94.4855,Individuals using the Internet (% of population)
-537,Angola,39.2935,Individuals using the Internet (% of population)
-538,Antigua and Barbuda,91.4123,Individuals using the Internet (% of population)
-539,Argentina,88.3754,Individuals using the Internet (% of population)
-540,Armenia,77.0277,Individuals using the Internet (% of population)
-542,Australia,94.8762,Individuals using the Internet (% of population)
-543,Austria,93.6141,Individuals using the Internet (% of population)
-544,Azerbaijan,88,Individuals using the Internet (% of population)
-545,"Bahamas, The",94.4117,Individuals using the Internet (% of population)
-546,Bahrain,100,Individuals using the Internet (% of population)
-547,Bangladesh,41.6152,Individuals using the Internet (% of population)
-548,Barbados,76.2053,Individuals using the Internet (% of population)
-549,Belarus,89.5073,Individuals using the Internet (% of population)
-550,Belgium,94.0078,Individuals using the Internet (% of population)
-551,Belize,70.354,Individuals using the Internet (% of population)
-552,Benin,33.7602,Individuals using the Internet (% of population)
-554,Bhutan,86.8403,Individuals using the Internet (% of population)
-555,Bolivia,73.2831,Individuals using the Internet (% of population)
-556,Bosnia and Herzegovina,78.8455,Individuals using the Internet (% of population)
-557,Botswana,77.3272,Individuals using the Internet (% of population)
-558,Brazil,80.5278,Individuals using the Internet (% of population)
-560,Brunei Darussalam,98.9704,Individuals using the Internet (% of population)
-561,Bulgaria,79.1269,Individuals using the Internet (% of population)
-562,Burkina Faso,19.9237,Individuals using the Internet (% of population)
-563,Burundi,11.275,Individuals using the Internet (% of population)
-564,Cabo Verde,72.1021,Individuals using the Internet (% of population)
-565,Cambodia,56.7328,Individuals using the Internet (% of population)
-566,Cameroon,43.8629,Individuals using the Internet (% of population)
-567,Canada,94,Individuals using the Internet (% of population)
-570,Chad,12.1839,Individuals using the Internet (% of population)
-572,Chile,90.6769,Individuals using the Internet (% of population)
-573,China,75.6113,Individuals using the Internet (% of population)
-574,Colombia,72.7964,Individuals using the Internet (% of population)
-576,"Congo, Dem. Rep.",27.24,Individuals using the Internet (% of population)
-577,"Congo, Rep.",36.2469,Individuals using the Internet (% of population)
-578,Costa Rica,82.598,Individuals using the Internet (% of population)
-579,Cote d'Ivoire,38.4133,Individuals using the Internet (% of population)
-580,Croatia,82.0716,Individuals using the Internet (% of population)
-581,Cuba,73.2178,Individuals using the Internet (% of population)
-583,Cyprus,89.601,Individuals using the Internet (% of population)
-584,Czechia,84.5401,Individuals using the Internet (% of population)
-585,Denmark,97.8601,Individuals using the Internet (% of population)
-586,Djibouti,65.0322,Individuals using the Internet (% of population)
-587,Dominica,83.3767,Individuals using the Internet (% of population)
-588,Dominican Republic,84.3832,Individuals using the Internet (% of population)
-589,Ecuador,69.7181,Individuals using the Internet (% of population)
-590,"Egypt, Arab Rep.",72.1981,Individuals using the Internet (% of population)
-591,El Salvador,62.8885,Individuals using the Internet (% of population)
-592,Equatorial Guinea,66.8193,Individuals using the Internet (% of population)
-593,Eritrea,26.5942,Individuals using the Internet (% of population)
-594,Estonia,91.5202,Individuals using the Internet (% of population)
-595,Eswatini,58.2502,Individuals using the Internet (% of population)
-596,Ethiopia,19.3781,Individuals using the Internet (% of population)
-598,Fiji,85.2199,Individuals using the Internet (% of population)
-599,Finland,92.9888,Individuals using the Internet (% of population)
-600,France,85.3333,Individuals using the Internet (% of population)
-602,Gabon,73.6951,Individuals using the Internet (% of population)
-603,"Gambia, The",54.1899,Individuals using the Internet (% of population)
-604,Georgia,78.7113,Individuals using the Internet (% of population)
-605,Germany,91.6298,Individuals using the Internet (% of population)
-606,Ghana,69.8405,Individuals using the Internet (% of population)
-608,Greece,83.1707,Individuals using the Internet (% of population)
-610,Grenada,79.8955,Individuals using the Internet (% of population)
-612,Guatemala,54.4043,Individuals using the Internet (% of population)
-613,Guinea,33.923,Individuals using the Internet (% of population)
-614,Guinea-Bissau,31.567,Individuals using the Internet (% of population)
-615,Guyana,85.3163,Individuals using the Internet (% of population)
-617,Honduras,59.7135,Individuals using the Internet (% of population)
-618,"Hong Kong SAR, China",95.6136,Individuals using the Internet (% of population)
-619,Hungary,89.1428,Individuals using the Internet (% of population)
-620,Iceland,99.8565,Individuals using the Internet (% of population)
-622,Indonesia,66.4846,Individuals using the Internet (% of population)
-623,"Iran, Islamic Rep.",81.717,Individuals using the Internet (% of population)
-624,Iraq,78.7156,Individuals using the Internet (% of population)
-625,Ireland,95.5905,Individuals using the Internet (% of population)
-627,Israel,91.8508,Individuals using the Internet (% of population)
-628,Italy,85.0607,Individuals using the Internet (% of population)
-629,Jamaica,85.1185,Individuals using the Internet (% of population)
-630,Japan,84.9234,Individuals using the Internet (% of population)
-631,Jordan,90.5,Individuals using the Internet (% of population)
-632,Kazakhstan,92.2969,Individuals using the Internet (% of population)
-633,Kenya,40.8137,Individuals using the Internet (% of population)
-634,Kiribati,54.4214,Individuals using the Internet (% of population)
-636,"Korea, Rep.",97.1686,Individuals using the Internet (% of population)
-638,Kuwait,99.8436,Individuals using the Internet (% of population)
-639,Kyrgyz Republic,79.7703,Individuals using the Internet (% of population)
-640,Lao PDR,66.1548,Individuals using the Internet (% of population)
-641,Latvia,91.0301,Individuals using the Internet (% of population)
-642,Lebanon,90.0522,Individuals using the Internet (% of population)
-643,Lesotho,47.0368,Individuals using the Internet (% of population)
-644,Liberia,30.1275,Individuals using the Internet (% of population)
-645,Libya,88.4281,Individuals using the Internet (% of population)
-646,Liechtenstein,96.8046,Individuals using the Internet (% of population)
-647,Lithuania,87.7242,Individuals using the Internet (% of population)
-648,Luxembourg,98.242,Individuals using the Internet (% of population)
-649,"Macao SAR, China",89.7864,Individuals using the Internet (% of population)
-650,Madagascar,20.5777,Individuals using the Internet (% of population)
-651,Malawi,27.6609,Individuals using the Internet (% of population)
-652,Malaysia,97.3986,Individuals using the Internet (% of population)
-653,Maldives,83.9119,Individuals using the Internet (% of population)
-654,Mali,33.0528,Individuals using the Internet (% of population)
-655,Malta,91.5406,Individuals using the Internet (% of population)
-656,Marshall Islands,73.2238,Individuals using the Internet (% of population)
-657,Mauritania,44.3616,Individuals using the Internet (% of population)
-658,Mauritius,75.5,Individuals using the Internet (% of population)
-659,Mexico,78.6322,Individuals using the Internet (% of population)
-660,"Micronesia, Fed. Sts.",40.5434,Individuals using the Internet (% of population)
-661,Moldova,63.5349,Individuals using the Internet (% of population)
-662,Monaco,98.3776,Individuals using the Internet (% of population)
-663,Mongolia,83.9145,Individuals using the Internet (% of population)
-664,Montenegro,88.2219,Individuals using the Internet (% of population)
-665,Morocco,89.9,Individuals using the Internet (% of population)
-666,Mozambique,21.207,Individuals using the Internet (% of population)
-668,Namibia,62.215,Individuals using the Internet (% of population)
-669,Nauru,82.6668,Individuals using the Internet (% of population)
-670,Nepal,49.5609,Individuals using the Internet (% of population)
-671,Netherlands,92.5197,Individuals using the Internet (% of population)
-673,New Zealand,95.7299,Individuals using the Internet (% of population)
-674,Nicaragua,61.0524,Individuals using the Internet (% of population)
-675,Niger,16.937,Individuals using the Internet (% of population)
-676,Nigeria,35.4563,Individuals using the Internet (% of population)
-677,North Macedonia,84.2304,Individuals using the Internet (% of population)
-679,Norway,99,Individuals using the Internet (% of population)
-680,Oman,97.849,Individuals using the Internet (% of population)
-681,Pakistan,32.9486,Individuals using the Internet (% of population)
-683,Panama,73.6085,Individuals using the Internet (% of population)
-684,Papua New Guinea,26.991,Individuals using the Internet (% of population)
-685,Paraguay,76.2592,Individuals using the Internet (% of population)
-686,Peru,74.675,Individuals using the Internet (% of population)
-687,Philippines,75.2111,Individuals using the Internet (% of population)
-688,Poland,86.9411,Individuals using the Internet (% of population)
-689,Portugal,84.4969,Individuals using the Internet (% of population)
-690,Puerto Rico,87.2918,Individuals using the Internet (% of population)
-691,Qatar,100,Individuals using the Internet (% of population)
-692,Romania,85.5031,Individuals using the Internet (% of population)
-693,Russian Federation,90.418,Individuals using the Internet (% of population)
-694,Rwanda,34.4405,Individuals using the Internet (% of population)
-695,Samoa,75.2869,Individuals using the Internet (% of population)
-696,San Marino,85.0607,Individuals using the Internet (% of population)
-697,Sao Tome and Principe,56.9899,Individuals using the Internet (% of population)
-698,Saudi Arabia,100,Individuals using the Internet (% of population)
-699,Senegal,59.9832,Individuals using the Internet (% of population)
-700,Serbia,83.5383,Individuals using the Internet (% of population)
-701,Seychelles,86.6654,Individuals using the Internet (% of population)
-702,Sierra Leone,30.3518,Individuals using the Internet (% of population)
-703,Singapore,95.9539,Individuals using the Internet (% of population)
-705,Slovak Republic,89.0677,Individuals using the Internet (% of population)
-706,Slovenia,88.9125,Individuals using the Internet (% of population)
-707,Solomon Islands,44.9575,Individuals using the Internet (% of population)
-708,Somalia,27.6,Individuals using the Internet (% of population)
-709,South Africa,74.703,Individuals using the Internet (% of population)
-710,South Sudan,12.1407,Individuals using the Internet (% of population)
-711,Spain,94.4855,Individuals using the Internet (% of population)
-712,Sri Lanka,50.1067,Individuals using the Internet (% of population)
-713,St. Kitts and Nevis,76.4575,Individuals using the Internet (% of population)
-714,St. Lucia,74.1859,Individuals using the Internet (% of population)
-716,St. Vincent and the Grenadines,77.7418,Individuals using the Internet (% of population)
-717,Sudan,28.7045,Individuals using the Internet (% of population)
-718,Suriname,75.7614,Individuals using the Internet (% of population)
-719,Sweden,95.0097,Individuals using the Internet (% of population)
-720,Switzerland,96.8046,Individuals using the Internet (% of population)
-722,Tajikistan,36.0872,Individuals using the Internet (% of population)
-723,Tanzania,31.8913,Individuals using the Internet (% of population)
-724,Thailand,87.9772,Individuals using the Internet (% of population)
-725,Timor-Leste,40.7521,Individuals using the Internet (% of population)
-726,Togo,37.6212,Individuals using the Internet (% of population)
-728,Trinidad and Tobago,79.9843,Individuals using the Internet (% of population)
-729,Tunisia,73.8379,Individuals using the Internet (% of population)
-730,Turkiye,83.4372,Individuals using the Internet (% of population)
-733,Tuvalu,81.1913,Individuals using the Internet (% of population)
-736,United Arab Emirates,100,Individuals using the Internet (% of population)
-737,United Kingdom,95.3412,Individuals using the Internet (% of population)
-738,United States,97.1299,Individuals using the Internet (% of population)
-739,Uruguay,89.873,Individuals using the Internet (% of population)
-740,Uzbekistan,83.9,Individuals using the Internet (% of population)
-741,Vanuatu,69.8888,Individuals using the Internet (% of population)
-743,Viet Nam,78.59,Individuals using the Internet (% of population)
-745,West Bank and Gaza,88.6469,Individuals using the Internet (% of population)
-746,"Yemen, Rep.",17.6948,Individuals using the Internet (% of population)
-747,Zambia,31.2342,Individuals using the Internet (% of population)
-748,Zimbabwe,32.5615,Individuals using the Internet (% of population)
-749,Africa Eastern and Southern,31.4,Individuals using the Internet (% of population)
-750,Africa Western and Central,36.9,Individuals using the Internet (% of population)
-751,Arab World,67.356409919213,Individuals using the Internet (% of population)
-752,Caribbean small states,80.7464283054314,Individuals using the Internet (% of population)
-753,Central Europe and the Baltics,86.2327250683861,Individuals using the Internet (% of population)
-755,East Asia & Pacific,75.6,Individuals using the Internet (% of population)
-756,East Asia & Pacific (excluding high income),74.84475100659,Individuals using the Internet (% of population)
-757,East Asia & Pacific (IDA & IBRD countries),74.6,Individuals using the Internet (% of population)
-758,Euro area,89.2920140842906,Individuals using the Internet (% of population)
-759,Europe & Central Asia,87.9,Individuals using the Internet (% of population)
-760,Europe & Central Asia (excluding high income),81.857996881066,Individuals using the Internet (% of population)
-761,Europe & Central Asia (IDA & IBRD countries),85.1,Individuals using the Internet (% of population)
-762,European Union,88.9038893045805,Individuals using the Internet (% of population)
-763,Fragile and conflict affected situations,36.7,Individuals using the Internet (% of population)
-764,Heavily indebted poor countries (HIPC),30.9290498681477,Individuals using the Internet (% of population)
-765,High income,92,Individuals using the Internet (% of population)
-766,IBRD only,68.7,Individuals using the Internet (% of population)
-767,IDA & IBRD total,59.7,Individuals using the Internet (% of population)
-768,IDA blend,38.1,Individuals using the Internet (% of population)
-769,IDA only,34.3,Individuals using the Internet (% of population)
-770,IDA total,35.6,Individuals using the Internet (% of population)
-771,Late-demographic dividend,78.842845089037,Individuals using the Internet (% of population)
-772,Latin America & Caribbean,77.6,Individuals using the Internet (% of population)
-773,Latin America & Caribbean (excluding high income),77.522121131173,Individuals using the Internet (% of population)
-774,Latin America & the Caribbean (IDA & IBRD countries),77.7,Individuals using the Internet (% of population)
-775,Least developed countries: UN classification,30.7157063088173,Individuals using the Internet (% of population)
-776,Low & middle income,62.0445300044265,Individuals using the Internet (% of population)
-777,Low income,23.7,Individuals using the Internet (% of population)
-778,Lower middle income,49.7,Individuals using the Internet (% of population)
-779,Middle East & North Africa,75.5,Individuals using the Internet (% of population)
-780,Middle East & North Africa (excluding high income),72.6845899636948,Individuals using the Internet (% of population)
-781,Middle East & North Africa (IDA & IBRD countries),71.5,Individuals using the Internet (% of population)
-782,Middle income,67.1891472202822,Individuals using the Internet (% of population)
-783,North America,96.8,Individuals using the Internet (% of population)
-785,OECD members,89.805020942033,Individuals using the Internet (% of population)
-786,Other small states,78.3302623012376,Individuals using the Internet (% of population)
-787,Pacific island small states,66.2863490869034,Individuals using the Internet (% of population)
-788,Post-demographic dividend,92.2947846431165,Individuals using the Internet (% of population)
-789,Pre-demographic dividend,33.9200125338265,Individuals using the Internet (% of population)
-790,Small states,75.1,Individuals using the Internet (% of population)
-793,Sub-Saharan Africa,33.6,Individuals using the Internet (% of population)
-794,Sub-Saharan Africa (excluding high income),34.2083412575151,Individuals using the Internet (% of population)
-795,Sub-Saharan Africa (IDA & IBRD countries),33.6,Individuals using the Internet (% of population)
-796,Upper middle income,76.6,Individuals using the Internet (% of population)
-797,World,64.4,Individuals using the Internet (% of population)
+Country Name,GDP per capita (current US$),Individuals using the Internet (% of population),"Population, total"
+Africa Eastern and Southern,1642.43203899493,31.4,720859132
+Africa Western and Central,1788.8753472127,36.9,490330870
+Albania,6810.11404104233,82.6137,2777689
+Algeria,5023.25293164928,71.2432,44903225
+Andorra,42350.6970690874,94.4855,79824
+Angola,2933.48464381415,39.2935,35588987
+Antigua and Barbuda,19919.7266867883,91.4123,93763
+Arab World,7776.62937958481,67.356409919213,464684914
+Argentina,13650.6046294524,88.3754,46234830
+Armenia,7018.05150434798,77.0277,2780469
+Australia,65077.676668821,94.8762,26014399
+Austria,52084.6811953372,93.6141,9041851
+Azerbaijan,7770.594223351,88,10141756
+"Bahamas, The",32041.2503902591,94.4117,409984
+Bahrain,30146.925026365,100,1472233
+Bangladesh,2687.89906307087,41.6152,171186372
+Barbados,20738.4511868198,76.2053,281635
+Belarus,7994.64806074889,89.5073,9228071
+Belgium,49942.0906424887,94.0078,11685814
+Belize,6984.21695968163,70.354,405272
+Benin,1304.99479694323,33.7602,13352864
+Bhutan,3704.01839495326,86.8403,782455
+Bolivia,3600.12163502163,73.2831,12224110
+Bosnia and Herzegovina,7587.58817346075,78.8455,3233526
+Botswana,7726.11099664689,77.3272,2630296
+Brazil,9065.49733395404,80.5278,215313498
+Brunei Darussalam,37152.4769749763,98.9704,449002
+Bulgaria,13974.4492487792,79.1269,6465097
+Burkina Faso,830.043965850311,19.9237,22673762
+Burundi,259.025031363088,11.275,12889576
+Cabo Verde,3883.91115917161,72.1021,593149
+Cambodia,1759.60802346044,56.7328,16767842
+Cameroon,1563.48894034459,43.8629,27914536
+Canada,55509.393176404,94,38939056
+Caribbean small states,15296.212982156,80.7464283054314,3147057
+Central Europe and the Baltics,19414.7416594388,86.2327250683861,100108262
+Chad,699.463254485574,12.1839,17723315
+Chile,15411.1739539112,90.6769,19603733
+China,12662.5831692254,75.6113,1412175000
+Colombia,6657.08669677355,72.7964,51874024
+"Congo, Dem. Rep.",664.593543336696,27.24,99010212
+"Congo, Rep.",2649.23063369467,36.2469,5970424
+Costa Rica,13365.3563992546,82.598,5180829
+Cote d'Ivoire,2491.89593372995,38.4133,28160542
+Croatia,18673.1779905036,82.0716,3855641
+Cyprus,32048.248046875,89.601,1251488
+Czechia,27226.6156386023,84.5401,10672118
+Denmark,67790.0539923276,97.8601,5903037
+Djibouti,3278.138695825,65.0322,1120849
+Dominica,8347.32336031537,83.3767,72737
+Dominican Republic,10111.2457110261,84.3832,11228821
+East Asia & Pacific,12909.9187395962,75.6,2375208613
+East Asia & Pacific (IDA & IBRD countries),10027.1765277205,74.6,2103055378
+East Asia & Pacific (excluding high income),9916.80434352001,74.84475100659,2129094071
+Ecuador,6476.64457530137,69.7181,18001000
+"Egypt, Arab Rep.",4295.40749561014,72.1981,110990103
+El Salvador,5048.443972532,62.8885,6336392
+Equatorial Guinea,8052.25652929933,66.8193,1674908
+Estonia,28114.1431760201,91.5202,1348840
+Eswatini,3986.88723918267,58.2502,1201670
+Ethiopia,1027.49863136325,19.3781,123379924
+Euro area,40835.654761862,89.2920140842906,348331552
+Europe & Central Asia,27567.4143997687,87.9,920988359
+Europe & Central Asia (IDA & IBRD countries),11413.9150111898,85.1,457342249
+Europe & Central Asia (excluding high income),7302.23861126112,81.857996881066,246915820
+European Union,37466.6963511535,88.9038893045805,447370551
+Fiji,5356.16438036291,85.2199,929766
+Finland,50734.7107480889,92.9888,5556106
+Fragile and conflict affected situations,1913.3742283108,36.7,1019145355
+France,40886.2532680273,85.3333,67971311
+Gabon,8820.34733809998,73.6951,2388992
+"Gambia, The",803.808655006479,54.1899,2705992
+Georgia,6729.84659930283,78.7113,3712502
+Germany,48717.9911402128,91.6298,83797985
+Ghana,2218.41475790993,69.8405,33475870
+Greece,20867.2690861087,83.1707,10426919
+Grenada,9762.4147210397,79.8955,125438
+Guatemala,5473.20856444589,54.4043,17357886
+Guinea,1515.16794777612,33.923,13859341
+Guinea-Bissau,814.111990051955,31.567,2105566
+Guyana,18199.4748396968,85.3163,808726
+Heavily indebted poor countries (HIPC),1110.1304329994,30.9290498681477,884288332
+High income,46165.6150408536,92,1395940386
+Honduras,3012.21734086324,59.7135,10432860
+"Hong Kong SAR, China",48828.1212454445,95.6136,7346100
+Hungary,18355.8278072065,89.1428,9643048
+IBRD only,7681.29525722277,68.7,4912348798
+IDA & IBRD total,6006.27309700773,59.7,6754104791
+IDA blend,1942.51277029827,38.1,609342910
+IDA only,1339.94195382428,34.3,1232413083
+IDA total,1539.29371688164,35.6,1841755993
+Iceland,75135.0916136358,99.8565,382003
+Indonesia,4787.91236404903,66.4846,275501339
+"Iran, Islamic Rep.",4668.45744305826,81.717,88550570
+Iraq,6441.91736451813,78.7156,44496122
+Ireland,103983.29133582,95.5905,5127170
+Israel,54930.9388075096,91.8508,9557500
+Italy,35068.8359738449,85.0607,58940425
+Jamaica,6047.2164436428,85.1185,2827377
+Japan,34017.2718075024,84.9234,125124989
+Jordan,4311.0000506816,90.5,11285869
+Kazakhstan,11484.4168149009,92.2969,19634983
+Kenya,2099.29856841025,40.8137,54027487
+Kiribati,2061.39304132408,54.4214,131232
+"Korea, Rep.",32394.6833725203,97.1686,51672569
+Kuwait,42823.8278348699,99.8436,4268873
+Kyrgyz Republic,1739.79999970559,79.7703,6974900
+Lao PDR,2054.43078086496,66.1548,7529475
+Late-demographic dividend,12068.2132845942,78.842845089037,2325328254
+Latin America & Caribbean,9618.70743198645,77.6,659306928
+Latin America & Caribbean (excluding high income),9033.75537958903,77.522121131173,596596955
+Latin America & the Caribbean (IDA & IBRD countries),9388.72096989775,77.7,643884393
+Latvia,21508.4003332167,91.0301,1879383
+Least developed countries: UN classification,1267.00441526421,30.7157063088173,1124396999
+Lebanon,3823.93806860546,90.0522,5489739
+Lesotho,992.857328462257,47.0368,2305825
+Liberia,754.53284857226,30.1275,5302681
+Libya,8211.38094790285,88.4281,6812341
+Liechtenstein,187267.132380803,96.8046,39327
+Lithuania,25078.7453655669,87.7242,2831639
+Low & middle income,5582.45257367253,62.0445300044265,6527353351
+Low income,753.954266799717,23.7,703727949
+Lower middle income,2430.52646293958,49.7,3020375650
+Luxembourg,125006.021815486,98.242,653103
+"Macao SAR, China",35192.5278350868,89.7864,695168
+Madagascar,516.772196977613,20.5777,29611714
+Malawi,643.433195658657,27.6609,20405317
+Malaysia,11993.1876132994,97.3986,33938221
+Maldives,11780.8169089988,83.9119,523787
+Mali,831.223466645115,33.0528,22593590
+Malta,34563.3966270232,91.5406,531113
+Marshall Islands,6225.17922244115,73.2238,41569
+Mauritania,2057.38039245817,44.3616,4736139
+Mauritius,10239.7970461095,75.5,1262523
+Mexico,11476.6788057764,78.6322,127504125
+"Micronesia, Fed. Sts.",3766.51133457132,40.5434,114164
+Middle East & North Africa,9116.77278273094,75.5,493279469
+Middle East & North Africa (IDA & IBRD countries),4152.18363676059,71.5,419284769
+Middle East & North Africa (excluding high income),4147.97463172171,72.6845899636948,424328381
+Middle income,6165.89619410795,67.1891472202822,5823625402
+Moldova,5715.28022054154,63.5349,2538894
+Monaco,240862.18244774,98.3776,36469
+Mongolia,5045.50472602069,83.9145,3398366
+Montenegro,10093.4387007266,88.2219,617213
+Morocco,3441.99145507813,89.9,37457971
+Mozambique,558.298592504349,21.207,32969518
+Namibia,4895.68066089139,62.215,2567012
+Nauru,12142.769929785,82.6668,12668
+Nepal,1348.15718956035,49.5609,30547580
+Netherlands,57025.01245598,92.5197,17700982
+New Zealand,48216.5095836302,95.7299,5117200
+Nicaragua,2252.31020571776,61.0524,6948392
+Niger,588.899048266729,16.937,26207977
+Nigeria,2162.6337321033,35.4563,218541212
+North America,74980.8332051402,96.8,372274062
+North Macedonia,7485.6034579418,84.2304,1831712
+Norway,108798.451165901,99,5457127
+OECD members,43681.7314639081,89.805020942033,1377465841
+Oman,25056.7948608378,97.849,4576298
+Other small states,15844.3700627197,78.3302623012376,14095313
+Pacific island small states,3909.14166460187,66.2863490869034,2639019
+Pakistan,1589.26398049714,32.9486,235824862
+Panama,17357.6286293985,73.6085,4408581
+Papua New Guinea,3115.92292253449,26.991,10142619
+Paraguay,6187.0660296399,76.2592,6780744
+Peru,7239.11131130898,74.675,34049588
+Philippines,3499.10727950801,75.2111,115559009
+Poland,18732.4977273198,86.9411,36821749
+Portugal,24515.2657495716,84.4969,10409704
+Post-demographic dividend,50759.6274098503,92.2947846431165,1114354147
+Pre-demographic dividend,1579.54435449704,33.9200125338265,1038012552
+Puerto Rico,35268.0791015719,87.2918,3220113
+Qatar,87480.4197119462,100,2695122
+Romania,15692.3071700143,85.5031,19047009
+Russian Federation,15445.2421875,90.418,144236933
+Rwanda,966.571293318523,34.4405,13776698
+Samoa,3745.56036746313,75.2869,222382
+Sao Tome and Principe,2386.6961758184,56.9899,227380
+Saudi Arabia,30447.8823171601,100,36408820
+Senegal,1594.98515311153,59.9832,17316449
+Serbia,9537.68431879504,83.5383,6664449
+Seychelles,17167.1909760833,86.6654,119878
+Sierra Leone,475.795727844622,30.3518,8605718
+Singapore,88428.7024226232,95.9539,5637022
+Slovak Republic,21279.4589247729,89.0677,5431752
+Slovenia,28439.3340989687,88.9125,2111986
+Small states,14176.6140571601,75.1,19881389
+Solomon Islands,2162.6661301834,44.9575,724273
+Somalia,592.103121972141,27.6,17597511
+South Africa,6766.48125428394,74.703,59893885
+Spain,29674.5442864413,94.4855,47778340
+Sri Lanka,3342.72012524497,50.1067,22181000
+St. Kitts and Nevis,20593.609115757,76.4575,47657
+St. Lucia,13030.9289500727,74.1859,179857
+St. Vincent and the Grenadines,9297.84692916259,77.7418,103948
+Sub-Saharan Africa,1701.71726642046,33.6,1211190002
+Sub-Saharan Africa (IDA & IBRD countries),1701.71726642046,33.6,1211190002
+Sub-Saharan Africa (excluding high income),1700.18641364767,34.2083412575151,1211070124
+Sudan,1102.24536132813,28.7045,46874204
+Suriname,5858.82466074423,75.7614,618040
+Sweden,56299.5057328064,95.0097,10486941
+Switzerland,93259.9057183024,96.8046,8775760
+Tajikistan,1076.43469114729,36.0872,9952787
+Tanzania,1193.35961914063,31.8913,65497748
+Thailand,6913.05080521119,87.9772,71697030
+Timor-Leste,2389.2958750343,40.7521,1341296
+Togo,923.240371150258,37.6212,8848699
+Trinidad and Tobago,19629.4653400829,79.9843,1531044
+Tunisia,3607.91023773078,73.8379,12356117
+Turkiye,10674.5041731531,83.4372,84979913
+Tuvalu,5221.53306995807,81.1913,11312
+United Arab Emirates,53707.9800813801,100,9441129
+United Kingdom,45564.1569448013,95.3412,67791000
+United States,77246.6738828672,97.1299,333271411
+Upper middle income,10190.883998462,76.6,2803249752
+Uruguay,20499.2422244452,89.873,3422794
+Uzbekistan,2276.16123306477,83.9,35648100
+Vanuatu,3128.54042205837,69.8888,326740
+Viet Nam,4179.01179036963,78.59,98186856
+West Bank and Gaza,3799.95527015163,88.6469,5043612
+World,12730.1571671098,64.4,7951595433
+Zambia,1456.90157026157,31.2342,20017675
+Zimbabwe,1676.82148896788,32.5615,16320537
