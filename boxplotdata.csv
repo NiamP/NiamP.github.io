@@ -1,0 +1,50 @@
+,Sector,min_value,max_value,median_value,Q1,Q3
+0,Aerospace and Defense,0.28,0.8,0.5,0.39,0.65
+1,Air Freight Transportation and Logistics,0.14,1.0,0.41000000000000003,0.3,0.7775000000000001
+2,Air Transportation - Airlines,0.289,0.5,0.35,0.308,0.45
+3,Air Transportation - Airport Services,0.38,0.7,0.475,0.4325,0.55
+4,Automobiles and Components,0.252,1.0,0.5,0.42,0.735
+5,"Banks, Diverse Financials, Insurance",0.23,1.0,1.0,0.73,1.0
+6,Building Products,0.25,1.0,0.46,0.37625,0.5
+7,Chemicals,0.23,1.0,0.46,0.38,0.5
+8,Construction Materials,0.08,0.73,0.46,0.35,0.581
+9,Construction and Engineering,0.25,1.0,0.42,0.385,0.5
+10,"Consumer Durables, Household and Personal Products",0.23,1.0,0.46,0.42,0.6
+11,Containers and Packaging,0.23,1.0,0.46499999999999997,0.42,0.5125
+12,Education Services,0.5,0.528,0.5,0.5,0.514
+13,"Electric Utilities and Independent Power Producers and Energy Traders (including fossil, alternative and nuclear energy)",0.25,1.0,0.63,0.5,0.8109999999999999
+14,Electrical Equipment and Machinery,0.18,1.0,0.471,0.42,0.5
+15,Food Production - Agricultural Production,0.23,0.9,0.46,0.32999999999999996,0.5
+16,Food Production - Animal Source Food Production,0.28,1.0,0.385,0.35,0.45
+17,Food and Beverage Processing,0.1,1.0,0.5,0.415,0.56
+18,Food and Staples Retailing,0.18,1.0,0.5,0.46,0.7
+19,"Forest and Paper Products - Forestry, Timber, Pulp and Paper, Rubber",0.21,1.0,0.43,0.35524999999999995,0.51375
+20,Ground Transportation - Highways and Railtracks,0.25,0.678,0.48,0.39,0.5151249999999999
+21,Ground Transportation - Railroads Transportation,0.252,1.0,0.43,0.37,0.5
+22,Ground Transportation - Trucking Transportation,0.28,0.82,0.42,0.405,0.5
+23,Healthcare Equipment and Supplies,0.46,1.0,0.6,0.5,0.82
+24,"Healthcare Providers and Services, and Healthcare Technology",0.42,1.0,0.46,0.46,0.516
+25,Homebuilding,0.21,0.55,0.42,0.32999999999999996,0.5
+26,"Hotels, Restaurants and Leisure, and Tourism Services",0.175,1.0,0.5,0.46,0.816
+27,Media,0.24,1.0,0.5,0.46,0.515
+28,"Mining - Iron, Aluminum, Other Metals",0.2,0.75,0.42,0.3575,0.5
+29,"Mining - Other (Rare Minerals, Precious Metals and Gems)",0.27,0.5,0.41000000000000003,0.3075,0.5
+30,"Mining - Other (Rare minerals, precious metals and gems)",0.42,0.42,0.42,0.42,0.42
+31,"Pharmaceuticals, Biotechnology and Life",0.23,1.0,0.515,0.42,0.7875000000000001
+32,Professional Services,0.21,1.0,0.5,0.42,0.5
+33,Real Estate,0.21,1.0,0.5,0.42,0.55
+34,Retailing,0.3,1.0,0.55,0.46,0.8
+35,Semiconductors and Semiconductors Equipment,0.25,25.0,0.481,0.35075,0.69175
+36,Software and Services,0.2,1.0,0.46,0.42,0.6
+37,Solid Waste Management Utilities,0.3,1.0,0.42,0.42,0.42
+38,Specialized Consumer Services,0.25,0.8,0.5,0.42,0.5
+39,"Specialized Financial Services, Consumer Finance, Insurance Brokerage Firms",0.46,1.0,0.5855,0.46,1.0
+40,Technology Hardware and Equipment,0.2,1.0,0.5,0.42,0.6074999999999999
+41,Telecommunication Services,0.18,1.0,0.525,0.45775,0.8625
+42,"Textiles, Apparel, Footwear and Luxury Goods",0.21,1.0,0.5,0.46,0.765
+43,Tires,0.42,0.7,0.52,0.5,0.56
+44,Tobacco,0.3,0.55,0.45999999999999996,0.38749999999999996,0.5
+45,"Trading Companies and Distributors, and Commercial Services and Supplies",0.23,1.0,0.45,0.4,0.5
+46,Water Transportation - Ports and Services,0.3,1.0,0.5,0.4,0.75
+47,Water Transportation - Water Transportation,0.25,0.9,0.3,0.3,0.5
+48,Water Utilities,0.25,1.0,0.5,0.41500000000000004,0.6599999999999999
