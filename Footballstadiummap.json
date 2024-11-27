@@ -1,0 +1,51 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "UK football Stadiums",
+    "subtitle": ["Capacity of UK Football Stadiums", ""]
+  },
+  "width": 400,
+  "height": 400,
+  "data": {
+    "url": "https://raw.githubusercontent.com/FM-ds/Festival_Display/main/data/cleaned/lowpoly_LAD.json",
+    "format": {"type": "topojson"}
+  },
+  "projection": {"type": "naturalEarth1"},
+  "layer": [
+    {
+      "mark": {
+        "type": "geoshape",
+        "fill": "rgb(200,180,100)",
+        "stroke": "rgb(20,20,20)",
+        "strokeWidth": 0.1
+      }
+    },
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/NiamP/NiamP.github.io/refs/heads/main/stadiums.csv"
+      },
+      "mark": {
+        "type": "circle",
+        "stroke": "rgb(0,0,0,0.2)",
+        "strokeWidth": 0.2
+      },
+      "encoding": {
+        "longitude": {"field": "Longitude", "type": "quantitative"},
+        "latitude": {"field": "Latitude", "type": "quantitative"},
+        "color": {
+          "field": "Capacity",
+          "title": "Capacity",
+          "type": "quantitative",
+          "scale": {"scheme": "darkmulti", "reverse": false}
+
+        },
+
+        "tooltip": [
+          {"field": "Name"},
+          {"field": "Team"},
+          {"field": "Capacity", "title": "Capacity"}
+        ]
+      }
+    }
+  ]
+}

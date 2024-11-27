@@ -1,0 +1,64 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Assets under management for sustainable funds over time with a year range slider and tooltip.",
+  "height": 400,
+  "width": 400,
+  "data": {
+    "url": "https://raw.githubusercontent.com/NiamP/NiamP.github.io/main/AUMsustainable.csv",
+    "format": {"type": "csv"}
+  },
+  "title":{
+    "text": "Total Value of Assets in ESG ETFs Since 2006",
+    "color": "#1E3A5F",
+    "fontSize": 15,
+    "fontWeight": 600,
+    "subtitle": "Data from Statista",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 12,
+    "anchor": "start",
+    "subtitlePadding":10
+  },
+  "transform": [
+    {"calculate": "year(datum.Year)", "as": "year"},
+    {"filter": "datum.year >= minYear"},
+    {"filter": "datum.year <= maxYear"}
+  ],
+  "params": [
+    {
+      "name": "minYear",
+      "value": 2014,
+      "bind": {
+        "input": "range",
+        "min": 2006,
+        "max": 2022,
+        "step": 1,
+        "name": "Start Year"
+      }
+    },
+    {
+      "name": "maxYear",
+      "value": 2023,
+      "bind": {
+        "input": "range",
+        "min": 2007,
+        "max": 2023,
+        "step": 1,
+        "name": "End Year"
+      }
+    }
+  ],
+  "mark": {"type": "area", "color": "rgb(34,180,34"},
+  "encoding": {
+    "x": {"field": "Year", "type": "temporal", "title": "Year"},
+    "y": {
+      "field": "Value",
+      "type": "quantitative",
+      "title": "Assets Under Management (in $ Billions)"
+    },
+    "tooltip": [
+      {"field": "Year", "type": "temporal", "title": "Year"},
+      {"field": "Value", "type": "quantitative", "title": "Value ($B)"}
+    ]
+  },
+  "config": {}
+}

@@ -1,0 +1,55 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Takeaway Latte Prices since 2003",
+    "subtitle": ["Blue band shows 20th and 80th Percentile range"]
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/NiamP/NiamP.github.io/refs/heads/main/coffeeprices.csv",
+    "format": {
+      "type": "csv",
+      "parse": {
+        "date": "date",
+        "decile2": "number",
+        "decile5": "number",
+        "decile8": "number"
+      }
+    }
+  },
+  "width": 400,
+  "height": 400,
+  "encoding": {"x": {"field": "date", "type": "temporal", "title": "Date"}},
+  "layer": [
+    {
+      "mark": {"type": "area", "opacity": 0.3},
+      "encoding": {
+        "y": {"field": "decile2", "type": "quantitative", "title": "Price"},
+        "y2": {"field": "decile8"},
+        "tooltip": [
+          {"field": "date", "type": "temporal", "title": "Date"},
+          {
+            "field": "decile2",
+            "type": "quantitative",
+            "title": "20th Percentile"
+          },
+          {
+            "field": "decile8",
+            "type": "quantitative",
+            "title": "80th Percentile"
+          }
+        ]
+      }
+    },
+    {
+      "mark": {"type": "line"},
+      "encoding": {
+        "y": {"field": "decile5", "type": "quantitative"},
+        "tooltip": [
+          {"field": "date", "type": "temporal", "title": "Date"},
+          {"field": "decile5", "type": "quantitative", "title": "Median Price"}
+        ]
+      }
+    }
+  ],
+  "config": {}
+}

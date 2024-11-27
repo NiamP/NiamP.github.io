@@ -1,0 +1,71 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "height": 400,
+  "width": 400,
+  "data": {
+    "url": "https://raw.githubusercontent.com/NiamP/NiamP.github.io/refs/heads/main/S%26P%20500%20ESG%20vs%20Non.csv"
+  },
+  "title":{
+    "text": "Standard and Poor's (S&P) 500 and its ESG Counterpart",
+    "color": "#1E3A5F",
+    "fontSize": 15,
+    "fontWeight": 600,
+    "subtitle": "Data from Statista",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 12,
+    "anchor": "start",
+    "subtitlePadding":10
+  },
+  "layer": [
+    {
+      "mark": "line",
+      "encoding": {
+        "x": {"field": "Date", "type": "temporal"},
+        "y": {"field": "price", "type": "quantitative"},
+        "color": {"field": "index", "type": "nominal"}
+      }
+    },
+    {
+      "mark": {"type": "rule", "color": "gray", "tooltip": null},
+      "params": [
+        {
+          "name": "hover",
+          "select": {"type": "point", "encodings": ["x"], "on": "mousemove", "nearest": true}
+        }
+      ],
+      "encoding": {
+        "x": {"field": "Date", "type": "temporal"},
+        "opacity": {"condition": {"param": "hover", "value": 1}, "value": 0}
+      }
+    },
+    {
+      "mark": {"type": "circle", "tooltip": true},
+      "encoding": {
+        "x": {"field": "Date", "type": "temporal"},
+        "y": {"field": "price", "type": "quantitative"},
+        "color": {"field": "index", "type": "nominal"},
+        "opacity": {
+          "condition": {"param": "hover", "empty": false, "value": 1},
+          "value": 0
+        },
+        "size": {
+          "condition": {"param": "hover", "empty": false, "value": 100},
+          "value": 0
+        }
+      }
+    },
+    {
+      "mark": {"type": "text", "align": "left", "dx": 5, "dy": -5},
+      "encoding": {
+        "x": {"field": "Date", "type": "temporal"},
+        "y": {"field": "price", "type": "quantitative"},
+        "text": {"field": "price", "type": "quantitative", "format": ".2f"},
+        "color": {"field": "index", "type": "nominal"},
+        "opacity": {
+          "condition": {"param": "hover", "empty": false, "value": 1},
+          "value": 0
+        }
+      }
+    }
+  ]
+}

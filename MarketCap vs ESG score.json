@@ -1,0 +1,46 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "height": 400,
+  "width": 400,
+  "data": {
+    "url": "https://raw.githubusercontent.com/NiamP/NiamP.github.io/refs/heads/main/MktCap_vs_ESG.csv"
+  },
+  "title":{
+    "text": "MarketCap vs ESG Risk Score",
+    "color": "#1E3A5F",
+    "fontSize": 15,
+    "fontWeight": 600,
+    "subtitle": "Data Sourced From yfinance API (ESG Risk Score - Lower is better)",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 12,
+    "anchor": "start",
+    "subtitlePadding":10
+  },
+  "mark": {"type": "point", "color": "rgb(34,180,34)"},
+  "encoding": {
+    "x": {
+      "field": "Marketcap",
+      "type": "quantitative",
+      "scale": {"type": "log"},
+      "title": "Marketcap (Log scale)"
+    },
+    "y": {
+      "field": "ESG rating",
+      "type": "quantitative",
+      "title": "ESG Risk Score"
+    },
+    "tooltip": [
+      {"field": "Symbol", "type": "nominal", "title": "Stock Ticker Symbol"},
+      {"field": "Marketcap", "type": "quantitative", "title": "Market Cap"},
+      {"field": "ESG rating", "type": "quantitative", "title": "ESG Risk Score"}
+    ]
+  },
+  "params": [
+    {
+      "name": "zoom",
+      "select": {"type": "interval", "encodings": ["x", "y"]},
+      "bind": "scales"
+    }
+  ],
+  "config": {}
+}

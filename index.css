@@ -1,38 +1,47 @@
-/* This is an example CSS file. If you include it in your portfolio, it'll provide some clean and basic styling */
-/* for your page. Feel free to experiment with the values, or copy them into a new file and use that instead. */
-
-/* These are comments in CSS. Comments don't do anything except explain your working to make code easier to understand. */
 
 
-body { /* We can style any HTML element by using its name - here we're styling the body */
-  /* We want text that uses a clean sans-serif font, is usually 16px big and close to black */
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+body { 
+  font-family: 'Raleway', sans-serif;
   font-size: 16px;
   color: #333;
   line-height: 1.6;
-  /* we want a white page, that's centered and not too wide */
-  background-color: #fff;
+  font-weight: 150;
+  background-color: #f0f0f0;
   margin:0 auto;
-  max-width: 800px;
+  max-width: 1300px;
   padding-top: 60px;
 }
 
 
-/* Headings */
-h1, h2, h3, h4, h5, h6 {
+
+h1 {
+  font-family: 'Tauri', sans-serif;
   color: #333;
   margin-top: 24px;
   margin-bottom: 16px;
+  margin: 30px;
   font-weight: 600;
+  text-align: center;
 }
 
-/* We want the headings to be a little bigger than the paragraph text */
-.big { /* This is the class we created in the HTML file, you can use it to style any element */
-  font-size: 2.5em;
+h2, h3, h4, h5, h6 {
+  font-family: 'Raleway', sans-serif;
+  color: #333;
+  margin-top: 24px;
+  margin-bottom: 16px;
+  margin: 30px;
+  font-weight: 600;
+  text-align: center;
+}
+
+
+.big { 
+  font-size: 3em;
 }
 
 h2 {
-  font-size: 1.75em;
+  font-size: 2em;
 }
 
 .small {
@@ -41,18 +50,16 @@ h2 {
 
 /* Paragraph */
 p {
-  margin-bottom: 1em;
-  font-weight: 300;
+  margin-bottom: 0;
+  font-weight: 150;
 }
 
 section {
   margin-bottom: 2.5em;  /* We want a little more space between sections */
 }
 
-/* Links */
-/* We want the links to be a little more visible  and a different color */
 a {
-  color: #065f46;
+  color: #106b51;
   text-decoration: none;
 }
 
@@ -64,4 +71,86 @@ a:hover {
 img {
   max-width: 100%;
   height: auto;
+}
+
+#chartGrid {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 500px), 1fr));
+  gap: 50px;
+  justify-content: center;
+}
+
+figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 5px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 30px;
+  width: 97%; 
+  box-sizing: border-box;
+  overflow: hidden; 
+}
+
+
+
+figcaption, p {
+  width: 100%;
+  font-weight: bold;
+  text-align: center;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
+  margin-bottom: 1.5em;
+}
+
+/* Shared button styles */
+.top-right-link {
+  position: fixed;
+  top: 10px;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #4d4b4b;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-family: 'Raleway', sans-serif;
+  z-index: 100; /* Ensure the buttons appear above other content */
+}
+
+.top-right-link:hover {
+  background-color: #e0e0e0;
+}
+
+/* Unique positions */
+#main-project-link {
+  right: 120px; /* Offset for the first button */
+}
+
+#portfolio-link {
+  right: 10px; /* Offset for the second button */
+}
+
+
+@media (max-width: 768px) {
+  #chartGrid {
+    justify-content: center;
+  }
+  figure {
+    flex: 1 1 100%;
+  }
+}
+
+.chart-image-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+    gap: 100px;
+}
+
+.underlined {
+  text-decoration: underlrine;
 }

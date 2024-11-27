@@ -1,0 +1,54 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/NiamP/NiamP.github.io/refs/heads/main/linregressionRevESG.csv"
+  },
+  "title": {
+    "text": "Loess Regression of Revenue Growth (%) on ESG Risk Score",
+    "color": "#1E3A5F",
+    "fontSize": 15,
+    "fontWeight": 600,
+    "subtitle": "Data Sourced From yfinance API (ESG Risk Score - Lower is better)",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 12,
+    "anchor": "start",
+    "subtitlePadding": 10
+  },
+  "height": 400,
+  "width": 400,
+  "layer": [
+    {
+      "mark": {"type": "point", "filled": true},
+      "encoding": {
+        "x": {"field": "ESG rating", "type": "quantitative"},
+        "y": {"field": "Revenuegrowth", "type": "quantitative"},
+        "tooltip": [
+          {"field": "Symbol", "type": "nominal", "title": "Symbol"},
+          {
+            "field": "Revenuegrowth",
+            "type": "quantitative",
+            "title": "Revenue Growth"
+          },
+          {
+            "field": "ESG rating",
+            "type": "quantitative",
+            "title": "ESG Risk Score"
+          }
+        ]
+      }
+    },
+    {
+      "mark": {"type": "line", "color": "firebrick"},
+      "transform": [{"loess": "Revenuegrowth", "on": "ESG rating"}],
+      "encoding": {
+        "x": {
+          "field": "ESG rating",
+          "type": "quantitative",
+          "title": "ESG Risk Score"
+        },
+        "y": {"field": "Revenuegrowth", "type": "quantitative"}
+      }
+    }
+  ],
+  "config": {}
+}

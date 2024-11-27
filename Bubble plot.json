@@ -1,0 +1,37 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 400,
+  "height": 400,
+  "title": "Individuals that Use the Internet and GDP per Capita with population sizes",
+  "data": {
+    "url": "https://raw.githubusercontent.com/NiamP/NiamP.github.io/refs/heads/main/week8task.csv"
+  },
+  "params": [{"name": "view", "select": "interval", "bind": "scales"}],
+  "mark": "circle",
+  "encoding": {
+    "y": {
+      "field": "Individuals using the Internet (% of population)",
+      "type": "quantitative",
+      "scale": {"zero": false},
+      "axis": {"minExtent": 30}
+    },
+    "x": {"field": "GDP per capita (current US$)", "scale": {"type": "log"}, "title": "GDP per capita (current US, Log Scale)"},
+    "size": {"field": "Population, total", "type": "quantitative"},
+    "color": {"value": "#000"},
+    "tooltip": [
+      {"field": "Country Name", "type": "nominal"},
+      {
+        "field": "GDP per capita (current US$)",
+        "type": "quantitative",
+        "format": ",.2f"
+      },
+      {
+        "field": "Individuals using the Internet (% of population)",
+        "type": "quantitative",
+        "format": ".2f"
+      },
+      {"field": "Population, total", "type": "quantitative", "format": ",.0f"}
+    ]
+  },
+  "config": {}
+}

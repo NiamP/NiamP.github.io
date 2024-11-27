@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Tauri&display=swap" rel="stylesheet">
+
+    <title>The Growth and Development of ESG Practises</title>
+    
+    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+
+
+</head>
+<body>
+    <a href="Portfolio.html" id="portfolio-link" class = "top-right-link">Portfolio</a>
+    <a href="index.html" id="main-project-link" class = "top-right-link">Home page</a>
+
+    <h1 class="big" style="margin-bottom: 0px;">
+        The Growth of ESG Investment and its Impact
+    </h1>
+
+<hr>
+<h2 class="underlined">Aims</h2>
+<p>This project aims to explore the growth and impact of ESG investment practises on markets, companies, and the borader world. The rise in global temperatures and the escalating effects of climate change have driven market participants to prioritise investments that align with ethical and sustainable values. Over the past decade, ESG investing has become a highly discussed trend among capital allocators and this project seeks to examine how ESG investing has evolved, whether there are characteristics which determine a companies likelyhood of having a strong ESG performance, and evaluate whether this increasing emphasis on ESG truly influences the world in a meaningful way.</p>
+<hr>
+
+<h3>Notes:</h3>
+<p>1. The yfinance API is an API that allows users to fetch financial data from Yahoo Finance</p>
+<p>2. Yahoo Finance makes use of ESG scores from Sustainalytics. ESG scores for mutual funds are based on their portfolios. The way the scorring systemw works means that the lower the value, the lower the unmitigated ESG risks the comapny poses (i.e the better) so comapnies with a lower score are essentially more sustainable than companies with a larger score.</p>
+<hr>
+
+
+
+<h2>Sources of ESG Investment</h2>
+
+    <section>
+        <div id = "chartGrid">
+        <figure>
+            <div id = "LocationA"></div> 
+            <p>I gathered ESG data on the top 15,000 mutual funds using yfinance and stored these values in a pandas dataframe, then ordered them and found the base country using the same API. As we can see the vast majority of funds are based in the US, however this is expected given that the number of mutual funds in the US far outways any other nation.</p>
+        </figure>
+        <figure>
+            <div id = "LocationF"></div>
+            <p>This data was gathered form statista, who sourced it from a Morgan Stanley analysis of the growth of the ESG sector, the graph shows that since 2018 there has been a sharp increase in the value of assets within ESG ETFs (Exchange Traded Funds), and this looks likely to continue to grow.</p>
+        </figure>
+
+        </div>
+    </section>
+
+<h2>The Returns from ESG Investment</h2>
+
+    <section>
+        <div id = "chartGrid">
+        <figure>
+            <div id = "LocationB"></div>
+            <p>This data was gathered using the same ESG ratings used for the locations, and then using a separate API endpoint for performance metrics, I downloaded the price data. As you can see, of the 5 funds two were very shortlived, only being open for around 9 months each before shutting down, the rest remain open but have not performed particularly well when compared to the S&P 500.</p>
+        </figure>
+        <figure>
+            <div id = "LocationC"></div>
+            <p>This figure shows the performance of the S&P 500 against the its ESG counterpart (which comprises of around 350 companies which meet the ESG requirements). The data suggests that overall ESG companies have perfomed slightly better than the standard index, and that this gap is steadily growing and has been since april 2021.</p>
+        </figure>
+        </div>
+    </section>
+
+<h2>What Type Of Companies Perform Well by ESG Metrics?</h2>
+
+    <section>
+        <div id = "chartGrid">
+        <figure>
+            <div id = "LocationD"></div>
+            <p>The data for this scatter plot was sourced from the yfinance API, it compared the Market Cap and ESG risk score (lower is better) of the S&P 500. The data shows that there is no real correlation between market cap and ESG risk score, which may be suprising given that we expect larger market cap companies, especially in tech, to place an emphasis on sustainability. </p>
+        </figure>
+        <figure>
+            <div id = "LocationG"></div>
+            <p>The data for this regression was also gathered using the yfinance API, and then a Loess regression was applied inside of vega lite. The Regression shows that ESG risk score does not seem to impact RevenueGrowth until we reach the extremes (30+) wherey the poor ESG risk score correlates to lower % revenue growth.</p>
+        </figure>
+        </div>
+    </section>
+
+<h2>What Are the Potential Results of This Investment?</h2>
+    <section>
+        <div id = "chartGrid">
+        <figure>
+            <div id="LocationE"></div>
+            <p>This box plot shows target Emmisions reductions across a variety of sectors for companies that submitted targets to SBTi for their report. There were over 1000 companies, who set targets with SBTi and this almost doubled from the previous year which was 587. The data shows that companies across sectors are setting challenging emmisions reductions targets with most sectors having a median somewhere between 40 and 50 percent. Almost every industry had at least 1 company targeting 100% emmisions reductions too, which is extremely positive. </p>
+        </figure>
+        </div>
+    </section>
+        <figure>
+                <iframe id="LocationH" src="Emissionsmap.html" width = 1000 height = 800 frameborder ="0"></iframe>
+        </figure>
+
+    
+    </section>
+
+
+<section>
+    <script>
+
+        let figure1 = "ESGFundsbycountry.json"
+
+        vegaEmbed('#LocationA', figure1)
+
+        let figure2 = "Top5ESGfunds.json"
+
+        vegaEmbed("#LocationB", figure2)
+
+        let figure3 = "S&P500ESG vs S&P500.json"
+
+        vegaEmbed("#LocationC", figure3)
+        
+        let figure4 = "MarketCap vs ESG score.json"
+
+        vegaEmbed("#LocationD", figure4)
+
+        let figure5 = "Boxplot.json"
+
+        vegaEmbed("#LocationE", figure5)
+
+        let figure6 = "AUMESG.json"
+
+        vegaEmbed("#LocationF", figure6)
+
+        let figure7 = "LoessRegression.json"
+
+        vegaEmbed("#LocationG", figure7)
+
+    </script>
+
+</section>
+
+
+</body>
+</html>

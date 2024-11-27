@@ -1,0 +1,38 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Gun deaths in Florida over Time with an annotation for the law in 2005.",
+  "width": 400,
+  "height": 400,
+  "data": {
+    "url": "https://raw.githubusercontent.com/NiamP/NiamP.github.io/refs/heads/main/Gun%20deaths%20Florida.csv"
+  },
+  "layer": [
+    {
+      "mark": {"type": "line", "point": {"filled": false, "fill": "white"}},
+      "encoding": {
+        "x": {"field": "Year", "type": "ordinal", "axis": {"labelAngle": -45}},
+        "y": {"field": "Gun deaths", "type": "quantitative"}
+      }
+    },
+    {
+      "mark": {"type": "rule", "strokeDash": [2,2], "color": "red"},
+      "encoding": {"x": {"datum": "2005"}}
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "baseline": "top",
+        "dx": 5,
+        "dy": 10,
+        "fontSize": 12
+      },
+      "encoding": {
+        "x": {"datum": "2005"},
+        "y": {"value": 0},
+        "text": {"value": "Florida - Stand Your Ground law enacted "}
+      }
+    }
+  ],
+  "config": {}
+}

@@ -1,0 +1,44 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "GDP Per Capita With PPPs For G7 Nations",
+    "subtitle": ["Sourced from Wikipidea using Python"]
+  },
+  "description": "A bar chart with highlighting on hover and selecting on click. (Inspired by Tableau's interaction style.)",
+  "height": 400,
+  "width": 400,
+  "data": {
+    "url": "https://raw.githubusercontent.com/NiamP/NiamP.github.io/refs/heads/main/G7GDPpercapitawithPPP.csv"
+  },
+  "params": [
+    {"name": "highlight", "select": {"type": "point", "on": "pointerover"}},
+    {"name": "select", "select": "point"}
+  ],
+  "mark": {
+    "type": "bar",
+    "fill": "#21963e",
+    "stroke": "black",
+    "cursor": "pointer"
+  },
+  "encoding": {
+    "x": {"field": "Country", "type": "ordinal"},
+    "y": {
+      "field": "GDP per capita with PPP",
+      "type": "quantitative",
+      "title": "GDP per capita with PPPs added"
+    },
+    "fillOpacity": {"condition": {"param": "select", "value": 1}, "value": 0.3},
+    "tooltip": [
+      {"field": "Country", "type": "ordinal", "title": "Country"},
+      {"field": "GDP per capita with PPP", "type": "quantitative", "title": "GDP in PPP"}
+    ],
+    "strokeWidth": {
+      "condition": [
+        {"param": "select", "empty": false, "value": 2},
+        {"param": "highlight", "empty": false, "value": 1}
+      ],
+      "value": 0
+    }
+  },
+  "config": {"scale": {"bandPaddingInner": 0.2}}
+}

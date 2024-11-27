@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html> 
+
+
+<head>    
+
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <title>My Portfolio</title> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Tauri&display=swap" rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+
+</head>
+
+<body> 
+    <a href="mainproject.html" id="main-project-link" class = "top-right-link">Main Project</a>
+    <a href="index.html" id="portfolio-link" class = "top-right-link">Home Page</a>
+
+    <h1 class="big" style="margin-bottom: 0px;"> 
+        Portfolio Tasks
+    </h1>
+
+<section>
+    <h2>Week 1</h2>
+    <p>Hosting Charts</p>
+    <div id ="chartGrid">  
+        <figure>
+            <div id="Location1"></div>
+        </figure>
+        <figure>
+            <div id="Location2"></div>
+        </figure>  
+</section>
+
+<section>
+    <h2> Week 2 </h2>
+    <p>Charts Created Using the Economics Observatory Create Tool</p>
+    <div id="chartGrid">
+        <figure>
+            <div id = "Location3"></div>
+        </figure>
+        <figure>
+            <div id="Location4"></div>
+        </figure>
+</section>
+
+<section>
+    <div>
+        <h2> Week 3 </h2>
+        <p> Chart Debating a topic from the Festival of Economics</p>
+    </div>
+</section>
+
+<section>
+    <h2> Week 4 </h2>
+    <div id="chartGrid">
+        <figure>
+            <figcaption>Replicating someone elses chart</figcaption>
+            <div class = "chart-image-wrapper">
+                <div id = "Location5"></div>
+                <img src = "Screenshot 2024-11-03 at 15.55.23.png" style="width:400px;height:400px;">
+            </div>
+        </figure>
+</section>
+
+<section>
+    <h2> Week 5 </h2>
+    <div id="chartGrid">
+        <figure>
+            <figcaption>Creating a graph using data collected from web scraping</figcaption>
+            <div id = "Location6"></div>
+        </figure>
+</section>
+
+
+<section>
+    <div>
+        <h2> Week 6</h2>
+        <p> Loops </p>
+    </div>
+</section>
+
+<section>
+    <h2> Week 7 </h2>
+    <div id="chartGrid">
+        <figure>
+            <figcaption>Maps</figcaption>
+            <div id = "Location8"></div>
+        </figure>
+</section>
+
+<section>
+    <h2> Week 8 </h2>
+    <p> Analytics Charts</p>
+    <div id="chartGrid">
+        <figure>
+            <div id = "Location10"></div>
+        </figure>
+        <figure>
+            <div id = "Location11"></div>
+        </figure>
+        
+</section>
+
+<section>
+    <h2> Week 9 </h2>
+    <div id="chartGrid">
+        <figure>
+            <figcaption>Big Data</figcaption>
+            <div id = "Location9"></div>
+        </figure>
+     </div>
+</section>
+
+<section>
+    <div>
+        <h2> Week 10 </h2>
+        <p> Machine Learning </p>
+    </div>
+</section>
+
+    <script>
+
+        let figure_1_spec = "wk1_chart1.json"
+
+        vegaEmbed('#Location1', figure_1_spec)
+
+        let figure_2_spec= "wk1_chart2.json"
+
+        vegaEmbed('#Location2', figure_2_spec)
+
+        let figure3spec = "Debt.json"
+
+        vegaEmbed('#Location3', figure3spec)
+
+        let figure4spec = 'Week2chart2.json'
+
+        vegaEmbed('#Location4', figure4spec)
+    
+        let figure5spec = "improvingsomeoneelse.json"
+
+        vegaEmbed('#Location5',figure5spec)
+
+        let figure8spec = 'Footballstadiummap.json'
+
+        vegaEmbed('#Location8',figure8spec)
+
+        let figure6spec = 'WebscrapingGraph.json'
+
+        vegaEmbed('#Location6',figure6spec)
+
+        let figure9spec = 'Coffeeprices.json'
+
+        vegaEmbed('#Location9', figure9spec)
+
+        let figure10spec = 'Linear Regression.json'
+
+        vegaEmbed('#Location10',figure10spec)
+
+        let figure11spec = 'Bubble plot.json'
+
+        vegaEmbed('#Location11',figure11spec)
+
+    </script>
+
+</body>
+    
+</html>

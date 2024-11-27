@@ -1,0 +1,78 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/NiamP/NiamP.github.io/refs/heads/main/week8task.csv"
+  },
+  "title": "Linear Regression of Individuals Using the Internet (%) on GDP per Capita",
+  "width": 400,
+  "height": 400,
+  "layer": [
+    {
+      "mark": {"type": "point", "filled": true},
+      "encoding": {
+        "x": {
+          "field": "GDP per capita (current US$)",
+          "scale": {"type": "log"},
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "Individuals using the Internet (% of population)",
+          "type": "quantitative"
+        },
+        "tooltip": [
+          {"field": "Country Name", "type": "nominal"},
+          {
+            "field": "GDP per capita (current US$)",
+            "type": "quantitative",
+            "format": ",.2f"
+          },
+          {
+            "field": "Individuals using the Internet (% of population)",
+            "type": "quantitative",
+            "format": ".2f"
+          },
+          {
+            "field": "Population, total",
+            "type": "quantitative",
+            "format": ",.0f"
+          }
+        ]
+      }
+    },
+    {
+      "mark": {"type": "line", "color": "firebrick"},
+      "transform": [
+        {
+          "regression": "Individuals using the Internet (% of population)",
+          "on": "GDP per capita (current US$)"
+        }
+      ],
+      "encoding": {
+        "x": {"field": "GDP per capita (current US$)", "type": "quantitative"},
+        "y": {
+          "field": "Individuals using the Internet (% of population)",
+          "type": "quantitative"
+        }
+      }
+    },
+    {
+      "transform": [
+        {
+          "regression": "Individuals using the Internet (% of population)",
+          "on": "GDP per capita (current US$)",
+          "params": true
+        },
+        {"calculate": "'R²: '+format(datum.rSquared, '.2f')", "as": "R2"}
+      ],
+      "mark": {
+        "type": "text",
+        "color": "firebrick",
+        "x": "width",
+        "align": "right",
+        "y": -5
+      },
+      "encoding": {"text": {"type": "nominal", "field": "R2"}}
+    }
+  ],
+  "config": {}
+}

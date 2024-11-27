@@ -1,0 +1,52 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+  "description": "A bar chart with highlighting on hover and selecting on click. (Inspired by Tableau's interaction style.)",
+  "height": 400,
+  "width": 400,
+  "data": {
+    "url": "https://raw.githubusercontent.com/NiamP/NiamP.github.io/refs/heads/main/fundsbycountry.csv"
+  },
+  "title":{
+    "text": "The Base Country for the Top 500 Mutual Funds by ESG Score",
+    "color": "#1E3A5F",
+    "fontSize": 15,
+    "fontWeight": 600,
+    "subtitle": "Data Sourced From yfinance API",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 12,
+    "anchor": "start",
+    "subtitlePadding":10
+  },
+  "params": [
+    {"name": "highlight", "select": {"type": "point", "on": "pointerover"}},
+    {"name": "select", "select": "point"}
+  ],
+  "mark": {
+    "type": "bar",
+    "fill": "rgb(34,180,34)",
+    "stroke": "black",
+    "cursor": "pointer"
+  },
+  "encoding": {
+    "x": {"field": "Country", "type": "ordinal"},
+    "y": {"field": "Fund Count", "type": "quantitative"},
+    "fillOpacity": {"condition": {"param": "select", "value": 1}, "value": 0.3},
+    "tooltip": [
+      {"field": "Country", "type": "ordinal", "title": "Country"},
+      {
+        "field": "Fund Count",
+        "type": "quantitative",
+        "title": "Number of Funds"
+      }
+    ],
+    "strokeWidth": {
+      "condition": [
+        {"param": "select", "empty": false, "value": 2},
+        {"param": "highlight", "empty": false, "value": 1}
+      ],
+      "value": 0
+    }
+  },
+  "config": {"scale": {"bandPaddingInner": 0.2}}
+}

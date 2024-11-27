@@ -1,0 +1,39 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "A horizontal box plot showing target values by sector.",
+  "height": 400,
+  "width": 800,
+  "title":{
+    "text": "Target Emmisions reductions by Sector",
+    "color": "#1E3A5F",
+    "fontSize": 15,
+    "fontWeight": 600,
+    "subtitle": "Data Sourced from Science Based Targets Monitoring Report",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 12,
+    "subtitlePadding":10
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/NiamP/NiamP.github.io/refs/heads/main/boxplotdata.csv"
+  },
+  "transform": [
+    {"calculate": "toNumber(datum['Target value'])", "as": "Target Reduction %"}
+  ],
+  "mark": {
+    "type": "boxplot",
+    "extent": "min-max",
+    "orient": "vertical",
+    "ticks": {"size": 12}
+  },
+  "encoding": {
+    "x": {"field": "Sector", "type": "nominal", "title": "Sector"},
+    "y": {
+      "field": "Target Reduction %",
+      "title": "Target Reduction in emmisions (%)",
+      "type": "quantitative",
+      "sort": "-x"
+    },
+    "color": {"field": "Sector", "type": "nominal", "legend": null}
+  },
+  "config": {}
+}
