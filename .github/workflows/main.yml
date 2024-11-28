@@ -26,4 +26,13 @@ jobs:
 
     - name: Run Manipulationnormalfile.py
       run: python Manipulationnormalfile.py
+
+    - name: Commit changes
+      run: |
+        git config --global user.name "NiamP"
+        git config --global user.email "your-email@example.com"
+        git add linregressionRevESG.csv
+        git add top5prices.csv'=
+        git commit -m "Update CSV file with new data"
+        git push origin main
       
