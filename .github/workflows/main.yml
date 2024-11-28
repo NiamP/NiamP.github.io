@@ -22,7 +22,7 @@ jobs:
         pip install -r requirements.txt
 
     - name: Run first script
-      run: python _ESGmanipulation.py
+      run: python _ESGManipulation.py
 
     - name: Run second script
       run: Manipulationnormalfile.py
