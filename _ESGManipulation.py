@@ -2,7 +2,7 @@ import pandas as pd
 import yfinance as yf
 
 # Load CSV file and filter the top-rated funds based on ESG Score
-funds = pd.read_csv('/Users/niampopat/Library/CloudStorage/OneDrive-UniversityofBristol/Documents/Data science for Economists/CSVs/Sustainability+country.csv')
+funds = pd.read_csv('Sustainability+country.csv')
 funds = funds.drop(funds.columns[[0, 1]], axis=1)
 toprated = funds.nsmallest(50, 'ESG Score')
 
