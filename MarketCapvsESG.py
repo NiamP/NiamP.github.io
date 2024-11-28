@@ -1,5 +1,6 @@
 import yfinance as yf
 import pandas as pd
+import time
 
 biglist = pd.read_csv('flat-ui__data-Fri Oct 25 2024.csv')
 
@@ -24,6 +25,8 @@ for i in range(len(Tickerlist)):
     
     except:
         ESGratings.append('Unavailable')
+
+    time.sleep(1)
 
 print(len(marketcaps))
 print(len(ESGratings))
