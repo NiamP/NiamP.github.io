@@ -21,8 +21,9 @@ jobs:
       run: |
         pip install -r requirements.txt
 
-    - name: Run first script
+    - name: Run _ESGManipulation.py
       run: python _ESGManipulation.py
 
-    - name: Run second script
-      run: Manipulationnormalfile.py
+    - name: Run Manipulationnormalfile.py
+      run: python Manipulationnormalfile.py
+      
