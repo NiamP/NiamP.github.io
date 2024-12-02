@@ -246,267 +246,236 @@
 244,Temporary Employees could not find permanent job,2021,30.2
 245,Temporary Employees could not find permanent job,2022,23.5
 246,Temporary Employees could not find permanent job,2023,21.6
-247,Economic Activity UK men,2001 Q1,15799
-248,Economic Activity UK men,2001 Q2,15789
-249,Economic Activity UK men,2001 Q3,16026
-250,Economic Activity UK men,2001 Q4,15936
-251,Economic Activity UK men,2002 Q1,15842
-252,Economic Activity UK men,2002 Q2,15893
-253,Economic Activity UK men,2002 Q3,16110
-254,Economic Activity UK men,2002 Q4,16104
-255,Economic Activity UK men,2003 Q1,16017
-256,Economic Activity UK men,2003 Q2,16082
-257,Economic Activity UK men,2003 Q3,16265
-258,Economic Activity UK men,2003 Q4,16126
-259,Economic Activity UK men,2004 Q1,16108
-260,Economic Activity UK men,2004 Q2,16117
-261,Economic Activity UK men,2004 Q3,16305
-262,Economic Activity UK men,2004 Q4,16288
-263,Economic Activity UK men,2005 Q1,16256
-264,Economic Activity UK men,2005 Q2,16250
-265,Economic Activity UK men,2005 Q3,16480
-266,Economic Activity UK men,2005 Q4,16463
-267,Economic Activity UK men,2006 Q1,16431
-268,Economic Activity UK men,2006 Q2,16515
-269,Economic Activity UK men,2006 Q3,16784
-270,Economic Activity UK men,2006 Q4,16690
-271,Economic Activity UK men,2007 Q1,16622
-272,Economic Activity UK men,2007 Q2,16671
-273,Economic Activity UK men,2007 Q3,16888
-274,Economic Activity UK men,2007 Q4,16823
-275,Economic Activity UK men,2008 Q1,16826
-276,Economic Activity UK men,2008 Q2,16873
-277,Economic Activity UK men,2008 Q3,17054
-278,Economic Activity UK men,2008 Q4,17024
-279,Economic Activity UK men,2009 Q1,16970
-280,Economic Activity UK men,2009 Q2,16892
-281,Economic Activity UK men,2009 Q3,17042
-282,Economic Activity UK men,2009 Q4,16893
-283,Economic Activity UK men,2010 Q1,16830
-284,Economic Activity UK men,2010 Q2,16907
-285,Economic Activity UK men,2010 Q3,17184
-286,Economic Activity UK men,2010 Q4,17077
-287,Economic Activity UK men,2011 Q1,16991
-288,Economic Activity UK men,2011 Q2,17052
-289,Economic Activity UK men,2011 Q3,17182
-290,Economic Activity UK men,2011 Q4,17121
-291,Economic Activity UK men,2012 Q1,17072
-292,Economic Activity UK men,2012 Q2,17195
-293,Economic Activity UK men,2012 Q3,17381
-294,Economic Activity UK men,2012 Q4,17304
-295,Economic Activity UK men,2013 Q1,17179
-296,Economic Activity UK men,2013 Q2,17226
-297,Economic Activity UK men,2013 Q3,17484
-298,Economic Activity UK men,2013 Q4,17395
-299,Economic Activity UK men,2014 Q1,17325
-300,Economic Activity UK men,2014 Q2,17335
-301,Economic Activity UK men,2014 Q3,17522
-302,Economic Activity UK men,2014 Q4,17407
-303,Economic Activity UK men,2015 Q1,17415
-304,Economic Activity UK men,2015 Q2,17406
-305,Economic Activity UK men,2015 Q3,17645
-306,Economic Activity UK men,2015 Q4,17660
-307,Economic Activity UK men,2016 Q1,17624
-308,Economic Activity UK men,2016 Q2,17639
-309,Economic Activity UK men,2016 Q3,17788
-310,Economic Activity UK men,2016 Q4,17699
-311,Economic Activity UK men,2017 Q1,17670
-312,Economic Activity UK men,2017 Q2,17693
-313,Economic Activity UK men,2017 Q3,17738
-314,Economic Activity UK men,2017 Q4,17733
-315,Economic Activity UK men,2018 Q1,17739
-316,Economic Activity UK men,2018 Q2,17736
-317,Economic Activity UK men,2018 Q3,17934
-318,Economic Activity UK men,2018 Q4,17942
-319,Economic Activity UK men,2019 Q1,17824
-320,Economic Activity UK men,2019 Q2,17827
-321,Economic Activity UK men,2019 Q3,17997
-322,Economic Activity UK men,2019 Q4,17977
-323,Economic Activity UK men,2020 Q1,17885
-324,Economic Activity UK men,2020 Q2,17697
-325,Economic Activity UK men,2020 Q3,17796
-326,Economic Activity UK men,2020 Q4,17670
-327,Economic Activity UK men,2021 Q1,17504
-328,Economic Activity UK men,2021 Q2,17534
-329,Economic Activity UK men,2021 Q3,17771
-330,Economic Activity UK men,2021 Q4,17681
-331,Economic Activity UK men,2022 Q1,17620
-332,Economic Activity UK men,2022 Q2,17616
-333,Economic Activity UK men,2022 Q3,17720
-334,Economic Activity UK men,2022 Q4,17767
-335,Economic Activity UK men,2023 Q1,17880
-336,Economic Activity UK men,2023 Q2,17894
-337,Economic Activity UK men,2023 Q3,17880
-338,Economic Activity UK men,2023 Q4,17704
-339,Economic Activity UK men,2024 Q1,17634
-340,Economic Activity UK men,2024 Q2,17572
-341,Economic Activity UK men,2024 Q3,17800
-342,Economice Activity UK women,2001 Q1,13146
-343,Economice Activity UK women,2001 Q2,13226
-344,Economice Activity UK women,2001 Q3,13319
-345,Economice Activity UK women,2001 Q4,13345
-346,Economice Activity UK women,2002 Q1,13309
-347,Economice Activity UK women,2002 Q2,13396
-348,Economice Activity UK women,2002 Q3,13525
-349,Economice Activity UK women,2002 Q4,13485
-350,Economice Activity UK women,2003 Q1,13449
-351,Economice Activity UK women,2003 Q2,13438
-352,Economice Activity UK women,2003 Q3,13606
-353,Economice Activity UK women,2003 Q4,13595
-354,Economice Activity UK women,2004 Q1,13633
-355,Economice Activity UK women,2004 Q2,13627
-356,Economice Activity UK women,2004 Q3,13734
-357,Economice Activity UK women,2004 Q4,13769
-358,Economice Activity UK women,2005 Q1,13795
-359,Economice Activity UK women,2005 Q2,13815
-360,Economice Activity UK women,2005 Q3,13995
-361,Economice Activity UK women,2005 Q4,13939
-362,Economice Activity UK women,2006 Q1,14065
-363,Economice Activity UK women,2006 Q2,14102
-364,Economice Activity UK women,2006 Q3,14205
-365,Economice Activity UK women,2006 Q4,14180
-366,Economice Activity UK women,2007 Q1,14111
-367,Economice Activity UK women,2007 Q2,14124
-368,Economice Activity UK women,2007 Q3,14296
-369,Economice Activity UK women,2007 Q4,14312
-370,Economice Activity UK women,2008 Q1,14307
-371,Economice Activity UK women,2008 Q2,14339
-372,Economice Activity UK women,2008 Q3,14481
-373,Economice Activity UK women,2008 Q4,14463
-374,Economice Activity UK women,2009 Q1,14470
-375,Economice Activity UK women,2009 Q2,14455
-376,Economice Activity UK women,2009 Q3,14618
-377,Economice Activity UK women,2009 Q4,14623
-378,Economice Activity UK women,2010 Q1,14541
-379,Economice Activity UK women,2010 Q2,14577
-380,Economice Activity UK women,2010 Q3,14762
-381,Economice Activity UK women,2010 Q4,14679
-382,Economice Activity UK women,2011 Q1,14714
-383,Economice Activity UK women,2011 Q2,14715
-384,Economice Activity UK women,2011 Q3,14857
-385,Economice Activity UK women,2011 Q4,14838
-386,Economice Activity UK women,2012 Q1,14795
-387,Economice Activity UK women,2012 Q2,14817
-388,Economice Activity UK women,2012 Q3,14998
-389,Economice Activity UK women,2012 Q4,15047
-390,Economice Activity UK women,2013 Q1,14999
-391,Economice Activity UK women,2013 Q2,14997
-392,Economice Activity UK women,2013 Q3,15171
-393,Economice Activity UK women,2013 Q4,15166
-394,Economice Activity UK women,2014 Q1,15172
-395,Economice Activity UK women,2014 Q2,15196
-396,Economice Activity UK women,2014 Q3,15307
-397,Economice Activity UK women,2014 Q4,15295
-398,Economice Activity UK women,2015 Q1,15292
-399,Economice Activity UK women,2015 Q2,15330
-400,Economice Activity UK women,2015 Q3,15473
-401,Economice Activity UK women,2015 Q4,15443
-402,Economice Activity UK women,2016 Q1,15421
-403,Economice Activity UK women,2016 Q2,15499
-404,Economice Activity UK women,2016 Q3,15643
-405,Economice Activity UK women,2016 Q4,15626
-406,Economice Activity UK women,2017 Q1,15602
-407,Economice Activity UK women,2017 Q2,15652
-408,Economice Activity UK women,2017 Q3,15759
-409,Economice Activity UK women,2017 Q4,15766
-410,Economice Activity UK women,2018 Q1,15798
-411,Economice Activity UK women,2018 Q2,15747
-412,Economice Activity UK women,2018 Q3,15854
-413,Economice Activity UK women,2018 Q4,15878
-414,Economice Activity UK women,2019 Q1,15953
-415,Economice Activity UK women,2019 Q2,16005
-416,Economice Activity UK women,2019 Q3,16022
-417,Economice Activity UK women,2019 Q4,16128
-418,Economice Activity UK women,2020 Q1,16182
-419,Economice Activity UK women,2020 Q2,15997
-420,Economice Activity UK women,2020 Q3,16096
-421,Economice Activity UK women,2020 Q4,16130
-422,Economice Activity UK women,2021 Q1,16114
-423,Economice Activity UK women,2021 Q2,16085
-424,Economice Activity UK women,2021 Q3,16148
-425,Economice Activity UK women,2021 Q4,16160
-426,Economice Activity UK women,2022 Q1,16115
-427,Economice Activity UK women,2022 Q2,16078
-428,Economice Activity UK women,2022 Q3,16129
-429,Economice Activity UK women,2022 Q4,16212
-430,Economice Activity UK women,2023 Q1,16178
-431,Economice Activity UK women,2023 Q2,16179
-432,Economice Activity UK women,2023 Q3,16234
-433,Economice Activity UK women,2023 Q4,16627
-434,Economice Activity UK women,2024 Q1,16607
-435,Economice Activity UK women,2024 Q2,16642
-436,Economice Activity UK women,2024 Q3,16836
-437,UK Job Vacancies,2002,518
-438,UK Job Vacancies,2003,503
-439,UK Job Vacancies,2004,548
-440,UK Job Vacancies,2005,548
-441,UK Job Vacancies,2006,529
-442,UK Job Vacancies,2007,572
-443,UK Job Vacancies,2008,556
-444,UK Job Vacancies,2009,405
-445,UK Job Vacancies,2010,422
-446,UK Job Vacancies,2011,415
-447,UK Job Vacancies,2012,421
-448,UK Job Vacancies,2013,474
-449,UK Job Vacancies,2014,583
-450,UK Job Vacancies,2015,652
-451,UK Job Vacancies,2016,672
-452,UK Job Vacancies,2017,699
-453,UK Job Vacancies,2018,741
-454,UK Job Vacancies,2019,737
-455,UK Job Vacancies,2020,504
-456,UK Job Vacancies,2021,795
-457,UK Job Vacancies,2022,1101
-458,UK Job Vacancies,2023,911
-459,Output per hour worked percentage change,1972,2.9
-460,Output per hour worked percentage change,1973,4.6
-461,Output per hour worked percentage change,1974,-1.8
-462,Output per hour worked percentage change,1975,0.6
-463,Output per hour worked percentage change,1976,3.8
-464,Output per hour worked percentage change,1977,1.7
-465,Output per hour worked percentage change,1978,3.1
-466,Output per hour worked percentage change,1979,2.4
-467,Output per hour worked percentage change,1980,0.1
-468,Output per hour worked percentage change,1981,4.4
-469,Output per hour worked percentage change,1982,4.5
-470,Output per hour worked percentage change,1983,5.3
-471,Output per hour worked percentage change,1984,-0.6
-472,Output per hour worked percentage change,1985,2.9
-473,Output per hour worked percentage change,1986,2.5
-474,Output per hour worked percentage change,1987,3.0
-475,Output per hour worked percentage change,1988,1.5
-476,Output per hour worked percentage change,1989,-0.4
-477,Output per hour worked percentage change,1990,1.0
-478,Output per hour worked percentage change,1991,3.1
-479,Output per hour worked percentage change,1992,3.2
-480,Output per hour worked percentage change,1993,3.5
-481,Output per hour worked percentage change,1994,1.7
-482,Output per hour worked percentage change,1995,0.9
-483,Output per hour worked percentage change,1996,2.1
-484,Output per hour worked percentage change,1997,2.3
-485,Output per hour worked percentage change,1998,2.6
-486,Output per hour worked percentage change,1999,2.3
-487,Output per hour worked percentage change,2000,4.2
-488,Output per hour worked percentage change,2001,1.5
-489,Output per hour worked percentage change,2002,1.8
-490,Output per hour worked percentage change,2003,2.7
-491,Output per hour worked percentage change,2004,1.3
-492,Output per hour worked percentage change,2005,1.7
-493,Output per hour worked percentage change,2006,1.9
-494,Output per hour worked percentage change,2007,1.7
-495,Output per hour worked percentage change,2008,-0.6
-496,Output per hour worked percentage change,2009,-1.8
-497,Output per hour worked percentage change,2010,1.8
-498,Output per hour worked percentage change,2011,0.9
-499,Output per hour worked percentage change,2012,-0.3
-500,Output per hour worked percentage change,2013,-0.2
-501,Output per hour worked percentage change,2014,0.5
-502,Output per hour worked percentage change,2015,0.4
-503,Output per hour worked percentage change,2016,0.7
-504,Output per hour worked percentage change,2017,1.7
-505,Output per hour worked percentage change,2018,0.5
-506,Output per hour worked percentage change,2019,0.3
-507,Output per hour worked percentage change,2020,0.8
-508,Output per hour worked percentage change,2021,1.6
-509,Output per hour worked percentage change,2022,0.4
-510,Output per hour worked percentage change,2023,0.2
+247,UK Job Vacancies,2002,518
+248,UK Job Vacancies,2003,503
+249,UK Job Vacancies,2004,548
+250,UK Job Vacancies,2005,548
+251,UK Job Vacancies,2006,529
+252,UK Job Vacancies,2007,572
+253,UK Job Vacancies,2008,556
+254,UK Job Vacancies,2009,405
+255,UK Job Vacancies,2010,422
+256,UK Job Vacancies,2011,415
+257,UK Job Vacancies,2012,421
+258,UK Job Vacancies,2013,474
+259,UK Job Vacancies,2014,583
+260,UK Job Vacancies,2015,652
+261,UK Job Vacancies,2016,672
+262,UK Job Vacancies,2017,699
+263,UK Job Vacancies,2018,741
+264,UK Job Vacancies,2019,737
+265,UK Job Vacancies,2020,504
+266,UK Job Vacancies,2021,795
+267,UK Job Vacancies,2022,1101
+268,UK Job Vacancies,2023,911
+269,Output per hour worked percentage change,1972,2.9
+270,Output per hour worked percentage change,1973,4.6
+271,Output per hour worked percentage change,1974,-1.8
+272,Output per hour worked percentage change,1975,0.6
+273,Output per hour worked percentage change,1976,3.8
+274,Output per hour worked percentage change,1977,1.7
+275,Output per hour worked percentage change,1978,3.1
+276,Output per hour worked percentage change,1979,2.4
+277,Output per hour worked percentage change,1980,0.1
+278,Output per hour worked percentage change,1981,4.4
+279,Output per hour worked percentage change,1982,4.5
+280,Output per hour worked percentage change,1983,5.3
+281,Output per hour worked percentage change,1984,-0.6
+282,Output per hour worked percentage change,1985,2.9
+283,Output per hour worked percentage change,1986,2.5
+284,Output per hour worked percentage change,1987,3.0
+285,Output per hour worked percentage change,1988,1.5
+286,Output per hour worked percentage change,1989,-0.4
+287,Output per hour worked percentage change,1990,1.0
+288,Output per hour worked percentage change,1991,3.1
+289,Output per hour worked percentage change,1992,3.2
+290,Output per hour worked percentage change,1993,3.5
+291,Output per hour worked percentage change,1994,1.7
+292,Output per hour worked percentage change,1995,0.9
+293,Output per hour worked percentage change,1996,2.1
+294,Output per hour worked percentage change,1997,2.3
+295,Output per hour worked percentage change,1998,2.6
+296,Output per hour worked percentage change,1999,2.3
+297,Output per hour worked percentage change,2000,4.2
+298,Output per hour worked percentage change,2001,1.5
+299,Output per hour worked percentage change,2002,1.8
+300,Output per hour worked percentage change,2003,2.7
+301,Output per hour worked percentage change,2004,1.3
+302,Output per hour worked percentage change,2005,1.7
+303,Output per hour worked percentage change,2006,1.9
+304,Output per hour worked percentage change,2007,1.7
+305,Output per hour worked percentage change,2008,-0.6
+306,Output per hour worked percentage change,2009,-1.8
+307,Output per hour worked percentage change,2010,1.8
+308,Output per hour worked percentage change,2011,0.9
+309,Output per hour worked percentage change,2012,-0.3
+310,Output per hour worked percentage change,2013,-0.2
+311,Output per hour worked percentage change,2014,0.5
+312,Output per hour worked percentage change,2015,0.4
+313,Output per hour worked percentage change,2016,0.7
+314,Output per hour worked percentage change,2017,1.7
+315,Output per hour worked percentage change,2018,0.5
+316,Output per hour worked percentage change,2019,0.3
+317,Output per hour worked percentage change,2020,0.8
+318,Output per hour worked percentage change,2021,1.6
+319,Output per hour worked percentage change,2022,0.4
+320,Output per hour worked percentage change,2023,0.2
+321,Public Sector Workforce size,1999,4310
+322,Public Sector Workforce size,2000,4361
+323,Public Sector Workforce size,2001,4428
+324,Public Sector Workforce size,2002,4529
+325,Public Sector Workforce size,2003,4664
+326,Public Sector Workforce size,2004,4786
+327,Public Sector Workforce size,2005,4871
+328,Public Sector Workforce size,2006,4867
+329,Public Sector Workforce size,2007,4864
+330,Public Sector Workforce size,2008,4866
+331,Public Sector Workforce size,2009,5264
+332,Public Sector Workforce size,2010,5272
+333,Public Sector Workforce size,2011,5113
+334,Public Sector Workforce size,2012,4868
+335,Public Sector Workforce size,2013,4845
+336,Public Sector Workforce size,2014,4590
+337,Public Sector Workforce size,2015,4551
+338,Public Sector Workforce size,2016,4544
+339,Public Sector Workforce size,2017,4547
+340,Public Sector Workforce size,2018,4436
+341,Public Sector Workforce size,2019,4490
+342,Public Sector Workforce size,2020,4657
+343,Public Sector Workforce size,2021,4787
+344,Public Sector Workforce size,2022,4864
+345,Public Sector Workforce size,2023,4986
+346,Public Sector Workforce size,2024,5059
+347,Time lost due to strike action,1891,6809
+348,Time lost due to strike action,1892,7382
+349,Time lost due to strike action,1893,30439
+350,Time lost due to strike action,1894,9506
+351,Time lost due to strike action,1895,5701
+352,Time lost due to strike action,1896,3565
+353,Time lost due to strike action,1897,10327
+354,Time lost due to strike action,1898,15257
+355,Time lost due to strike action,1899,2503
+356,Time lost due to strike action,1900,3088
+357,Time lost due to strike action,1901,4130
+358,Time lost due to strike action,1902,3438
+359,Time lost due to strike action,1903,2320
+360,Time lost due to strike action,1904,1464
+361,Time lost due to strike action,1905,2368
+362,Time lost due to strike action,1906,3019
+363,Time lost due to strike action,1907,2148
+364,Time lost due to strike action,1908,10785
+365,Time lost due to strike action,1909,2687
+366,Time lost due to strike action,1910,9867
+367,Time lost due to strike action,1911,10155
+368,Time lost due to strike action,1912,40890
+369,Time lost due to strike action,1913,9804
+370,Time lost due to strike action,1914,9878
+371,Time lost due to strike action,1915,2953
+372,Time lost due to strike action,1916,2446
+373,Time lost due to strike action,1917,5647
+374,Time lost due to strike action,1918,5875
+375,Time lost due to strike action,1919,34969
+376,Time lost due to strike action,1920,26568
+377,Time lost due to strike action,1921,85872
+378,Time lost due to strike action,1922,19850
+379,Time lost due to strike action,1923,10672
+380,Time lost due to strike action,1924,8424
+381,Time lost due to strike action,1925,7952
+382,Time lost due to strike action,1926,162233
+383,Time lost due to strike action,1927,1174
+384,Time lost due to strike action,1928,1388
+385,Time lost due to strike action,1929,8287
+386,Time lost due to strike action,1930,4399
+387,Time lost due to strike action,1931,6983
+388,Time lost due to strike action,1932,6488
+389,Time lost due to strike action,1933,1072
+390,Time lost due to strike action,1934,959
+391,Time lost due to strike action,1935,1955
+392,Time lost due to strike action,1936,1829
+393,Time lost due to strike action,1937,3413
+394,Time lost due to strike action,1938,1334
+395,Time lost due to strike action,1939,1356
+396,Time lost due to strike action,1940,940
+397,Time lost due to strike action,1941,1079
+398,Time lost due to strike action,1942,1527
+399,Time lost due to strike action,1943,1808
+400,Time lost due to strike action,1944,3714
+401,Time lost due to strike action,1945,2835
+402,Time lost due to strike action,1946,2158
+403,Time lost due to strike action,1947,2433
+404,Time lost due to strike action,1948,1944
+405,Time lost due to strike action,1949,1807
+406,Time lost due to strike action,1950,1389
+407,Time lost due to strike action,1951,1694
+408,Time lost due to strike action,1952,1792
+409,Time lost due to strike action,1953,2184
+410,Time lost due to strike action,1954,2457
+411,Time lost due to strike action,1955,3781
+412,Time lost due to strike action,1956,2083
+413,Time lost due to strike action,1957,8412
+414,Time lost due to strike action,1958,3462
+415,Time lost due to strike action,1959,5270
+416,Time lost due to strike action,1960,3024
+417,Time lost due to strike action,1961,3046
+418,Time lost due to strike action,1962,5798
+419,Time lost due to strike action,1963,1755
+420,Time lost due to strike action,1964,2277
+421,Time lost due to strike action,1965,2925
+422,Time lost due to strike action,1966,2398
+423,Time lost due to strike action,1967,2787
+424,Time lost due to strike action,1968,4690
+425,Time lost due to strike action,1969,6846
+426,Time lost due to strike action,1970,10980
+427,Time lost due to strike action,1971,13551
+428,Time lost due to strike action,1972,23909
+429,Time lost due to strike action,1973,7197
+430,Time lost due to strike action,1974,14750
+431,Time lost due to strike action,1975,6012
+432,Time lost due to strike action,1976,3284
+433,Time lost due to strike action,1977,10142
+434,Time lost due to strike action,1978,9405
+435,Time lost due to strike action,1979,29474
+436,Time lost due to strike action,1980,11964
+437,Time lost due to strike action,1981,4266
+438,Time lost due to strike action,1982,5313
+439,Time lost due to strike action,1983,3754
+440,Time lost due to strike action,1984,27135
+441,Time lost due to strike action,1985,6402
+442,Time lost due to strike action,1986,1920
+443,Time lost due to strike action,1987,3546
+444,Time lost due to strike action,1988,3702
+445,Time lost due to strike action,1989,4128
+446,Time lost due to strike action,1990,1903
+447,Time lost due to strike action,1991,761
+448,Time lost due to strike action,1992,528
+449,Time lost due to strike action,1993,649
+450,Time lost due to strike action,1994,278
+451,Time lost due to strike action,1995,415
+452,Time lost due to strike action,1996,1303
+453,Time lost due to strike action,1997,235
+454,Time lost due to strike action,1998,282
+455,Time lost due to strike action,1999,242
+456,Time lost due to strike action,2000,499
+457,Time lost due to strike action,2001,525
+458,Time lost due to strike action,2002,1323
+459,Time lost due to strike action,2003,499
+460,Time lost due to strike action,2004,905
+461,Time lost due to strike action,2005,157
+462,Time lost due to strike action,2006,755
+463,Time lost due to strike action,2007,1041
+464,Time lost due to strike action,2008,759
+465,Time lost due to strike action,2009,455
+466,Time lost due to strike action,2010,365
+467,Time lost due to strike action,2011,1390
+468,Time lost due to strike action,2012,249
+469,Time lost due to strike action,2013,444
+470,Time lost due to strike action,2014,788
+471,Time lost due to strike action,2015,170
+472,Time lost due to strike action,2016,322
+473,Time lost due to strike action,2017,276
+474,Time lost due to strike action,2018,273
+475,Time lost due to strike action,2019,234
+476,Time lost due to strike action,2020,
+477,Time lost due to strike action,2021,
+478,Time lost due to strike action,2022,2514
+479,Time lost due to strike action,2023,2660
