@@ -1,0 +1,438 @@
+,dataset,date,value
+0,Employment rate aged 16-24,1971,71.8
+1,Employment rate aged 16-24,1972,72.0
+2,Employment rate aged 16-24,1973,72.9
+3,Employment rate aged 16-24,1974,73.0
+4,Employment rate aged 16-24,1975,72.6
+5,Employment rate aged 16-24,1976,71.9
+6,Employment rate aged 16-24,1977,71.6
+7,Employment rate aged 16-24,1978,71.6
+8,Employment rate aged 16-24,1979,71.8
+9,Employment rate aged 16-24,1980,70.8
+10,Employment rate aged 16-24,1981,68.5
+11,Employment rate aged 16-24,1982,66.8
+12,Employment rate aged 16-24,1983,65.9
+13,Employment rate aged 16-24,1984,66.8
+14,Employment rate aged 16-24,1985,67.4
+15,Employment rate aged 16-24,1986,67.7
+16,Employment rate aged 16-24,1987,68.8
+17,Employment rate aged 16-24,1988,70.9
+18,Employment rate aged 16-24,1989,72.5
+19,Employment rate aged 16-24,1990,72.7
+20,Employment rate aged 16-24,1991,70.7
+21,Employment rate aged 16-24,1992,69.0
+22,Employment rate aged 16-24,1993,68.4
+23,Employment rate aged 16-24,1994,68.9
+24,Employment rate aged 16-24,1995,69.5
+25,Employment rate aged 16-24,1996,70.0
+26,Employment rate aged 16-24,1997,71.0
+27,Employment rate aged 16-24,1998,71.5
+28,Employment rate aged 16-24,1999,72.1
+29,Employment rate aged 16-24,2000,72.5
+30,Employment rate aged 16-24,2001,72.6
+31,Employment rate aged 16-24,2002,72.7
+32,Employment rate aged 16-24,2003,72.8
+33,Employment rate aged 16-24,2004,72.9
+34,Employment rate aged 16-24,2005,72.9
+35,Employment rate aged 16-24,2006,72.8
+36,Employment rate aged 16-24,2007,72.7
+37,Employment rate aged 16-24,2008,72.6
+38,Employment rate aged 16-24,2009,70.9
+39,Employment rate aged 16-24,2010,70.4
+40,Employment rate aged 16-24,2011,70.3
+41,Employment rate aged 16-24,2012,71.0
+42,Employment rate aged 16-24,2013,71.5
+43,Employment rate aged 16-24,2014,72.8
+44,Employment rate aged 16-24,2015,73.6
+45,Employment rate aged 16-24,2016,74.2
+46,Employment rate aged 16-24,2017,74.8
+47,Employment rate aged 16-24,2018,75.4
+48,Employment rate aged 16-24,2019,75.8
+49,Employment rate aged 16-24,2020,75.0
+50,Employment rate aged 16-24,2021,74.7
+51,Employment rate aged 16-24,2022,75.1
+52,Employment rate aged 16-24,2023,75.1
+53,Female employment rate,1971,52.7
+54,Female employment rate,1972,53.2
+55,Female employment rate,1973,54.6
+56,Female employment rate,1974,55.4
+57,Female employment rate,1975,55.6
+58,Female employment rate,1976,55.3
+59,Female employment rate,1977,55.4
+60,Female employment rate,1978,55.9
+61,Female employment rate,1979,56.6
+62,Female employment rate,1980,56.7
+63,Female employment rate,1981,55.6
+64,Female employment rate,1982,54.6
+65,Female employment rate,1983,54.2
+66,Female employment rate,1984,55.5
+67,Female employment rate,1985,56.6
+68,Female employment rate,1986,57.6
+69,Female employment rate,1987,59.0
+70,Female employment rate,1988,61.0
+71,Female employment rate,1989,62.8
+72,Female employment rate,1990,63.3
+73,Female employment rate,1991,62.5
+74,Female employment rate,1992,61.8
+75,Female employment rate,1993,61.8
+76,Female employment rate,1994,62.2
+77,Female employment rate,1995,62.8
+78,Female employment rate,1996,63.5
+79,Female employment rate,1997,64.2
+80,Female employment rate,1998,64.7
+81,Female employment rate,1999,65.3
+82,Female employment rate,2000,65.9
+83,Female employment rate,2001,66.1
+84,Female employment rate,2002,66.3
+85,Female employment rate,2003,66.4
+86,Female employment rate,2004,66.7
+87,Female employment rate,2005,66.8
+88,Female employment rate,2006,66.9
+89,Female employment rate,2007,66.6
+90,Female employment rate,2008,66.8
+91,Female employment rate,2009,65.9
+92,Female employment rate,2010,65.5
+93,Female employment rate,2011,65.4
+94,Female employment rate,2012,65.9
+95,Female employment rate,2013,66.7
+96,Female employment rate,2014,68.0
+97,Female employment rate,2015,68.8
+98,Female employment rate,2016,69.5
+99,Female employment rate,2017,70.4
+100,Female employment rate,2018,71.0
+101,Female employment rate,2019,71.8
+102,Female employment rate,2020,71.6
+103,Female employment rate,2021,71.7
+104,Female employment rate,2022,71.9
+105,Female employment rate,2023,71.9
+106,Male employment rate,1971,91.4
+107,Male employment rate,1972,91.1
+108,Male employment rate,1973,91.7
+109,Male employment rate,1974,90.9
+110,Male employment rate,1975,89.9
+111,Male employment rate,1976,88.8
+112,Male employment rate,1977,88.0
+113,Male employment rate,1978,87.4
+114,Male employment rate,1979,87.1
+115,Male employment rate,1980,85.2
+116,Male employment rate,1981,81.5
+117,Male employment rate,1982,79.1
+118,Male employment rate,1983,77.7
+119,Male employment rate,1984,78.2
+120,Male employment rate,1985,78.2
+121,Male employment rate,1986,77.9
+122,Male employment rate,1987,78.7
+123,Male employment rate,1988,80.8
+124,Male employment rate,1989,82.3
+125,Male employment rate,1990,82.1
+126,Male employment rate,1991,79.0
+127,Male employment rate,1992,76.2
+128,Male employment rate,1993,75.1
+129,Male employment rate,1994,75.7
+130,Male employment rate,1995,76.4
+131,Male employment rate,1996,76.7
+132,Male employment rate,1997,77.9
+133,Male employment rate,1998,78.4
+134,Male employment rate,1999,78.8
+135,Male employment rate,2000,79.2
+136,Male employment rate,2001,79.2
+137,Male employment rate,2002,79.1
+138,Male employment rate,2003,79.2
+139,Male employment rate,2004,79.3
+140,Male employment rate,2005,79.2
+141,Male employment rate,2006,78.9
+142,Male employment rate,2007,78.9
+143,Male employment rate,2008,78.6
+144,Male employment rate,2009,76.0
+145,Male employment rate,2010,75.5
+146,Male employment rate,2011,75.3
+147,Male employment rate,2012,76.1
+148,Male employment rate,2013,76.4
+149,Male employment rate,2014,77.8
+150,Male employment rate,2015,78.4
+151,Male employment rate,2016,79.1
+152,Male employment rate,2017,79.3
+153,Male employment rate,2018,79.9
+154,Male employment rate,2019,80.0
+155,Male employment rate,2020,78.5
+156,Male employment rate,2021,77.8
+157,Male employment rate,2022,78.4
+158,Male employment rate,2023,78.4
+159,Average actual weekly hours worked for full time employees,1992,38.1
+160,Average actual weekly hours worked for full time employees,1993,38.2
+161,Average actual weekly hours worked for full time employees,1994,38.5
+162,Average actual weekly hours worked for full time employees,1995,38.5
+163,Average actual weekly hours worked for full time employees,1996,38.7
+164,Average actual weekly hours worked for full time employees,1997,38.6
+165,Average actual weekly hours worked for full time employees,1998,38.5
+166,Average actual weekly hours worked for full time employees,1999,38.2
+167,Average actual weekly hours worked for full time employees,2000,37.9
+168,Average actual weekly hours worked for full time employees,2001,37.9
+169,Average actual weekly hours worked for full time employees,2002,37.5
+170,Average actual weekly hours worked for full time employees,2003,37.4
+171,Average actual weekly hours worked for full time employees,2004,37.3
+172,Average actual weekly hours worked for full time employees,2005,37.3
+173,Average actual weekly hours worked for full time employees,2006,37.2
+174,Average actual weekly hours worked for full time employees,2007,37.2
+175,Average actual weekly hours worked for full time employees,2008,37.1
+176,Average actual weekly hours worked for full time employees,2009,36.8
+177,Average actual weekly hours worked for full time employees,2010,37.1
+178,Average actual weekly hours worked for full time employees,2011,37.0
+179,Average actual weekly hours worked for full time employees,2012,37.4
+180,Average actual weekly hours worked for full time employees,2013,37.5
+181,Average actual weekly hours worked for full time employees,2014,37.6
+182,Average actual weekly hours worked for full time employees,2015,37.5
+183,Average actual weekly hours worked for full time employees,2016,37.5
+184,Average actual weekly hours worked for full time employees,2017,37.4
+185,Average actual weekly hours worked for full time employees,2018,37.1
+186,Average actual weekly hours worked for full time employees,2019,37.2
+187,Average actual weekly hours worked for full time employees,2020,33.6
+188,Average actual weekly hours worked for full time employees,2021,35.5
+189,Average actual weekly hours worked for full time employees,2022,36.4
+190,Average actual weekly hours worked for full time employees,2023,36.4
+191,Seasonally adjusted regular pay,2000,296
+192,Seasonally adjusted regular pay,2001,311
+193,Seasonally adjusted regular pay,2002,323
+194,Seasonally adjusted regular pay,2003,334
+195,Seasonally adjusted regular pay,2004,346
+196,Seasonally adjusted regular pay,2005,360
+197,Seasonally adjusted regular pay,2006,374
+198,Seasonally adjusted regular pay,2007,390
+199,Seasonally adjusted regular pay,2008,405
+200,Seasonally adjusted regular pay,2009,412
+201,Seasonally adjusted regular pay,2010,420
+202,Seasonally adjusted regular pay,2011,427
+203,Seasonally adjusted regular pay,2012,434
+204,Seasonally adjusted regular pay,2013,438
+205,Seasonally adjusted regular pay,2014,443
+206,Seasonally adjusted regular pay,2015,453
+207,Seasonally adjusted regular pay,2016,464
+208,Seasonally adjusted regular pay,2017,474
+209,Seasonally adjusted regular pay,2018,488
+210,Seasonally adjusted regular pay,2019,505
+211,Seasonally adjusted regular pay,2020,516
+212,Seasonally adjusted regular pay,2021,542
+213,Seasonally adjusted regular pay,2022,572
+214,Seasonally adjusted regular pay,2023,612
+215,Temporary Employees could not find permanent job,1992,36.6
+216,Temporary Employees could not find permanent job,1993,41.4
+217,Temporary Employees could not find permanent job,1994,42.8
+218,Temporary Employees could not find permanent job,1995,42.6
+219,Temporary Employees could not find permanent job,1996,40.5
+220,Temporary Employees could not find permanent job,1997,37.8
+221,Temporary Employees could not find permanent job,1998,35.1
+222,Temporary Employees could not find permanent job,1999,34.9
+223,Temporary Employees could not find permanent job,2000,29.8
+224,Temporary Employees could not find permanent job,2001,26.3
+225,Temporary Employees could not find permanent job,2002,26.7
+226,Temporary Employees could not find permanent job,2003,26.3
+227,Temporary Employees could not find permanent job,2004,25.5
+228,Temporary Employees could not find permanent job,2005,25.1
+229,Temporary Employees could not find permanent job,2006,25.4
+230,Temporary Employees could not find permanent job,2007,26.5
+231,Temporary Employees could not find permanent job,2008,25.8
+232,Temporary Employees could not find permanent job,2009,31.6
+233,Temporary Employees could not find permanent job,2010,36.5
+234,Temporary Employees could not find permanent job,2011,37.8
+235,Temporary Employees could not find permanent job,2012,39.8
+236,Temporary Employees could not find permanent job,2013,38.4
+237,Temporary Employees could not find permanent job,2014,35.3
+238,Temporary Employees could not find permanent job,2015,34.3
+239,Temporary Employees could not find permanent job,2016,31.2
+240,Temporary Employees could not find permanent job,2017,28.0
+241,Temporary Employees could not find permanent job,2018,27.5
+242,Temporary Employees could not find permanent job,2019,25.0
+243,Temporary Employees could not find permanent job,2020,27.2
+244,Temporary Employees could not find permanent job,2021,30.2
+245,Temporary Employees could not find permanent job,2022,23.5
+246,Temporary Employees could not find permanent job,2023,21.6
+247,Economic Activity UK men,2001 Q1,15799
+248,Economic Activity UK men,2001 Q2,15789
+249,Economic Activity UK men,2001 Q3,16026
+250,Economic Activity UK men,2001 Q4,15936
+251,Economic Activity UK men,2002 Q1,15842
+252,Economic Activity UK men,2002 Q2,15893
+253,Economic Activity UK men,2002 Q3,16110
+254,Economic Activity UK men,2002 Q4,16104
+255,Economic Activity UK men,2003 Q1,16017
+256,Economic Activity UK men,2003 Q2,16082
+257,Economic Activity UK men,2003 Q3,16265
+258,Economic Activity UK men,2003 Q4,16126
+259,Economic Activity UK men,2004 Q1,16108
+260,Economic Activity UK men,2004 Q2,16117
+261,Economic Activity UK men,2004 Q3,16305
+262,Economic Activity UK men,2004 Q4,16288
+263,Economic Activity UK men,2005 Q1,16256
+264,Economic Activity UK men,2005 Q2,16250
+265,Economic Activity UK men,2005 Q3,16480
+266,Economic Activity UK men,2005 Q4,16463
+267,Economic Activity UK men,2006 Q1,16431
+268,Economic Activity UK men,2006 Q2,16515
+269,Economic Activity UK men,2006 Q3,16784
+270,Economic Activity UK men,2006 Q4,16690
+271,Economic Activity UK men,2007 Q1,16622
+272,Economic Activity UK men,2007 Q2,16671
+273,Economic Activity UK men,2007 Q3,16888
+274,Economic Activity UK men,2007 Q4,16823
+275,Economic Activity UK men,2008 Q1,16826
+276,Economic Activity UK men,2008 Q2,16873
+277,Economic Activity UK men,2008 Q3,17054
+278,Economic Activity UK men,2008 Q4,17024
+279,Economic Activity UK men,2009 Q1,16970
+280,Economic Activity UK men,2009 Q2,16892
+281,Economic Activity UK men,2009 Q3,17042
+282,Economic Activity UK men,2009 Q4,16893
+283,Economic Activity UK men,2010 Q1,16830
+284,Economic Activity UK men,2010 Q2,16907
+285,Economic Activity UK men,2010 Q3,17184
+286,Economic Activity UK men,2010 Q4,17077
+287,Economic Activity UK men,2011 Q1,16991
+288,Economic Activity UK men,2011 Q2,17052
+289,Economic Activity UK men,2011 Q3,17182
+290,Economic Activity UK men,2011 Q4,17121
+291,Economic Activity UK men,2012 Q1,17072
+292,Economic Activity UK men,2012 Q2,17195
+293,Economic Activity UK men,2012 Q3,17381
+294,Economic Activity UK men,2012 Q4,17304
+295,Economic Activity UK men,2013 Q1,17179
+296,Economic Activity UK men,2013 Q2,17226
+297,Economic Activity UK men,2013 Q3,17484
+298,Economic Activity UK men,2013 Q4,17395
+299,Economic Activity UK men,2014 Q1,17325
+300,Economic Activity UK men,2014 Q2,17335
+301,Economic Activity UK men,2014 Q3,17522
+302,Economic Activity UK men,2014 Q4,17407
+303,Economic Activity UK men,2015 Q1,17415
+304,Economic Activity UK men,2015 Q2,17406
+305,Economic Activity UK men,2015 Q3,17645
+306,Economic Activity UK men,2015 Q4,17660
+307,Economic Activity UK men,2016 Q1,17624
+308,Economic Activity UK men,2016 Q2,17639
+309,Economic Activity UK men,2016 Q3,17788
+310,Economic Activity UK men,2016 Q4,17699
+311,Economic Activity UK men,2017 Q1,17670
+312,Economic Activity UK men,2017 Q2,17693
+313,Economic Activity UK men,2017 Q3,17738
+314,Economic Activity UK men,2017 Q4,17733
+315,Economic Activity UK men,2018 Q1,17739
+316,Economic Activity UK men,2018 Q2,17736
+317,Economic Activity UK men,2018 Q3,17934
+318,Economic Activity UK men,2018 Q4,17942
+319,Economic Activity UK men,2019 Q1,17824
+320,Economic Activity UK men,2019 Q2,17827
+321,Economic Activity UK men,2019 Q3,17997
+322,Economic Activity UK men,2019 Q4,17977
+323,Economic Activity UK men,2020 Q1,17885
+324,Economic Activity UK men,2020 Q2,17697
+325,Economic Activity UK men,2020 Q3,17796
+326,Economic Activity UK men,2020 Q4,17670
+327,Economic Activity UK men,2021 Q1,17504
+328,Economic Activity UK men,2021 Q2,17534
+329,Economic Activity UK men,2021 Q3,17771
+330,Economic Activity UK men,2021 Q4,17681
+331,Economic Activity UK men,2022 Q1,17620
+332,Economic Activity UK men,2022 Q2,17616
+333,Economic Activity UK men,2022 Q3,17720
+334,Economic Activity UK men,2022 Q4,17767
+335,Economic Activity UK men,2023 Q1,17880
+336,Economic Activity UK men,2023 Q2,17894
+337,Economic Activity UK men,2023 Q3,17880
+338,Economic Activity UK men,2023 Q4,17704
+339,Economic Activity UK men,2024 Q1,17634
+340,Economic Activity UK men,2024 Q2,17572
+341,Economic Activity UK men,2024 Q3,17800
+342,Economice Activity UK women,2001 Q1,13146
+343,Economice Activity UK women,2001 Q2,13226
+344,Economice Activity UK women,2001 Q3,13319
+345,Economice Activity UK women,2001 Q4,13345
+346,Economice Activity UK women,2002 Q1,13309
+347,Economice Activity UK women,2002 Q2,13396
+348,Economice Activity UK women,2002 Q3,13525
+349,Economice Activity UK women,2002 Q4,13485
+350,Economice Activity UK women,2003 Q1,13449
+351,Economice Activity UK women,2003 Q2,13438
+352,Economice Activity UK women,2003 Q3,13606
+353,Economice Activity UK women,2003 Q4,13595
+354,Economice Activity UK women,2004 Q1,13633
+355,Economice Activity UK women,2004 Q2,13627
+356,Economice Activity UK women,2004 Q3,13734
+357,Economice Activity UK women,2004 Q4,13769
+358,Economice Activity UK women,2005 Q1,13795
+359,Economice Activity UK women,2005 Q2,13815
+360,Economice Activity UK women,2005 Q3,13995
+361,Economice Activity UK women,2005 Q4,13939
+362,Economice Activity UK women,2006 Q1,14065
+363,Economice Activity UK women,2006 Q2,14102
+364,Economice Activity UK women,2006 Q3,14205
+365,Economice Activity UK women,2006 Q4,14180
+366,Economice Activity UK women,2007 Q1,14111
+367,Economice Activity UK women,2007 Q2,14124
+368,Economice Activity UK women,2007 Q3,14296
+369,Economice Activity UK women,2007 Q4,14312
+370,Economice Activity UK women,2008 Q1,14307
+371,Economice Activity UK women,2008 Q2,14339
+372,Economice Activity UK women,2008 Q3,14481
+373,Economice Activity UK women,2008 Q4,14463
+374,Economice Activity UK women,2009 Q1,14470
+375,Economice Activity UK women,2009 Q2,14455
+376,Economice Activity UK women,2009 Q3,14618
+377,Economice Activity UK women,2009 Q4,14623
+378,Economice Activity UK women,2010 Q1,14541
+379,Economice Activity UK women,2010 Q2,14577
+380,Economice Activity UK women,2010 Q3,14762
+381,Economice Activity UK women,2010 Q4,14679
+382,Economice Activity UK women,2011 Q1,14714
+383,Economice Activity UK women,2011 Q2,14715
+384,Economice Activity UK women,2011 Q3,14857
+385,Economice Activity UK women,2011 Q4,14838
+386,Economice Activity UK women,2012 Q1,14795
+387,Economice Activity UK women,2012 Q2,14817
+388,Economice Activity UK women,2012 Q3,14998
+389,Economice Activity UK women,2012 Q4,15047
+390,Economice Activity UK women,2013 Q1,14999
+391,Economice Activity UK women,2013 Q2,14997
+392,Economice Activity UK women,2013 Q3,15171
+393,Economice Activity UK women,2013 Q4,15166
+394,Economice Activity UK women,2014 Q1,15172
+395,Economice Activity UK women,2014 Q2,15196
+396,Economice Activity UK women,2014 Q3,15307
+397,Economice Activity UK women,2014 Q4,15295
+398,Economice Activity UK women,2015 Q1,15292
+399,Economice Activity UK women,2015 Q2,15330
+400,Economice Activity UK women,2015 Q3,15473
+401,Economice Activity UK women,2015 Q4,15443
+402,Economice Activity UK women,2016 Q1,15421
+403,Economice Activity UK women,2016 Q2,15499
+404,Economice Activity UK women,2016 Q3,15643
+405,Economice Activity UK women,2016 Q4,15626
+406,Economice Activity UK women,2017 Q1,15602
+407,Economice Activity UK women,2017 Q2,15652
+408,Economice Activity UK women,2017 Q3,15759
+409,Economice Activity UK women,2017 Q4,15766
+410,Economice Activity UK women,2018 Q1,15798
+411,Economice Activity UK women,2018 Q2,15747
+412,Economice Activity UK women,2018 Q3,15854
+413,Economice Activity UK women,2018 Q4,15878
+414,Economice Activity UK women,2019 Q1,15953
+415,Economice Activity UK women,2019 Q2,16005
+416,Economice Activity UK women,2019 Q3,16022
+417,Economice Activity UK women,2019 Q4,16128
+418,Economice Activity UK women,2020 Q1,16182
+419,Economice Activity UK women,2020 Q2,15997
+420,Economice Activity UK women,2020 Q3,16096
+421,Economice Activity UK women,2020 Q4,16130
+422,Economice Activity UK women,2021 Q1,16114
+423,Economice Activity UK women,2021 Q2,16085
+424,Economice Activity UK women,2021 Q3,16148
+425,Economice Activity UK women,2021 Q4,16160
+426,Economice Activity UK women,2022 Q1,16115
+427,Economice Activity UK women,2022 Q2,16078
+428,Economice Activity UK women,2022 Q3,16129
+429,Economice Activity UK women,2022 Q4,16212
+430,Economice Activity UK women,2023 Q1,16178
+431,Economice Activity UK women,2023 Q2,16179
+432,Economice Activity UK women,2023 Q3,16234
+433,Economice Activity UK women,2023 Q4,16627
+434,Economice Activity UK women,2024 Q1,16607
+435,Economice Activity UK women,2024 Q2,16642
+436,Economice Activity UK women,2024 Q3,16836
