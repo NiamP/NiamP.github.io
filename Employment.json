@@ -1,0 +1,17 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Google's stock price over time.",
+  "title": {"text": "Employment Rate Age 16-24", "subtitle": "Source ONS API"},
+  "height": 250,
+  "width": 250,
+  "data": {
+    "url": "https://raw.githubusercontent.com/NiamP/NiamP.github.io/refs/heads/main/Dashboarddata.csv"
+  },
+  "transform": [{"filter": "datum.dataset==='Employment rate aged 16-24'"}],
+  "mark": "line",
+  "encoding": {
+    "x": {"field": "date", "type": "temporal"},
+    "y": {"field": "value", "type": "quantitative"}
+  },
+  "config": {}
+}

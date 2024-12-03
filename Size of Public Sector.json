@@ -1,0 +1,20 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Google's stock price over time.",
+  "data": {
+    "url": "https://raw.githubusercontent.com/NiamP/NiamP.github.io/refs/heads/main/Dashboarddata.csv"
+  },
+  "title": {
+    "text": "Size of Public sector workforce 000s",
+    "subtitle": "Source: ONS API"
+  },
+  "height": 250,
+  "width": 250,
+  "transform": [{"filter": "datum.dataset === 'Public Sector Workforce size'"}],
+  "mark": "line",
+  "encoding": {
+    "x": {"field": "date", "type": "temporal"},
+    "y": {"field": "value", "type": "quantitative"}
+  },
+  "config": {}
+}

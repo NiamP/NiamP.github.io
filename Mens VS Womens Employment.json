@@ -1,0 +1,25 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Comparing Employment Rates for Ages 16-24 and 25-64 over Time.",
+  "data": {
+    "url": "https://raw.githubusercontent.com/NiamP/NiamP.github.io/refs/heads/main/Dashboarddata.csv"
+  },
+  "height": 250,
+  "width": 250,
+  "title": {
+    "text": "Line chart comparing mens and womens employment",
+    "subtitle": "Source: ONS API"
+  },
+  "mark": "line",
+  "transform": [
+    {
+      "filter": "datum.dataset === 'Male employment rate' || datum.dataset === 'Female employment rate'"
+    }
+  ],
+  "encoding": {
+    "x": {"field": "date", "type": "temporal"},
+    "y": {"field": "value", "type": "quantitative"},
+    "color": {"field": "dataset", "type": "nominal"}
+  },
+  "config": {}
+}

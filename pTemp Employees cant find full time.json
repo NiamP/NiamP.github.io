@@ -1,0 +1,22 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Stock prices of 5 Tech Companies over Time.",
+  "title": {
+    "text": "% of Temporary Employees who could not find a permanant job",
+    "subtitle": "Source: ONS API"
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/NiamP/NiamP.github.io/refs/heads/main/Dashboarddata.csv"
+  },
+  "mark": {"type": "line", "point": true},
+  "transform": [
+    {
+      "filter": "datum.dataset === 'Temporary Employees could not find permanent job'"
+    }
+  ],
+  "encoding": {
+    "x": {"timeUnit": "year", "field": "date"},
+    "y": {"field": "value", "type": "quantitative"}
+  },
+  "config": {}
+}

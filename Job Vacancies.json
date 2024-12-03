@@ -1,0 +1,18 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "A simple bar chart with embedded data.",
+  "data": {
+    "url": "https://raw.githubusercontent.com/NiamP/NiamP.github.io/refs/heads/main/Dashboarddata.csv"
+  },
+  "title": {
+    "text": "UK Job vacancies per year 000s",
+    "subtitle": "Source: ONS API"
+  },
+  "mark": "bar",
+  "transform": [{"filter": "datum.dataset==='UK Job Vacancies'"}],
+  "encoding": {
+    "x": {"field": "date", "type": "nominal"},
+    "y": {"field": "value", "type": "quantitative"}
+  },
+  "config": {}
+}

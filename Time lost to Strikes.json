@@ -1,0 +1,25 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "A simple bar chart with embedded data.",
+  "data": {
+    "url": "https://raw.githubusercontent.com/NiamP/NiamP.github.io/refs/heads/main/Dashboarddata.csv"
+  },
+  "title":{
+    "text": "Time Lost to Strikes",
+    "subtitle":"Source: ONS API"
+  },
+  "height": 250,
+  "width": 500,
+  "transform": [{"filter": "datum.dataset==='Time lost due to strike action'"}],
+  "mark": "bar",
+  "encoding": {
+    "x": {
+      "field": "date",
+      "type": "nominal",
+      "axis": {"labelExpr": "datum.label % 5 === 0 ? datum.label : ''"},
+      "title": "Year"
+    },
+    "y": {"field": "value", "type": "quantitative","title": "Time"}
+  },
+  "config": {}
+}

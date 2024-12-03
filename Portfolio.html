@@ -61,9 +61,9 @@
 
 <section>
     <h2> Week 4 </h2>
+    <p>Replicating and Imrpoving someone elses chart</p>
     <div id="chartGrid">
         <figure>
-            <figcaption>Replicating someone elses chart</figcaption>
             <div class = "chart-image-wrapper">
                 <div id = "Location5"></div>
                 <img src = "Screenshot 2024-11-03 at 15.55.23.png" style="width:400px;height:400px;">
@@ -73,28 +73,63 @@
 
 <section>
     <h2> Week 5 </h2>
+    <p>Web Scraping</p>
     <div id="chartGrid">
         <figure>
-            <figcaption>Creating a graph using data collected from web scraping</figcaption>
             <div id = "Location6"></div>
+            <p>I chose wikipedia as a site to scrape from as they do not attempt to block scraping, and it is a widely used site to get information and statistitcs on a variety of subjects</p>
         </figure>
+    </div>
 </section>
 
 
 <section>
-    <div>
-        <h2> Week 6</h2>
-        <p> Loops </p>
+
+    <h2> Week 6</h2>
+    <p>Loops and dashboard</p>
+    <div id ="chartGrid">
+        <figure>
+            <div id = "Location13"></div>
+        </figure>
+        <figure>
+            <div id = "Location14"></div>
+        </figure>
+        <figure>
+            <div id = "Location15"></div>
+        </figure>
+        <figure>
+            <div id = "Location16"></div>
+        </figure>
+        <figure>
+            <div id = "Location17"></div>
+        </figure>
+        <figure>
+            <div id = "Location18"></div>
+        </figure>
+        <figure>
+            <div id = "Location19"></div>
+        </figure>
+        <figure>
+            <div id = "Location20"></div>
+        </figure>
     </div>
+    <figure>
+        <div id = "Location21"></div>
+    </figure>
+
 </section>
 
 <section>
     <h2> Week 7 </h2>
+    <p>Maps</p>
     <div id="chartGrid">
         <figure>
-            <figcaption>Maps</figcaption>
+            <div id = "Location22"></div>
+        </figure>
+        <figure>
             <div id = "Location8"></div>
         </figure>
+    </div>
 </section>
 
 <section>
@@ -107,24 +142,34 @@
         <figure>
             <div id = "Location11"></div>
         </figure>
-        
+    </div>  
 </section>
 
 <section>
     <h2> Week 9 </h2>
+    <p>Big Data</p>
     <div id="chartGrid">
         <figure>
-            <figcaption>Big Data</figcaption>
             <div id = "Location9"></div>
+        </figure>
+        <figure>
+            <div id="Location23"></div>
         </figure>
      </div>
 </section>
 
 <section>
-    <div>
-        <h2> Week 10 </h2>
-        <p> Machine Learning </p>
+    <h2> Week 10 </h2>
+    <p> Interactivity </p>
+    <div id="chartGrid">
+        <figure>
+            <div id = Location12></div>
+        </figure>
+        <figure>
+            <div id="Location24"></div>
+        </figure>
     </div>
+
 </section>
 
     <script>
@@ -168,6 +213,60 @@
         let figure11spec = 'Bubble plot.json'
 
         vegaEmbed('#Location11',figure11spec)
+
+        let figure12spec = 'AUMESG.json'
+
+        vegaEmbed("#Location12", figure12spec)
+
+        let figure13spec = 'Seasonally adjusted pay.json'
+
+        vegaEmbed("#Location13", figure13spec)
+
+        let figure14spec = 'Job Vacancies.json'
+
+        vegaEmbed("#Location14", figure14spec)
+
+        let figure15spec = 'pTemp Employees cant find full time.json'
+
+        vegaEmbed("#Location15", figure15spec)
+
+        let figure16spec = 'pChange output per hour.json'
+
+        vegaEmbed("#Location16", figure16spec)
+
+        let figure17spec = 'Employment.json'
+
+        vegaEmbed("#Location17", figure17spec)
+
+        let figure18spec = 'Mens VS Womens Employment.json'
+
+        vegaEmbed("#Location18", figure18spec)
+
+        let figure19spec = 'Hours worked full time employees.json'
+
+        vegaEmbed("#Location19", figure19spec)
+
+        let figure20spec = 'Size of Public Sector.json'
+
+        vegaEmbed("#Location20", figure20spec)
+
+        let figure21spec = 'Time lost to Strikes.json'
+
+        vegaEmbed("#Location21", figure21spec)
+
+        let figure22spec = "Map of GB.json"
+
+        vegaEmbed("#Location22",figure22spec)
+
+        let figure23spec = "bigdatavisualisation2.json"
+
+        vegaEmbed("#Location23",figure23spec)
+
+        let figure24spec = "Interactivestockschart.json"
+
+        vegaEmbed("#Location24",figure24spec)
+
+
 
     </script>
 

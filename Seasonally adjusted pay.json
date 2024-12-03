@@ -1,0 +1,21 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 250,
+  "height": 250,
+  "title":{
+    "text": "Seasonally adjusted pay over time",
+    "subtitle": "Source: ONS API"
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/NiamP/NiamP.github.io/refs/heads/main/Dashboarddata.csv"
+  },
+  "transform": [
+    {"filter": "datum.dataset==='Seasonally adjusted regular pay'"}
+  ],
+  "mark": "area",
+  "encoding": {
+    "x": {"field": "date"},
+    "y": {"aggregate": "sum", "field": "value", "title": "Pay"}
+  },
+  "config": {}
+}

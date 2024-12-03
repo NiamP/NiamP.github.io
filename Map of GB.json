@@ -1,0 +1,22 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Map Of the UK",
+  "width": 600,
+  "height": 600,
+  "projection": {"type": "naturalEarth1", "center": [-3, 55], "scale": 3000},
+  "layer": [
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/NiamP/NiamP.github.io/refs/heads/main/gb.json",
+        "format": {"type": "json", "property": "features"}
+      },
+      "mark": {"type": "geoshape", "fill": "lightgray", "stroke": "white"},
+      "encoding": {
+        "tooltip": [
+          {"field": "properties.name", "type": "nominal", "title": "Area"}
+        ]
+      }
+    }
+  ],
+  "config": {}
+}

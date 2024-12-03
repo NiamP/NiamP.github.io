@@ -1,0 +1,22 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "A simple bar chart with embedded data.",
+  "title":{
+    "text": "Average Hours Worked by Full Time Employees",
+    "subtitle": "Source: ONS API"
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/NiamP/NiamP.github.io/refs/heads/main/Dashboarddata.csv"
+  },
+  "transform": [
+    {
+      "filter": "datum.dataset==='Average actual weekly hours worked for full time employees'"
+    }
+  ],
+  "mark": "bar",
+  "encoding": {
+    "x": {"field": "date", "type": "temporal", "axis": {"labelAngle": 0}},
+    "y": {"field": "value", "type": "quantitative"}
+  },
+  "config": {}
+}

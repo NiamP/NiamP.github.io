@@ -1,0 +1,20 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/NiamP/NiamP.github.io/refs/heads/main/bigdata2.csv"
+  },
+  "title": {
+    "text": "Mean and Meidan Prices for all items for regions in the UK",
+    "subtitle": "Data from UK Micro Data folder"
+  },
+  "height": 400,
+  "width": 400,
+  "mark": "bar",
+  "encoding": {
+    "x": {"field": "region", "title": "Region"},
+    "y": {"field": "price", "type": "quantitative"},
+    "xOffset": {"field": "metric"},
+    "color": {"field": "metric"}
+  },
+  "config": {}
+}

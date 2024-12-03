@@ -1,0 +1,41 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "A bar chart with negative values. We can hide the axis domain line, and instead use a conditional grid color to draw a zero baseline.",
+  "data": {
+    "url": "https://raw.githubusercontent.com/NiamP/NiamP.github.io/refs/heads/main/Dashboarddata.csv"
+  },
+  "title": {
+    "text": "% Change in Output per hour year on year",
+    "subtitle": "Source: ONS API"
+  },
+  "height": 250,
+  "width": 250,
+  "mark": "bar",
+  "transform": [
+    {"filter": "datum.dataset==='Output per hour worked percentage change'"}
+  ],
+  "encoding": {
+    "x": {
+      "field": "date",
+      "type": "temporal",
+      "axis": {
+        "domain": false,
+        "ticks": false,
+        "labelAngle": 0,
+        "labelPadding": 4
+      }
+    },
+    "y": {
+      "field": "value",
+      "type": "quantitative",
+      "title": "Output change %",
+      "axis": {
+        "gridColor": {
+          "condition": {"test": "datum.value === 0", "value": "black"},
+          "value": "#ddd"
+        }
+      }
+    }
+  },
+  "config": {}
+}

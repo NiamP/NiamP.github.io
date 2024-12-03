@@ -51,7 +51,7 @@ h2 {
 /* Paragraph */
 p {
   margin-bottom: 0;
-  font-weight: 150;
+  font-weight: bold;
 }
 
 section {
@@ -154,3 +154,44 @@ figcaption, p {
 .underlined {
   text-decoration: underlrine;
 }
+
+.custom-list {
+  font-size: 20px; 
+  font-weight: bold;
+  line-height: 2; 
+  font-family: 'Raleway', sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #373434; /* Dark grey background */
+    color: #ffffff; /* White text for general content */
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    color: #ffffff; /* White text for titles */
+  }
+
+  a {
+    color: #87ceeb; /* Light blue for links to contrast with dark background */
+  }
+
+  a:hover {
+    text-decoration: underline;
+    color: #add8e6; /* Slightly lighter blue on hover */
+  }
+
+  p {
+    color: #ffffff; /* White text for paragraphs */
+  }
+
+  .custom-list {
+    color: #ffffff; /* White text for lists */
+  }
+
+  /* Override text color inside figures in dark mode */
+  figure, figure p {
+    color: #000000; /* Black text inside figure elements */
+  }
+}
+

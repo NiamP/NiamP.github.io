@@ -29,13 +29,12 @@
     </h1>
 
 <hr>
-<h2 class="underlined">Aims</h2>
-<p>This project aims to explore the growth and impact of ESG investment practises on markets, companies, and the borader world. The rise in global temperatures and the escalating effects of climate change have driven market participants to prioritise investments that align with ethical and sustainable values. Over the past decade, ESG investing has become a highly discussed trend among capital allocators and this project seeks to examine how ESG investing has evolved, whether there are characteristics which determine a companies likelyhood of having a strong ESG performance, and evaluate whether this increasing emphasis on ESG truly influences the world in a meaningful way.</p>
-<hr>
+<h2>Aims</h2>
+<p>This project explores the growth and impact of ESG investment practices on markets, companies and the wider world. The rise in global temperatures and the increasing effects of climate change have prompted investors to prioritise investments that align with ESG values. Over the past decade ESG investing has become a key focus for capital allocators, which has led to discussion around its effectiveness and whether sustainability comes at the detriment of profit. This project examines the evolution of ESG investing, tries to find correlation between ESG and company performance metrics and evaluates whether an increasing emphasis on ESG has actually had any tangible impact on the world.</p>
 
 <h3>Notes:</h3>
 <p>1. The yfinance API is an API that allows users to fetch financial data from Yahoo Finance</p>
-<p>2. Yahoo Finance makes use of ESG scores from Sustainalytics. ESG scores for mutual funds are based on their portfolios. The way the scorring systemw works means that the lower the value, the lower the unmitigated ESG risks the comapny poses (i.e the better) so comapnies with a lower score are essentially more sustainable than companies with a larger score.</p>
+<p>2. Yahoo Finance makes use of ESG scores from Sustainalytics. ESG scores for mutual funds are based on their portfolios. The way the scorring system works means that the lower the value, the lower the unmitigated ESG risks the comapny poses (i.e the better) so comapnies with a lower score are essentially more sustainable than companies with a larger score.</p>
 <hr>
 
 
@@ -46,11 +45,11 @@
         <div id = "chartGrid">
         <figure>
             <div id = "LocationA"></div> 
-            <p>I gathered ESG data on the top 15,000 mutual funds using yfinance and stored these values in a pandas dataframe, then ordered them and found the base country using the same API. As we can see the vast majority of funds are based in the US, however this is expected given that the number of mutual funds in the US far outways any other nation.</p>
+            <p>I attempted to fetch ESG data on the top 15,000 mutual funds using the yfinance API and stored the returned values in a pandas dataframe. I also stored the exchange that they are traded on and, using a dictionary I found online, mapped these exchanges to their country of origin. From here I ordered the Funds by ESG score and graphed the Location of the top 500. As we can see the vast majority of Funds are in the US. This is expected though, as the US has significantly more actively managed funds than any other country worldwide. Interestingly, however, the UK is notably absent from this list.</p>
         </figure>
         <figure>
             <div id = "LocationF"></div>
-            <p>This data was gathered form statista, who sourced it from a Morgan Stanley analysis of the growth of the ESG sector, the graph shows that since 2018 there has been a sharp increase in the value of assets within ESG ETFs (Exchange Traded Funds), and this looks likely to continue to grow.</p>
+            <p>The data for this chart was sourced from Statista, based on a Morgan Stanley analysis of the growth of the ESG sector. The graph indicates a sharp increase in the value of assets within ESG Exchange-Traded Funds (ETFs) since 2018, a trend that appears to be continuing.</p>
         </figure>
 
         </div>
@@ -62,11 +61,11 @@
         <div id = "chartGrid">
         <figure>
             <div id = "LocationB"></div>
-            <p>This data was gathered using the same ESG ratings used for the locations, and then using a separate API endpoint for performance metrics, I downloaded the price data. As you can see, of the 5 funds two were very shortlived, only being open for around 9 months each before shutting down, the rest remain open but have not performed particularly well when compared to the S&P 500.</p>
+            <p>This chart shows the performance of the top 5 ranked ESG Mutual Funds (Lowest ESG Risk score) that have existed since 2020 (i.e opened at any point since 2020). The data within this chart is updated daily and should reflect the most recent trading day. </p>
         </figure>
         <figure>
             <div id = "LocationC"></div>
-            <p>This figure shows the performance of the S&P 500 against the its ESG counterpart (which comprises of around 350 companies which meet the ESG requirements). The data suggests that overall ESG companies have perfomed slightly better than the standard index, and that this gap is steadily growing and has been since april 2021.</p>
+            <p>This figure shows the performance of the S&P 500 against its ESG counterpart (which comprises around 350 companies which meet the ESG requirements)  with the difference between the two shown by the red line. The data suggests that overall the ESG Index has performed slightly better than the standard index, and that this gap is steadily growing and has been since April 2021.</p>
         </figure>
         </div>
     </section>
@@ -77,11 +76,11 @@
         <div id = "chartGrid">
         <figure>
             <div id = "LocationD"></div>
-            <p>The data for this scatter plot was sourced from the yfinance API, it compared the Market Cap and ESG risk score (lower is better) of the S&P 500. The data shows that there is no real correlation between market cap and ESG risk score, which may be suprising given that we expect larger market cap companies, especially in tech, to place an emphasis on sustainability. </p>
+            <p>This scatter plot compares ESG risk score and market cap for the companies that make up the S&P 500. The data for this graph comes from Yahoo finance and is updated daily to ensure accuracy. As we can see there seems to be no correlation between Market cap and ESG risk score, which is surprising given that we may expect large Market cap companies to be spending more on aligning themselves more closely with ESG standards. </p>
         </figure>
         <figure>
             <div id = "LocationG"></div>
-            <p>The data for this regression was also gathered using the yfinance API, and then a Loess regression was applied inside of vega lite. The Regression shows that ESG risk score does not seem to impact RevenueGrowth until we reach the extremes (30+) wherey the poor ESG risk score correlates to lower % revenue growth.</p>
+            <p>This scatter plot shows a LOESS regression (non linear) of Revenue Growth on ESG risk score. The data for this chart is updated daily, but at the time of writing, it seems that companies with extremely low ESG risk scores (very good) and extremely high ESG risk scores (very bad) seem to have low or negative Revenue growth. Whilst companies in the 10-30 Range seem to be performing positively.</p>
         </figure>
         </div>
     </section>
@@ -91,16 +90,38 @@
         <div id = "chartGrid">
         <figure>
             <div id="LocationE"></div>
-            <p>This box plot shows target Emmisions reductions across a variety of sectors for companies that submitted targets to SBTi for their report. There were over 1000 companies, who set targets with SBTi and this almost doubled from the previous year which was 587. The data shows that companies across sectors are setting challenging emmisions reductions targets with most sectors having a median somewhere between 40 and 50 percent. Almost every industry had at least 1 company targeting 100% emmisions reductions too, which is extremely positive. </p>
+            <p>This box plot shows target Emissions reductions across a variety of sectors for companies that submitted targets to SBTi for their report. There were over 1000 companies who set targets with SBTi, and this has almost doubled from the previous year which was 587. The data shows that companies across sectors are setting challenging emissions reductions targets with most sectors having a median somewhere between 40 and 50 percent. Almost every industry had at least 1 company targeting 100% emissions reductions, these targets are all set for 2030 or earlier, which if they are fulfilled will have a huge impact on emissions production globally, and the hope is that as ESG practises continue to grow, more companies will begin setting emissions reductions targets.</p>
         </figure>
         </div>
     </section>
         <figure>
-                <iframe id="LocationH" src="Emissionsmap.html" width = 1000 height = 800 frameborder ="0"></iframe>
+            <h3>Map of gloabl Carbon Emissions since 1900</h3>
+            <iframe id="LocationH" src="Emissionsmap.html" width = 1000 height = 800 frameborder ="0"></iframe>
+            <p>This graph maps global emissions for each year since 1900 using data from our world in data API. The graph shows that whilst emissions had been steadily increasing since 1900, since 2019 many developed countries such as the US, UK, France and Spain have all seen decreases in total emissions, this corresponds to the same time period in which assets in ESG ETFs began to rapidly increase. While this correlation may not necessarily indicate causation it is an interesting insight. However whilst many western developed Nations have seen reductions in emissions, the benefits have been partially offset by countries such as China and Russia whose emissions have continued to climb, especially China which now emits 11B tonnes of Emissions each year, which is even more extraordinary when comparing this figure to India, which emits just 3 Billion with a comparable population size.</p>
         </figure>
 
     
     </section>
+
+<hr>
+<h2>Data And Analytical Challenges</h2>
+<hr>
+<p>The largest challenge in collecting the data for this project was the issue of paywalls. Much of the useful ESG data that exists is proprietary and used by institutional investors at banks and hedge funds, making it inaccessible for me working on a university project. To get around this, I made use of free data sources such as Yahoo Finance using the yfinance API, as well as data from Statista, the Science based targets monitoring report and our world in data API. However these sources presented their own challenges, especially collecting company data from Yahoo Finance, where some companies had available data whilst others did not, which required fetching a huge pool of data and then filtering out companies that didn't have available metrics before applying the data to my visualisations.</p>
+<p></p>
+<p>Two visualisations, the map and the box plot, were the most analytically challenging due to the significant data preprocessing required. For the map, gathering the data into chunks for each year and removing invalid data for things like continents and other subgroups that the our world in data API contains was the initial challenge. Then learning how to use the Plotly library and learning how to set up the animation and custom scale required some analysis of the data to see what a sensible colour scheme and scale would be. Similarly, the box plot required some use of pandas to calculate the median, upper and lower quartiles for each sector, and to remove entries for sectors which didn’t meet minimum criteria.</p>
+<p></p>
+<p>The data sourced from the yfinance API also required some pre-processing, with the yfinance API not offering country of origin as a part of its service, I was required to download and use a dictionary relating market indexes to their country of origin, this allowed me to pair the market that a company or fund was traded on to see what country it was based in. I also used Vega-Lite to perform some of the analysis, using the built in Loess regression on my data within the Vega editor.</p>
+<hr>
+<h2>Automation</h2>
+<hr>
+<p>I aimed to use APIs as much as possible in this project, as these allow for reusability. For some of the visualisations, including the Top 5 Mutual funds graph, scatter plot and regression plot I made use of GitHub actions, and so at midnight each day my python script which fetches the data for these plots is run and the data displayed on the visualisations on the site is updated. This means that for the more volatile data, such as market caps and prices, the website will remain accurate and relevant at all times.</p>
+    
+<hr>
+
+<h2>Conclusion</h2>
+<hr>
+<p>The visualisations demonstrate that ESG investing and practices are growing in importance, with the value of assets in ESG ETFs continuing to rise. It is also clear that companies are taking steps to reduce their carbon emissions and align themselves more closely with a sustainable future. While the carbon emissions goals are impressive, the overall impact of these efforts will not be fully realized until a greater proportion of firms are setting these targets.</p>
+<p>The map clearly shows that many western developed nationa such as the USA, UK and France  have made efforts to reduce their emissions in the past 5 years, countries like China and Russia have continued to increase their Emissions. Therefore in order for any meaningful progress to occur in protecting the environment, these eastern Economies will need to reduce their reliance on fossil fuels and therefore reduce their total Emissions.</p>
 
 
 <section>
