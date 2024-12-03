@@ -1,12 +1,23 @@
-,region,median,mean
-0,South East,4.9899998,56.250555468839956
-1,South West,4.79,52.21260711794667
-2,East Anglia,4.9603949,52.24638255605852
-3,East Midlands,4.4499998,48.24954098862778
-4,West Midlands,4.3899999,45.32614578967213
-5,Yorkshire & Humber,4.5,47.46160991688565
-6,North West,4.1999998,43.38588265770806
-7,North,4.0,41.85359322418036
-8,Wales,4.1799998,40.085729439913585
-9,Scotland,4.6737943,43.95285651566035
-10,Northern Ireland,5.27,46.10615504544374
+,region,metric,price
+0,South East,median,4.9899998
+1,South West,median,4.79
+2,East Anglia,median,4.9603949
+3,East Midlands,median,4.4499998
+4,West Midlands,median,4.3899999
+5,Yorkshire & Humber,median,4.5
+6,North West,median,4.1999998
+7,North,median,4.0
+8,Wales,median,4.1799998
+9,Scotland,median,4.6737943
+10,Northern Ireland,median,5.27
+11,South East,mean,56.250555468839956
+12,South West,mean,52.21260711794667
+13,East Anglia,mean,52.24638255605852
+14,East Midlands,mean,48.24954098862778
+15,West Midlands,mean,45.32614578967213
+16,Yorkshire & Humber,mean,47.46160991688565
+17,North West,mean,43.38588265770806
+18,North,mean,41.85359322418036
+19,Wales,mean,40.085729439913585
+20,Scotland,mean,43.95285651566035
+21,Northern Ireland,mean,46.10615504544374
