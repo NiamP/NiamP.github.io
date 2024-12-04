@@ -1,6 +1,6 @@
 import yfinance as yf
 import pandas as pd
-import time
+import time 
 
 biglist = pd.read_csv('flat-ui__data-Fri Oct 25 2024.csv')
 
