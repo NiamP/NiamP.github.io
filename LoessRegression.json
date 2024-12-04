@@ -4,7 +4,7 @@
     "url": "https://raw.githubusercontent.com/NiamP/NiamP.github.io/refs/heads/main/linregressionRevESG.csv"
   },
   "title": {
-    "text": "Loess Regression of Revenue Growth (%) on ESG Risk Score",
+    "text": "Loess Regression of Revenue Growth (%) on ESG Risk Score for the S&P 500",
     "color": "#1E3A5F",
     "fontSize": 15,
     "fontWeight": 600,
@@ -21,7 +21,7 @@
       "mark": {"type": "point", "filled": true},
       "encoding": {
         "x": {"field": "ESG rating", "type": "quantitative"},
-        "y": {"field": "Revenuegrowth", "type": "quantitative"},
+        "y": {"field": "Revenuegrowth", "type": "quantitative", "title": "Revenue Growth Y/Y %"},
         "tooltip": [
           {"field": "Symbol", "type": "nominal", "title": "Symbol"},
           {
