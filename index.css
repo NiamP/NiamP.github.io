@@ -93,7 +93,8 @@ figure {
   margin: 30px;
   width: 97%; 
   box-sizing: border-box;
-  overflow: hidden; 
+  overflow-x: auto;
+  overflow-y: hidden;
 }
 
 
