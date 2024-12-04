@@ -149,7 +149,9 @@ figcaption, p {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-    gap: 100px;
+  gap: 100px;
+  overflow-x: auto;
+  max-width: 97%
 }
 
 .underlined {
