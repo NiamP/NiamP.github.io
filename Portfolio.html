@@ -53,21 +53,32 @@
 </section>
 
 <section>
-    <div>
-        <h2> Week 3 </h2>
-        <p> Chart Debating a topic from the Festival of Economics</p>
-    </div>
+
+    <h2> Week 3 </h2>
+    <p> Chart Debating a topic from the Festival of Economics</p>
+    <div id="chartGrid">
+        <figure>
+            <div id = "Location25"></div>
+        </figure>
+        <figure>
+            <div id="Location26"></div>
+        </figure>
+    </div>    
+
 </section>
 
 <section>
     <h2> Week 4 </h2>
-    <p>Replicating and Imrpoving someone elses chart</p>
-    <div id="chartGrid">
+    <p>Replicating and Improving someone elses chart</p>
         <figure>
             <div class = "chart-image-wrapper">
-                <div id = "Location5"></div>
+                <div id = "Location27"></div>
                 <img src = "Screenshot 2024-11-03 at 15.55.23.png" style="width:400px;height:400px;">
             </div>
+        </figure>
+        <figure>
+            <div id = "Location5"></div>
+            <p>This chart improves the ink to data ratio and puts the y axis the correct way around</p>
         </figure>
 </section>
 
@@ -78,6 +89,7 @@
         <figure>
             <div id = "Location6"></div>
             <p>I chose wikipedia as a site to scrape from as they do not attempt to block scraping, and it is a widely used site to get information and statistitcs on a variety of subjects</p>
+            <a href="https://colab.research.google.com/drive/1ma2yqf9n8lx0i4ayBR4Nw88hRDSAeqYQ?usp=sharing" class = "button-link">Link to Colab Notebook</a>
         </figure>
     </div>
 </section>
@@ -125,9 +137,11 @@
     <div id="chartGrid">
         <figure>
             <div id = "Location22"></div>
+            <p>This is a map of the UK, hover to see the area name</p>
         </figure>
         <figure>
             <div id = "Location8"></div>
+            <p>This Map shows the location and capacity of football stadiums in the UK</p>
         </figure>
     </div>
 </section>
@@ -151,9 +165,11 @@
     <div id="chartGrid">
         <figure>
             <div id = "Location9"></div>
+            <p>For this chart I have collected all of the data on prices of takeaway lattes and created a line chart with a 20th and 80th percentile area around it</p>
         </figure>
         <figure>
             <div id="Location23"></div>
+            <p>For this chart I used pandas to find the mean and median price of all goods in each of the given regions and displayed this as a bar chart</p>
         </figure>
      </div>
 </section>
@@ -190,7 +206,7 @@
 
         vegaEmbed('#Location4', figure4spec)
     
-        let figure5spec = "Improvingsomeoneelse.json"
+        let figure5spec = "improvingsomeoneelse.json"
 
         vegaEmbed('#Location5',figure5spec)
 
@@ -265,6 +281,18 @@
         let figure24spec = "Interactivestockschart.json"
 
         vegaEmbed("#Location24",figure24spec)
+
+        let figure25spec = "G7 productivity.json"
+
+        vegaEmbed("#Location25",figure25spec)
+
+        let figure26spec = "UK productivity.json"
+
+        vegaEmbed("#Location26",figure26spec)
+
+        let figure27spec = "badchartinvega.json"
+
+        vegaEmbed("#Location27",figure27spec)
 
 
 

@@ -55,7 +55,7 @@ p {
 }
 
 section {
-  margin-bottom: 2.5em;  /* We want a little more space between sections */
+  margin-bottom: 2.5em;  
 }
 
 a {
@@ -118,7 +118,7 @@ figcaption, p {
   padding: 5px 10px;
   border-radius: 5px;
   font-family: 'Raleway', sans-serif;
-  z-index: 100; /* Ensure the buttons appear above other content */
+  z-index: 100; 
 }
 
 .top-right-link:hover {
@@ -127,11 +127,11 @@ figcaption, p {
 
 /* Unique positions */
 #main-project-link {
-  right: 120px; /* Offset for the first button */
+  right: 120px; 
 }
 
 #portfolio-link {
-  right: 10px; /* Offset for the second button */
+  right: 10px; 
 }
 
 
@@ -152,7 +152,7 @@ figcaption, p {
 }
 
 .underlined {
-  text-decoration: underlrine;
+  text-decoration: underline;
 }
 
 .custom-list {
@@ -164,34 +164,57 @@ figcaption, p {
 
 @media (prefers-color-scheme: dark) {
   body {
-    background-color: #373434; /* Dark grey background */
-    color: #ffffff; /* White text for general content */
+    background-color: #373434;
+    color: #ffffff; 
   }
 
   h1, h2, h3, h4, h5, h6 {
-    color: #ffffff; /* White text for titles */
+    color: #ffffff; 
   }
 
   a {
-    color: #87ceeb; /* Light blue for links to contrast with dark background */
+    color: #87ceeb; 
   }
 
   a:hover {
     text-decoration: underline;
-    color: #add8e6; /* Slightly lighter blue on hover */
+    color: #add8e6; 
   }
 
   p {
-    color: #ffffff; /* White text for paragraphs */
+    color: #ffffff; 
   }
 
   .custom-list {
-    color: #ffffff; /* White text for lists */
+    color: #ffffff; 
   }
 
-  /* Override text color inside figures in dark mode */
+
   figure, figure p {
-    color: #000000; /* Black text inside figure elements */
+    color: #000000; 
   }
 }
 
+
+a.button-link {
+  display: inline-block; 
+  padding: 10px 20px;    
+  background-color: #007bff; 
+  color: white;          
+  text-align: center;    
+  text-decoration: none; 
+  border-radius: 5px;    
+  font-size: 16px;       
+  border: none;          
+  transition: background-color 0.3s ease; 
+}
+
+
+a.button-link:hover {
+  background-color: #0056b3; 
+  color: #fff;              
+}
+
+a.button-link:visited {
+  background-color: #6c757d; 
+}
