@@ -1,0 +1,16 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "A simple bar chart with embedded data.",
+  "data": {
+    "url": "https://raw.githubusercontent.com/NiamP/NiamP.github.io/refs/heads/main/productivityofg7.csv"
+  },
+  "title": {"text": "Productivity of the G7", "subtitle": "Source: OECD"},
+  "height": 400,
+  "width": 400,
+  "mark": "bar",
+  "encoding": {
+    "x": {"field": "Reference area", "type": "nominal"},
+    "y": {"field": "OBS_VALUE", "type": "quantitative"}
+  },
+  "config": {}
+}
