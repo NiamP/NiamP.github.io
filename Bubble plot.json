@@ -17,7 +17,7 @@
     },
     "x": {"field": "GDP per capita (current US$)", "scale": {"type": "log"}, "title": "GDP per capita (current US, Log Scale)"},
     "size": {"field": "Population, total", "type": "quantitative"},
-    "color": {"value": "#000"},
+    "color": {"value": "rgb(180,100,0)"},
     "tooltip": [
       {"field": "Country Name", "type": "nominal"},
       {
