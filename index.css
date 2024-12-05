@@ -163,6 +163,8 @@ figcaption, p {
   font-weight: bold;
   line-height: 2; 
   font-family: 'Raleway', sans-serif;
+  width: 75%;
+  margin-left: 150px;
 }
 
 @media (prefers-color-scheme: dark) {
