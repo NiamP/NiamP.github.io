@@ -95,6 +95,7 @@ figure {
   box-sizing: border-box;
   overflow-x: auto;
   overflow-y: hidden;
+
 }
 
 
@@ -151,7 +152,6 @@ figcaption, p {
   align-items: flex-start;
   gap: 100px;
   overflow-x: auto;
-  max-width: 97%
 }
 
 .underlined {
