@@ -30,31 +30,25 @@
 
 <hr>
 <h2>Aims</h2>
-<p>This project explores the growth and impact of ESG investment practices on markets, companies and the wider world. The rise in global temperatures and the increasing effects of climate change have prompted investors to prioritise investments that align with ESG values. Over the past decade, ESG investing has become a key focus for capital allocators, which has led to discussion around its effectiveness and whether sustainability comes at the detriment of profit. This project examines the evolution of ESG investing, tries to find a correlation between ESG and company performance metrics and evaluates whether an increasing emphasis on ESG has actually had any tangible impact on the world.</p>
-
-<h3>Notes:</h3>
-<p>1. The yfinance API is an API that allows users to fetch financial data from Yahoo Finance</p>
-<p>2. Yahoo Finance makes use of ESG scores from Sustainalytics. ESG scores for mutual funds are based on their portfolios. The way the scoring system works means that the lower the value, the lower the unmitigated ESG risks the company poses (i.e the better) so companies with a lower score are essentially more sustainable than companies with a larger score.</p>
+<p>This project explores the growth and impact of ESG investment practices on markets, companies and the wider world. The rise in global temperatures and the increasing effects of climate change have prompted investors to prioritise investments that align with ESG values. Over the past decade, ESG investing has become a key focus for capital allocators, which has led to discussion around its effectiveness and whether sustainability comes at the detriment of profit. This project examines the evolution of ESG investing, tries to find a correlation between ESG and company performance metrics and evaluates whether an increasing emphasis on ESG has had any tangible impact on the world.</p>
 <hr>
-
-
 
 <h2 class = "underlined">What Are Sources of ESG Investment?</h2>
 
     <section>
-        <p>First I want to look at where ESG Investment is coming geographically, and then whether or not there has really been a growth in the total value of investment going towards sustainable assets.</p>
+        <p>First, I want to look at where ESG Investment is coming from geographically, and then whether there has really been a growth in the total value of investment going towards sustainable assets.</p>
         <div id = "chartGrid">
         <figure>
             <div id = "LocationA"></div> 
-            <p>I attempted to fetch ESG data on the top 15,000 mutual funds using the yfinance API and stored the returned values in a pandas dataframe. I also stored the exchanges that they are traded on and, using a dictionary I found online, mapped these exchanges to their country of origin. From here I ordered the Funds by ESG score and graphed the Location of the top 500. As we can see the vast majority of Funds are in the US. This is expected though, as the US has significantly more actively managed funds than any other country worldwide. Interestingly, however, the UK is notably absent from this list.</p>
+            <p>I tried to fetch ESG data for 15,000 mutual funds and saved the valid responses. Then using a dictionary I mapped the exchanges of these funds to their home country and graphed the location of the top 500.</p>
             <a href="https://github.com/NiamP/NiamP.github.io/blob/main/GetESGData.py" class ="button-link">Code to get this data</a>
         </figure>
         <figure>
             <div id = "LocationF"></div>
-            <p>The data for this chart was sourced from Statista and is based on a Morgan Stanley analysis of the growth of the ESG sector. The graph indicates a sharp increase in the value of assets within ESG Exchange-Traded Funds (ETFs) since 2018, a trend that appears to be continuing. This is potentially a sign that investors are becoming more intersted in the sustainability and ethics of the comapnies that their money is going into.</p>
+            <p>The data for this chart was downloaded from a Statista analysis of the rapid growth of the ESG sector since 2019.</p>
         </figure>
         </div>
-        <p>We can see from these charts that the US dominates in terms of Sustainable Mutual Funds, but as mentioned, this is expected. We can also see that the value of assets in ESG ETFs has jumped massively since 2018, which we hope will correlate to some tangible output change around this point. This leads us to the next question:</p>
+        <p>We can see from these charts that the US dominates in terms of Sustainable mutual funds, but, this is expected given they have more mutual funds. We can also see that the value of assets in ESG ETFs has jumped massively since 2018, which we hope will correlate to some tangible output change around this point. This leads us to the next question:</p>
     </section>
 
 <hr>
@@ -66,15 +60,15 @@
         <div id = "chartGrid">
         <figure>
             <div id = "LocationB"></div>
-            <p>This chart shows the performance of the top 5 ranked ESG Mutual Funds (Lowest ESG Risk score) that have existed at any point since 2020 (whether still active or not). The data within this chart is updated daily and should reflect the most recent trading day. </p>
+            <p>This chart shows the performance of the top 5 ranked ESG Mutual Funds that have existed at any point since 2020 (whether still active or not). The data within this chart is updated daily from the yfinance API using GitHub actions.</p>
             <a href= "https://github.com/NiamP/NiamP.github.io/blob/main/_ESGManipulation.py" class ="button-link">Code to get this data</a>
         </figure>
         <figure>
             <div id = "LocationC"></div>
-            <p>This figure shows the performance of the S&P 500 against its ESG counterpart (which comprises around 350 companies that meet the ESG requirements), with the difference between the two shown by the red line. The data suggests that overall, the ESG Index has performed slightly better than the standard index and that this gap has been steadily growing since April 2021. This positive gap is a great sign that companies that are future proofing themselved by improving their sustainability, are actually reaping the benefits of their investment.</p>
+            <p>This figure shows the performance of the S&P 500 against its ESG counterpart, and I created a red line to show the difference at any given time.</p>
         </figure>
         </div>
-        <p>Whilst we can see that the top 5 ESG mutual funds may not have performed so well, with 3 already having shut down at the time of writing, when we look at the aggregate sum of ESG firms, we can see that actually, the S&P 500's ESG counterpart has performed better than the traditional Index, which disproves those who believe that the returns from ESG based investment will never match traditional investments.</p>
+        <p>Whilst we can see that the top 5 ESG mutual funds may not have performed so well, with 3 already having shut down at the time of writing, when we look at a larger sample, we can see that actually the S&P 500's ESG counterpart has performed better than the traditional Index, which disproves those who believe that the returns from ESG investments will never match traditional investments.</p>
     </section>
 
 <hr>
@@ -82,31 +76,31 @@
 <h2 class = "underlined">Are ESG Performance and Company Performance Mutually Exclusive?</h2>
 
     <section>
-        <p>Next, I wanted to examine whether there are any patterns between performance of the companies in these portfolios and their ESG scores, to see whether the idea that companies investing in sustainability are doing so at the cost of their performance holds true.</p>
+        <p>Next, I wanted to examine whether there are any patterns between the companies in these portfolios' performance and their ESG score to see whether being sustainable has any impact on performance.</p>
         <div id = "chartGrid">
         <figure>
             <div id = "LocationD"></div>
-            <p>I wanted to see whether there was any clear pattern between ESG Risk score and Market Cap. As we can see from the scatter plot there doesn't seem to be a relationship present. However, this graph is updated daily, and so a relationship may present itself at some point in the future.</p>
+            <p>I gathered ESG and market cap data from the yfinance API and using Github actions made sure that the data is updated each day</p>
             <a href="https://github.com/NiamP/NiamP.github.io/blob/main/MarketCapvsESG.py" class="button-link">Code to get this data</a>
         </figure>
         <figure>
             <div id = "LocationG"></div>
-            <p>This scatter plot shows a LOESS regression (non-linear) of Revenue Growth on ESG risk score. The data for this chart is updated daily, but at the time of writing, it seems that companies with extremely low ESG risk scores (very good) and extremely high ESG risk scores (very bad) seem to have low or negative Revenue growth. Companies in the 10-30 Range seem to be performing positively though which should be a sign to companies who currently have very poor ESG risk scores, that there may be some potential revenue benefits to modernising and becoming more sustainable.</p>
+            <p>This LOESS regression of Revenue Growth on ESG risk score also uses data from the yfinance API and is also updated each day.</p>
             <a href="https://github.com/NiamP/NiamP.github.io/blob/main/LoessRegression.ipynb" class = "button-link">Code to get this data</a>
         </figure>
         </div>
-        <p>Although we can see that ESG score and market cap don't seem to be correlated, which could be viewed as positive or negative, depending on your outlook, we can see that there is a relationship between year-on-year revenue growth and ESG risk score. Although the relationship doesn't directly state that a better ESG risk score results in better revenue growth, it does show that companies with extremely poor ESG risk scores are performing worse, which is a good sign that consumers and investors are making a conscious decision to distance themselves from unsustainable companies.</p>
+        <p>Although we can see that ESG score and market cap aren't correlated, there is a relationship between year-on-year revenue growth and ESG risk score. Although the relationship doesn't directly state that a better ESG risk score results in better revenue growth, it does show that companies with poor ESG risk scores are performing worse than companies in the 10-30 range.</p>
     </section>
 
 <hr>
 
 <h2 class = "underlined">So What Are the Results of This Investment?</h2>
     <section>
-        <p>Finally I want to examine whether any of this investment or emphasis on ESG has actually had any real impact on the world</p>
+        <p>Finally, I want to examine whether any of this investment or emphasis on ESG has actually had any real impact on the world</p>
         <div id = "chartGrid">
         <figure>
             <div id="LocationE"></div>
-            <p>This box plot shows target Emissions reductions across a variety of sectors for companies that submitted targets to SBTi for their report. There were over 1000 companies who set targets with SBTi, and this has almost doubled from the previous year which was 587. The data shows that companies across sectors are setting challenging emissions reductions targets with most sectors having a median somewhere between 40 and 50 percent. Almost every industry had at least 1 company targeting 100% emissions reductions, these targets are all set for 2030 or earlier, which if they are fulfilled will have a huge impact on global emissions production, and the hope is that as ESG practices continue to grow, more companies will begin setting emissions reductions targets.</p>
+            <p>This box plot shows pre 2030 Emissions reduction targets across a variety of sectors for companies that submitted targets to SBTi for their report. The data shows that companies across sectors are setting challenging emissions reductions targets with most sectors having a median somewhere between 40 and 50 percent.</p>
             <a href="https://github.com/NiamP/NiamP.github.io/blob/main/Boxplottargets.ipynb" class = "button-link">Code to get this Data</a>
         </figure>
         </div>
@@ -115,31 +109,16 @@
             <h3>Map of Global Carbon Emissions Since 1900</h3>
             <h5>Source: Our World in Data API</h6>
             <iframe id="LocationH" src="Emissionsmap.html" width = 1000 height = 600 frameborder ="0"></iframe>
-            <p>This graph maps global emissions for each year since 1900 using data from our world in data API using pythons Plotly package. The graph shows that whilst emissions have been steadily increasing since 1900, since 2019 many developed countries such as the US, UK, France and Spain have all seen decreases in total emissions since 2019, this corresponds to the same period in which assets in ESG ETFs began to rapidly increase. While this correlation may not necessarily indicate causation it is an interesting insight. However whilst many Western developed nations have seen reductions in emissions, the benefits have been partially offset by countries such as China and Russia whose emissions have continued to climb, especially China which now emits 11B tonnes of Emissions each year (December 2024), which is even more extraordinary when comparing this figure to India, which emits just 3 Billion with a comparable population size.</p>
+            <p>This graph maps global emissions for each year since 1900 using data using Python's Plotly package.</p>
             <a href= "https://github.com/NiamP/NiamP.github.io/blob/main/CarbonMap.ipynb" class = "button-link">Link To Python File in GitHub</a>
         </figure>
-        <p>In general, these two graphs present a positive picture, in that they both suggest that there is a real effort being made to reduce emissions and protect the environment, and the map suggests that the spike in ESG-related investing seems to align with when western emissions began to fall. These actions will hopefully pay off in the near future, and result in a reduction in the rate of climate change, and maybe, at some point reversal.</p>
+        <p>These two graphs present a positive picture, in that they both suggest that there is a real effort being made to reduce emissions and protect the environment, and the map shows that the spike in ESG-related investing seems to align with when western emissions began to fall. However, China's huge and rising emissions are concerning.</p>
     </section>
-
-<hr>
-<h2>Data And Analytical Challenges</h2>
-<hr>
-<p>The largest challenge in collecting the data for this project was the issue of paywalls. Much of the useful ESG data that exists is proprietary and used by institutional investors at banks and hedge funds, making it inaccessible for me working on a university project. To get around this, I made use of free data sources such as Yahoo Finance using the yfinance API, as well as data from Statista, the Science-Based Targets Monitoring report and Our World In Data API. However, these sources presented their own challenges, especially collecting company data from Yahoo Finance, where some companies had available ESG data whilst others did not, which required fetching a huge pool of data and then filtering out companies that didn't have available metrics before applying the data to my visualisations. In the case of the Science-Based Targets Monitoring Report and Statista, the data was available only as Excel or CSV download files, so for these sources, I just had to download and modify the data in Python before uploading it to GitHub to use in Vega-Lite.</p>
-<p></p>
-<p>In terms of data preprocessing, the charts from Yahoo Finance, especially the revenue growth and location charts as well as the box plot of SBTi were the most difficult, as these all required a lot of manipulation in pandas to become useable inside of Vega Lite. In terms of creating the visualisation, the map was the most difficult, as I had very little experience using Plotly and so had to rely on its documentation to allow me to build the animation. Furthermore building the custom key is not native to plotlys map function especially when using animations. Therefore plotly would make the scale of the key dynamic meaning it would change on each animation frame essentially rendering the colours useless, this required me to use Python to include dummy data in my csv which allowed me to essentially 'trick' Plotly into holding a constant key throughout the animation whilst not altering any of the data visible on the map.</p>
-<p></p>
-<p>The other data sourced from the yfinance API also required some pre-processing, with the yfinance API not offering country of origin as a part of its service, I was required to download and use a dictionary relating market indexes to their country of origin, this allowed me to pair the market that a company or fund was traded on to see what country it was based in. I also used Vega-Lite to perform some of the analysis, using the built-in Loess regression on my data within the Vega editor.</p>
-<hr>
-<h2>Automation</h2>
-<hr>
-<p>I aimed to use APIs as much as possible in this project, as these allow for reusability. For some of the visualisations, including the Top 5 Mutual Funds graph, Scatter Plot and Regression Plot I made use of GitHub actions, and so at midnight each day my Python script which fetches the data for these plots runs and the data displayed on the visualisations on the site is updated. This means that for the more volatile data, such as market caps and prices, the website will remain accurate and relevant at all times.</p>
-    
-<hr>
 
 <h2>Conclusion</h2>
 <hr>
 <p>It is clear from the above analysis that ESG investing has had an influence on the financial landscape, driving an increase in awareness of sustainability in investment. The graphs paint a positive picture of an increase in ESG related funds, challenging targets being set by companies and positive performance of ESG related companies and investments. However, the true impact of these changes will take years to be fully materialise.</p>
-<p>While ESG investing is clearly having a postive impact on emissions especially in the west, its benefits have been largely offset by countries like china, whos emmissions are still rapidly rising. Therefore a more global effort will be needed in to increase ESG investment and thereby reduce total emissions production worldwide.</p>
+<p>While ESG investing is clearly having a positive impact by reducing emissions, especially in the west, its benefits have been largely offset by countries like China, who's emissions are still rapidly rising. Therefore, a more global effort will be needed to increase ESG investment and thereby reduce total emissions production worldwide to slow down climate change.</p>
 
 
 <section>
