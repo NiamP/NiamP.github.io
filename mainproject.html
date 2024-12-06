@@ -45,10 +45,10 @@
         </figure>
         <figure>
             <div id = "LocationF"></div>
-            <p>The data for this chart was downloaded from a Statista analysis of the rapid growth of the ESG sector since 2019.</p>
+            <p>The data for this chart was downloaded from a Statista analysis of the growth of the ESG sector.</p>
         </figure>
         </div>
-        <p>We can see that the US dominates in Sustainable mutual funds which is expected given they have the most funds overall. We can also see that the value of ESG ETFs has jumped massively since 2018, which will hopefully correlate to some tangible change.</p>
+        <p>We can see that the US dominates in Sustainable mutual funds which is expected given they have the most funds overall. We can also see that ESG ETFs values surged since 2018, hopefully correlating with some tangible change.</p>
     </section>
 
 <hr>
@@ -56,19 +56,19 @@
 <h2 class = "underlined">What Are The Returns From This ESG Investment</h2>
 
     <section>
-        <p>Now, examining the returns from this ESG investment, I looked at the performance of top ESG mutual funds, and the ESG counterpart to the largest index in the world, the S&P 500.</p>
+        <p>Now, examining the returns from this ESG investment, I analysed the performance of top ESG mutual funds, and the ESG counterpart to the worlds largest index, the S&P 500.</p>
         <div id = "chartGrid">
         <figure>
             <div id = "LocationB"></div>
-            <p>This chart shows the performance of the top 5 ranked ESG Mutual Funds that have existed at any point since 2020 (whether active or not). The data within this chart is updated daily from the yfinance API using GitHub actions.</p>
+            <p>This chart shows the performance of the top 5 ranked ESG Mutual Funds that have existed at any point since 2020 (whether active or not).The data is updated daily via the yfinance API using GitHub actions.</p>
             <a href= "https://github.com/NiamP/NiamP.github.io/blob/main/_ESGManipulation.py" class ="button-link">Code to get this data</a>
         </figure>
         <figure>
             <div id = "LocationC"></div>
-            <p>This figure shows the performance of the S&P 500 against its ESG counterpart, and I created a red line to show the difference at any given time.</p>
+            <p>This figure shows the performance of the S&P 500 against its ESG counterpart. I created the red line to show the difference at any given time.</p>
         </figure>
         </div>
-        <p>Whilst we can see that the mutual funds may not have performed well, with 3 already shut down, if we look at the larger sample, we see that actually, the S&P 500 ESG has performed better than the traditional Index. This disproves the idea that returns from ESG investments will never match traditional investments.</p>
+        <p>Whilst we can see that the mutual funds may have underperformed, with 3/5 shut down, if we look at the larger sample, we see that actually, the S&P 500 ESG outperformed the traditional Index. This disproves the claims that ESG investments will never match traditional investments.</p>
     </section>
 
 <hr>
@@ -76,16 +76,16 @@
 <h2 class = "underlined">Are ESG Performance and Company Performance Mutually Exclusive?</h2>
 
     <section>
-        <p>Next, I examine whether there are any patterns between the companies in these portfolios' performance and their ESG score.</p>
+        <p>Next, I examine whether there are any patterns between the performance of companies in these portfolios and their ESG scores.</p>
         <div id = "chartGrid">
         <figure>
             <div id = "LocationD"></div>
-            <p>I gathered ESG and market cap data from the yfinance API and, using Github actions, made sure that the data is updated each day</p>
+            <p>I gathered ESG and market cap data from the yfinance API, using Github actions ensure it is updated each day</p>
             <a href="https://github.com/NiamP/NiamP.github.io/blob/main/MarketCapvsESG.py" class="button-link">Code to get this data</a>
         </figure>
         <figure>
             <div id = "LocationG"></div>
-            <p>This LOESS regression of Revenue Growth on ESG risk score also uses data from the yfinance API which is also updated each day.</p>
+            <p>This LOESS regression of Revenue Growth on ESG risk score also uses daily upated data from the yfinance API.</p>
             <a href="https://github.com/NiamP/NiamP.github.io/blob/main/LoessRegression.ipynb" class = "button-link">Code to get this data</a>
         </figure>
         </div>
@@ -96,21 +96,21 @@
 
 <h2 class = "underlined">So What Are the Results of This Investment?</h2>
     <section>
-        <p>Finally, I want to examine whether any of this investment or emphasis on ESG has had any real impact on the world</p>
+        <p>Finally, I examine whether any of this investment or emphasis on ESG has had any impact on the world</p>
         <figure>
             <h3>Map of Global Carbon Emissions Since 1900</h3>
             <h5>Source: Our World in Data API</h6>
             <iframe id="LocationH" src="Emissionsmap.html" width = 1000 height = 600 frameborder ="0"></iframe>
-            <p>This graph maps global emissions for each year since 1900 using data using Python's Plotly package.</p>
+            <p>This graph maps global emissions for each year since 1900 using Python's Plotly package.</p>
             <a href= "https://github.com/NiamP/NiamP.github.io/blob/main/CarbonMap.ipynb" class = "button-link">Link To Python File in GitHub</a>
         </figure>
     </section>
         <figure>
             <div id="LocationE"></div>
-            <p>This box plot shows pre 2030 Emissions reduction targets for companies across a variety of sectors. The data shows that companies across sectors are setting challenging targets with most sectors having a median between 40 and 50 percent.</p>
+            <p>This box plot shows pre 2030 Emissions reduction targets for companies across a variety of sectors. It shows that companies are setting challenging targets with most sectors having a median target between 40 and 50 percent.</p>
             <a href="https://github.com/NiamP/NiamP.github.io/blob/main/Boxplottargets.ipynb" class = "button-link">Code to get this Data</a>
         </figure>
-        <p>These two graphs present a positive picture. They both suggest that there is an effort being made to reduce emissions and protect the environment. The map shows that the spike in ESG-related investing seems to align with western emissions falling. However, China's huge and rising emissions are concerning.</p>
+        <p>These graphs present a positive picture. They both suggest an effort is being made to reduce emissions and protect the environment. The map shows that the spike in ESG-related investing aligns with western emissions falling. However, China's huge and rising emissions are still concerning.</p>
     </section>
 <hr>
 <h2>Challenges</h2>
